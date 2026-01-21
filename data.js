@@ -271,4 +271,540 @@ const quizDatabase = {
       },
     ]),
   },
+
+  // ======================================================================
+  topic2: {
+    title: "2-Bo'lim",
+    questions: randomizeQuestions([
+      {
+        q: "O'zbekiston Respublikasining xalqaro shartnomalarini huquqiy tizimga munosabati qanday tavsiflanadi?",
+        options: [
+          "Xalqaro shartnomalar milliy qonunlardan ustun turuvchi alohida huquqiy manbadir.",
+          "Xalqaro shartnomalar xalqaro huquq normalari bilan bir qatorda huquqiy tizimning tarkibiy qismidir.",
+          "Xalqaro shartnomalar faqatgina xalqaro huquqning umume'tirof etilgan prinsiplari hisoblanadi.",
+          "Xalqaro shartnomalar qonunlar bilan bir xil darajadagi yuridik kuchga ega hujjatlardir.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Xalqaro shartnoma va qonun qoidalari o'zaro zid kelsa, qanday huquqiy yechim qo'llaniladi?",
+        options: [
+          "O'zbekiston Respublikasining Konstitutsiyaviy qonunlari qo'llaniladi.",
+          "O'zbekiston Respublikasining xalqaro shartnomasi qoidalari qo'llaniladi.",
+          "Ziddiyat yuzaga kelgan qonunning eng so'nggi tahriri qo'llaniladi.",
+          "Konstitutsiyaviy sudning maxsus ruxsati bilan milliy qonun qo'llaniladi.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Davlat organlari, mansabdor shaxslar va fuqarolik jamiyati institutlari o'z faoliyatini nima asosida yuritadilar?",
+        options: [
+          "Faqatgina normativ-huquqiy hujjatlar asosida.",
+          "Xalqaro huquqiy standartlar va deklaratsiyalar asosida.",
+          "Konstitutsiyaga muvofiq.",
+          "Davlat boshqaruvi va ma'muriy tartib-taomillar asosida.",
+        ],
+        correct: 2,
+      },
+      {
+        q: "O'zbekiston Respublikasining qonunlari va boshqa normativ-huquqiy hujjatlari nima asosida qabul qilinadi?",
+        options: [
+          "Qonun ustuvorligi prinsipi asosida.",
+          "Konstitutsiya asosida.",
+          "Oliy Majlisning vakolatli qarorlari asosida.",
+          "Inson huquqlari va xalq manfaatlari asosida.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Qonunlar va boshqa normativ-huquqiy hujjatlar Konstitutsiyaning qaysi jihatlariga zid bo'lmasligi shart?",
+        options: [
+          "Konstitutsiyaning g'oyaviy asosi va muqaddimasiga.",
+          "Konstitutsiyaning prinsip va normalariga.",
+          "Konstitutsiyaning bo'limlari va boblariga.",
+          "Konstitutsiyaning huquqiy tartibga solish mexanizmiga.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "O'zbekiston Respublikasining tashqi siyosati prinsiplari qaysi javobda to'g'ri aks etgan?",
+        options: [
+          "Suveren tenglik, kuch ishlatmaslik, chegaralar buzilmasligi va hududiy yaxlitlik.",
+          "Milliy manfaatlar ustuvorligi va iqtisodiy hamkorlikni kengaytirish.",
+          "Mintaqaviy xavfsizlik va davlatlararo harbiy bitimlar daxlsizligi.",
+          "Demokratik qadriyatlar va xalqaro tashkilotlar tavsiyalari ustuvorligi.",
+        ],
+        correct: 0,
+      },
+      {
+        q: "O'zbekiston qaysi maqsadda ittifoqlar tuzishi yoki davlatlararo tuzilmalarga kirishi mumkin?",
+        options: [
+          "Mintaqaviy yetakchilik va iqtisodiy barqarorlikni ta'minlash maqsadida.",
+          "Davlatning, xalqning oliy manfaatlaridan, uning farovonligi va xavfsizligidan kelib chiqib.",
+          "Xalqaro hamjamiyat oldidagi majburiyatlari va diplomatik aloqalari asosida.",
+          "Chegaralar xavfsizligi va tashqi tajovuzdan himoyalanish ehtiyoji sababli.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Insonning huquq va erkinliklari nimaga asosan e’tirof etiladi va kafolatlanadi?",
+        options: [
+          "Faqatgina inson huquqlari bo'yicha xalqaro paktlar asosida.",
+          "Xalqaro huquqning umume’tirof etilgan normalariga hamda Konstitutsiyaga muvofiq.",
+          "Inson huquqlari bo'yicha vakil (Ombudsman) va Konstitutsiyaviy sud tomonidan.",
+          "Huquqiy davlat prinsiplari va milliy qonunchilik tizimiga asosan.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Insonga uning huquq va erkinliklari qaysi paytdan boshlab tegishli bo'ladi?",
+        options: [
+          "Tug'ilgan vaqtdan boshlab.",
+          "Voyaga yetgan kundan boshlab.",
+          "Fuqarolik maqomini olgan vaqtdan boshlab.",
+          "ID-karta yoki pasport berilgan vaqtdan boshlab.",
+        ],
+        correct: 0,
+      },
+      {
+        q: "Fuqarolarga beriladigan imtiyozlar qanday tartibda belgilanadi?",
+        options: [
+          "Prezident farmonlari va farmoyishlari bilan.",
+          "Qonun bilan.",
+          "Vazirlar Mahkamasi va mahalliy hokimiyat qarorlari bilan.",
+          "Davlat byudjeti imkoniyatlaridan kelib chiqqan holda.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Imtiyozlar belgilanishida qaysi prinsipga rioya etilishi shart?",
+        options: [
+          "Huquqiy tenglik prinsipiga.",
+          "Ijtimoiy adolat prinsiplariga.",
+          "Demokratik plyuralizm prinsipiga.",
+          "Shaffoflik va ochiqlik prinsiplariga.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Fuqaro va davlat bir-biriga nisbatan huquqiy jihatdan qanday bog'langan?",
+        options: [
+          "Ijtimoiy himoya va sadoqat majburiyatlari bilan.",
+          "O'zaro huquq va majburiyatlar bilan.",
+          "Konstitutsiyaviy burch va tartib-intizom bilan.",
+          "Siyosiy daxldorlik va huquqiy maqom bilan.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Insonning Konstitutsiya va qonunlardagi huquqlari qanday holatda cheklanishi mumkin?",
+        options: [
+          "Prokuror sanksiyasi yoki ichki ishlar organlari qarori bilan.",
+          "Faqat sud qarori bilan.",
+          "Ma'muriy tartibda davlat xavfsizligi zaruriyati tug'ilganda.",
+          "Hukumatning maxsus qarori yoki qarorlari asosida.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Insonning huquq va erkinliklari amal qilish xususiyati qanday?",
+        options: [
+          "Boshqa qonun hujjatlari qabul qilingandan so'ng amal qiladi.",
+          "Bevosita amal qiladi.",
+          "Sudlar tomonidan qo'llanilgandagina huquqiy kuchga ega bo'ladi.",
+          "Faqatgina Konstitutsiyaviy sud tushuntirishidan keyin amal qiladi.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Qonunlarning va davlat organlari faoliyatining mohiyati va mazmunini nima belgilaydi?",
+        options: [
+          "Davlat boshqaruvi prinsiplari va milliy xavfsizlik.",
+          "Insonning huquq va erkinliklari.",
+          "Oliy Majlis va hukumatning siyosiy irodasi.",
+          "Sud hokimiyati va prokuratura nazorati.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Davlat organlari tomonidan insonga nisbatan qo'llaniladigan ta’sir choralari qaysi prinsipga tayanadi?",
+        options: [
+          "Insonparvarlik prinsipiga.",
+          "Mutanosiblik prinsipiga.",
+          "Qonuniylik va jazolash muqarrarligi prinsipiga.",
+          "Ijtimoiy tenglik va adolat prinsipiga.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Davlatning huquqiy ta’sir choralari qanday darajada bo'lishi kerak?",
+        options: [
+          "Sodir etilgan huquqbuzarlikning og'irligiga mutloq mos.",
+          "Qonunlarda nazarda tutilgan maqsadlarga erishish uchun yetarli.",
+          "Boshqa shaxslar uchun ogohlantiruvchi darajada keskin.",
+          "Davlat organining vakolatlari doirasida cheklanmagan.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Inson bilan davlat munosabatlaridagi qonunchilik ziddiyatlari kimning foydasiga talqin qilinadi?",
+        options: [
+          "Sud organlari va davlat manfaatlari foydasiga.",
+          "Inson manfaatlariga.",
+          "Qaysi tarafning dalillari ko'proq ekanligiga ko'ra.",
+          "Yuridik kuchi yuqori bo'lgan organ foydasiga.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Kimlar o'z shaxsini erkin kamol toptirish huquqiga ega?",
+        options: [
+          "Har bir fuqaro.",
+          "Har bir inson.",
+          "Har kim.",
+          "Har bir shaxs.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Qanday holatda insonga qonunchilikda belgilanmagan majburiyat yuklatilishi mumkin?",
+        options: [
+          "Favqulodda holat davrida davlat boshlig'i farmoni bilan.",
+          "Hech kimga qonunchilikda belgilanmagan majburiyat yuklatilishi mumkin emas.",
+          "Sud organlarining alohida ajrimi bilan.",
+          "Insonning roziligi bo'lgandagina ixtiyoriy ravishda.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Inson o'z huquqlarini amalga oshirishda kimning manfaatlariga putur yetkazmasligi shart?",
+        options: [
+          "Faqat davlat va jamiyat manfaatlariga.",
+          "Boshqa shaxslar, davlat va jamiyat manfaatlariga.",
+          "Atrof-muhit va xalqaro hamjamiyat manfaatlariga.",
+          "Mansabdor shaxslarning xizmat faoliyati manfaatlariga.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Insonning huquq va erkinliklari qanday cheklanishi mumkin?",
+        options: [
+          "Faqat qonun bilan va zarur bo'lgan darajada.",
+          "Hukumat qarorlari bilan maxsus tartibda.",
+          "Faqat urush yoki favqulodda vaziyatlar davrida.",
+          "Davlat organlarining ichki nizomlari asosida.",
+        ],
+        correct: 0,
+      },
+      {
+        q: "O'zbekistonda fuqarolik tizimi qanday shaklda o'rnatilgan?",
+        options: [
+          "Ikki tomonlama fuqarolik.",
+          "Yagona fuqarolik.",
+          "Shartli fuqarolik.",
+          "Mintaqaviy fuqarolik.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Qoraqalpog'iston Respublikasining fuqaroligi bo'yicha to'g'ri qoidani toping:",
+        options: [
+          "U alohida xalqaro huquqiy maqomga ega fuqarolikdir.",
+          "Qoraqalpog'iston Respublikasining fuqarosi ayni vaqtda O'zbekiston Respublikasining fuqarosi hisoblanadi.",
+          "U faqat Qoraqalpog'iston hududida amal qiluvchi fuqarolikdir.",
+          "Qoraqalpog'iston fuqarosi O'zbekiston fuqaroligini olishi shart emas.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "O'zbekiston Respublikasi fuqarolarini kim himoya qiladi?",
+        options: [
+          "Xalqaro inson huquqlari tashkilotlari.",
+          "Davlat.",
+          "Milliy gvardiya va Qurolli Kuchlar.",
+          "Faqatgina O'zbekistonning elchixonalari.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Vatandoshlar bilan aloqalarni rivojlantirishda davlat qaysi hujjatga tayanadi?",
+        options: [
+          "Ikki tomonlama shartnomalarga.",
+          "Xalqaro huquq normalariga.",
+          "Xorijdagi vatandoshlar to'g'risidagi qonunga.",
+          "Konsullik xizmati nizomlariga.",
+        ],
+        correct: 1,
+      },
+    ]),
+  },
+
+  // ======================================================================
+  topic3: {
+    title: "3-Bo'lim",
+    questions: randomizeQuestions([
+      {
+        q: "O'zbekiston Respublikasining xalqaro shartnomalarini huquqiy tizimga munosabati qanday tavsiflanadi?",
+        options: [
+          "Xalqaro shartnomalar milliy qonunlardan ustun turuvchi alohida huquqiy manbadir.",
+          "Xalqaro shartnomalar xalqaro huquq normalari bilan bir qatorda huquqiy tizimning tarkibiy qismidir.",
+          "Xalqaro shartnomalar faqatgina xalqaro huquqning umume'tirof etilgan prinsiplari hisoblanadi.",
+          "Xalqaro shartnomalar qonunlar bilan bir xil darajadagi yuridik kuchga ega hujjatlardir.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Xalqaro shartnoma va qonun qoidalari o'zaro zid kelsa, qanday huquqiy yechim qo'llaniladi?",
+        options: [
+          "O'zbekiston Respublikasining Konstitutsiyaviy qonunlari qo'llaniladi.",
+          "O'zbekiston Respublikasining xalqaro shartnomasi qoidalari qo'llaniladi.",
+          "Ziddiyat yuzaga kelgan qonunning eng so'nggi tahriri qo'llaniladi.",
+          "Konstitutsiyaviy sudning maxsus ruxsati bilan milliy qonun qo'llaniladi.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Davlat organlari, mansabdor shaxslar va fuqarolik jamiyati institutlari o'z faoliyatini nima asosida yuritadilar?",
+        options: [
+          "Faqatgina normativ-huquqiy hujjatlar asosida.",
+          "Xalqaro huquqiy standartlar va deklaratsiyalar asosida.",
+          "Konstitutsiyaga muvofiq.",
+          "Davlat boshqaruvi va ma'muriy tartib-taomillar asosida.",
+        ],
+        correct: 2,
+      },
+      {
+        q: "O'zbekiston Respublikasining qonunlari va boshqa normativ-huquqiy hujjatlari nima asosida qabul qilinadi?",
+        options: [
+          "Qonun ustuvorligi prinsipi asosida.",
+          "Konstitutsiya asosida.",
+          "Oliy Majlisning vakolatli qarorlari asosida.",
+          "Inson huquqlari va xalq manfaatlari asosida.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Qonunlar va boshqa normativ-huquqiy hujjatlar Konstitutsiyaning qaysi jihatlariga zid bo'lmasligi shart?",
+        options: [
+          "Konstitutsiyaning g'oyaviy asosi va muqaddimasiga.",
+          "Konstitutsiyaning prinsip va normalariga.",
+          "Konstitutsiyaning bo'limlari va boblariga.",
+          "Konstitutsiyaning huquqiy tartibga solish mexanizmiga.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "O'zbekiston Respublikasining tashqi siyosati prinsiplari qaysi javobda to'g'ri aks etgan?",
+        options: [
+          "Suveren tenglik, kuch ishlatmaslik, chegaralar buzilmasligi va hududiy yaxlitlik.",
+          "Milliy manfaatlar ustuvorligi va iqtisodiy hamkorlikni kengaytirish.",
+          "Mintaqaviy xavfsizlik va davlatlararo harbiy bitimlar daxlsizligi.",
+          "Demokratik qadriyatlar va xalqaro tashkilotlar tavsiyalari ustuvorligi.",
+        ],
+        correct: 0,
+      },
+      {
+        q: "O'zbekiston qaysi maqsadda ittifoqlar tuzishi yoki davlatlararo tuzilmalarga kirishi mumkin?",
+        options: [
+          "Mintaqaviy yetakchilik va iqtisodiy barqarorlikni ta'minlash maqsadida.",
+          "Davlatning, xalqning oliy manfaatlaridan, uning farovonligi va xavfsizligidan kelib chiqib.",
+          "Xalqaro hamjamiyat oldidagi majburiyatlari va diplomatik aloqalari asosida.",
+          "Chegaralar xavfsizligi va tashqi tajovuzdan himoyalanish ehtiyoji sababli.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Insonning huquq va erkinliklari nimaga asosan e’tirof etiladi va kafolatlanadi?",
+        options: [
+          "Faqatgina inson huquqlari bo'yicha xalqaro paktlar asosida.",
+          "Xalqaro huquqning umume’tirof etilgan normalariga hamda Konstitutsiyaga muvofiq.",
+          "Inson huquqlari bo'yicha vakil (Ombudsman) va Konstitutsiyaviy sud tomonidan.",
+          "Huquqiy davlat prinsiplari va milliy qonunchilik tizimiga asosan.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Insonga uning huquq va erkinliklari qaysi paytdan boshlab tegishli bo'ladi?",
+        options: [
+          "Tug'ilgan vaqtdan boshlab.",
+          "Voyaga yetgan kundan boshlab.",
+          "Fuqarolik maqomini olgan vaqtdan boshlab.",
+          "ID-karta yoki pasport berilgan vaqtdan boshlab.",
+        ],
+        correct: 0,
+      },
+      {
+        q: "Fuqarolarga beriladigan imtiyozlar qanday tartibda belgilanadi?",
+        options: [
+          "Prezident farmonlari va farmoyishlari bilan.",
+          "Qonun bilan.",
+          "Vazirlar Mahkamasi va mahalliy hokimiyat qarorlari bilan.",
+          "Davlat byudjeti imkoniyatlaridan kelib chiqqan holda.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Imtiyozlar belgilanishida qaysi prinsipga rioya etilishi shart?",
+        options: [
+          "Huquqiy tenglik prinsipiga.",
+          "Ijtimoiy adolat prinsiplariga.",
+          "Demokratik plyuralizm prinsipiga.",
+          "Shaffoflik va ochiqlik prinsiplariga.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Fuqaro va davlat bir-biriga nisbatan huquqiy jihatdan qanday bog'langan?",
+        options: [
+          "Ijtimoiy himoya va sadoqat majburiyatlari bilan.",
+          "O'zaro huquq va majburiyatlar bilan.",
+          "Konstitutsiyaviy burch va tartib-intizom bilan.",
+          "Siyosiy daxldorlik va huquqiy maqom bilan.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Insonning Konstitutsiya va qonunlardagi huquqlari qanday holatda cheklanishi mumkin?",
+        options: [
+          "Prokuror sanksiyasi yoki ichki ishlar organlari qarori bilan.",
+          "Faqat sud qarori bilan.",
+          "Ma'muriy tartibda davlat xavfsizligi zaruriyati tug'ilganda.",
+          "Hukumatning maxsus qarori yoki qarorlari asosida.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Insonning huquq va erkinliklari amal qilish xususiyati qanday?",
+        options: [
+          "Boshqa qonun hujjatlari qabul qilingandan so'ng amal qiladi.",
+          "Bevosita amal qiladi.",
+          "Sudlar tomonidan qo'llanilgandagina huquqiy kuchga ega bo'ladi.",
+          "Faqatgina Konstitutsiyaviy sud tushuntirishidan keyin amal qiladi.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Qonunlarning va davlat organlari faoliyatining mohiyati va mazmunini nima belgilaydi?",
+        options: [
+          "Davlat boshqaruvi prinsiplari va milliy xavfsizlik.",
+          "Insonning huquq va erkinliklari.",
+          "Oliy Majlis va hukumatning siyosiy irodasi.",
+          "Sud hokimiyati va prokuratura nazorati.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Davlat organlari tomonidan insonga nisbatan qo'llaniladigan ta’sir choralari qaysi prinsipga tayanadi?",
+        options: [
+          "Insonparvarlik prinsipiga.",
+          "Mutanosiblik prinsipiga.",
+          "Qonuniylik va jazolash muqarrarligi prinsipiga.",
+          "Ijtimoiy tenglik va adolat prinsipiga.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Davlatning huquqiy ta’sir choralari qanday darajada bo'lishi kerak?",
+        options: [
+          "Sodir etilgan huquqbuzarlikning og'irligiga mutloq mos.",
+          "Qonunlarda nazarda tutilgan maqsadlarga erishish uchun yetarli.",
+          "Boshqa shaxslar uchun ogohlantiruvchi darajada keskin.",
+          "Davlat organining vakolatlari doirasida cheklanmagan.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Inson bilan davlat munosabatlaridagi qonunchilik ziddiyatlari kimning foydasiga talqin qilinadi?",
+        options: [
+          "Sud organlari va davlat manfaatlari foydasiga.",
+          "Inson manfaatlariga.",
+          "Qaysi tarafning dalillari ko'proq ekanligiga ko'ra.",
+          "Yuridik kuchi yuqori bo'lgan organ foydasiga.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Kimlar o'z shaxsini erkin kamol toptirish huquqiga ega?",
+        options: [
+          "Har bir fuqaro.",
+          "Har bir inson.",
+          "Har kim.",
+          "Har bir shaxs.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Qanday holatda insonga qonunchilikda belgilanmagan majburiyat yuklatilishi mumkin?",
+        options: [
+          "Favqulodda holat davrida davlat boshlig'i farmoni bilan.",
+          "Hech kimga qonunchilikda belgilanmagan majburiyat yuklatilishi mumkin emas.",
+          "Sud organlarining alohida ajrimi bilan.",
+          "Insonning roziligi bo'lgandagina ixtiyoriy ravishda.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Inson o'z huquqlarini amalga oshirishda kimning manfaatlariga putur yetkazmasligi shart?",
+        options: [
+          "Faqat davlat va jamiyat manfaatlariga.",
+          "Boshqa shaxslar, davlat va jamiyat manfaatlariga.",
+          "Atrof-muhit va xalqaro hamjamiyat manfaatlariga.",
+          "Mansabdor shaxslarning xizmat faoliyati manfaatlariga.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Insonning huquq va erkinliklari qanday cheklanishi mumkin?",
+        options: [
+          "Faqat qonun bilan va zarur bo'lgan darajada.",
+          "Hukumat qarorlari bilan maxsus tartibda.",
+          "Faqat urush yoki favqulodda vaziyatlar davrida.",
+          "Davlat organlarining ichki nizomlari asosida.",
+        ],
+        correct: 0,
+      },
+      {
+        q: "O'zbekistonda fuqarolik tizimi qanday shaklda o'rnatilgan?",
+        options: [
+          "Ikki tomonlama fuqarolik.",
+          "Yagona fuqarolik.",
+          "Shartli fuqarolik.",
+          "Mintaqaviy fuqarolik.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Qoraqalpog'iston Respublikasining fuqaroligi bo'yicha to'g'ri qoidani toping:",
+        options: [
+          "U alohida xalqaro huquqiy maqomga ega fuqarolikdir.",
+          "Qoraqalpog'iston Respublikasining fuqarosi ayni vaqtda O'zbekiston Respublikasining fuqarosi hisoblanadi.",
+          "U faqat Qoraqalpog'iston hududida amal qiluvchi fuqarolikdir.",
+          "Qoraqalpog'iston fuqarosi O'zbekiston fuqaroligini olishi shart emas.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "O'zbekiston Respublikasi fuqarolarini kim himoya qiladi?",
+        options: [
+          "Xalqaro inson huquqlari tashkilotlari.",
+          "Davlat.",
+          "Milliy gvardiya va Qurolli Kuchlar.",
+          "Faqatgina O'zbekistonning elchixonalari.",
+        ],
+        correct: 1,
+      },
+      {
+        q: "Vatandoshlar bilan aloqalarni rivojlantirishda davlat qaysi hujjatga tayanadi?",
+        options: [
+          "Ikki tomonlama shartnomalarga.",
+          "Xalqaro huquq normalariga.",
+          "Xorijdagi vatandoshlar to'g'risidagi qonunga.",
+          "Konsullik xizmati nizomlariga.",
+        ],
+        correct: 1,
+      },
+    ]),
+  },
+
+  // ========================================================================
 };
