@@ -435,9 +435,417 @@ const quizDatabase = {
 
 
 
+ topic2: {
+    title: "DHN 2-Bo'lim",
+    questions: randomizeQuestions([
 
 
+ 
+  {
+    q: "Huquq prinsiplarining ontologik mohiyati va ularning huquqiy tartibga solish tizimidagi o‘rnini belgilang:",
+    options: [
+      "Davlatning iqtisodiy tamoyillari va resurslarni taqsimlash strategiyasi.",
+      "Huquqshunoslarning muayyan kolliziyalarni hal qilishga qaratilgan subyektiv doktrinal qarashlari.",
+      "Huquqning mazmunini, uning ijtimoiy yo‘naltirilganligini va barqarorligini belgilovchi asosiy g‘oyalar hamda fundamental qoidalar.",
+      "Huquqbuzarliklar uchun sanksiyalar ierarxiyasini belgilovchi protsessual ko‘rsatmalar majmui.",
+    ],
+    correct: 2,
+  },
+  {
+    q: "Huquq prinsiplarining huquq ijodkorligi va huquqni qo‘llash amaliyotidagi funksional ahamiyati nimadan iborat?",
+    options: [
+      "Yangi normativ-huquqiy hujjatlarni ishlab chiqishda konseptual yo‘nalish berish va huquqiy bo‘shliqlarni to‘ldirish.",
+      "Sud organlariga qonun normalarini chetlab o‘tgan holda o‘zgaruvchan qarorlar qabul qilish huquqini berish.",
+      "Mavjud huquqiy tartibotning barqarorligini susaytirish orqali huquqiy dinamikani ta'minlash.",
+      "Davlat boshqaruvi apparatining vakolatlarini qonun bilan cheklanmagan darajada kengaytirish.",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Quyidagilardan qaysi biri funksional maqsadi bo‘yicha huquqiy prinsiplar ierarxiyasiga kiradi?",
+    options: [
+      "Texnologik jarayonlarni tartibga soluvchi texnik-huquqiy prinsiplar.",
+      "Jamiyatning siyosiy va iqtisodiy asoslarini belgilovchi umumiy ijtimoiy prinsiplar.",
+      "Notarial harakatlarni amalga oshirishning maxsus tamoyillari.",
+      "Sud protsessi ishtirokchilarining protsessual huquqlarini cheklovchi tartib-qoidalar.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Huquq prinsiplarining genezisini tahlil qilganda, ularning qaysi tarixiy huquqiy tiplarda shakllanganligini ko‘rish mumkin?",
+    options: [
+      "Quldorchilik, feodal, burjua va sotsialistik kabi tarixiy huquqiy tiplar evolyutsiyasi davomida.",
+      "Faqat zamonaviy demokratik va liberal-burjua huquqiy tizimlarida.",
+      "Mutlaq marksistik-lenistik doktrinaga asoslangan kommunistik va anarxistik tizimlarda.",
+      "Faqat diniy qadriyatlarga asoslangan teokratik va harbiy-ma'muriy boshqaruv tuzumlarida.",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Insonparvarlik prinsipining huquqiy tizimdagi asosiy teleologik (maqsadli) yo‘nalishini aniqlang:",
+    options: [
+      "Davlatning jazo siyosatini qat'iylashtirish orqali ijtimoiy nazoratni o'rnatish.",
+      "Insonning qadr-qimmati, huquqlari va erkinliklarini oliy qadriyat sifatida himoya qilish hamda uning har tomonlama rivojlanishi uchun sharoit yaratish.",
+      "Huquqiy normalarni faqat davlat institutlarining iqtisodiy manfaatlarini ko'zlagan holda talqin qilish.",
+      "Jismoniy va intellektual jihatdan ustun bo'lgan shaxslarning imtiyozli huquqlarini legallashtirish.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Fuqarolarning qonun oldida tengligi prinsipining huquqiy-dogmatik mazmuni nimani ifodalaydi?",
+    options: [
+      "Qonun normalarining faqat ijtimoiy elita yoki muayyan shaxslar uchun eksklyuziv qo'llanilishi.",
+      "Siyosiy maqsadga muvofiqlik nuqtai nazaridan ba'zi toifalarning qonuniy javobgarlikdan ozod etilishi.",
+      "Barcha jismoniy shaxslarning qonun oldida huquqiy maqomidan qat'i nazar tengligi va har qanday kamsitishning taqiqlanishi.",
+      "Fuqarolarning shaxsiy manfaatlarini to'liq davlat manfaatlari foydasiga cheklash majburiyati.",
+    ],
+    correct: 2,
+  },
+  {
+    q: "Huquq shakli (Form of Law) tushunchasiga berilgan eng to'g'ri ilmiy ta'rifni ko'rsating:",
+    options: [
+      "Huquq normalarining ichki tuzilishi va ularning institutlarga bo'linishi.",
+      "Huquqiy normalarning tashqi ifodalanish usuli va ularning davlat tomonidan rasmiylashtirilishi.",
+      "Davlat hokimiyatining tashkiliy-huquqiy shakli va boshqaruv uslubi.",
+      "Sud amaliyotida shakllangan barcha qarorlar va ajrimlar majmui.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Quyidagilardan qaysi biri zamonaviy huquq tizimida huquq manbalari (Sources of Law) klassifikatsiyasiga kiradi?",
+    options: [
+      "Jamiyatdagi mavjud iqtisodiy va ishlab chiqarish munosabatlari.",
+      "Inson huquqlari sohasidagi xalqaro-huquqiy hujjatlar va universal deklaratsiyalar.",
+      "Davlatning yillik budjeti va moliya-xo'jalik rejalari.",
+      "Fuqarolik jamiyati institutlarining nizomlari va ichki qoidalari.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Huquqiy urf-odat (Legal Custom) deganda nimani tushunish lozim?",
+    options: [
+      "Jamiyatda uzoq davr davomida shakllangan va davlat tomonidan majburiy deb tan olingan xulq-atvor me'yori.",
+      "Davlat qonun chiqaruvchi organi tomonidan qabul qilingan qat'iy dispozitiv normalar.",
+      "Sud organlari tomonidan muayyan ish yuzasidan chiqarilgan yakuniy qaror.",
+      "Akademik doiralarda ilgari surilgan huquqiy doktrinalar va nazariy qarashlar.",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Yuridik pretsedent tushunchasining huquqiy tabiati qanday?",
+    options: [
+      "Qonunchilik tizimidagi barcha normativ-huquqiy hujjatlarning sistematik to'plami.",
+      "Sud yoki ma'muriy organ qarori bo'lib, kelgusida o'xshash ishlar uchun majburiy huquqiy namuna bo'lib xizmat qiladi.",
+      "Xususiy huquq subyektlari o'rtasidagi kelishuvlarning huquqiy asosi.",
+      "Faqat kodifikatsiyalangan qonun hujjatlarining sinonimik ifodasi.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Yuridik pretsedent qaysi huquqiy oilada asosiy (dominant) huquq manbai sanaladi?",
+    options: [
+      "Roman-german (kontinental) huquqiy tizimida.",
+      "Yevropa Ittifoqining kontinental huquqiy makonida.",
+      "Anglo-sakson (Common Law) huquqiy tizimida.",
+      "An'anaviy islom huquqi va shariat normalari tizimida.",
+    ],
+    correct: 2,
+  },
+  {
+    q: "Islom huquq tizimining ontologik asosini tashkil etuvchi birlamchi manbalarni aniqlang:",
+    options: [
+      "Qur‘oni Karim va Muhammad (s.a.v.) sunnalari.",
+      "Dunnyoviy davlatlarning konstitutsion prinsiplari.",
+      "Britaniya sudlarining pretsedent huquqi.",
+      "Prezident farmonlari va ijro etuvchi hokimiyat qarorlari.",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Huquq ijodkorligi (Law-making) jarayonining kengaytirilgan huquqiy talqini nimadan iborat?",
+    options: [
+      "Faqat qonun loyihalarini parlamentda muhokama qilish jarayoni.",
+      "Huquqiy normalarni yaratish, takomillashtirish, o‘zgartirish va eskirganlarini bekor qilish bo‘yicha davlat faoliyati.",
+      "Konkret nizo yuzasidan sud qarorlarini chiqarish va ijro etish jarayoni.",
+      "Xalqaro tashkilotlar o'rtasida memorandumlar imzolash amaliyoti.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Qonunchilik texnikasining fundamental talablaridan biri qaysi variantda to'g'ri ko'rsatilgan?",
+    options: [
+      "Normativ hujjatlarning lingvistik jihatdan savodli, aniq va mantiqiy ziddiyatsiz bo‘lishi.",
+      "Barcha qonunlarning faqat davlat rahbari tomonidan shaxsan yozilishi.",
+      "Milliy qonunlarning faqat transmilliy korporatsiyalar talablariga mos kelishi.",
+      "Qonunchilikning faqat makroiqtisodiy ko'rsatkichlarni tartibga solish bilan cheklanishi.",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Qonun ijodkorligi va huquq ijodkorligi tushunchalari o'rtasidagi nisbatni aniqlang:",
+    options: [
+      "Qonun ijodkorligi xalqaro konvensiyalarni implementatsiya qilishni anglatadi.",
+      "Qonun ijodkorligi faqat qonunlarni, huquq ijodkorligi esa barcha turdagi huquqiy normalarni o'z ichiga oladi.",
+      "Huquq ijodkorligi faqat sudlarning qonun ni talqin qilish faoliyatidir.",
+      "Mazkur tushunchalar o'rtasida huquqiy va mantiqiy farq mavjud emas.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Norma ijodkorligining sud qarorlariga asoslangan usuli qanday ataladi?",
+    options: [
+      "To'g'ridan-to'g'ri xalq demokratiyasi usuli.",
+      "Xalqaro shartnomaviy-huquqiy usul.",
+      "Odat huquqi va sud pretsedenti (Case Law) usuli.",
+      "Huquqiy normalarni qiyosiy-tahliliy o'rganish usuli.",
+    ],
+    correct: 2,
+  },
+  {
+    q: "Huquqiy norma strukturasi tarkibidagi gipotezaning asosiy funksiyasi nima?",
+    options: [
+      "Norma qo'llanilishi lozim bo'lgan aniq sharoit va hayotiy vaziyatlarni belgilash.",
+      "Huquqbuzarlik uchun qo'llaniladigan sanksiya turini aniqlash.",
+      "Subyektning qonuniy majburiyatlarini imperativ shaklda mustahkamlash.",
+      "Hujjatning yuridik kuchga ega bo'lmagan kirish qismini ifodalash.",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Quyidagilardan qaysi biri imperativ (qat'iy buyruq beruvchi) norma tavsifiga mos keladi?",
+    options: [
+      "Fuqarolik-huquqiy shartnomalar tuzishdagi erkinlik prinsipi.",
+      "Konstitutsiyaviy darajada belgilangan soliq to‘lash majburiyati.",
+      "Fuqarolarning passiv saylov huquqidan foydalanish ixtiyoriyligi.",
+      "Nikoh shartnomasining shartlarini subyektiv tanlash imkoniyati.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Huquqiy normadagi dispozitsiyaning oddiy (shakliy) ko'rinishi nimani anglatadi?",
+    options: [
+      "Yuridik fakt sodir bo'lganda yuzaga keladigan yagona huquqiy oqibat.",
+      "Huquqbuzarga nisbatan qo'llaniladigan muqobil sanksiyalar tizimi.",
+      "Ko'p qatlamli va murakkab huquqiy munosabatlar zanjiri.",
+      "Subyektga o'z xulq-atvorini tanlash erkinligini beruvchi ruxsatnoma.",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Dispozitiv (to'ldiruvchi) huquqiy normaga xos bo'lgan misolni tanlang:",
+    options: [
+      "Jinoyat kodeksida belgilangan jazo chorasining muqarrarligi.",
+      "Ijara shartnomasi shartlarini taraflar o‘zaro kelishuviga ko‘ra belgilashlari.",
+      "Sud ajrimlari va qarorlarining so'zsiz ijro etilishi.",
+      "Davlat hokimiyati organlari saylovlarida ishtirok etishning majburiyligi.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Alternativ gipoteza tushunchasining huquqiy mantig'i nimadan iborat?",
+    options: [
+      "Norma amal qilishi uchun barcha ko'rsatilgan shartlarning bir vaqtda mavjudligi.",
+      "Hech qanday shartlar va cheklovlarning mavjud emasligi.",
+      "Sanab o'tilgan hayotiy sharoitlardan kamida bittasining mavjudligi normaning kuchga kirishi uchun yetarli ekanligi.",
+      "Faqat salbiy oqibatlarning yuzaga kelish ehtimoli.",
+    ],
+    correct: 2,
+  },
+  {
+    q: "Nima sababdan dispozitsiya huquqiy normaning 'markaziy elementi' (yuragi) hisoblanadi?",
+    options: [
+      "U subyektlarning huquq va majburiyatlari, ya'ni xulq-atvor qoidasini belgilab beradi.",
+      "U faqat normaning amal qilish vaqti va joyini ko'rsatadi.",
+      "U faqat jazo choralari va davlat majburlovini o'z ichiga oladi.",
+      "U faqat normativ hujjatning amal qilishini to'xtatuvchi qoidalardan iborat.",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Huquqiy tartibga solishning 'Gipoteza – Dispozitsiya – Sanksiya' triadasini qaysi mantiqiy formula ifodalaydi?",
+    options: [
+      "Davlat tomonidan qabul qilingan qonun ijrosi mexanizmi.",
+      "'Agar (shart) – u holda (qoida) – aks holda (oqibat)' strukturaviy aloqadorligi.",
+      "Ijtimoiy tartibni saqlashning ma'naviy va axloqiy asosi.",
+      "Ma'muriy buyruqbozlik va nazorat tizimining asosi.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Huquqiy munosabatlarning ijtimoiy munosabatlar tizimidagi o'ziga xosligi nimada?",
+    options: [
+      "Huquq normalari asosida yuzaga keladigan va ishtirokchilarning yuridik huquq hamda majburiyatlari bilan bog'langan munosabatlar.",
+      "Insonlarning o'zaro shaxsiy yaqinligi va hissiyotlariga asoslangan aloqalar.",
+      "Faqat ishlab chiqarish va iste'mol jarayonidagi iqtisodiy aloqadorlik.",
+      "Faqat diniy va axloqiy dogmalarga asoslangan ijtimoiy o'zaro ta'sir.",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Huquqiy munosabatlarning real amalga oshirilishi qanday kafolatlanadi?",
+    options: [
+      "Faqatgina jamiyatdagi mavjud axloqiy qarashlar va jamoatchilik fikri orqali.",
+      "Davlatning majburlash kuchi va qonuniy sanksiyalar qo'llash imkoniyati orqali.",
+      "Alohida shaxslarning ixtiyoriy roziligi va xohish-irodasi bilan.",
+      "Nodavlat va xususiy xavfsizlik tashkilotlarining faoliyati orqali.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Qaysi turdagi munosabatlar davomiy (statik) huquqiy munosabatlar turkumiga kiradi?",
+    options: [
+      "Davlat organlari saylovlarida vaqti-vaqti bilan ishtirok etish.",
+      "Kundalik ehtiyojlar uchun qilinadigan chakana oldi-sotdi bitimlari.",
+      "Uzoq muddatli mehnat munosabatlari va fuqarolikni saqlash munosabatlari.",
+      "Muayyan xizmatni ko'rsatish bo'yicha bir martalik shartnomalar.",
+    ],
+    correct: 2,
+  },
+  {
+    q: "Faol turdagi huquqiy munosabatlarda subyektning majburiyati nimadan iborat?",
+    options: [
+      "Majbur shaxs tomonidan muayyan ijobiy harakatlarni (qarzni to'lash, mahsulot yetkazish) amalga oshirish.",
+      "Taqiqlangan harakatlardan o'zini tiyish (passiv xulq-atvor).",
+      "O'zining shaxsiy daxlsizligi huquqi cheklanishiga sabr qilish.",
+      "Faqat davlat idoralarining statistik hisobotlariga bo'ysunish.",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Huquqiy munosabatlar subyektlarining zamonaviy klassifikatsiyasini aniqlang:",
+    options: [
+      "Faqat muomalaga layoqatli bo'lgan jismoniy shaxslar (fuqarolar).",
+      "Jismoniy shaxslar (fuqarolar, chet elliklar) va jamoaviy subyektlar (yuridik shaxslar, davlat).",
+      "Faqat davlat idoralari va ommaviy-huquqiy tashkilotlar.",
+      "Xalqaro sudlar va transmilliy bank subyektlari.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Huquqiy munosabatlar obyekti tarkibiga qaysi ne'matlar kiritiladi?",
+    options: [
+      "Subyektlarning huquq va majburiyatlari yo'naltirilgan moddiy va nomoddiy (shon-sharaf, intellektual mulk) ne'matlar.",
+      "Faqat jismoniy shaklga ega bo'lgan ko'char va ko'chmas mulklar.",
+      "Faqat pullik xizmatlar va pullik ish bajarish munosabatlari.",
+      "Faqat raqamli ma'lumotlar va axborot texnologiyalari mahsullari.",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Yuridik fakt tushunchasining huquqiy munosabatlar dinamikasidagi roli qanday?",
+    options: [
+      "Jamiyatdagi umumiy qabul qilingan etiket qoidalarini belgilash.",
+      "Huquqiy munosabatlarning vujudga kelishi, o‘zgarishi yoki tugashiga sabab bo‘ladigan real hayotiy holat.",
+      "Davlat tomonidan qabul qilingan barcha qonun normalari yig'indisi.",
+      "Shaxslarning ichki ruhiy holati va axloqiy motivlari.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Huquq tizimining boshlang'ich va eng kichik strukturaviy elementi nima?",
+    options: [
+      "Keng qamrovli qonunchilik hujjatlari to'plami.",
+      "Subyektlarning huquqiy ongi va huquqiy madaniyati.",
+      "Muayyan ijtimoiy munosabatni tartibga soluvchi huquq normasi.",
+      "Yuqori instansiya sudlarining umumlashtirilgan amaliyoti.",
+    ],
+    correct: 2,
+  },
+  {
+    q: "Imperativ (majburiy) tartibga solish usuli asosan qaysi huquq sohalariga xos?",
+    options: [
+      "Jinoiy, ma'muriy va soliq huquqi kabi ommaviy huquq sohalariga.",
+      "Fuqarolik, xususiy mulk va oila huquqi sohalariga.",
+      "Mehnat shartnomalari va moliya bozorini tartibga solish sohalariga.",
+      "Faqat xalqaro ommaviy huquqning tavsiyaviy normalariga.",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Konstitutsiyaviy huquq sohasining huquqiy tartibga solish predmeti va doirasini belgilang:",
+    options: [
+      "Iqtisodiy subyektlar o'rtasidagi mulkiy va shaxsiy nomulkiy munosabatlarni tartibga solish.",
+      "Davlat tuzilishi, boshqaruv shakli, davlat organlari tizimi hamda inson va fuqaroning asosiy huquq va erkinliklari bilan bog'liq ijtimoiy munosabatlar.",
+      "Davlat apparati ichidagi xizmat pog'onalari va ma'muriy jazolash tartib-taomillari.",
+      "Jinoyat tarkibi va jazo choralarini belgilash bilan bog'liq ijtimoiy aloqalar.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Ma'muriy huquqning huquqiy tartibga solish metodologiyasi qaysi usulga tayanadi?",
+    options: [
+      "Hokimiyat va bo'ysunishga asoslangan imperativ (majburiy) usul.",
+      "Taraflarning tengligiga asoslangan dispozitiv (ixtiyoriy) usul.",
+      "Faqat moddiy rag'batlantirish va mukofotlash usuli.",
+      "Huquqiy normalarni ishlab chiqishning ilmiy-tashkiliy usuli.",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Qonunchilik tizimi (System of Legislation) deganda nima tushuniladi?",
+    options: [
+      "Huquqning ichki logik va institutsional tuzilishi.",
+      "Davlatda amal qiluvchi barcha normativ-huquqiy hujjatlarning tashqi ierarxik tizimi.",
+      "Huquqiy mafkura va psixologiya shakllari.",
+      "Sud va prokuratura organlarining operativ-qidiruv faoliyati.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Komparetivistikada 'huquqiy oila' tushunchasiga berilgan ta'rifni aniqlang:",
+    options: [
+      "Huquqiy institutlarning o'zaro o'xshash bo'lmagan tarqoq guruhlari.",
+      "Muayyan bir davlatning ichki qonunchilik tuzilishi.",
+      "Tarixiy shakllanishi, manbalari va yuridik texnikasi jihatidan umumiy xususiyatlarga ega milliy huquqiy tizimlar majmui.",
+      "Xalqaro huquq subyektlarining diplomatik munosabatlari tizimi.",
+    ],
+    correct: 2,
+  },
+  {
+    q: "Roman-german huquqiy oilasining fundamental ajralib turuvchi jihati nimada?",
+    options: [
+      "Sudlar tomonidan yaratilgan normalarning qonunlardan ustunligi.",
+      "Huquqning ommaviy va xususiy huquqqa bo'linishi hamda normativ-huquqiy hujjatlarning (kodekslarning) asosiy manba ekanligi.",
+      "Huquqiy tartibga solishda faqat diniy doktrinalarga tayanish.",
+      "Huquqiy munosabatlarning faqat og'zaki an'analar va urf-odatlar orqali boshqarilishi.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Musulmon huquqining me'yorlari qanday xususiyatga ega?",
+    options: [
+      "Umumlashtirilgan va ierarxik tizimga ega dunyoviy normalar.",
+      "Diniy tabiatli, muqaddas manbalarga asoslangan va majburiy xarakterdagi qoidalar.",
+      "Faqat kazuistik va individual holatlar uchun chiqarilgan qarorlar.",
+      "Dispozitiv va subyektlarning ixtiyoriy roziligiga asoslangan tartib-taomillar.",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Milliy huquqiy tizim (National Legal System) tushunchasining qamrovini aniqlang:",
+    options: [
+      "Ma'lum bir suveren davlat hududida amal qiluvchi barcha huquqiy hodisalar, normalar va institutlar yig'indisi.",
+      "Bir guruh davlatlarning umumiy geografik hududidagi huquqiy kelishuvlari.",
+      "Faqat xalqaro huquq normalarining milliy darajadagi ko'rinishi.",
+      "Faqat diniy jamoalar tomonidan o'rnatilgan ichki tartib-qoidalar.",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Anglo-sakson (Common Law) huquqiy oilasining o'ziga xos xususiyati va uning asosiy manbai haqida to'g'ri mulohazani tanlang:",
+    options: [
+      "Asosiy manba sifatida kodifikatsiyalangan qonunlar va normativ hujjatlar ustuvorlik qiladi.",
+      "Huquq tizimi kazuistik xarakterga ega bo'lib, sud pretsedenti (stare decisis) asosiy manba hisoblanadi.",
+      "Huquqiy tizim to'liq diniy manbalar va muqaddas kitoblardagi normalarga tayanadi.",
+      "Huquqiy urf-odatlar qonun chiqaruvchi hokimiyat tomonidan qabul qilingan hujjatlardan yuqori turadi.",
+    ],
+    correct: 1,
+   },
+    ]),
+  },
+  
 
+//////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -966,7 +1374,7 @@ const quizDatabase = {
   // },
 
   // ======================================================================
-  topic3: {
+  topic11: {
     title: "2-Bo'lim",
     questions: randomizeQuestions([
       {
