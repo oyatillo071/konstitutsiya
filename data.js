@@ -440,7 +440,7 @@ const quizDatabase = {
 
 
   
-  topic1: {
+  topic10: {
     title: "1-Bo'lim",
     questions: randomizeQuestions([
       {
