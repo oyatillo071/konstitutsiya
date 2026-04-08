@@ -24,9 +24,7 @@ const quizDatabase = {
     questions: randomizeQuestions([
 
 
-       title: "1-Bo'lim",
-    questions: randomizeQuestions([
-const lawQuiz = [
+ 
   {
     q: "Huquq prinsiplarining ontologik mohiyati va ularning huquqiy tartibga solish tizimidagi o‘rnini belgilang:",
     options: [
