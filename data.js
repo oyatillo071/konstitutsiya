@@ -434,7 +434,225 @@ const quizDatabase = {
   },
 
   ///////////////////////////////////////////////////////////////////////////////////
- // topic2: {
+ 
+  topic2: {
+    title: "Tarix 2-Bo'lim",
+    questions: randomizeQuestions([
+
+  {
+    "q": "O‘zbekistonda 1980-yillar oxiridagi ijtimoiy-siyosiy vaziyatda “Navro‘z” bayramining taqiqlanishiga rasmiy sabab sifatida nima ko‘rsatilgan edi?",
+    "options": [
+      "Iqtisodiy inqiroz va mablag' yetishmasligi;",
+      "Bayramning diniy xarakterga egaligi va mafkuraviy yotligi;",
+      "Ommaviy tartibsizliklarning oldini olish zarurati;",
+      "Paxta rejasining bajarilmay qolishi xavfi."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "1986-yilda “Navro‘z” bayrami o‘rniga qaysi sun’iy bayram joriy etilgan edi?",
+    "options": [
+      "“Hosil bayrami”;",
+      "“Navbahor”;",
+      "“Gullar bayrami”;",
+      "“Bahor nafasi”."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston mustaqillikka erishish ostonasida turgan paytda, 1989-yilda yuz bergan “Farg‘ona voqealari”ning asl sababi markaz tomonidan qanday talqin qilingan?",
+    "options": [
+      "Millatlararo nizo va ekstremizm;",
+      "Ijtimoiy-iqtisodiy muammolar va markazning xatolari;",
+      "Mesketi turklarining o'zboshimchaligi;",
+      "Ekologik fojianing ta'siri."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Jaloliddin Manguberdining mo‘g‘ullarga qarshi kurashdagi ilk yirik strategik g‘alabasi qaysi jangda qo‘lga kiritilgan?",
+    "options": [
+      "Sind daryosi bo'yidagi jang;",
+      "Valiyon jangi;",
+      "Parvon jangi;",
+      "Niso jangi."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonning mustaqillikka o‘tish davrida “tayyor andozalarni ko‘r-ko‘rona nusxalash”dan voz kechishining asosiy sababi nima edi?",
+    "options": [
+      "G'arb davlatlari bilan aloqalarning yomonligi;",
+      "Milliy-tarixiy va mental xususiyatlarning inobatga olinishi zarurati;",
+      "Xalqaro tashkilotlarning tavsiyasi;",
+      "Iqtisodiy resurslarning yetishmasligi."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Advokatlar palatasi O'zbekistonda qachon tashkil etilgan va uning asosiy maqsadi nima?",
+    "options": [
+      "2005-yil – Sudyalar faoliyatini nazorat qilish;",
+      "2008-yil – Advokatura institutining mustaqilligini ta'minlash;",
+      "2017-yil – Prokuratura tizimini isloh qilish;",
+      "2020-yil – Yuridik xizmat sifatini oshirish."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "I.A. Karimov vafoti munosabati bilan mamlakatda necha kunlik motam e'lon qilingan edi?",
+    "options": [
+      "1 kunlik;",
+      "3 kunlik;",
+      "7 kunlik;",
+      "40 kunlik."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "2016-yil 5-oktabrda qabul qilingan “Tadbirkorlik faoliyatining jadal rivojlanishini ta'minlash to'g'risida”gi farmonning o'ziga xosligi nimada?",
+    "options": [
+      "Tadbirkorlarga soliq imtiyozlari berilishi;",
+      "Tekshiruvlarning asossiz aralashuviga chek qo'yilishi;",
+      "Yangi valyuta tizimiga o'tilishi;",
+      "Eksport hajmining majburiy belgilanishi."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Ekologik partiyasi (partiya sifatida) qachon rasman tashkil etilgan?",
+    "options": [
+      "2008-yil (Harakat sifatida);",
+      "2017-yil (Harakatlar strategiyasi doirasida);",
+      "2019-yil (Siyosiy partiya sifatida);",
+      "2021-yil (Saylovlar arafasida)."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "“Inson qadri uchun” tamoyili qaysi strategik hujjatning bosh g'oyasi hisoblanadi?",
+    "options": [
+      "2017-2021 Harakatlar strategiyasi;",
+      "2022-2026 Taraqqiyot strategiyasi;",
+      "2030-yilgacha bo'lgan rivojlanish dasturi;",
+      "Yangi tahrirdagi Konstitutsiya deklaratsiyasi."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonning Shanxay Hamkorlik Tashkiloti (ShHT) doirasidagi faoliyatida “Toshkent sammiti-2016” qaysi muhim qaror bilan tarixda qolgan?",
+    "options": [
+      "ShHTning aksilterror tuzilmasi (RATS) tashkil etilishi;",
+      "Hindiston va Pokistonning tashkilotga a'zo bo'lishi bo'yicha memorandum imzolanishi;",
+      "Eronning tashkilotga kuzatuvchi sifatida kirishi;",
+      "Yagona valyuta hududini yaratish."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonning eng yangi tarixi fanining davrlashtirilishida “Yangi O‘zbekiston taraqqiyot bosqichi” qaysi yildan boshlanadi?",
+
+"options": [
+      "1991-yildan;",
+      "2012-yildan;",
+      "2016-yilning ikkinchi yarmidan;",
+      "2023-yildan."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Amir Temurning davlatchilik siyosatida “Kuch - adolatdadir” shiori qaysi sohada ustuvor bo'lgan?",
+    "options": [
+      "Faqat harbiy yurishlarda;",
+      "Qonun ustuvorligi va ijtimoiy boshqaruvda;",
+      "Tashqi savdo aloqalarida;",
+      "Me'morchilik va san'atda."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Prezidentining “Virtual qabulxonasi” tashkil etilishidan asosiy maqsad nima edi?",
+    "options": [
+      "Internet tezligini oshirish;",
+      "Aholi bilan to'g'ridan-to'g'ri muloqotni yo'lga qo'yish va muammolarni hal etish;",
+      "Elektron darsliklar bazasini yaratish;",
+      "Xalqaro tashkilotlar reytingini kuzatish."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Tarixiy manbalarda “Turkiston jadidlarining otasi” deb e'tirof etiladigan shaxsni ko'rsating.",
+    "options": [
+      "Mahmudxo'ja Behbudiy;",
+      "Munavvarkori Abdurashidxonov;",
+      "Abdurauf Fitrat;",
+      "Ismoil Gasprinskiy."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "“Ma'naviyat - insonning ichki olami va irodasini shakllantiruvchi kuch” deb ta'rif berilgan asarni aniqlang.",
+    "options": [
+      "“O'zbekistonning o'z istiqlol va taraqqiyot yo'li”;",
+      "“Yuksak ma'naviyat - yengilmas kuch”;",
+      "“O'zbekiston XXI asr bo'sag'asida”;",
+      "“Yangi O'zbekiston strategiyasi”."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining mustaqillik to‘g‘risidagi Oliy Kengash qarori qaysi tilda e'lon qilingan?",
+    "options": [
+      "Faqat o'zbek tilida;",
+      "Faqat rus tilida;",
+      "O'zbek va rus tillarida;",
+      "O'zbek, rus va ingliz tillarida."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Jahon sivilizatsiyasi tarixida “Ilm-fan markazi” bo'lgan Xorazm Ma'mun akademiyasi qachon qayta tiklandi?",
+    "options": [
+      "1991-yilda;",
+      "1997-yilda;",
+      "2006-yilda;",
+      "2017-yilda."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda “Kichik biznes va xususiy tadbirkorlik yili” deb qaysi yil e'lon qilingan edi?",
+    "options": [
+      "1997-yil;",
+      "2005-yil;",
+      "2011-yil;",
+      "2016-yil."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Konstitutsiyaviy islohotlar doirasida “O‘zbekiston – ijtimoiy davlat” tamoyili qaysi tahrirdagi bosh qonunda mustahkamlandi?",
+    "options": [
+      "1992-yilgi dastlabki tahrirda;",
+      "2011-yilgi o'zgarishlarda;",
+      "2017-yilgi tuzatishlarda;",
+      "2023-yilgi yangi tahrirda."
+    ],
+    "correct": 3
+
+
+ 
+ 
+   },
+    ]),
+  },
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+   // topic2: {
  //    title: "Tarix 2-Bo'lim",
  //    questions: randomizeQuestions([
 
@@ -444,12 +662,6 @@ const quizDatabase = {
  //   },
  //    ]),
  //  },
-
-
-
-
-
-
 
   
 //////////////////////////////////////////////////////////////////////////////////////
