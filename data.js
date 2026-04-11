@@ -639,6 +639,210 @@ const quizDatabase = {
       "2023-yilgi yangi tahrirda."
     ],
     "correct": 3
+  },
+
+
+ 
+  {
+    "q": "O‘zbekiston Respublikasining Birinchi Prezidenti I.A. Karimov qachon vafot etgan va necha kunlik motam e’lon qilingan?",
+    "options": [
+      "2016-yil 31-avgust – 1 kunlik motam;",
+      "2016-yil 1-sentyabr – 2 kunlik motam;",
+      "2016-yil 2-sentyabr – 3 kunlik motam;",
+      "2016-yil 5-sentyabr – 7 kunlik motam."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Siyosiy partiyalar faoliyatini tartibga soluvchi qoidalarga ko‘ra, O‘zbekistonda partiya ro‘yxatga olinishi uchun zarur bo‘lgan imzolar soni qaysi javobda to‘g‘ri ko‘rsatilgan?",
+    "options": [
+      "8 tadan kam bo'lmagan hududda 10 mingta imzo;",
+      "Qoraqalpog'iston va viloyatlarni qamrab olgan 20 mingta imzo;",
+      "Toshkent shahri va viloyatlarda jami 15 mingta imzo;",
+      "Faqat poytaxt hududidan 25 mingta imzo."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "“O‘zbekiston Respublikasining Davlat tili haqida”gi Qonun qabul qilingan tarixiy sana va uning hozirgi maqomi?",
+    "options": [
+      "1989-yil 21-oktyabr – O'zbek tili davlat tili maqomini olgan;",
+      "1991-yil 31-avgust – O'zbek tili rasmiy muloqot tili deb e'lon qilingan;",
+      "1992-yil 8-dekabr – Konstitutsiya bilan birga qabul qilingan;",
+      "1995-yil 21-dekabr – Yangi tahriri tasdiqlangan."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Prezident Shavkat Mirziyoyev tomonidan ilgari surilgan “Milliy tiklanishdan – milliy yuksalish sari” g'oyasi qaysi davrning bosh maqsadi etib belgilangan?",
+    "options": [
+      "Mustaqillikning dastlabki o'n yilligi;",
+      "Harakatlar strategiyasi amalga oshirilgan 2017-2021 yillar;",
+      "Taraqqiyot strategiyasining 2022-2026 yillardagi bosqichi;",
+      "2030-yilgacha bo'lgan uzoq muddatli istiqbol."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Amir Temur davlatchiligida “Tuzuklar” asari qanday ahamiyatga ega bo‘lgan?",
+    "options": [
+      "Faqat harbiy yurishlar rejasi sifatida;",
+      "Davlat boshqaruvi va huquqiy tartibning asosiy majmuasi sifatida;",
+      "Amir Temurning shaxsiy kundaligi sifatida;",
+      "Qo'shni davlatlar bilan tuzilgan shartnomalar to'plami sifatida."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining Davlat madhiyasi matni va musiqasi mualliflarini aniqlang.",
+    "options": [
+      "Abdulla Oripov va Mutal Burxonov;",
+      "Erkin Vohidov va Mutal Burxonov;",
+      "Abdulla Oripov va Sherali Jo'rayev;",
+      "Zulfiya va Mutal Burxonov."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "“O‘zbekiston Respublikasining Davlat bayrog‘i to‘g‘risida”gi Qonun qachon qabul qilingan?",
+    "options": [
+      "1991-yil 31-avgust;",
+      "1991-yil 18-noyabr;",
+      "1992-yil 2-mart;",
+      "1992-yil 8-dekabr."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "2018-yilda qabul qilingan “Faol tadbirkorlik, innovatsion g'oyalar va texnologiyalarni qo'llab-quvvatlash yili” dasturining asosiy maqsadi nima edi?",
+    "options": [
+      "Faqat paxta xomashyosini eksport qilish;",
+      "Raqamli iqtisodiyotga o'tish uchun poydevor yaratish;",
+      "Yangi siyosiy partiyalarni tashkil etish;",
+      "Harbiy sanoat majmuasini isloh qilish."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Jadid ma’rifatparvarlari tomonidan ochilgan “Usuli jadid” maktablarining an’anaviy maktablardan asosiy farqi nimada edi?",
+    "options": [
+      "Faqat diniy fanlarning o'qitilishi;",
+      "Dunyoqarashni kengaytiruvchi dunyoviy fanlar va yangi metodlarning joriy etilishi;",
+      "O'qishning bepul va ixtiyoriy ekanligi;",
+      "Faqat boy tabaqa farzandlari uchun mo'ljallanganligi."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonning UNESCO tashkilotiga a’zo bo‘lishi qaysi sohalardagi xalqaro hamkorlikni kuchaytirdi?",
+    "options": [
+      "Faqat harbiy va strategik qurollanish;",
+      "Ta'lim, fan va madaniy merosni saqlash;",
+      "Bank-moliya va kredit tizimi;",
+      "Qishloq xo'jaligi va suv resurslari."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "“Oliy Majlis” atamasining tarixiy ildizlari qaysi davr davlatchilik an’analariga borib taqaladi?",
+    "options": [
+      "Qadimiy turk xoqonligi kengashlariga;",
+
+"Amir Temur va Temuriylar davridagi qurultoy va kengashlarga;",
+      "Xiva va Qo'qon xonliklaridagi devonlarga;",
+      "Buxoro amirligidagi oliy ulamolar kengashiga."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining birinchi Konstitutsiyasi (1992-yil) loyihasi ustida ish olib borgan komissiyaga kim raislik qilgan?",
+    "options": [
+      "Islom Karimov;",
+      "Yo'ldosh Oxunboboyev;",
+      "Shavkat Mirziyoyev;",
+      "Akmal Saidov."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "2022-yilda Samarqandda bo‘lib o‘tgan ShHT sammitida qaysi davlat tashkilotga to‘laqonli a’zo bo‘lish uchun memorandum imzoladi?",
+    "options": [
+      "Hindiston;",
+      "Eron;",
+      "Turkiya;",
+      "Afg'oniston."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "“Fuqarolarning o‘zini o‘zi boshqarish organlari to‘g‘risida”gi Qonun mahalla tizimiga qanday huquqiy maqom berdi?",
+    "options": [
+      "Davlat boshqaruvi organi maqomini;",
+      "Nodavlat notijorat tashkiloti va jamoatchilik tuzilmasi maqomini;",
+      "Siyosiy partiyaning hududiy bo'limi maqomini;",
+      "Sud hokimiyatining quyi bo'g'ini maqomini."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda milliy valyuta “so‘m”ning qadrini tushirmaslik uchun 1994-yilda qanday iqtisodiy choralar ko‘rildi?",
+    "options": [
+      "Ichki bozorda faqat xorijiy valyuta ishlatishga ruxsat berildi;",
+      "Markaziy bankning qat'iy pul-kredit siyosati va valyuta birjasining tashkil etilishi;",
+      "Oltin zaxiralarini butunlay sotib yuborish;",
+      "Narx-navoni davlat tomonidan cheklanmagan tarzda oshirish."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Mustaqillik yillarida o‘tkazilgan “Referendum - 2002” natijasida qabul qilingan eng muhim siyosiy o‘zgarish?",
+    "options": [
+      "Prezidentlik boshqaruvidan voz kechildi;",
+      "Ikki palatali parlament tizimiga o'tish va Prezident muddatini uzaytirish;",
+      "O'lim jazosining bekor qilinishi;",
+      "Sudyalarning umrbod saylanishi."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "“Inson huquqlari umumjahon deklaratsiyasi” O'zbekiston Parlamenti tomonidan qachon ratifikatsiya qilingan?",
+    "options": [
+      "1991-yil 30-sentyabr;",
+      "1992-yil 8-dekabr;",
+      "1995-yil 21-oktyabr;",
+      "2017-yil 7-fevral."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekistonda “Kichik biznes va tadbirkorlikni rivojlantirish agentligi” qaysi strategiya doirasida tashkil etildi?",
+    "options": [
+      "O'zbek modeli davrida;",
+      "Harakatlar strategiyasi davrida;",
+      "Taraqqiyot strategiyasi davrida;",
+      "2030 iqtisodiy rejasi doirasida."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "2021-yil 6-noyabrda O‘zbekiston Respublikasi Prezidentining lavozimga kirishish marosimida e’lon qilingan asosiy konseptual g‘oya?",
+    "options": [
+      "“Ozod va obod Vatan”;",
+      "“Yangi O'zbekiston - xalqchil va demokratik davlat”;",
+      "“Kuch adolatdadir”;",
+      "“O'zbekiston kelajagi buyuk davlat”."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "“Tarix xotirasi - ma’naviyat asosi” degan fikr mustaqillik davri tarixshunosligida qanday tamoyilni ifodalaydi?",
+    "options": [
+      "Tarixni siyosiylashtirishni;",
+      "Milliy o'zlikni anglash va tarixiy haqiqatni tiklashni;",
+      "Faqat qadimiy davrni o'rganishni;",
+      "Xorijiy tarixchilarning fikrini inkor etishni."
+    ],
+    "correct": 1
 
 
  
@@ -652,6 +856,25 @@ const quizDatabase = {
 
 ///////////////////////////////////////////////////////////////////////////////////////
 
+  //  topic3: {
+  //   title: "Tarix 3-Bo'lim",
+  //   questions: randomizeQuestions([
+
+
+ 
+ 
+  //  },
+  //   ]),
+  // },
+
+  
+//////////////////////////////////////////////////////////////////////////////////////
+
+  
+  
+  
+  ///////////////////////////////////////////////////////////////////////////////////////
+
    // topic2: {
  //    title: "Tarix 2-Bo'lim",
  //    questions: randomizeQuestions([
@@ -664,8 +887,22 @@ const quizDatabase = {
  //  },
 
   
-//////////////////////////////////////////////////////////////////////////////////////
-/*
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*
   
   topic10: {
     title: "1-Bo'lim",
