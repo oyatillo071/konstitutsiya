@@ -2100,6 +2100,520 @@ const quizDatabase = {
 ///////////////////////////////////////////////////////////////
 
   
+   topic3: {
+    title: "Tarix 3-Bo'lim",
+    questions: randomizeQuestions([
+
+
+  {
+    "q": "O‘zbekiston Respublikasi \"Inson huquqlari bo‘yicha milliy markazi\" qachon tashkil etilgan?",
+    "options": [
+      "1991-yil 31-avgust",
+      "1996-yil 31-oktabr",
+      "2000-yil 1-yanvar",
+      "1995-yil 8-dekabr"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "\"O‘zbekiston mustaqillikka erishish ostonasida\" asari muallifi kim?",
+    "options": [
+      "Abdulla Oripov",
+      "Erkin Vohidov",
+      "Islom Karimov",
+      "Shavkat Mirziyoyev"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda xususiy mulk huquqi qaysi hujjatlar bilan himoyalangan?",
+    "options": [
+      "Faqat Fuqarolik kodeksi bilan",
+      "Faqat Ma'muriy kodeks bilan",
+      "Konstitutsiya va \"Xususiy mulkni himoya qilish va mulkdorlar huquqlarining kafolatlari to‘g‘risida\"gi Qonun bilan",
+      "Faqat xalqaro shartnomalar bilan"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasi YeXHT (OBSE)ga qachon a’zo bo‘lgan?",
+    "options": [
+      "1991-yil 1-sentabr",
+      "1992-yil 26-fevral",
+      "1996-yil 31-oktabr",
+      "1993-yil 10-mart"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "\"Kichik biznes va xususiy tadbirkorlikka keng yo‘l ochish\" tamoyili qaysi yilgi dasturning asosi bo‘lgan?",
+    "options": [
+      "2005-yil",
+      "2010-yil",
+      "2011-yil",
+      "2015-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonning birinchi xalqaro avtomobil yo‘li qaysi?",
+    "options": [
+      "Toshkent-Samarqand yo‘li",
+      "Andijon-O‘sh-Qashqar avtomobil yo‘li",
+      "G‘uzor-Termiz yo‘li",
+      "Toshkent-O‘sh yo‘li"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Toshkent islom universiteti qachon tashkil etilgan?",
+    "options": [
+      "1991-yil",
+      "1995-yil",
+      "1999-yil",
+      "2004-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda \"Siyosiy partiyalar to‘g‘risida\"gi Qonun qachon qabul qilingan?",
+    "options": [
+      "1992-yil 8-dekabr",
+      "1996-yil 26-dekabr",
+      "1998-yil 1-aprel",
+      "2003-yil 15-fevral"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Oliy Majlisi Senatining birinchi majlisi qachon bo‘lib o‘tgan?",
+    "options": [
+      "2004-yil 25-dekabr",
+      "2005-yil 27-yanvar",
+      "2000-yil 1-sentabr",
+      "2010-yil 14-yanvar"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "\"O‘zbekiston XXI asr bo‘sag‘asida: xavfsizlikka tahdid, barqarorlik shartlari va taraqqiyot kafolatlari\" asari qachon nashr etilgan?",
+    "options": [
+      "1991-yil",
+      "1995-yil",
+      "1997-yil",
+      "2001-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Markaziy banki qachon va nima negizida tashkil etilgan?",
+    "options": [
+      "1991-yil 15-fevralda O‘zbekiston Respublikasi Davlat banki negizida",
+      "1992-yil 8-dekabrda moliya vazirligi negizida",
+      "1990-yil 1-sentabrda mustaqil ravishda",
+      "1994-yil 1-iyulda milliy valyuta joriy etilganda"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekistonda \"Bilimlar kuni\" qachon nishonlanadi?",
+    "options": [
+      "1-sentabr",
+      "2-sentabr",
+      "1-oktabr",
+      "30-iyun"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Yunesko tomonidan \"Jahon merosi ro‘yxati\"ga kiritilgan O'zbekistondagi birinchi shahar qaysi?",
+    "options": [
+      "Samarqand",
+      "Buxoro",
+      "Xiva (\"Ichan-qal’a\" majmuasi)",
+      "Shahrisabz"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Islom hamkorlik tashkilotiga (IHT) qachon a’zo bo‘lgan?",
+    "options": [
+      "1992-yil",
+      "1994-yil",
+      "1996-yil",
+      "2001-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "\"Mustaqillik\" ordeni qachon ta’sis etilgan?",
+    "options": [
+      "1991-yil 31-avgust",
+      "1992-yil 8-dekabr",
+      "1994-yil 30-avgust",
+      "1996-yil 1-sentabr"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda qachon ilk bor Prezidentlik saylovi muqobillik asosida o‘tkazilgan?",
+    "options": [
+      "1990-yil 24-mart",
+      "1991-yil 29-dekabr",
+      "2000-yil 9-yanvar",
+      "2007-yil 23-dekabr"
+    ],
+    "correct": 1
+  },
+  {
+
+"q": "O‘zbekiston iqtisodiyotini modernizatsiya qilishning asosiy maqsadi nima?",
+    "options": [
+      "Faqat xomashyo eksportini ko‘paytirish",
+      "Jahon bozorida raqobatbardosh bo‘lgan tayyor mahsulotlar ishlab chiqarish",
+      "Import hajmini oshirish",
+      "Qishloq xo‘jaligini to‘liq mexanizatsiyalash"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "\"Paxta yakka-hokimligi\" tushunchasi nimani anglatadi?",
+    "options": [
+      "Paxta hosildorligini oshirishni",
+      "Paxta eksportini nazorat qilishni",
+      "Qishloq xo‘jaligida faqat paxta yetishtirishga e’tibor qaratilib, boshqa tarmoqlarning chetda qolishi",
+      "Yangi paxta navlarini yaratishni"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Konstitutsiyaviy sudi qachon tashkil etilgan?",
+    "options": [
+      "1992-yil",
+      "1993-yil",
+      "1995-yil",
+      "1998-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "\"Milliy tiklanish\" demokratik partiyasi qachon tashkil etilgan?",
+    "options": [
+      "1991-yil 1-noyabr",
+      "1995-yil 3-iyun",
+      "2000-yil 15-may",
+      "2004-yil 2-dekabr"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda akademik litseylar va kasb-hunar kollejlari tizimi qaysi dastur asosida joriy etilgan?",
+    "options": [
+      "Sog‘lom avlod dasturi",
+      "Kadrlar tayyorlash milliy dasturi (1997)",
+      "Ta’lim to‘g‘risidagi yangi qonun",
+      "Maktab ta’limini rivojlantirish dasturi"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Davlat chegarasi to‘g‘risida\"gi Qonuni birinchi marta qachon qabul qilingan?",
+    "options": [
+      "1992-yil 8-dekabr",
+      "1999-yil 20-avgust",
+      "2005-yil 1-yanvar",
+      "2023-yil 15-sentabr"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Xalqaro moliya korporatsiyasi (IFC)ga O‘zbekiston qachon a’zo bo‘lgan?",
+    "options": [
+      "1991-yil",
+      "1992-yil",
+      "1993-yil",
+      "1995-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Qahramoni unvoni qachon ta’sis etilgan?",
+    "options": [
+      "1992-yil 31-avgust",
+      "1994-yil 5-may",
+      "1996-yil 1-sentabr",
+      "1998-yil 8-dekabr"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Amir Temur tavalludining 660 yilligi Yunesko shafeligida qachon nishonlangan?",
+    "options": [
+      "1991-yil",
+      "1994-yil",
+      "1996-yil",
+      "2000-yil"
+    ],
+    "correct": 2
+  }
+,
+  {
+    "q": "O‘zbekistonda \"Oila yili\" deb qaysi yil e’lon qilingan edi?",
+    "options": [
+      "1991-yil",
+      "1998-yil",
+      "2005-yil",
+      "2010-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "\"O‘zbekiston iqtisodiy islohotlarni chuqurlashtirish yo‘lida\" asari muallifi kim?",
+    "options": [
+      "Islom Karimov",
+      "Shavkat Mirziyoyev",
+      "Abdulla Oripov",
+      "Erkin Vohidov"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Mustaqillik yillarida qurilgan yirik issiqlik elektr stansiyasi qaysi?",
+    "options": [
+      "Sirdaryo IES",
+      "Talimarjon IES",
+      "Toshkent IES",
+      "Navoiy IES"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda lotin yozuviga asoslangan o‘zbek alifbosini joriy etish to‘g‘risida qonun qachon qabul qilingan?",
+    "options": [
+      "1991-yil 31-avgust",
+      "1992-yil 8-dekabr",
+      "1993-yil 2-sentabr",
+      "1995-yil 21-oktabr"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston mustaqilligining bir yilligi munosabati bilan Toshkentda qaysi maydon ochilgan?",
+    "options": [
+      "Amir Temur maydoni",
+      "Mustaqillik maydoni",
+      "Xotira maydoni",
+      "Do'stlik maydoni"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda \"Ayollar yili\" deb qaysi yil e’lon qilingan?",
+    "options": [
+      "1995-yil",
+      "1999-yil",
+      "2001-yil",
+      "2004-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining birinchi Konstitutsiyaviy komissiyasi raisi kim bo‘lgan?",
+    "options": [
+      "Erkin Xalilov",
+      "Akmal Saidov",
+      "Islom Karimov",
+      "Nig'matilla Yo'ldoshev"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda nodavlat-notijorat tashkilotlari (NNT) faoliyatini tartibga soluvchi qonun qachon qabul qilingan?",
+    "options": [
+      "1991-yil",
+      "1995-yil",
+      "1999-yil 14-aprel",
+      "2003-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "\"O‘zbekneftegaz\" milliy xolding kompaniyasi qachon tashkil etilgan?",
+    "options": [
+      "1992-yil",
+      "1998-yil",
+      "2000-yil",
+      "2005-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Samarqand shahrining 2750 yilligi qachon nishonlangan?",
+    "options": [
+      "1996-yil",
+      "2001-yil",
+      "2007-yil",
+      "2010-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda \"Saxovat va ko‘mak\" jamg‘armasi qachon (qaysi davrda) tashkil etilgan?",
+    "options": [
+      "1991-yil mustaqillik ostonasida",
+      "2000-yil onalar yili munosabati bilan",
+      "2020-yil (pandemiya davrida)",
+      "2017-yil harakatlar strategiyasi doirasida"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Referendum to‘g‘risida\"gi Qonuni qachon qabul qilingan?",
+    "options": [
+      "1991-yil 18-noyabr",
+      "1992-yil 8-dekabr",
+      "1995-yil 30-avgust",
+      "2002-yil 27-yanvar"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "\"O‘zbekiston: milliy istiqlol, iqtisod, siyosat, mafkura\" asari qachon nashr etilgan?",
+    "options": [
+      "1991-yil",
+      "1993-yil",
+      "1996-yil",
+      "1998-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda prokuratura organlari xodimlari kuni qachon nishonlanadi?",
+    "options": [
+      "14-yanvar",
+      "8-yanvar",
+      "1-oktabr",
+      "25-oktabr"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda \"Sog‘lom avlod uchun\" ordeni qachon ta’sis etilgan?",
+    "options": [
+      "1991-yil",
+      "1993-yil 4-mart",
+      "1996-yil",
+      "2000-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Mustaqillik yillarida Toshkentda qurilgan birinchi yirik masjid qaysi?",
+    "options": [
+      "Hazrati Imom masjidi",
+      "Minor masjidi",
+      "Ko'kaldosh masjidi",
+      "Islom ota masjidi"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining Ma’muriy javobgarlik to‘g‘risidagi kodeksi qachon qabul qilingan?",
+    "options": [
+      "1991-yil",
+      "1994-yil 22-sentabr",
+      "1998-yil",
+      "2001-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "\"Xalqaro kurash assotsiatsiyasi\" qayerda tashkil etilgan?",
+    "options": [
+
+"London",
+      "Parij",
+      "Toshkent",
+      "Nyu-York"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda birinchi marta xususiylashtirish jarayoni qaysi yildan boshlangan?",
+    "options": [
+      "1991-yil",
+      "1992-yil",
+      "1994-yil",
+      "1996-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Mudofaa vazirligi qachon tashkil etilgan?",
+    "options": [
+      "1991-yil 31-avgust",
+      "1991-yil 6-sentabr",
+      "1992-yil 14-yanvar",
+      "1992-yil 8-dekabr"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "\"Inson manfaatlari hamma narsadan ustun\" g‘oyasi qaysi yilning asosiy shiori bo‘lgan?",
+    "options": [
+      "2010-yil",
+      "2015-yil",
+      "2017-yil",
+      "2020-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Tashqi ishlar vazirligi qachon tashkil etilgan?",
+    "options": [
+      "1991-yil avgust oxiri",
+      "1992-yil yanvar",
+      "1992-yil dekabr",
+      "1993-yil mart"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "\"Barkamol avlod yili\" qaysi yil edi?",
+    "options": [
+      "2005-yil",
+      "2008-yil",
+      "2010-yil",
+      "2012-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston iqtisodiyotida \"erkin iqtisodiy zonalar\" (EIZ) tashkil etish qaysi hududdan boshlangan?",
+    "options": [
+      "Toshkent viloyati",
+      "Navoiy viloyati",
+      "Jizzax viloyati",
+      "Namangan viloyati"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi \"Gerbi\"ning muallifi kim?",
+    "options": [
+      "Anvar Mamajonov",
+      "Mutal Burhonov",
+      "Abdulla Oripov",
+      "Murod Mansur"
+    ],
+    "correct": 0
+
+ 
+   },
+    ]),
+  },
+
+////////////////////////////////////////////////////  
    // topic2: {
  //    title: "Tarix 2-Bo'lim",
  //    questions: randomizeQuestions([
