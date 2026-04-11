@@ -848,6 +848,427 @@ const quizDatabase = {
 //////////////////////////////////////////////////////////////////////////////////////
 
 
+topic3: {
+    title: "DHN 2-Bo'lim",
+    questions: randomizeQuestions([
+
+
+ 
+  {
+    q: "Huquq prinsiplarining universallik xususiyati nimani anglatadi?",
+    options: [
+      "Ular faqat bitta davlatda amal qiladi",
+      "Ular faqat konstitutsiyaviy huquq sohasiga taalluqlidir",
+      "Ular barcha huquqiy normalarga nisbatan qo‘llaniladi",
+      "Ular doimiy ravishda o‘zgarib turadi",
+    ],
+    correct: 2,
+  },
+  {
+    q: "O‘zbekiston Respublikasi Konstitutsiyasida huquq prinsiplari qaysi asosiy tushunchalarni o‘z ichiga oladi?",
+    options: [
+      "Inson huquqlari, tenglik, qonun ustuvorligi",
+      "Mafkuraviy yakka hokimlik",
+      "Faoliyat erkinligi va bozor raqobati",
+      "Faqat fuqarolik huquqlari",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Umumiy ijtimoiy prinsiplar nimalarni qamrab oladi?",
+    options: [
+      "Faqat davlat organlarining vakolatlarini",
+      "Iqtisodiy, siyosiy, mafkuraviy va axloqiy jihatlarni",
+      "Shaxsiy shartnomalarni",
+      "Faqat xalqaro huquq tamoyillarini",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Huquqiy davlatda davlat va shaxs o‘zaro qanday munosabatda bo‘ladi?",
+    options: [
+      "Davlat shaxs huquqlarini kafolatlaydi, shaxs esa qonunlarga rioya qiladi",
+      "Davlat shaxslarning erkinliklarini cheklaydi",
+      "Shaxs davlatdan mustaqil bo‘lishi kerak",
+      "Davlat huquqlarini shaxsga topshiradi",
+    ],
+    correct: 0,
+  },
+  {
+    q: "\"Davlat hokimiyatining bo‘linishi\" prinsipi nimani anglatadi?",
+    options: [
+      "Davlat hokimiyatining yagona markazlashuvi",
+      "Qonun chiqaruvchi, ijro etuvchi va sud hokimiyatining mustaqilligi",
+      "Prezidentning cheklanmagan vakolatlari",
+      "Mahalliy hokimiyatning butun vakolatni egallashi",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Huquq prinsiplari qanday maqsadga xizmat qiladi?",
+    options: [
+      "Shaxsiy manfaatlarni ustun qo‘yishga",
+      "Jamiyatda tartibsizlikni yaratishga",
+      "Huquqiy tizim၏ barqarorligi va adolatni ta’minlashga",
+      "Faqat iqtisodiy islohotlarni qo‘llab-quvvatlashga",
+    ],
+    correct: 2,
+  },
+  {
+    q: "Huquq manbasining ma’nosi nima?",
+    options: [
+      "Huquq normalarining paydo bo‘lishi va amal qilishiga zamin yaratuvchi omil",
+      "Davlat hokimiyatining manbai",
+      "Huquq shakllari yig‘indisi",
+      "Huquqiy ongning asosi",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Huquq shaklining yuridik ahamiyati nima?",
+    options: [
+      "Jamiyatdagi ijtimoiy munosabatlarni shakllantirish",
+      "Huquqiy normalarni hujjatli tarzda birlashtirish va rasmiylashtirish",
+      "Sud hokimiyatining mustaqilligini ta’minlash",
+      "Qonunchilik jarayonini siyosiy tahlil qilish",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Huquqiy urf-odatlar davlat tomonidan qanday shartlarda huquq manbasi sifatida tan olinadi?",
+    options: [
+      "Agar davlat tomonidan rasman e’tirof etilsa va sanksiyalansa",
+      "Agar jamiyat tomonidan ko‘pchilik tan olgan bo‘lsa",
+      "Agar sud tomonidan ishda qo‘llanilgan bo‘lsa",
+      "Agar huquqshunoslar tomonidan qonunchilikka kiritilsa",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Yuridik pretsedent nima?",
+    options: [
+      "Qonunlarning umumiy to‘plami",
+      "Sud yoki ma’muriy organning qabul qilgan qarori, kelgusida shunga o‘xshash ishlar uchun namuna hisoblanadi",
+      "Xususiy huquq manbasi",
+      "Normativ-huquqiy hujjatlarning bir turi",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Quyidagi davlatlardan qaysi biri sud pretsedentiga asoslangan huquq tizimiga ega?",
+    options: [
+      "Fransiya",
+      "Rossiya",
+      "Buyuk Britaniya",
+      "Germaniya",
+    ],
+    correct: 2,
+  },
+  {
+    q: "Huquqiy doktrina nima?",
+    options: [
+      "Huquqshunos olimlarning huquq to‘g‘risidagi nazariy qarashlari va ilmiy ta’limotlari",
+      "Davlat hokimiyati tomonidan qabul qilingan normativ hujjatlar",
+      "Sud tomonidan qabul qilingan qarorlar",
+      "Ma’muriy farmonlar",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Huquq ijodkorligining asosiy xususiyatlaridan biri nima?",
+    options: [
+      "Faqat xalqaro tashkilotlar tomonidan amalga oshiriladi",
+"Jamiyatni boshqarishning huquqiy asosini shakllantiradi",
+      "Faqat sud pretsedentlariga asoslanadi",
+      "Iqtisodiy masalalarni tartibga solish bilan cheklanadi",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Qonun ijodkorligi va huquq ijodkorligining asosiy farqi nimada?",
+    options: [
+      "Qonun ijodkorligi faqat qonunlarni, huquq ijodkorligi barcha huquqiy normalarni o‘z ichiga oladi",
+      "Qonun ijodkorligi xalqaro huquqqa asoslanadi",
+      "Huquq ijodkorligi faqat sudlar tomonidan amalga oshiriladi",
+      "Ikkalasining farqi yo‘q",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Huquq ijodkorligi jarayonining birinchi bosqichi nima?",
+    options: [
+      "Qonun loyihasini parlamentga taqdim etish",
+      "Huquqiy tartibga solish zaruratini aniqlash",
+      "Davlat rahbari tomonidan imzolash",
+      "Qonun ijrosini monitoring qilish",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Huquq normasi deganda nimani tushunasiz?",
+    options: [
+      "Falsafiy tushuncha",
+      "Huquqiy tuzum tartibi",
+      "Davlat tomonidan belgilangan va majburiy xulq-atvor qoidasi",
+      "Sud qarori",
+    ],
+    correct: 2,
+  },
+  {
+    q: "Dispozitsiya nima?",
+    options: [
+      "Subyektning qanday xulq-atvor qilishi lozimligini bildiradi",
+      "Norma kuchga kirgan sanani bildiradi",
+      "Tashqi manbaga havola",
+      "Sanksiyani bekor qiluvchi qism",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Vakolat beruvchi norma qanday xarakterga ega?",
+    options: [
+      "Jazolovchi",
+      "Ruxsat beruvchi",
+      "Buyuruvchi",
+      "Taqiqlovchi",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Quyidagilardan qaysi biri dispozitiv norma misolidir?",
+    options: [
+      "Ijara shartlarini tomonlar kelishuviga ko‘ra belgilash",
+      "Jinoyat sodir etganlik uchun jazoni tayinlash",
+      "Sud ajrimiga rioya qilish",
+      "Qonunga qat’iy bo‘ysunish",
+    ],
+    correct: 0,
+  },
+  {
+    q: "\"Agar – u holda – aks holda\" formulasi qanday tarkibni bildiradi?",
+    options: [
+      "Qonun ijrosi",
+      "Gipoteza – Dispozitsiya – Sanksiya",
+      "Tartib – Maqsad – Natija",
+      "Buyruq – Nazorat – Javob",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Huquqiy normaning yana qanday asosiy belgisi bor?",
+    options: [
+      "Yagona holat uchun amal qilishi",
+      "Faqat bir kishiga tatbiq etilishi",
+      "Takror qo‘llanishi",
+      "Fikrga asoslangan bo‘lishi",
+    ],
+    correct: 2,
+  },
+  {
+    q: "Huquqiy normaning \"yuragi\" deb qaysi qismi ataladi?",
+    options: [
+      "Dispozitsiya",
+      "Gipoteza",
+      "Sanksiya",
+      "Operativ norma",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Huquqiy munosabatlarning qaysi turi tartibga soluvchi munosabatlarga kiradi?",
+    options: [
+      "Jinoyat javobgarligi munosabatlari",
+      "Nikoh-oilaviy munosabatlar",
+      "Zararni qoplash munosabatlari",
+      "Huquqbuzarni jazolash munosabatlari",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Huquqiy munosabatlarning asosiy belgilaridan biri nima?",
+    options: [
+      "Ular faqat huquq normalari asosida yuzaga keladi",
+      "Ular doimo iqtisodiy manfaatlarga asoslanadi",
+      "Ular jamiyatdan tashqarida yuzaga keladi",
+      "Ular irodaviy xususiyatga ega emas",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Huquqiy munosabatlarning irodaviy xususiyati nimani anglatadi?",
+    options: [
+      "Ular faqat davlat xohishiga bog‘liq",
+      "Ular muayyan subyektlarning xohishiga bog‘liq",
+      "Ular jamiyatning umumiy qoidalariga asoslanadi",
+      "Ular avtomat ravishda yuzaga keladi",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Davomiy huquqiy munosabatlarga qaysilar misol bo‘la oladi?",
+    options: [
+      "Saylovlarda ishtirok etish",
+      "Chakana savdo-sotiq",
+      "Mehnat munosabatlari",
+      "Bir martalik shartnoma tuzish",
+    ],
+    correct: 2,
+  },
+  {
+    q: "Faol huquqiy munosabatlarda majburiyat qanday bo‘ladi?",
+    options: [
+      "Muayyan harakatlarni amalga oshirish",
+      "Taqiqlangan harakatlardan tiyilish",
+      "Shaxsiy huquqlarda cheklovlarga chidash",
+      "Davlat nazoratiga rioya qilish",
+    ],
+    correct: 0,
+  },
+  {
+
+q: "Huquqiy munosabatlar subyektlari qanday guruhlarga bo‘linadi?",
+    options: [
+      "Faqat jismoniy subyektlar",
+      "Jismoniy va jamoaviy subyektlar",
+      "Faqat jamoaviy subyektlar",
+      "Davlat va xususiy subyektlar",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Huquqiy munosabatlar obyektiga qaysilar kiradi?",
+    options: [
+      "Moddiy va nomoddiy ne’matlar",
+      "Faqat moddiy narsalar",
+      "Faqat xizmatlar",
+      "Faqat ma’lumot",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Yuridik faktlarning qaysi turi irodadan kelib chiqmaydi?",
+    options: [
+      "Harakatlar",
+      "Hodisalar",
+      "Holatlar",
+      "Faoliyatsizlik",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Huquq tarmog‘i qanday ta’riflanadi?",
+    options: [
+      "Huquqiy institutlarning kichik guruhlari",
+      "Qonunchilik hujjatlarining ierarxiyasi",
+      "Ijtimoiy munosabatlarning muayyan sohasini tartibga soluvchi normalar majmui",
+      "Davlat boshqaruvining tashqi shakli",
+    ],
+    correct: 2,
+  },
+  {
+    q: "Dispozitiv usul qaysi huquq tarmog‘iga xos?",
+    options: [
+      "Fuqarolik huquqi",
+      "Jinoiy huquq",
+      "Ma’muriy huquq",
+      "Jinoyat-protsessual huquq",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Majburiy usul qaysi huquq tarmoqlarida qo‘llaniladi?",
+    options: [
+      "Fuqarolik va oila huquqi",
+      "Jinoiy va ma’muriy huquq",
+      "Mehnat va moliya huquqi",
+      "Konstitutsiyaviy huquq",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Fuqarolik huquqining kodekslashgan akti qaysi?",
+    options: [
+      "Fuqarolik kodeksi",
+      "Jinoyat kodeksi",
+      "Mehnat kodeksi",
+      "Oila kodeksi",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Huquq tizimi va qonunchilik tizimi o‘rtasidagi asosiy farq nima?",
+    options: [
+      "Huquq tizimi tashqi shakl, qonunchilik tizimi mazmun",
+      "Huquq tizimi mazmun, qonunchilik tizimi tashqi shakl",
+      "Huquq tizimi subyektiv, qonunchilik tizimi obyektiv",
+      "Huquq tizimi ierarxik, qonunchilik tizimi sohaviy",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Huquq oila qanday ta’riflanadi?",
+    options: [
+      "Huquqiy institutlarning kichik guruhlari",
+      "Qonunchilik hujjatlarining tuzilishi",
+      "Milliy huquqiy tizimlarning umumiy xususiyatlarga ega majmui",
+      "Davlat organlarining faoliyati",
+    ],
+    correct: 2,
+  },
+  {
+    q: "Roman-german huquqiy oilasining asosiy manbai nima?",
+    options: [
+      "Normativ-huquqiy hujjatlar",
+      "Huquqiy urf-odatlar",
+      "Sud pretsedenti",
+      "Diniy normalar",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Musulmon huquqiy oilasining asosiy manbai nima?",
+    options: [
+      "Sud qarorlari",
+      "Qur’on",
+      "Qonunchilik hujjatlari",
+      "Huquqiy doktrina",
+    ],
+    correct: 1,
+  },
+  {
+    q: "Milliy huquqiy tizim nima?",
+    options: [
+      "Ma’lum bir davlatning huquqiy hodisalar to‘plami",
+      "Xalqaro huquq normalari",
+      "Diniy huquq normalari",
+      "Bir guruh davlatlarning umumiy huquqiy tizimi",
+    ],
+    correct: 0,
+  },
+  {
+    q: "Musulmon huquqining me’yorlari qanday xususiyatga ega?",
+    options: [
+      "Umumlashtirilgan va ierarxik",
+      "Diniy tabiatli va majburiy",
+      "Kazuistik va individual",
+      "Dispozitiv va rag‘batlantiruvchi",
+    ],
+    correct: 2,
+   },
+    ]),
+  },
+  
+
+
+
+
+
+
+
+
+
+  
+//////////////////////////////////////////////////////////////////////////////////////
 /*
   
   topic10: {
