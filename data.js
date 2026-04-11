@@ -294,6 +294,138 @@ const quizDatabase = {
     ],
     "correct": 2
 
+  },
+
+  {
+    "q": "“Yangi O‘zbekiston taraqqiyot strategiyasi” necha yo‘nalishni qamrab oladi va u qaysi tamoyilga asoslanadi?",
+    "options": [
+      "5 ta yo'nalish – “Milliy tiklanishdan milliy yuksalish sari”;",
+      "7 ta yo'nalish – “Inson qadri uchun” tamoyili;",
+      "10 ta yo'nalish – “Xalq davlat idoralariga emas, davlat idoralari xalqqa xizmat qilishi kerak”;",
+      "12 ta yo'nalish – “Kuchli davlatdan – kuchli fuqarolik jamiyati sari”."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "2023-yil 30-aprelda o'tkazilgan umumxalq tadbirining asosiy maqsadi va natijasi nima edi?",
+    "options": [
+      "Prezidentlik muddatini cheksiz etib belgilash;",
+      "Yangi tahrirdagi Konstitutsiyani qabul qilish orqali huquqiy islohotlarni mustahkamlash;",
+      "Parlament quyi palatasiga muddatidan oldin saylovlar o'tkazish;",
+      "Shanxay hamkorlik tashkilotiga a'zolik masalasini hal qilish."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda Prezidentlik muddati necha yil qilib belgilangan va bu qaysi hujjatda o'z aksini topgan?",
+    "options": [
+      "5 yil – 2017-yilgi Harakatlar strategiyasida;",
+      "7 yil – Yangi tahrirdagi Konstitutsiyada;",
+      "4 yil – 1992-yilgi dastlabki Konstitutsiyada;",
+      "10 yil – 2022-yilgi Samarqand sammiti qarorlarida."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "“Kuchli davlatdan – kuchli fuqarolik jamiyati sari” g'oyasining fundamental mazmuni nimadan iborat?",
+    "options": [
+      "Davlat organlari sonini ko'paytirish;",
+      "Siyosiy tizimni demokratlashtirish va boshqaruv funksiyalarini jamoatchilikka o'tkazish;",
+      "Bozor iqtisodiyotini davlat tomonidan qat'iy nazorat qilish;",
+      "Yagona siyosiy partiyaviylik tizimiga qaytish."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda milliy valyuta muomalaga kiritilgunga qadar qanday vaqtinchalik to'lov vositasidan foydalanilgan?",
+    "options": [
+      "Rossiya rubli;",
+      "So'm-kuponlar;",
+      "Markaziy Osiyo dinori;",
+      "O'zbek so'mining vaqtinchalik nusxasi."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "“Xabeas korpus” institutining O'zbekiston sud-huquq tizimidagi roli nimada?",
+    "options": [
+      "Advokatlarning huquqlarini cheklash;",
+      "Qamoqqa olishga sanksiya berish vakolatining prokuraturadan sudlarga o'tkazilishi;",
+      "Oliy sud va Oliy xo'jalik sudining birlashtirilishi;",
+      "Sudyalarni saylash tizimini joriy etish."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "“O‘zbekistonning yangi tarixi” markazi qachon tashkil etilgan va u nima bilan shug'ullanadi?",
+    "options": [
+      "1991-yil – Arxiv hujjatlarini yo'q qilish;",
+      "1996-yil – Mustaqillik davri tarixini ilmiy tadqiq etish;",
+      "2012-yil – Faqat darsliklar yozish;",
+      "2017-yil – Xalqaro reytinglarni o'rganish."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O'zbekistonda “Yoshlar kuni” qaysi voqea munosabati bilan 30-iyun etib belgilangan?",
+    "options": [
+      "O'zbekiston Yoshlar ittifoqi tashkil topgan kun munosabati bilan;",
+      "Mustaqillik deklaratsiyasi qabul qilingan kun;",
+      "“Kadrlar tayyorlash milliy dasturi” imzolangan sana;",
+      "Konstitutsiya qabul qilingan kun."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Prezidentlik boshqaruvi O'zbekistonda qachon va qanday siyosiy vaziyatda joriy etilgan?",
+    "options": [
+      "1990-yil 24-martda – Ittifoq tarkibida bo'lgan birinchi respublika sifatida;",
+      "1991-yil 31-avgustda – Mustaqillik e'lon qilingan paytda;",
+      "1992-yil 8-dekabrda – Konstitutsiya tasdiqlanganda;",
+      "2016-yil dekabrda – Saylovlar natijasiga ko'ra."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "“Obod qishloq” va “Obod mahalla” dasturlari qaysi yildan boshlab amalga oshirila boshlandi?",
+    "options": [
+      "1991-yildan;",
+      "2012-yildan;",
+      "2017-yildan;",
+      "2018-yildan."
+    ],
+    "correct": 3
+  },
+  {
+    "q": "O'zbekistonning Shanxay Hamkorlik Tashkilotiga (ShHT) 2022-yilgi raisligi qaysi shahar sammiti bilan yakunlandi?",
+    "options": [
+      "Toshkent;",
+      "Buxoro;",
+      "Samarqand;",
+      "Xiva."
+    ],
+    "correct": 2
+  },
+
+{
+    "q": "Yangi tahrirdagi Konstitutsiyada moddalar soni qanchaga yetdi?",
+    "options": [
+      "128 ta;",
+      "144 ta;",
+      "155 ta;",
+      "168 ta."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "“Tarix falsafasi” fanining asosiy vazifasi nimadan iborat?",
+    "options": [
+      "Faqat sanalarni yodlash;",
+      "Tarixiy jarayonning mohiyati, rivojlanish yo'nalishi va ma'nosini falsafiy anglash;",
+      "Qadimgi buyumlarni tavsiflash;",
+      "Arxeologik qazishmalar o'tkazish."
+    ],
+    "correct": 1
 
  
  
