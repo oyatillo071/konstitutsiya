@@ -436,7 +436,7 @@ const quizDatabase = {
 
 
  topic2: {
-    title: "DHN 2-Bo'lim",
+    title: "DHN 3-Bo'lim",
     questions: randomizeQuestions([
 
 
