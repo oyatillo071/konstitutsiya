@@ -1583,6 +1583,523 @@ const quizDatabase = {
   
   ///////////////////////////////////////////////////////////////////////////////////////
 
+   topic3: {
+    title: "Tarix 3-Bo'lim",
+    questions: randomizeQuestions([
+
+  {
+    "q": "O‘zbekistonda soliq tizimining huquqiy va tashkiliy shakllanishi qaysi davrga to‘g‘ri keladi?",
+    "options": [
+      "1990-yil o'rtalariga;",
+      "1991-yil oxiri – 1992-yil boshlariga;",
+      "1994-yil so'm muomalaga kiritilgan davrga;",
+      "2017-yilgi soliq islohotlari davriga."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonning Shanxay Hamkorlik Tashkilotiga (ShHT) asoschi davlat sifatida kirishi qachon yuz bergan?",
+    "options": [
+      "1996-yil 26-aprelda;",
+      "2001-yil 15-iyunda;",
+      "2002-yil 7-iyunda;",
+      "2016-yil 24-iyunda."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda «Onaning va bolaning sog‘lomligi» yili deb e’lon qilingan yilni aniqlang:",
+    "options": [
+      "1998-yil;",
+      "2000-yil;",
+      "2014-yil;",
+      "2016-yil."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Konstitutsiyasining 1-moddasida davlatning huquqiy maqomi Yangi tahrirda qanday belgilangan?",
+    "options": [
+      "Suveren demokratik respublika;",
+      "Suveren, demokratik, huquqiy, ijtimoiy va dunyoviy davlat;",
+      "Mustaqil va bozor iqtisodiyotiga asoslangan davlat;",
+      "Dunyo hamjamiyatining teng huquqli sub'ekti."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "«Alpomish» dostonining 1000 yilligi keng nishonlangan yilni ko'rsating:",
+    "options": [
+      "1991-yil;",
+      "1996-yil;",
+      "1999-yil;",
+      "2001-yil."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda Milliy gvardiya mustaqil organ sifatida qachon qayta tashkil etilgan?",
+    "options": [
+      "1992-yilda;",
+      "2005-yilda;",
+      "2017-yilda;",
+      "2021-yilda."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Markaziy bankining raisini lavozimga tayinlash tartibi qanday?",
+    "options": [
+      "Prezident tomonidan bevosita tayinlanadi;",
+      "Prezident taqdimiga binoan Senat tomonidan tayinlanadi;",
+      "Vazirlar Mahkamasi tomonidan tasdiqlanadi;",
+      "Oliy Majlis Qonunchilik palatasi tomonidan saylanadi."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda «Sog‘lom ona va bola yili» deb e’lon qilingan yil qaysi?",
+    "options": [
+      "2000-yil;",
+      "2012-yil;",
+      "2016-yil;",
+      "2018-yil."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Oliy Majlisi Qonunchilik palatasining deputatlari soni necha kishidan iborat?",
+    "options": [
+      "100 nafar;",
+      "120 nafar;",
+      "150 nafar;",
+      "250 nafar."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Mustaqillik yillarida qurilgan Toshkent shahridagi eng yirik sport inshootlaridan biri – «Bunyodkor» stadioni qachon ochilgan?",
+    "options": [
+      "2008-yil;",
+      "2012-yil;",
+      "2015-yil;",
+      "2019-yil."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda «Obod turmush yili» deb e’lon qilingan yilni aniqlang:",
+    "options": [
+      "2011-yil;",
+      "2013-yil;",
+      "2015-yil;",
+      "2017-yil."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Moliya vazirligi huzuridagi Sug‘urta nazorati davlat inspeksiyasi qachon tashkil etilgan?",
+    "options": [
+      "1991-yil;",
+      "1994-yil;",
+      "1998-yil;",
+      "2002-yil."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Iqtisodiyotni «liberalizatsiyalash» tushunchasining mohiyati nima?",
+    "options": [
+      "Davlat nazoratini har bir sohada kuchaytirish;",
+      "Davlatning iqtisodiyotga aralashuvini kamaytirish va bozor erkinligini oshirish;",
+      "Faqat xorijiy investitsiyalarga tayanish;",
+      "Barcha narxlarni davlat tomonidan belgilash."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi «Ma’naviyat va ma’rifat» markazi rahbari kim tomonidan tayinlanadi?",
+    "options": [
+      "Bosh vazir tomonidan;",
+      "Prezident tomonidan;",
+      "Oliy Majlis Senati tomonidan;",
+      "Madaniyat vaziri tomonidan."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda birinchi marta «Milliy gvardiya kuni» qachon belgilangan?",
+    "options": [
+      "14-yanvar;",
+      "23-iyun;",
+      "30-iyun;",
+      "1-sentabr."
+    ],
+
+"correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Konstitutsiyasining eski tahririda oila, bolalar va yoshlar masalalari nechanchi bobda aks etgan edi?",
+    "options": [
+      "10-bob;",
+      "12-bob;",
+      "14-bob;",
+      "18-bob."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda «Faol tadbirkorlik va innovatsion g‘oyalarni qo‘llab-quvvatlash yili» qaysi yil edi?",
+    "options": [
+      "2017-yil;",
+      "2018-yil;",
+      "2019-yil;",
+      "2020-yil."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Oliy Majlisi Qonunchilik palatasining birinchi spikeri kim bo‘lgan?",
+    "options": [
+      "Erkin Xalilov;",
+      "Dilorom Toshmuhammedova;",
+      "Nurdinjon Ismoilov;",
+      "Akmal Saidov."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Respublikasining «Eksport nazorati to‘g‘risida»gi Qonuni qachon qabul qilingan?",
+    "options": [
+      "1994-yil;",
+      "2000-yil;",
+      "2004-yil;",
+      "2012-yil."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Mustaqillik yillarida Toshkent shahrida barpo etilgan «Xotira maydoni» va «Motamsaro ona» haykali qachon ochilgan?",
+    "options": [
+      "1991-yil 1-sentabr;",
+      "1999-yil 9-may;",
+      "1995-yil 31-avgust;",
+      "2005-yil 9-may."
+    ],
+    "correct": 1
+  }
+,
+  {
+    "q": "O‘zbekistonda iqtisodiyotni «liberalizatsiyalash» jarayonining asosiy yo‘nalishlaridan biri nima?",
+    "options": [
+      "Davlat korxonalarini ko'paytirish;",
+      "Valyuta bozorini tartibga solish va tashqi savdoni erkinlashtirish;",
+      "Soliq stavkalarini muttasil oshirib borish;",
+      "Markazlashgan rejalashtirish tizimiga qaytish."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi «Moliya vazirligi» huzuridagi Sug‘urta nazorati davlat inspeksiyasi qachon tashkil etilgan?",
+    "options": [
+      "1991-yilda;",
+      "1994-yilda;",
+      "1998-yilda;",
+      "2002-yilda."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "«Ma’naviyat va ma’rifat» markazi rahbari lavozimiga tayinlov qaysi davlat organi tomonidan amalga oshiriladi?",
+    "options": [
+      "Vazirlar Mahkamasi;",
+      "Oliy Majlis Senati;",
+      "O‘zbekiston Respublikasi Prezidenti;",
+      "Madaniyat vazirligi."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda «Milliy gvardiya kuni» qaysi sanada nishonlanishi belgilangan?",
+    "options": [
+      "14-yanvar;",
+      "23-iyun;",
+      "30-iyun;",
+      "25-oktabr."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Konstitutsiyasining eski tahririda «Oila» bobi nechanchi bob hisoblangan?",
+    "options": [
+      "12-bob;",
+      "14-bob;",
+      "16-bob;",
+      "18-bob."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda «Obod turmush yili» deb e’lon qilingan yilni ko'rsating:",
+    "options": [
+      "2011-yil;",
+      "2013-yil;",
+      "2015-yil;",
+      "2017-yil."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining «Eksport nazorati to‘g‘risida»gi Qonuni qachon qabul qilingan?",
+    "options": [
+      "2000-yilda;",
+      "2004-yilda;",
+      "2008-yilda;",
+      "2012-yilda."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Toshkent shahridagi «Xotira maydoni» va «Motamsaro ona» haykali qachon ochilgan?",
+    "options": [
+      "1991-yil 1-sentabr;",
+      "1995-yil 9-may;",
+      "1999-yil 9-may;",
+      "2005-yil 1-sentabr."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Oliy Majlisi Qonunchilik palatasining birinchi spikeri kim bo‘lgan?",
+    "options": [
+      "Erkin Xalilov;",
+      "Akmal Saidov;",
+      "Dilorom Toshmuhammedova;",
+      "Nurdinjon Ismoilov."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekistonda «Faol tadbirkorlik va innovatsion g‘oyalarni qo‘llab-quvvatlash yili» qaysi yil edi?",
+    "options": [
+      "2017-yil;",
+      "2018-yil;",
+      "2019-yil;",
+      "2020-yil."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Markaziy bankining raisi qanday tartibda lavozimga tayinlanadi?",
+    "options": [
+      "Bosh vazir taqdimiga binoan Prezident tomonidan;",
+      "Prezident taqdimiga binoan Senat tomonidan;",
+      "Prezident tomonidan bevosita;",
+      "Xalq deputatlari kengashi tomonidan."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonning Shanxay Hamkorlik Tashkilotiga (ShHT) asoschi davlat sifatida kirishi qaysi sanada yuz bergan?",
+    "options": [
+      "1996-yil 26-aprel;",
+      "2001-yil 15-iyun;",
+      "2005-yil 10-iyul;",
+      "2016-yil 24-iyun."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda «Onaning va bolaning sog‘lomligi» yili deb e’lon qilingan yilni aniqlang:",
+    "options": [
+      "1998-yil;",
+      "2000-yil;",
+      "2005-yil;",
+      "2016-yil."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Konstitutsiyasining 1-moddasida O‘zbekiston qanday davlat deb e’lon qilingan (yangi tahrirda)?",
+    "options": [
+      "Suveren demokratik respublika;",
+      "Suveren, demokratik, huquqiy, ijtimoiy va dunyoviy davlat;",
+      "Mustaqil va bozor iqtisodiyotiga asoslangan respublika;",
+      "Markaziy Osiyodagi yetakchi demokratik davlat."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "«Alpomish» dostonining 1000 yilligi nechanchi yilda nishonlangan?",
+    "options": [
+      "1991-yilda;",
+      "1996-yilda;",
+      "1999-yilda;",
+      "2001-yilda."
+    ],
+    "correct": 2
+  },
+  {
+
+"q": "O‘zbekistonda Milliy gvardiya qachon mustaqil organ sifatida qayta tashkil etilgan?",
+    "options": [
+      "1992-yilda;",
+      "2005-yilda;",
+      "2017-yilda;",
+      "2021-yilda."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Oliy Majlisi Qonunchilik palatasining deputatlari necha kishidan iborat?",
+    "options": [
+      "100 nafar;",
+      "120 nafar;",
+      "150 nafar;",
+      "250 nafar."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda «Sog‘lom ona va bola yili» qaysi yil edi?",
+    "options": [
+      "2000-yil;",
+      "2012-yil;",
+      "2016-yil;",
+      "2020-yil."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Mustaqillik yillarida qurilgan «Bunyodkor» stadioni nechanchi yili foydalanishga topshirilgan?",
+    "options": [
+      "2008-yilda;",
+      "2010-yilda;",
+      "2012-yilda;",
+      "2015-yilda."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda soliq tizimini shakllantirish jarayoni qachon boshlangan?",
+    "options": [
+      "1990-yil iyunida;",
+      "1991-yil oxiri – 1992-yil boshlarida;",
+      "1994-yil so'm muomalaga kiritilgach;",
+      "2017-yil Harakatlar strategiyasi doirasida."
+    ],
+    "correct": 1
+  }
+,
+  {
+    "q": "O‘zbekiston Respublikasi «Eksport nazorati to‘g‘risida»gi Qonunining maqsadi nimadan iborat?",
+    "options": [
+      "Faqat qishloq xo'jaligi mahsulotlari eksportini ko'paytirish;",
+      "Ommaviy qirg'in qurollari va boshqa turdagi qurollar eksportini xalqaro normalar asosida tartibga solish;",
+      "Barcha eksport qilinadigan tovarlardan bojxona to'lovlarini bekor qilish;",
+      "Faqat qo'shni davlatlar bilan savdo aloqalarini cheklash."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Mustaqillik yillarida qurilgan Toshkent shahridagi «Bunyodkor» sport majmuasi (stadioni) necha kishiga mo‘ljallangan?",
+    "options": [
+      "15 000;",
+      "34 000;",
+      "55 000;",
+      "75 000."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda «Obod turmush yili» dasturi doirasida asosiy e’tibor nimaga qaratilgan?",
+    "options": [
+      "Faqat yangi korxonalar qurishga;",
+      "Aholi turmush darajasini oshirish, mahalla va oilalarda tinchlik-totuvlikni mustahkamlashga;",
+      "Siyosiy partiyalar sonini oshirishga;",
+      "Oliy ta'lim muassasalari sonini ko'paytirishga."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Oliy Majlisi Qonunchilik palatasining deputatlari necha yil muddatga saylanadi?",
+    "options": [
+      "3 yil;",
+      "5 yil;",
+      "7 yil;",
+      "Umrbod."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Markaziy banki raisining vakolat muddati necha yil?",
+    "options": [
+      "3 yil;",
+      "5 yil;",
+      "7 yil;",
+      "Prezident xohishiga ko'ra."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Shanxay Hamkorlik Tashkiloti (ShHT)ning doimiy faoliyat ko‘rsatuvchi organi – Mintaqaviy aksilterror tuzilmasi (RATS) qarorgohi qaysi shaharda joylashgan?",
+    "options": [
+      "Pekin;",
+      "Moskva;",
+      "Toshkent;",
+      "Ostona."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda «Sog‘lom ona va bola yili» (2016-yil) davlat dasturining asosiy maqsadi nima edi?",
+    "options": [
+      "Faqat maktablar qurish;",
+      "Oila, ona va bolani ijtimoiy himoya qilish, tibbiy xizmat sifatini oshirish;",
+      "Yangi turdagi dori-darmonlar eksportini yo'lga qo'yish;",
+      "Xotin-qizlar uchun yangi siyosiy partiya tuzish."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Konstitutsiyasining yangi tahririga ko‘ra, O‘zbekiston qanday davlat deb e'tirof etiladi?",
+    "options": [
+      "Faqat suveren respublika;",
+      "Suveren, demokratik, huquqiy, ijtimoiy va dunyoviy davlat;",
+      "Bozor iqtisodiyoti rivojlangan respublika;",
+      "Markaziy Osiyo ittifoqi a'zosi."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston iqtisodiyotini «liberalizatsiyalash» jarayonida valyuta bozorini isloh qilish qachon yangi bosqichga ko‘tarildi?",
+    "options": [
+      "1994-yilda;",
+      "2003-yilda (konvertatsiya joriy etilishi bilan);",
+      "2017-yilda (valyuta bozorini to'liq erkinlashtirish bilan);",
+      "2021-yilda."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda soliq islohotlari natijasida jismoniy shaxslardan olinadigan daromad solig‘ining yagona stavkasi necha foiz qilib belgilangan?",
+    "options": [
+      "10%;",
+      "12%;",
+      "15%;",
+      "23%."
+    ],
+    "correct": 1
+
+ 
+ 
+   },
+    ]),
+  },
+  
+///////////////////////////////////////////////////////////////
+
+  
    // topic2: {
  //    title: "Tarix 2-Bo'lim",
  //    questions: randomizeQuestions([
