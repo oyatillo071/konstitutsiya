@@ -426,6 +426,108 @@ const quizDatabase = {
       "Arxeologik qazishmalar o'tkazish."
     ],
     "correct": 1
+  },
+
+ 
+  {
+    "q": "O‘zbekistonda 1980-yillarning ikkinchi yarmida amalga oshirilgan “qayta qurish” siyosatining respublika hayotidagi eng og‘ir oqibati nima bo‘ldi?",
+    "options": [
+      "Sanoat korxonalarining xususiylashtirilishi;",
+      "Iqtisodiy inqiroz va aholi turmush darajasining keskin pasayishi;",
+      "Yangi siyosiy partiyalarning nazoratsiz ko'payishi;",
+      "Qishloq xo'jaligida texnika yetishmovchiligi."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Mustaqillik arafasida O'zbekistonning iqtisodiy mustaqilligi yo'lidagi birinchi muhim qadam qaysi edi?",
+    "options": [
+      "Oltin qazib olishni to'xtatish;",
+      "Respublika hududidagi barcha ittifoq tasarrufidagi korxonalarni O'zbekiston yurisdiksiyasiga o'tkazish;",
+      "Rossiya bilan bojxona ittifoqini tuzish;",
+      "Paxta yetishtirishdan butunlay voz kechish."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining Davlat gerbi qabul qilingan sana va undagi ramziy ma’nolarning asosi?",
+    "options": [
+      "1992-yil 2-iyul – Milliy davlatchilik, tinchlik va tabiat boyliklarining uyg'unligi;",
+      "1991-yil 31-avgust – Faqat mustaqillik g'oyasi;",
+      "1993-yil 8-dekabr – Ma'naviy yuksalish va adolat tantanasi;",
+      "1990-yil 20-iyun – Suverenitet deklaratsiyasi tamoyillari."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Amir Temur saltanatida boshqaruvning qaysi ikki tamoyili davlat barqarorligini ta’minlagan?",
+    "options": [
+      "Faqat harbiy intizom va jazoning muqarrarligi;",
+      "Kengash va mashvarat hamda adolatli qonunlar (Tuzuklar);",
+      "Soliqlarni ko'paytirish va tashqi savdo nazorati;",
+      "Diniy ulamolarning mutlaq xukmronligi va qo'rquv."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonning eng yangi tarixi fanining asosiy manbalari sirasiga nimalar kiradi?",
+    "options": [
+      "Faqat o'rta asr qo'lyozmalari;",
+      "Arxiv hujjatlari, statistik ma'lumotlar va davlat qonunlari to'plami;",
+      "Faqat chet ellik sayyohlarning xotiralari;",
+      "Badiiy adabiyotlar va darsliklar."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "“Kadrlar tayyorlash milliy dasturi” doirasida ta’lim tizimining qaysi yangi bosqichlari joriy etilgan edi?",
+    "options": [
+      "Faqat oliy ta'lim va maktabgacha ta'lim;",
+      "9 yillik umumiy va 3 yillik o'rta maxsus (kollej va litseylar);",
+      "7 yillik majburiy va 4 yillik ixtiyoriy ta'lim;",
+      "11 yillik majburiy va 2 yillik kasbiy ta'lim."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Prezidentining 2023-yilgi farmoniga ko‘ra, davlat boshqaruvida qanday islohot (transformatsiya) amalga oshirildi?",
+    "options": [
+      "Vazirlik va idoralar soni qisqartirilib, ixcham davlat apparati tashkil etildi;",
+      "Barcha hokimliklar bekor qilinib, vazirliklar nazoratiga o'tkazildi;",
+      "Yangi iqtisodiy zonalar tashkil etish vakolati faqat vazirlarga berildi;",
+      "Barcha davlat organlari Toshkent shahridan viloyatlarga ko'chirildi."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Jahon iqtisodiy hamjamiyatida O'zbekistonning nufuzini oshirgan “Navoiy” erkin iqtisodiy zonasi qachon tashkil etilgan?",
+    "options": [
+      "1991-yilda;",
+      "2005-yilda;",
+      "2008-yilda;",
+      "2017-yilda."
+    ],
+    "correct": 2
+  },
+  {
+    "q": "“Ijtimoiy sheriklik to‘g‘risida”gi Qonunning maqsadi nimadan iborat?",
+    "options": [
+      "Davlat va biznes vakillarining birgalikda foyda ko'rishi;",
+      "Davlat organlari va fuqarolik jamiyati institutlari o'rtasidagi hamkorlikni mustahkamlash;",
+      "Faqat siyosiy partiyalar o'rtasidagi ittifoqni ta'minlash;",
+      "Xorijiy investitsiyalarni davlat kafolati ostida taqsimlash."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonning 2022-2026 yillarga mo‘ljallangan Taraqqiyot strategiyasining ikkinchi yo‘nalishi nimaga qaratilgan?",
+    "options": [
+      "Davlat boshqaruvini takomillashtirish;",
+      "Adolat va qonun ustuvorligini ta'minlash, inson qadrini yuksaltirish;",
+      "Milliy iqtisodiyotni rivojlantirish;",
+      "Xavfsizlik va tashqi siyosatni isloh qilish."
+    ],
+"correct": 1
 
  
  
@@ -841,6 +943,109 @@ const quizDatabase = {
       "Milliy o'zlikni anglash va tarixiy haqiqatni tiklashni;",
       "Faqat qadimiy davrni o'rganishni;",
       "Xorijiy tarixchilarning fikrini inkor etishni."
+    ],
+    "correct": 1
+  },
+
+
+  {
+    "q": "O‘zbekistonda 1980-yillarda avj olgan “Paxta ishi” qatag‘onining asosiy maqsadi aslida nima edi?",
+    "options": [
+      "Paxta yetishtirish texnologiyasini yaxshilash;",
+      "Respublika rahbarlarini almashtirish va O'zbekistonning mustaqillikka intilish ruhini sindirish;",
+      "O'zbekistonda yangi sanoat korxonalarini qurish;",
+      "Ittifoq miqyosida paxta narxini pasaytirish."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "“O‘zbekiston ostonasida” iborasi tarixshunoslikda qaysi davrni tavsiflash uchun ishlatiladi?",
+    "options": [
+      "1917-yilgi inqilob arafasidagi davrni;",
+      "1980-yillar oxiri, mustaqillikka erishish arafasidagi ijtimoiy-siyosiy jarayonlarni;",
+      "Ikkinchi jahon urushidan keyingi tiklanish davrini;",
+      "Yangi O'zbekistonning 2023-yildan keyingi bosqichini."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining 1991-yil 31-avgustda qabul qilingan “Davlat mustaqilligining asoslari to‘g‘risida”gi Qonunining ahamiyati nimada?",
+    "options": [
+      "U faqat iqtisodiy islohotlarni belgilab bergan;",
+      "O'zbekistonni xalqaro huquqning mustaqil sub’ekti sifatida huquqiy mustahkamlagan;",
+      "Faqat yangi poytaxtni belgilash haqidagi hujjat bo'lgan;",
+      "Sovet Ittifoqi tarkibida qolish shartlarini ko'rsatib bergan."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonning “O‘zbek modeli” doirasidagi “Davlat – bosh islohotchi” tamoyili nimani nazarda tutadi?",
+    "options": [
+      "Bozor iqtisodiyotidan voz kechib, rejalashtirishga qaytishni;",
+      "Islohotlarning tartibsiz ketmasligi uchun davlat mas’uliyatni o‘z zimmasiga olishini;",
+      "Xususiy mulkni butunlay davlat tasarrufiga o'tkazishni;",
+      "Xalqaro banklar nazoratidan butunlay chiqib ketishni."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Tarixiy xotira tushunchasining milliy o‘zlikni anglashdagi o‘rnini ko‘rsatuvchi eng to‘g‘ri javobni toping.",
+    "options": [
+      "Faqat o'tmishdagi urushlar haqida ma'lumotga ega bo'lish;",
+      "Xalqning o‘z tarixi, ajdodlari merosi va milliy qadriyatlari asosida kelajagini qurishi;",
+      "Boshqa xalqlar tarixini o'rganishni inkor etish;",
+      "Tarixiy filmlarni ko'paytirish va ularni targ'ib qilish."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "2017-2021 yillarga mo‘ljallangan Harakatlar strategiyasining beshinchi yo‘nalishi nima deb nomlangan?",
+    "options": [
+      "Iqtisodiy rivojlanish va liberallashtirish;",
+      "Xavfsizlik, millatlararo totuvlik va diniy bag‘rikenglikni ta’minlash hamda chuqur o‘ylangan tashqi siyosat;",
+      "Ijtimoiy sohani rivojlantirish;",
+      "Davlat va jamiyat qurilishini takomillashtirish."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda 1992-yilda tashkil etilgan milliy aviakompaniya qanday nomlanadi?",
+    "options": [
+      "O'zbekiston havo yo'llari;",
+      "Humo Air;",
+      "Air Uzbekistan;",
+      "Toshkent avia-yo'llari."
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Prezident Shavkat Mirziyoyevning BMT Bosh Assambleyasining 72-sessiyasidagi nutqi nima bilan tarixda qoldi?",
+    "options": [
+      "Faqat iqtisodiy yordam so'rash bilan;",
+      "Markaziy Osiyoni tinchlik va hamkorlik hududiga aylantirish hamda Orol muammosini xalqaro darajaga ko'tarish bilan;",
+      "Yangi harbiy blok tuzish taklifi bilan;",
+      "BMTning qarorgohini Toshkentga ko'chirish taklifi bilan."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda 2020-yilda tashkil etilgan Mahalla va oilani qo‘llab-quvvatlash vazirligi (hozirgi Mahalla va nuroniylarni qo'llab-quvvatlash vazirligi)ning asosiy maqsadi?",
+    "options": [
+      "Faqat statistik ma'lumotlar to'plash;",
+      "Jamiyatning eng quyi bo'g'ini bo'lgan mahalla institutini mustahkamlash va oilaviy qadriyatlarni himoya qilish;",
+      "Aholi o'rtasida soliq yig'ishni tashkil etish;",
+      "Chet elga chiquvchilarni nazorat qilish."
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Yangi O‘zbekiston taraqqiyot bosqichida “Inson qadri” tushunchasi huquqiy jihatdan qanday ta’riflanadi?",
+    "options": [
+
+"Faqat moddiy boylikka ega bo'lish huquqi;",
+      "Har bir fuqaroning huquq va erkinliklari, qonuniy manfaatlarini davlat tomonidan kafolatlanishi;",
+      "Faqat oliy ma'lumot olish imkoniyati;",
+      "Davlat lavozimlarida ishlash huquqi."
     ],
     "correct": 1
 
