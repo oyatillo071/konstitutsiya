@@ -3914,7 +3914,7 @@ const quizDatabase = {
       "1991-yilda"
     ],
     "correct": 1
-  }
+  },
 ////////////
  
   {
@@ -4430,7 +4430,7 @@ const quizDatabase = {
       "2024-yil 16-avgust"
     ],
     "correct": 1
-  }
+  },
 /////////////////
    
   {
@@ -4682,7 +4682,6 @@ const quizDatabase = {
       "2019-yil"
     ],
     "correct": 1
-  }
 
  
    },
@@ -4692,9 +4691,9 @@ const quizDatabase = {
 
     
     //////////////////////////////////////////////////////////////////////////////
- //           topic10: {
- //    title: "Tarix 10-Bo'lim",
- //    questions: randomizeQuestions([
+           topic10: {
+    title: "Tarix 10-Bo'lim",
+    questions: randomizeQuestions([
 
   {
     "q": "O‘zbekiston Respublikasi Prezidentining 2020-yil 2-martdagi Farmoni bilan qaysi davlat dasturi tasdiqlangan?",
