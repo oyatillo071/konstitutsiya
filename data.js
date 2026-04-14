@@ -3144,7 +3144,10 @@ const quizDatabase = {
   
   
   //////////////////////////////////////////////////////////////////////////////
-           topic7: {
+          
+  
+      
+      topic7: {
     title: "Tarix 7-Bo'lim",
     questions: randomizeQuestions([
 
