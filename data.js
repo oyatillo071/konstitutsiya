@@ -5183,7 +5183,7 @@ const quizDatabase = {
     "q": "O‘zbekiston Respublikasining \"Qurol to‘g‘risida\"gi Qonuni qachon qabul qilingan?",
     "options": [
       "2018-yil",
-      "2019-yil 29-iyul",
+      "2019-yil ",
       "2020-yil",
       "2021-yil"
     ],
@@ -5198,16 +5198,16 @@ const quizDatabase = {
   
   /////////////////////////////////////////
   // ////////////////////////////////////////////////////  
-   topic11: {
-    title: "Tarix 11-Bo'lim",
-    questions: randomizeQuestions([
+  //  topic11: {
+  //   title: "Tarix 11-Bo'lim",
+  //   questions: randomizeQuestions([
 
 
  
  
-   },
-    ]),
-  },
+  //  },
+  //   ]),
+  // },
 
 
   
