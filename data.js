@@ -2614,17 +2614,17 @@ const quizDatabase = {
     ]),
   },
 
-////////////////////////////////////////////////////  
-   topic6: {
-    title: "Tarix 6-Bo'lim",
-    questions: randomizeQuestions([
+// ////////////////////////////////////////////////////  
+//    topic6: {
+//     title: "Tarix 6-Bo'lim",
+//     questions: randomizeQuestions([
 
 
  
  
-   },
-    ]),
-  },
+//    },
+//     ]),
+//   },
 
   
   
