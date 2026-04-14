@@ -1060,7 +1060,7 @@ const quizDatabase = {
 
 
 ///////////////////////////////////////////////////////////////////////////////////////
-
+//tarix
    topic3: {
     title: "Tarix 3-Bo'lim",
     questions: randomizeQuestions([
@@ -1583,8 +1583,8 @@ const quizDatabase = {
   
   ///////////////////////////////////////////////////////////////////////////////////////
 
-   topic3: {
-    title: "Tarix 3-Bo'lim",
+   topic4: {
+    title: "Tarix 4-Bo'lim",
     questions: randomizeQuestions([
 
   {
@@ -2100,8 +2100,8 @@ const quizDatabase = {
 ///////////////////////////////////////////////////////////////
 
   
-   topic3: {
-    title: "Tarix 3-Bo'lim",
+   topic5: {
+    title: "Tarix 5-Bo'lim",
     questions: randomizeQuestions([
 
 
