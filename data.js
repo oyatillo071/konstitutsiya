@@ -1078,6 +1078,7 @@ const quizDatabase = {
     "correct": 2
   },
   {
+    
     "q": "Islom Karimov qalamiga mansub 'O‘zbekiston mustaqillikka erishish ostonasida' asari qaysi davr voqealarini tahlil qiladi?",
     "options": [
       "1917-1924 yillar;",
@@ -2614,10 +2615,525 @@ const quizDatabase = {
   },
 
 ////////////////////////////////////////////////////  
-   // topic2: {
+   topic6: {
+    title: "Tarix 6-Bo'lim",
+    questions: randomizeQuestions([
+
+
+ 
+ 
+   },
+    ]),
+  },
+
+  
+  
+  ///////////////////////////////////////
+        // topic2: {
  //    title: "Tarix 2-Bo'lim",
  //    questions: randomizeQuestions([
 
+
+  {
+    "q": "O‘zbekiston Respublikasining \"Chet el investitsiyalari to‘g‘risida\"gi Qonuni qachon qabul qilingan? [cite: 3]",
+    "options": [
+      "1998-yil 30-aprel",
+      "1998-yil 1-may",
+      "1997-yil 30-aprel",
+      "1999-yil 30-aprel"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Prezidentining 2020-yil 2-martdagi Farmoni bilan qaysi davlat dasturi tasdiqlangan? [cite: 1, 2]",
+    "options": [
+      "\"Faol investitsiyalar va ijtimoiy rivojlanish yili\" dasturi",
+      "\"Ilm, ma’rifat va raqamli iqtisodiyotni rivojlantirish yili\" dasturi",
+      "\"Yoshlarni qo‘llab-quvvatlash va aholi salomatligini mustahkamlash yili\" dasturi",
+      "\"Inson qadri va faol mahalla yili\" dasturi"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Turizm to‘g‘risida\"gi Qonuni yangi tahriri qabul qilingan aniq sanani ko‘rsating. [cite: 5]",
+    "options": [
+      "2019-yil 18-avgust",
+      "2018-yil 18-iyul",
+      "2019-yil 18-iyul",
+      "2020-yil 18-iyul"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Mustaqillik yillarida qurilgan \"Olimpiya shon-shuhrati muzeyi\"ning ochilish marosimi qachon bo‘lib o‘tgan? [cite: 6]",
+    "options": [
+      "1991-yil 1-sentabr",
+      "1996-yil 1-sentabr",
+      "1996-yil 31-avgust",
+      "2000-yil 1-sentabr"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda \"Sog‘lom bola yili\" deb e’lon qilingan yilni aniqlang. [cite: 8]",
+    "options": [
+      "2013-yil",
+      "2015-yil",
+      "2012-yil",
+      "2014-yil"
+    ],
+    "correct": 3
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Aholini ish bilan ta’minlash to‘g‘risida\"gi Qonunining yangi tahriri qachon qabul qilingan? [cite: 9]",
+    "options": [
+      "2020-yil 20-oktabr",
+      "2020-yil 20-sentabr",
+      "2021-yil 20-oktabr",
+      "2019-yil 20-oktabr"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Mustaqillik yillarida barpo etilgan \"Buxoro neftni qayta ishlash zavodi\" qaysi yildan o‘z faoliyatini boshlagan? [cite: 10]",
+    "options": [
+      "1995-yil",
+      "1998-yil",
+      "1997-yil",
+      "1999-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Prezident vakolat muddati tugaganda, yangi saylovlar o‘tkaziladigan vaqtni belgilang. [cite: 11, 12]",
+    "options": [
+      "Oktabr oyi ikkinchi o‘n kunligining oxirgi yakshanbasida",
+      "Oktabr oyi uchinchi o‘n kunligining birinchi yakshanbasida",
+      "Noyabr oyi birinchi yakshanbasida",
+      "Dekabr oyi uchinchi o‘n kunligining birinchi yakshanbasida"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Siyosiy partiyalarni moliyalashtirish to‘g‘risida\"gi Qonuni qabul qilingan yilni ko‘rsating. [cite: 14]",
+    "options": [
+      "2003-yil",
+      "2005-yil",
+      "2004-yil",
+      "2006-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Toshkent shahridagi \"G‘alaba bog‘i\" yodgorlik majmuasi qaysi muhim sana munosabati bilan ochilgan? [cite: 15]",
+    "options": [
+      "2020-yil 1-sentabr",
+      "2020-yil 9-may",
+      "2019-yil 9-may",
+      "2021-yil 31-avgust"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Elektron hukumat to‘g‘risida\"gi Qonuni qabul qilingan sanani aniqlang. [cite: 16]",
+    "options": [
+      "2015-yil 9-dekabr",
+      "2016-yil 9-dekabr",
+      "2015-yil 8-dekabr",
+      "2014-yil 9-dekabr"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Xalqaro miqyosda nishonlanadigan \"Inson huquqlari kuni\" O‘zbekistonda qachon nishonlanadi? [cite: 17]",
+    "options": [
+      "8-dekabr",
+      "10-dekabr",
+      "1-dekabr",
+      "21-oktabr"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Ta’lim to‘g‘risida\"gi Qonuni yangi tahriri qaysi sanada qabul qilingan? [cite: 18]",
+    "options": [
+      "2020-yil 2-mart",
+      "2020-yil 23-avgust",
+      "2020-yil 23-sentabr",
+      "2021-yil 23-sentabr"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Mustaqillik yillarida qurilgan \"Qo‘ng‘irot soda zavodi\" qaysi yilda ishga tushirilgan? [cite: 19]",
+    "options": [
+      "2005-yil",
+      "2007-yil",
+      "2006-yil",
+      "2008-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Vazirlar Mahkamasining tarkibiga kiruvchi shaxslar to‘g‘ri ko‘rsatilgan javobni tanlang. [cite: 20]",
+    "options": [
+      "Bosh vazir, vazirlar va qo‘mita raislari",
+      "Bosh vazir, uning o‘rinbosarlari va vazirlar",
+      "Prezident, Bosh vazir va vazirlar",
+      "Bosh vazir va barcha davlat maslahatchilari"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda \"Yoshlar ittifoqi\" kuni sifatida qaysi sana belgilangan? [cite: 21]",
+    "options": [
+      "30-iyun",
+      "30-avgust",
+      "1-iyun",
+      "14-yanvar"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Sud hujjatlari va boshqa organlar hujjatlarini ijro etish to‘g‘risida\"gi Qonuni qachon qabul qilingan? [cite: 22]",
+    "options": [
+      "2000-yil",
+      "2002-yil",
+      "2001-yil",
+      "2003-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Toshkent shahridagi \"Simpoziumlar saroyi\" qachon foydalanishga topshirilgan? [cite: 23]",
+    "options": [
+      "2010-yil",
+      "2012-yil",
+      "2011-yil",
+      "2013-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Normativ-huquqiy hujjatlar to‘g‘risida\"gi Qonunining yangi tahriri qachon qabul qilingan? [cite: 24]",
+    "options": [
+      "2020-yil 20-aprel",
+      "2021-yil 20-aprel",
+      "2021-yil 20-may",
+      "2022-yil 20-aprel"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda \"Barkamol avlod\" bolalar markazlari qaysi vazirlik tasarrufida faoliyat yuritadi? [cite: 25]",
+    "options": [
+      "Madaniyat vazirligi",
+      "Oliy ta’lim, fan va innovatsiyalar vazirligi",
+      "Maktabgacha va maktab ta’limi vazirligi",
+      "Yoshlar siyosati va sport vazirligi"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Qishloq xo‘jaligi kooperativi (shirkat xo‘jaligi) to‘g‘risida\"gi Qonuni qabul qilingan yilni aniqlang. [cite: 7]",
+    "options": [
+      "1997-yil",
+      "1998-yil",
+      "1999-yil",
+      "1996-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda \"Yoshlar – kelajagimiz\" jamg‘armasi qaysi yilda tashkil etilgan? [cite: 4]",
+    "options": [
+      "2017-yil",
+      "2019-yil",
+      "2018-yil",
+      "2020-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Prezidentining 2018-yil 21-sentabrdagi Farmoni bilan qaysi strategiya tasdiqlangan? [cite: 26]",
+    "options": [
+      "2017-2021-yillarda Harakatlar strategiyasi",
+      "2019-2021-yillarda O‘zbekiston Respublikasini innovatsion rivojlantirish strategiyasi",
+      "2022-2026-yillarda Taraqqiyot strategiyasi",
+      "Raqamli O‘zbekiston – 2030 strategiyasi"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda \"Bilimlar kuni\" munosabati bilan beriladigan \"Prezident sovg‘asi\" kimlarga mo‘ljallangan? [cite: 13]",
+    "options": [
+      "Barcha maktab o‘quvchilariga",
+      "1-sinf o‘quvchilariga",
+      "Bitiruvchi sinf o‘quvchilariga",
+      "Kam ta’minlangan oila farzandlariga"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Mustaqillik yillarida qurilgan \"Xodjayli shisha zavodi\" qachon ishga tushgan? [cite: 27]",
+    "options": [
+      "1990-yillarning oxirida",
+      "2010-yillarning boshlarida",
+      "2000-yillarning boshlarida",
+      "1991-yilda"
+    ],
+    "correct": 2
+  },
+
+  {
+    "q": "O‘zbekiston Respublikasi Konstitutsiyasining qaysi moddasida O‘zbekiston Respublikasining davlat tili belgilangan?",
+    "options": [
+      "3-modda",
+      "5-modda",
+      "4-modda",
+      "2-modda"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda \"Navro‘z\" umumxalq bayrami sifatida rasman qaysi hujjat asosida qayta tiklangan?",
+    "options": [
+      "1991-yil 31-avgustdagi Qonun",
+      "1990-yil 3-maydagi Farmon",
+      "1992-yil 8-dekabrdagi Konstitutsiya",
+      "1989-yil 21-oktabrdagi Qonun"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Valyutani tartibga solish to‘g‘risida\"gi Qonuni yangi tahriri qabul qilingan vaqtni aniqlang.",
+    "options": [
+      "2019-yil 22-oktabr",
+      "2020-yil 22-oktabr",
+      "2018-yil 22-oktabr",
+      "2019-yil 20-aprel"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Toshkentda Alisher Navoiy nomi bilan ataluvchi O‘zbekiston Milliy kutubxonasi qaysi yilda tashkil etilgan?",
+    "options": [
+      "2000-yil",
+      "2001-yil",
+      "2002-yil",
+      "2003-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Oliy Majlisi Qonunchilik palatasining raisi (Spikeri) qanday tartibda lavozimga saylanadi?",
+    "options": [
+      "Prezident tavsiyasiga ko‘ra ochiq ovoz berish yo‘li bilan",
+      "Deputatlar orasidan yashirin ovoz berish yo‘li bilan",
+      "Partiya rahbarlari orasidan tayinlash yo‘li bilan",
+      "Senat a’zolari tomonidan tasdiqlash yo‘li bilan"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda qaysi yil \"Xalq bilan muloqot va inson manfaatlari yili\" deb e’lon qilingan edi?",
+    "options": [
+      "2016-yil",
+      "2018-yil",
+      "2017-yil",
+      "2015-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Arxiv ishi to‘g‘risida\"gi Qonuni qabul qilingan aniq sanani ko‘rsating.",
+    "options": [
+      "2010-yil 15-iyul",
+      "2010-yil 15-iyun",
+      "2011-yil 15-iyun",
+      "2009-yil 15-iyun"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Mustaqillik yillarida qurilgan va uzunligi 400 km dan ortiq bo‘lgan avtomobil yo‘li qaysi yo‘nalishda barpo etilgan?",
+    "options": [
+      "Toshkent-Termiz",
+      "Toshkent-Samarqand",
+      "Toshkent-O‘sh",
+      "Samarqand-Buxoro"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Markaziy bankining faoliyatidagi eng ustuvor va asosiy maqsadi nima?",
+    "options": [
+      "Tashqi savdo balansini nazorat qilish",
+      "Milliy valyutaning barqarorligini ta’minlash",
+      "Tijorat banklarining foydasini oshirish",
+      "Davlat byudjeti defitsitini yopish"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda \"Obod qishloq\" va \"Obod mahalla\" dasturlarini moliyalashtirishda ishtirok etmaydigan manbani toping.",
+    "options": [
+      "Davlat byudjeti",
+      "Mahalliy byudjet",
+      "Homiylik mablag‘lari",
+      "Xalqaro valyuta jamg‘armasi grantlari"
+    ],
+    "correct": 3
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Jismoniy va yuridik shaxslarning murojaatlari to‘g‘risida\"gi Qonunining yangi tahriri qaysi yilda qabul qilingan?",
+    "options": [
+      "2014-yil",
+      "2017-yil",
+      "2018-yil",
+      "2015-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Toshkentdagi qaysi yirik dam olish maskani Alisher Navoiy nomi bilan ataladi?",
+    "options": [
+      "G‘alaba bog‘i",
+      "O‘zbekiston milliy bog‘i",
+      "Markaziy istirohat bog‘i",
+      "Botanika bog‘i"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Konstitutsiyasida iqtisodiy asoslar nechanchi bobda o‘z aksini topgan?",
+    "options": [
+      "10-bob",
+      "11-bob",
+      "12-bob",
+      "13-bob"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda \"Yoshlar daftariga\" kiritilgan yoshlarga ko‘rsatiladigan yordam turlariga nimalar kiritilgan?",
+    "options": [
+      "Faqat naqd pul ko‘rinishidagi moddiy yordam",
+      "Ta’lim kontrakti to‘lovi, asbob-uskuna olish uchun subsidiya, psixologik va huquqiy yordam",
+      "Xorijga chiqish pasportini bepul rasmiylashtirish",
+      "Uy-joy sotib olish uchun foizsiz kreditlar"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Gidrometeorologiya faoliyati to‘g‘risida\"gi Qonuni qabul qilingan sanani belgilang.",
+    "options": [
+      "2020-yil 17-noyabr",
+      "2021-yil 17-noyabr",
+      "2020-yil 17-oktabr",
+      "2019-yil 17-noyabr"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Mustaqillik yillarida foydalanishga topshirilgan \"Dehqonobod kaliyli o‘g‘itlar zavodi\" qaysi yilda ishga tushgan?",
+    "options": [
+      "2008-yil",
+      "2012-yil",
+      "2010-yil",
+      "2011-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "2022-2026-yillarga mo‘ljallangan Yangi O‘zbekistonning taraqqiyot strategiyasi qaysi Farmon bilan tasdiqlangan?",
+    "options": [
+      "2022-yil 28-yanvardagi Farmon",
+      "2022-yil 28-fevraldagi Farmon",
+      "2021-yil 28-dekabrdagi Farmon",
+      "2022-yil 1-yanvardagi Farmon"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekistonda \"Inson qadri va faol mahalla yili\" doirasida mahalla darajasida qaysi yangi boshqaruv tizimi joriy etildi?",
+    "options": [
+      "\"Mahalla beshligi\" tizimi",
+      "\"Mahalla yettiligi\" tizimi",
+      "\"Mahalla faollari\" kengashi",
+      "\"Mahalla oqsoqollari\" tizimi"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Mustaqillik yillarida Toshkentda barpo etilgan \"Ma’rifat markazi\" tarkibiga qaysi ob'ektlar kiradi?",
+    "options": [
+      "Olimpiya shon-shuhrati muzeyi va Simpoziumlar saroyi",
+      "Simpoziumlar saroyi va Milliy kutubxona",
+      "G‘alaba bog‘i va Milliy kutubxona",
+      "O‘zbekiston milliy bog‘i va Milliy kutubxona"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining yangi \"Mahalla to‘g‘risida\"gi qonuni qaysi yilda loyihalashtirilgan?",
+    "options": [
+      "2021-yil",
+      "2022-yil",
+      "2023-yil",
+      "2024-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda keng ko‘lamli \"Bir million dasturchi\" loyihasi qachon start olgan?",
+    "options": [
+      "2018-yil noyabr",
+      "2019-yil oktyabr",
+      "2019-yil noyabr",
+      "2020-yil yanvar"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasining eski tahrirdagi Konstitutsiyasida ommaviy axborot vositalari nechanchi bobda keltirilgan edi?",
+    "options": [
+      "14-bob",
+      "16-bob",
+      "15-bob",
+      "17-bob"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Afg‘oniston bilan bog‘lovchi \"Xayraton-Mozori Sharif\" temir yo‘li qurilishi qachon yakuniga yetkazilgan?",
+    "options": [
+      "2009-yil dekabr",
+      "2010-yil noyabr",
+      "2011-yil yanvar",
+      "2010-yil dekabr"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Raqobat to‘g‘risida\"gi Qonuni yangi tahriri qachon qabul qilindi?",
+    "options": [
+      "2022-yil 3-iyul",
+      "2023-yil 3-iyun",
+      "2023-yil 3-iyul",
+      "2021-yil 3-iyul"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda ma’naviy-ma’rifiy ishlar samaradorligini oshirish tizimi qaysi yillarda sezilarli darajada yangilandi?",
+    "options": [
+      "2017 va 2020-yillarda",
+      "2018 va 2022-yillarda",
+      "2019 va 2021-yillarda",
+      "2020 va 2023-yillarda"
+    ],
+    "correct": 2
 
  
  
@@ -2625,9 +3141,6 @@ const quizDatabase = {
  //    ]),
  //  },
 
-  
-  
-  
   
   
   
