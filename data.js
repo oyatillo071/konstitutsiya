@@ -4169,7 +4169,7 @@ const quizDatabase = {
       "2023-yil"
     ],
     "correct": 2
-  }
+  
 
  
    },
