@@ -2614,19 +2614,7 @@ const quizDatabase = {
     ]),
   },
 
-// ////////////////////////////////////////////////////  
-//    topic6: {
-//     title: "Tarix 6-Bo'lim",
-//     questions: randomizeQuestions([
 
-
- 
- 
-//    },
-//     ]),
-//   },
-
-  
   
   ///////////////////////////////////////
         topic6: {
@@ -4948,9 +4936,259 @@ const quizDatabase = {
     ],
     "correct": 1
   
+  },
 /////////
  
- 
+  {
+    "q": "O‘zbekiston Respublikasining \"Xalqaro shartnomalari to‘g‘risida\"gi yangi tahrirdagi Qonuni qachon qabul qilingan?",
+    "options": [
+      "2018-yil 6-fevral",
+      "2019-yil 6-fevral",
+      "2020-yil 6-fevral",
+      "2021-yil 6-fevral"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda \"Hunarmandchilikni rivojlantirish\" jamg‘armasi qachon tashkil etilgan?",
+    "options": [
+      "2016-yil",
+      "2017-yil",
+      "2018-yil",
+      "2019-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Nogironligi bo‘lgan shaxslarning huquqlari to‘g‘risida\"gi Qonuni qachon qabul qilindi?",
+    "options": [
+      "2019-yil 15-oktabr",
+      "2020-yil 15-oktabr",
+      "2021-yil 15-oktabr",
+      "2022-yil 15-oktabr"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda \"Sog‘lom avlod uchun\" ordeni qachon ta’sis etilgan?",
+    "options": [
+      "1992-yil 4-mart",
+      "1993-yil 4-mart",
+      "1994-yil 4-mart",
+      "1995-yil 4-mart"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Fuqarolarning davlat pensiya ta’minoti to‘g‘risida\"gi Qonuni qachon qabul qilingan?",
+    "options": [
+      "1991-yil 3-sentabr",
+      "1992-yil 3-sentabr",
+      "1993-yil 3-sentabr",
+      "1994-yil 3-sentabr"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Mustaqillik yillarida Toshkentda qurilgan \"Vatanparvarlar bog‘i\" qaysi tumanida joylashgan?",
+    "options": [
+      "Mirzo Ulug‘bek tumani",
+      "Yunusobod tumani",
+      "Yashnobod tumani",
+      "Chilonzor tumani"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Prezidentining 2021-yil 26-martdagi Farmoni nima haqida edi?",
+    "options": [
+      "Ta’lim tizimini isloh qilish",
+      "Ma’naviy-ma’rifiy ishlar tizimini tubdan takomillashtirish",
+      "Sog‘liqni saqlash tizimini rivojlantirish",
+      "Korrupsiyaga qarshi kurashish"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda \"Xavfsiz shahar\" loyihasi doirasida yagona navbatchi-dispetcherlik xizmati raqami necha?",
+    "options": [
+      "101",
+      "102",
+      "103",
+      "112"
+    ],
+    "correct": 3
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Ma’rifatparvar jadidlar\" merosini o‘rganish bo‘yicha qarori qaysi yili qabul qilingan?",
+    "options": [
+      "2019-yil",
+      "2020-yil",
+      "2021-yil",
+      "2022-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Mustaqillik yillarida barpo etilgan \"Toshkent teleminorasi\"ning balandligi qancha?",
+    "options": [
+      "350 metr",
+      "375 metr",
+      "400 metr",
+      "425 metr"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasi \"Milliy gvardiyasi\" qaysi yili tashkil etilgan?",
+    "options": [
+      "1991-yil",
+      "1992-yil",
+      "1993-yil",
+      "1994-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda \"Aqlli shahar\" (Smart City) texnologiyalari birinchi bo‘lib qayerlarda joriy etilmoqda?",
+    "options": [
+      "Samarqand va Buxoroda",
+      "Toshkent va Nurafshon shaharlarida",
+      "Namangan va Andijonda",
+      "Xiva va Termizda"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Qonunosti hujjatlari\"ga nimalar kirdi?",
+    "options": [
+      "Faqat Konstitutsiya va Kodekslar",
+      "Faqat Prezident farmonlari",
+      "Prezident farmon va qarorlari, Vazirlar Mahkamasi qarorlari, vazirlik buyruqlari",
+      "Faqat tuman hokimi qarorlari"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Mustaqillik yillarida qurilgan \"Kamchik\" avtomobil tunnelining birinchi navbati qachon topshirilgan?",
+    "options": [
+      "1998-yil",
+      "1999-yil",
+      "2000-yil",
+      "2001-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Oliy Majlis Senatining asosiy vakolatlaridan biri nima?",
+    "options": [
+      "Qonun loyihalarini birinchi bo‘lib ishlab chiqish",
+      "Qonunlarni ma’qullash va muhim tayinlovlarni tasdiqlash",
+      "Faqat byudjetni taqsimlash",
+      "Sud ishlarini nazorat qilish"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda \"Inson huquqlari bo‘yicha umumjahon deklaratsiyasi\" o‘zbek tiliga qachon tarjima qilingan?",
+    "options": [
+      "1990-yil",
+      "1991-yil",
+      "1992-yil",
+      "1993-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Geodeziya va kartografiya to‘g‘risida\"gi Qonuni yangi tahriri qachon qabul qilingan?",
+    "options": [
+      "2019-yil 2-iyul",
+      "2020-yil 2-iyul",
+      "2021-yil 2-iyul",
+      "2022-yil 2-iyul"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Mustaqillik yillarida Toshkentda qurilgan \"Xalqaro vestminster universiteti\" qachon tashkil etilgan?",
+    "options": [
+      "2001-yil",
+      "2002-yil",
+      "2003-yil",
+      "2004-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Davlat tili to‘g‘risida\"gi Qonuni yangi tahriri (lotin yozuviga asoslangan) qachon qabul qilingan?",
+    "options": [
+      "1993-yil",
+      "1994-yil",
+      "1995-yil",
+      "1996-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda \"Faxriylar\"ni qo‘llab-quvvatlash maqsadida qaysi jamg‘arma faoliyat yuritadi?",
+    "options": [
+      "\"Yoshlar\" jamg‘armasi",
+      "\"Nuroniy\" jamg‘armasi",
+      "\"Mahalla\" jamg‘armasi",
+      "\"Sahovat\" jamg‘armasi"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Mustaqillik yillarida qurilgan \"Muborak gazni qayta ishlash zavodi\"ning quvvati qachon oshirildi?",
+    "options": [
+      "2015-2016 yillarda",
+      "2017-2018 yillarda",
+      "2019-2020 yillarda",
+      "2021-2022 yillarda"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Atmosfera havosini muhofaza qilish to‘g‘risida\"gi Qonuni yangi tahriri qachon qabul qilingan?",
+    "options": [
+      "1996-yil",
+      "1999-yil",
+      "2017-yil",
+      "2019-yil"
+    ],
+    "correct": 3
+  },
+  {
+    "q": "O‘zbekistonda \"E-sud\" axborot tizimi to‘liq qachondan joriy etila boshlandi?",
+    "options": [
+      "2013-yildan",
+      "2015-yildan",
+      "2017-yildan",
+      "2019-yildan"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Mustaqillik yillarida Toshkentda barpo etilgan \"Bunyodkor\" stadioni qachon ochilgan?",
+    "options": [
+      "2010-yil",
+      "2011-yil",
+      "2012-yil",
+      "2013-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasining \"Qurol to‘g‘risida\"gi Qonuni qachon qabul qilingan?",
+    "options": [
+      "2018-yil",
+      "2019-yil 29-iyul",
+      "2020-yil",
+      "2021-yil"
+    ],
+    "correct": 1
+
    },
     ]),
   },
@@ -4958,6 +5196,20 @@ const quizDatabase = {
   
   
   
+  /////////////////////////////////////////
+  // ////////////////////////////////////////////////////  
+   topic11: {
+    title: "Tarix 11-Bo'lim",
+    questions: randomizeQuestions([
+
+
+ 
+ 
+   },
+    ]),
+  },
+
+
   
   
   
