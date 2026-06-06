@@ -843,4 +843,436 @@ const quizDatabase = {
   },
 
 
+/////////////////////////////////////////////////////
+ topic3: {
+    title: "Konstitutsiya 3-Bo'lim",
+    questions: randomizeQuestions([
+
+  {
+    "q": "Qaysi mamlakat qonunchiligida 'siyosiy partiya' atamasi uchramaydi va ularning faoliyati odat normalari asosida belgilanadi?",
+    "options": [
+      "Buyuk Britaniya",
+      "AQSh",
+      "Fransiya",
+      "Germaniya"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "M. Dyuverje partiyalar a’zolarining tarkibi va miqdori bo‘yicha ularni qanday guruhlarga bo‘lgan?",
+    "options": [
+      "Kadrli va ommaviy",
+      "Elita va xalq",
+      "Markaziy va periferik",
+      "O‘ng va so‘l"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Siyosiy partiyalarni g‘oyaviy qarashlari bo‘yicha qanday guruhlarga ajratish keng qo‘llanadi?",
+    "options": [
+      "O‘ng, markaz, so‘l",
+      "Elita, ommaviy, xalq",
+      "Kadrli, ommaviy, konfessional",
+      "Liberal, konservativ, sotsialistik"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Bozor munosabatlariga asoslangan iqtisodiyotni shakllantirish g‘oyasini ilgari suruvchi partiyalar qaysilar?",
+    "options": [
+      "Liberal partiyalar",
+      "Konservativ partiyalar",
+      "Sotsialistik partiyalar",
+      "Kommunistik partiyalar"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Noqonuniy vositalar bilan hokimiyatga erishishga moyil partiyalar qanday nomlanadi?",
+    "options": [
+      "Antikonstitusional partiyalar",
+      "Muxolifat partiyalar",
+      "Liberal partiyalar",
+      "Konfessional partiyalar"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Hukmron partiyaga qarshi chiquvchi partiyalar qanday ataladi?",
+    "options": [
+      "Muxolifat partiyalari",
+      "Antikonstitusional partiyalari",
+      "Konfessional partiyalari",
+      "Liberal partiyalari"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "So‘l qanot tarkibiga kiruvchi partiyalar qaysilar?",
+    "options": [
+      "Kommunistik, sotsialistik, sotsial-demokratik",
+      "Liberal, konservativ, konfessional",
+      "Elita, ommaviy, kadrli",
+      "Markaziy, periferik, konfessional"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Davlatni cherkovga bo‘ysundirishga urinuvchi partiyalar qanday nomlanadi?",
+    "options": [
+      "Klerikal partiyalar",
+      "Konfessional partiyalar",
+      "Liberal partiyalar",
+      "Muxolifat partiyalar"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Ispaniya, Italiya va Fransiyada partiyalarni ro‘yxatdan o‘tkazishni qaysi organ amalga oshiradi?",
+    "options": [
+      "Sud organlari",
+      "Parlament",
+      "Ichki ishlar vazirligi",
+      "Adliya vazirligi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Ikki partiyaviylik tizimining klassik misoli qaysi davlatlar?",
+    "options": [
+      "AQSh va Buyuk Britaniya",
+      "Fransiya va Germaniya",
+      "Italiya va Ispaniya",
+      "Kanada va Avstraliya"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qaysi davlat Konstitutsiyasida kommunistik partiya jamiyatning oliy rahbar kuchi deb e’lon qilingan?",
+    "options": [
+      "Xitoy",
+      "Kuba",
+      "KXDR",
+      "Vetnam"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Angliyada 'davlat' atamasi qanday ifodalanadi?",
+    "options": [
+      "State yoki Crown",
+      "Government yoki Parliament",
+      "Nation yoki People",
+      "Authority yoki Power"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Markscha-lenincha an’anaga ko‘ra, davlat qanday tavsiflangan?",
+    "options": [
+      "Bir sinfning boshqa sinfni bostirish quroli",
+      "Jamiyatni boshqaruvchi institut",
+      "Huquqiy tartibni ta’minlovchi organ",
+      "Iqtisodiy tizimni boshqaruvchi kuch"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Davlatning siyosiy funksiyasi nimalarda namoyon bo‘ladi?",
+    "options": [
+      "Hokimiyatni amalga oshirish va tartibni ta’minlash",
+      "Iqtisodiy barqarorlikni ta’minlash",
+      "Ta’lim va sog‘liqni saqlashni rivojlantirish",
+      "Madaniyatni rivojlantirish"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Xo‘jalik subyektlariga tashqi bozorda qulay sharoit yaratish davlatning qaysi funksiyasiga kiradi?",
+    "options": [
+      "Iqtisodiy funksiyaga",
+      "Siyosiy funksiyaga",
+      "Ijtimoiy funksiyaga",
+      "Mafkuraviy funksiyaga"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Ta’lim, sog‘liqni saqlash, ijtimoiy himoya kabi sohalarni rivojlantirish davlatning qaysi funksiyasini anglatadi?",
+    "options": [
+      "Ijtimoiy funksiyani",
+      "Iqtisodiy funksiyani",
+      "Siyosiy funksiyani",
+      "Mafkuraviy funksiyani"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Davlatning mafkuraviy funksiyasining maqsadi nima?",
+    "options": [
+      "Jamiyatda g‘oyalar va qadriyatlarni shakllantirish",
+      "Iqtisodiy barqarorlikni ta’minlash",
+      "Sud hokimiyatini mustahkamlash",
+      "Davlat hokimiyatini kuchaytirish"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Vakillik va bevosita demokratiyani ta’minlovchi davlat qanday hisoblanadi?",
+    "options": [
+      "Demokratik davlat",
+      "Huquqiy davlat",
+      "Ijtimoiy davlat",
+      "Konstitutsiyaviy davlat"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Bevosita demokratiya asosan qanday shakllarda amalga oshiriladi?",
+    "options": [
+      "Referendum, tashabbus, muhokama",
+      "Saylov, referendum, tashabbus",
+      "Plebissit, saylov, tashabbus",
+      "Referendum, saylov, plebissit"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qonun ustuvorligini tan oladigan davlat qanday ataladi?",
+    "options": [
+      "Huquqiy davlat",
+      "Demokratik davlat",
+      "Ijtimoiy davlat",
+      "Konstitutsiyaviy davlat"
+    ],
+    "correct": 0
+  }
+,
+  {
+    "q": "Huquqiy davlatda har qanday shaxs o‘zining buzilgan huquqlarini qayerda mustaqil himoya qila oladi?",
+    "options": [
+      "Sudda",
+      "Prokuraturada",
+      "Parlamentda",
+      "Ichki ishlar organida"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Dinning davlatdan ajralishi va diniy tashkilotlar faoliyatining chegaralanganligini bildiruvchi davlat qanday davlatdir?",
+    "options": [
+      "Dunyoviy davlat",
+      "Teokratik davlat",
+      "Ijtimoiy davlat",
+      "Huquqiy davlat"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Vatikan va Saudiya Arabistoni qanday davlatlar turiga kiradi?",
+    "options": [
+      "Teokratik davlatlar",
+      "Dunyoviy davlatlar",
+      "Ijtimoiy davlatlar",
+      "Huquqiy davlatlar"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Mulksizlar, nogironlar, qariyalar va bolalarga g‘amxo‘rlik ko‘rsatadigan davlat qanday hisoblanadi?",
+    "options": [
+      "Ijtimoiy davlat",
+      "Huquqiy davlat",
+      "Dunyoviy davlat",
+      "Teokratik davlat"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Siyosiy plyuralizm prinsipi nimani anglatadi?",
+    "options": [
+      "Ko‘p partiyaviylik va erkin raqobat",
+      "Davlat hokimiyatining bo‘linishi",
+      "Fuqarolik tengligi",
+      "Hududiy yaxlitlik"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Mamlakat hududining bo‘linmasligi qaysi konstitutsiyaviy prinsip hisoblanadi?",
+    "options": [
+      "Hududiy yaxlitlik",
+      "Davlat suvereniteti",
+      "Demokratik prinsip",
+      "Huquqiy prinsip"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Hokimiyatni uch tarmoqqa bo‘lish g‘oyasi kim tomonidan ilgari surilgan?",
+    "options": [
+      "Monteskye",
+      "Rousseau",
+      "Lokk",
+      "Arastu"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Jamiyatni boshqarish tuzilmasi umumiylikda nima deb ataladi?",
+    "options": [
+      "Davlat mexanizmi",
+      "Davlat rejimi",
+      "Davlat shakli",
+      "Davlat funksiyasi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Davlat ahamiyatiga molik qarorlar qabul qiladigan tizim nima deb ataladi?",
+    "options": [
+      "Davlat boshqaruvi",
+      "Davlat mexanizmi",
+      "Davlat shakli",
+      "Davlat rejimi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Umummajburiy qoidalar qabul qiladigan shaxslar guruhi nima deb ataladi?",
+    "options": [
+      "Davlat organi",
+      "Davlat muassasasi",
+      "Davlat mexanizmi",
+      "Davlat rejimi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Umummajburiy qoidalar qabul qilmaydigan, qarorlarni amalga oshiradigan tuzilma qanday nomlanadi?",
+    "options": [
+      "Davlat muassasasi",
+      "Davlat organi",
+      "Davlat mexanizmi",
+      "Davlat rejimi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Davlat shakli qanday tarkibiy qismlarni o‘z ichiga oladi?",
+    "options": [
+      "Boshqaruv, hududiy tuzilish, rejim",
+      "Hududiy tuzilish, mexanizm, rejim",
+      "Boshqaruv, mexanizm, rejim",
+      "Hududiy tuzilish, boshqaruv, mexanizm"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Polikratik davlat shaklining asosiy belgisi nima?",
+    "options": [
+      "Hokimiyat bir necha markazlar o‘rtasida taqsimlangan",
+      "Hokimiyat bir markazda jamlangan",
+      "Hokimiyat sud organida jamlangan",
+      "Hokimiyat parlamentda jamlangan"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Monikratik davlat shaklida hokimiyat qanday amalga oshiriladi?",
+    "options": [
+      "Tiyib turish mexanizmisiz",
+      "Muvozanat mexanizmi bilan",
+      "Sud hokimiyati orqali",
+      "Parlament orqali"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Davlat boshqaruv shakli deganda nima tushuniladi?",
+    "options": [
+      "Oliy organlarni tashkil etish tartibi",
+      "Hududiy tuzilish tartibi",
+      "Davlat rejimi",
+      "Davlat mexanizmi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qaysi boshqaruv shaklida hukmdor lavozimi nasldan naslga o‘tadi?",
+    "options": [
+      "Monarxiya",
+      "Respublika",
+      "Demokratiya",
+      "Teokratiya"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qaysi monarxiyada hukmdor besh yil muddatga saylanadi?",
+    "options": [
+      "Malayziya",
+      "Saudiya Arabistoni",
+      "Buyuk Britaniya",
+      "Ispaniya"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Mutlaq monarxiyada hokimiyat qanday amalga oshiriladi?",
+    "options": [
+      "Cheklanmagan monarx tomonidan",
+      "Parlament tomonidan",
+      "Sud hokimiyati tomonidan",
+      "Xalq tomonidan"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Hozirgi davrda mutlaq monarxiya saqlanib qolgan davlatlarni belgilang.",
+    "options": [
+      "Saudiya Arabistoni, BAA, Quvayt, Ummon, Bruney, Qatar",
+      "Buyuk Britaniya, Ispaniya, Shvetsiya",
+      "Fransiya, Germaniya, Italiya",
+      "Turkiya, Eron, Misr"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Konstitutsiyaviy monarxiya boshqaruv shakli qanday turlarga bo‘linadi?",
+    "options": [
+      "Dualistik va parlamentar",
+      "Mutlaq va cheklangan",
+      "Respublika va monarxiya",
+      "Federal va unitar"
+    ],
+    "correct": 0
+  }
+
+      
+    ]),
+  },
+
+// /////////////////////////////////////////////////////
+//  topic3: {
+//     title: "Konstitutsiya 3-Bo'lim",
+//     questions: randomizeQuestions([
+
+
+//     ]),
+//   },
+
+// /////////////////////////////////////////////////////
+//  topic3: {
+//     title: "Konstitutsiya 3-Bo'lim",
+//     questions: randomizeQuestions([
+
+
+//     ]),
+//   },
+
+
+
+
 }
