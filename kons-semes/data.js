@@ -412,10 +412,10 @@ const quizDatabase = {
   {
     "q": "O‘zbekiston Konstitutsiyasining yangi tahriri nechta bo‘lim, bob va moddadan iborat?",
     "options": [
+      "6 bo‘lim, 27 bob, 155 modda",
       "6 bo‘lim, 26 bob, 155 modda",
-      "6 bo‘lim, 25 bob, 155 modda",
-      "6 bo‘lim, 26 bob, 157 modda",
-      "6 bo‘lim, 27 bob, 155 modda"
+      "5 bo‘lim, 26 bob, 157 modda",
+      "7 bo‘lim, 27 bob, 155 modda"
     ],
     "correct": 0
   }
