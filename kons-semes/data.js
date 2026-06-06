@@ -1498,7 +1498,7 @@ const quizDatabase = {
       "Konfederatsiya",
       "Oddiy federatsiya"
     ],
-    "correct": 0
+    "correct": 2
   },
   {
     "q": "Faqat bir tartibli subyektlar kiradigan federatsiya qanday nomlanadi?",
