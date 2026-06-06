@@ -423,12 +423,424 @@ const quizDatabase = {
 
 
 
+
+
       
    
     ]),
   },
   
+// /////////////////////////////////////////////////////////////////////////////
+ topic2: {
+    title: "Konstitutsiya 2-Bo'lim",
+    questions: randomizeQuestions([
 
+  {
+    "q": "Huquqshunos olimlar inson erkinliklarining tarixiy rivojlanishini necha bosqichga ajratishadi?",
+    "options": [
+      "3 bosqichga",
+      "2 bosqichga",
+      "4 bosqichga",
+      "5 bosqichga"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Aholini rasmiy-huquqiy tarzda fuqaroga aylantirish yo‘llaridan biri qaysi?",
+    "options": [
+      "Naturalizatsiya",
+      "Denaturalizatsiya",
+      "Renunsiatsiya",
+      "Assimilyatsiya"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Davlat hududida tug‘ilgan har qanday shaxsga fuqarolik berilishi qaysi tamoyil hisoblanadi?",
+    "options": [
+      "Tuproq tamoyili",
+      "Qon tamoyili",
+      "Naturalizatsiya tamoyili",
+      "Denaturalizatsiya tamoyili"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Ma’lum bir davlat fuqarosidan tug‘ilish yo‘li bilan fuqarolikni olish qaysi tamoyil deb ataladi?",
+    "options": [
+      "Qon tamoyili",
+      "Tuproq tamoyili",
+      "Naturalizatsiya tamoyili",
+      "Renunsiatsiya tamoyili"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Davlat organlari tomonidan murojaat qilgan shaxsga fuqarolikni berish qanday ataladi?",
+    "options": [
+      "Naturalizatsiya",
+      "Denaturalizatsiya",
+      "Renunsiatsiya",
+      "Assimilyatsiya"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘z xohishiga ko‘ra va qonun kuchi bilan amalga oshiriladigan holatlar qaysi usulga kiradi?",
+    "options": [
+      "Fuqarolikni yo‘qotish",
+      "Fuqarolikni olish",
+      "Fuqarolikni berish",
+      "Fuqarolikni tiklash"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quvaytda fuqarolikni taqdim etishda qanday maxsus shart belgilangan?",
+    "options": [
+      "Islom diniga mansub bo‘lish",
+      "Arab tilini bilish",
+      "Mahalliy nasabga mansublik",
+      "Davlat xizmatida ishlash"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Shaxsning o‘z xohishiga ko‘ra fuqarolikdan chiqishi nima deb ataladi?",
+    "options": [
+      "Renunsiatsiya",
+      "Denaturalizatsiya",
+      "Naturalizatsiya",
+      "Assimilyatsiya"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Davlat tomonidan tug‘ilish bo‘yicha ega bo‘lgan fuqarolikdan majburiy chiqarish nima deb nomlanadi?",
+    "options": [
+      "Denaturalizatsiya",
+      "Renunsiatsiya",
+      "Naturalizatsiya",
+      "Assimilyatsiya"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Naturalizatsiya tartibida fuqarolikni olgan shaxslarni majburiy chiqarish qanday ataladi?",
+    "options": [
+      "Denaturalizatsiya",
+      "Renunsiatsiya",
+      "Naturalizatsiya",
+      "Assimilyatsiya"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Siyosiy boshpana va qochoq maqomini berish tartibi qaysi xalqaro hujjatda mustahkamlangan?",
+    "options": [
+      "1951-yilgi Konventsiya va 1954-yilgi Protokol",
+      "1948-yilgi Inson huquqlari Deklaratsiyasi",
+      "1966-yilgi Fuqarolik huquqlari Pakti",
+      "1969-yilgi Afrika Konventsiyasi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Konstitutsiyasida qaysi jazo turi taqiqlangan?",
+    "options": [
+      "O‘lim jazosi",
+      "Umrbod qamoq",
+      "Jarima jazosi",
+      "Majburiy mehnat"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Yaponiya va Belorussiya Konstitutsiyasiga ko‘ra, jinoyat joyida qo‘lga olingan shaxs necha soat ichida sudga olib borilishi kerak?",
+    "options": [
+      "48 soat",
+      "24 soat",
+      "72 soat",
+      "36 soat"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Davlat ishlarida ishtirok etish huquqlari odatda kimlarga taqdim etiladi?",
+    "options": [
+      "Faqat fuqarolarga",
+      "Har bir shaxsga",
+      "Faqat saylovchilarga",
+      "Faqat rezidentlarga"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Saylanish huquqi fanda qanday nomlanadi?",
+    "options": [
+      "Passiv saylov huquqi",
+      "Aktiv saylov huquqi",
+      "Umumiy saylov huquqi",
+      "Maxsus saylov huquqi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Davlat organlariga yozma murojaat qilish huquqi nima deb ataladi?",
+    "options": [
+      "Ariza (petitsiya) huquqi",
+      "Shikoyat huquqi",
+      "Talab huquqi",
+      "Da’vo huquqi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Konstitutsiyasining 70-moddasiga ko‘ra, jamoat birlashmalarini tarqatish faqat qaysi organning qarori bilan amalga oshiriladi?",
+    "options": [
+      "Sud organi",
+      "Prokuratura",
+      "Parlament",
+      "Ichki ishlar vazirligi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Ijtimoiy-huquqiy davlat formulasi ilk bor qaysi Konstitutsiyada paydo bo‘ldi?",
+    "options": [
+      "Germaniya (1949)",
+      "Fransiya (1958)",
+      "Italiya (1947)",
+      "Ispaniya (1978)"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Peru Konstitutsiyasida inson huquqlarini himoya qilish vositasi sifatida mustahkamlangan institut qanday ataladi?",
+    "options": [
+      "Amparo",
+      "Habeas corpus",
+      "Petitsiya",
+      "Mandamus"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Konstitutsiyasining 19-moddasiga ko‘ra, inson huquq va erkinliklari qachondan tegishli bo‘ladi?",
+    "options": [
+      "Tug‘ilgan paytdan",
+      "Voyaga yetgandan",
+      "Fuqarolik olgandan",
+      "Ro‘yxatga olingandan"
+    ],
+    "correct": 0
+  }
+
+
+      ,
+  {
+    "q": "O'zbekiston Respublikasi BMTning nechta asosiy shartnomasi va protokoliga qo'shilgan?",
+    "options": [
+      "70 dan ortiq (7 ta asosiy)",
+      "60 dan ortiq (6 ta asosiy)",
+      "80 dan ortiq (8 ta asosiy)",
+      "50 dan ortiq (5 ta asosiy)"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "1776-yil 4-iyulda qabul qilingan qaysi hujjatda 'Barcha odamlar teng holatda Yaratgan tomonidan muayyan ajralmas huquq bilan dunyoga keladi' deb ta'kidlangan?",
+    "options": [
+      "AQSh Mustaqillik Deklaratsiyasi",
+      "AQSh Konstitutsiyasi",
+      "Inson huquqlari Deklaratsiyasi",
+      "Bill of Rights"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Shaxsning muayyan davlatga mansubligini anglatuvchi huquq qanday nomlanadi?",
+    "options": [
+      "Fuqarolik huquqi",
+      "Subyektiv huquq",
+      "Tuproq huquqi",
+      "Qon huquqi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Inson huquqlari umumjahon deklaratsiyasi qachon qabul qilingan?",
+    "options": [
+      "1948-yil 10-dekabr",
+      "1945-yil 26-iyun",
+      "1951-yil 14-dekabr",
+      "1949-yil 23-oktabr"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Inson huquqlari umumjahon deklaratsiyasi nechta moddadan iborat?",
+    "options": [
+      "30 modda",
+      "25 modda",
+      "35 modda",
+      "28 modda"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qaysi tashkilot 1966-yilda xalqaro paktlarni qabul qildi?",
+    "options": [
+      "BMT Bosh Assambleyasi",
+      "BMT Xavfsizlik Kengashi",
+      "Yevropa Ittifoqi",
+      "YUNESKO"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Davlatning o‘z fuqarosi bilan munosabatidan kelib chiqadigan huquq nima deb ataladi?",
+    "options": [
+      "Subyektiv huquq",
+      "Fuqarolik huquqi",
+      "Tuproq huquqi",
+      "Qon huquqi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Mehnat qilish, ijtimoiy ta’minot huquqi ilk bor qaysi konstitutsiyalarda mustahkamlandi?",
+    "options": [
+      "1917 Meksika va 1919 Veymar",
+      "1919 Veymar va 1920 Avstriya",
+      "1917 Meksika va 1920 Chexoslovakiya",
+      "1919 Veymar va 1921 Shveytsariya"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Inson huquqlari umumjahon deklaratsiyasining qaysi moddasida cheklash qoidalari belgilangan?",
+    "options": [
+      "29-modda",
+      "28-modda",
+      "30-modda",
+      "27-modda"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Huquq va erkinliklarning cheklanishining asosiy maqsadi nima?",
+    "options": [
+      "Jamiyat manfaatlari va xavfsizlik",
+      "Davlat hokimiyatini mustahkamlash",
+      "Iqtisodiy barqarorlikni ta’minlash",
+      "Sud hokimiyatini kuchaytirish"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Kafolatlarni qanday turlarga ajratish mumkin?",
+    "options": [
+      "Umumiy va maxsus",
+      "Huquqiy va siyosiy",
+      "Iqtisodiy va ijtimoiy",
+      "Normativ va moddiy"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Konstitutsiyasida shaxs sud qarorisiz qancha muddat ushlab turilishi mumkin emas?",
+    "options": [
+      "48 soat",
+      "24 soat",
+      "72 soat",
+      "36 soat"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Ayblanuvchilarga o‘ziga qarshi ko‘rsatma bermaslik huquqi qanday nomlanadi?",
+    "options": [
+      "Jimlik huquqi",
+      "So‘z erkinligi",
+      "Himoya huquqi",
+      "Talab huquqi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quyidagilardan qaysi biri iqtisodiy kafolatlarga kiradi?",
+    "options": [
+      "Mulk daxlsizligi va tadbirkorlik erkinligi",
+      "Saylov huquqi va siyosiy erkinlik",
+      "Sud mustaqilligi va himoya huquqi",
+      "Ta’lim olish va sog‘liqni saqlash"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "“Partiya” so‘zi lotincha “partio” so‘zidan olingan bo‘lib, qanday ma’noni anglatadi?",
+    "options": [
+      "Bo‘lish, qism, ulush",
+      "Birlik, hamjihatlik",
+      "Davlat, hokimiyat",
+      "Huquq, tartib"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "1854-yilda AQShda tuzilgan partiya qaysi?",
+    "options": [
+      "Respublikachilar partiyasi",
+      "Demokratlar partiyasi",
+      "Federalistlar partiyasi",
+      "Whig partiyasi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "1861-yilda tashkil topgan Yevropadagi birinchi ommaviy partiya qaysi edi?",
+    "options": [
+      "Italiya Milliy Uyushma",
+      "Fransiya Milliy Partiyasi",
+      "Germaniya Ishchilar Partiyasi",
+      "Avstriya Liberal Partiyasi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Moris Dyuverje fikricha, siyosiy partiyalar qanday shaklda paydo bo‘lgan?",
+    "options": [
+      "Parlament ichida va tashqarisida",
+      "Faqat parlament ichida",
+      "Faqat parlament tashqarisida",
+      "Sud va parlamentda"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "1863-yilda Germaniyada F. Lassal tomonidan tashkil etilgan ishchilar partiyasi qanday nomlangan?",
+    "options": [
+      "Umumgerman ishchilar uyushmasi",
+      "Germaniya sotsial-demokratlar partiyasi",
+      "Umumgerman liberal partiyasi",
+      "Germaniya milliy uyushmasi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Siyosiy partiyalarning konstitutsiyaviy institutga aylanish jarayoni nima deb ataladi?",
+    "options": [
+      "Konstitutsiyalashuv",
+      "Demokratlashuv",
+      "Liberalizatsiya",
+      "Modernizatsiya"
+    ],
+    "correct": 0
+  }
+
+    ]),
+  },
 
 
 }
