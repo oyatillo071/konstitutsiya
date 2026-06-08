@@ -434,15 +434,447 @@ topic1: {
     ],
     "correct": 0
   }
+
+
   ]),
-  },
+},
 
 
       ///////////////////////////////////////////////////////////////////////////////
 
 
 
-        // //////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////
+ topic2: {
+    title: "Tarix 2-Bo'lim",
+    questions: randomizeQuestions([
+
+  {
+    "q": "2017-yil o‘tkazilgan 'Markaziy Osiyo: yagona tarix va umumiy kelajak' anjumani qaysi tashkilot homiyligida o‘tkazildi?",
+    "options": [
+      "YUNESKO",
+      "BMT",
+      "Yevropa Ittifoqi",
+      "OIC"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekistonda Parlamentni ikki palatali bo‘lishiga rozimisiz degan masalada qachon referendum o‘tkazilgan?",
+    "options": [
+      "2002-yil",
+      "2003-yil",
+      "2004-yil",
+      "2001-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Oliy Majlisning quyi palatasi qanday nomlanadi?",
+    "options": [
+      "Qonunchilik palatasi",
+      "Senat",
+      "Oliy Kengash",
+      "Vakillar palatasi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Senatning necha nafar a'zosi O‘zbekiston Respublikasi Prezidenti tomonidan tayinlanadi?",
+    "options": [
+      "16 nafar",
+      "14 nafar",
+      "18 nafar",
+      "12 nafar"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekistonda Qonun qaysi paytdan boshlab kuchga kiradi?",
+    "options": [
+      "E’lon qilingan kundan",
+      "Prezident imzolagan kundan",
+      "Oliy Majlisda qabul qilingan kundan",
+      "Senat tasdiqlagan kundan"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "1990 yil 24 martda O‘zbekistonda qanday voqea sodir bo‘ldi?",
+    "options": [
+      "I.Karimov Prezident etib saylandi",
+      "Mustaqillik e’lon qilindi",
+      "Bayroq qabul qilindi",
+      "Konstitutsiya loyihasi ishlab chiqildi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Respublikasining Bosh Vaziri lavozimi qachon ta’sis etilgan?",
+    "options": [
+      "1991-yil",
+      "1992-yil",
+      "1990-yil",
+      "1993-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekistonda Vitse-Prezident lavozimi qachon tugatildi?",
+    "options": [
+      "1992-yil",
+      "1991-yil",
+      "1993-yil",
+      "1990-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Vakillik organlariga necha yoshga to‘lgan fuqarolar saylanadi?",
+    "options": [
+      "21 yosh",
+      "18 yosh",
+      "25 yosh",
+      "20 yosh"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekistonda hokim lavozimi qachon ta’sis etilgan?",
+    "options": [
+      "1992-yil",
+      "1991-yil",
+      "1993-yil",
+      "1990-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Tuman va shahar hokimlar kim tomonidan tayinlanadi va lavozimidan ozod qilinadi?",
+    "options": [
+      "Prezident",
+      "Senat",
+      "Qonunchilik palatasi",
+      "Mahalliy kengash"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "“O‘zbekiston Respublikasining davlat gerbi to‘g‘risida”gi qonun qachon qabul qilindi?",
+    "options": [
+      "1992-yil 2-iyul",
+      "1991-yil 18-noyabr",
+      "1993-yil 1-yanvar",
+      "1990-yil 24-mart"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Yurtimizda 'Avesto'ning yaratilganining 2700 yilligi qachon nishonlangan?",
+    "options": [
+      "2001-yil",
+      "2000-yil",
+      "2002-yil",
+      "1999-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "2000-yil Kamoliddin Behzod tavalludining necha yilligi nishonlangan?",
+    "options": [
+      "545 yilligi",
+      "550 yilligi",
+      "600 yilligi",
+      "500 yilligi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘z Fanlar Akademiyasining Adabiyot institutiga qachon Alisher Navoiy nomi berildi?",
+    "options": [
+      "1947-yil",
+      "1950-yil",
+      "1945-yil",
+      "1955-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Prezident Sh.Mirziyoyevning 5 ta muhim tashabbusidan birinchisi qanday nomlanadi?",
+    "options": [
+      "Yoshlarni musiqa va san’atga jalb qilish",
+      "Sportni rivojlantirish",
+      "Kitobxonlikni oshirish",
+      "Axborot texnologiyalarini o‘rganish"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston hududida nechta fuqarolik o‘rnatilgan?",
+    "options": [
+      "Yagona fuqarolik",
+      "Ikki fuqarolik",
+      "Ko‘p fuqarolik",
+      "Hududiy fuqarolik"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "“O‘zbekiston-2030” strategiyasining uchinchi ustuvor yo‘nalishi qanday nomlanadi?",
+    "options": [
+      "Adolatli ijtimoiy siyosat",
+      "Yashil taraqqiyot",
+      "Innovatsion jamiyat",
+      "Barqaror iqtisodiyot"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekistonda nechanchi yildan boshlab 9-may 'Xotira va qadrlash kuni' sifatida nishonlanib kelmoqda?",
+    "options": [
+      "1999-yildan",
+      "1995-yildan",
+      "2000-yildan",
+      "1997-yildan"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Prezident Sh.Mirziyoyevning 5 ta muhim tashabbusidan ikkinchisi qanday nomlanadi?",
+    "options": [
+      "Yoshlarni sportga jalb qilish",
+      "Kitobxonlikni oshirish",
+      "Axborot texnologiyalarini o‘rganish",
+      "San’atni rivojlantirish"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Prezident Sh.Mirziyoyevning 5 ta muhim tashabbusidan uchinchisi qanday nomlanadi?",
+    "options": [
+      "Kitobxonlikni oshirish",
+      "Yoshlarni sportga jalb qilish",
+      "Axborot texnologiyalarini o‘rganish",
+      "San’atni rivojlantirish"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Prezident Sh.Mirziyoyev ilgari surgan 5 muhim tashabbusning uchinchi tashabbusi qanday nomlanadi?",
+    "options": [
+      "Aholi o‘rtasida kompyuter texnologiyalarini keng joriy etish",
+      "Kitobxonlik madaniyatini oshirish va yoshlarni o‘qishga jalb etish",
+      "Sport va jismoniy tarbiya infratuzilmasini kengaytirish",
+      "Madaniyat va san’at muassasalarini rivojlantirish"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Nechanchi yildan boshlab O‘zbekiston hukumatining qarori bilan 21-mart 'Navro‘z' milliy xalq bayrami sifatida belgilanib, dam olish kuni deb e'lon qilingan?",
+    "options": [
+      "1989-yil",
+      "1991-yil",
+      "1992-yil",
+      "1994-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "XX asr 80-yillari qatag‘onlari tarixga qanday nom bilan kirgan?",
+    "options": [
+      "Paxta ishi",
+      "Oq oltin mojarosi",
+      "Korrupsiya kampaniyasi",
+      "Markaziy nazorat ishi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Prezidentining Ro‘za-Ramazon hayitining birinchi kuni dam olish kuni deb e'lon qilingan farmoni qachon chiqqan?",
+    "options": [
+      "1990-yil",
+      "1991-yil",
+      "1992-yil",
+      "1993-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Mustaqillik yillarida Qur'oni Karim necha marta nashr etilgan?",
+    "options": [
+      "3 marta",
+      "5 marta",
+      "7 marta",
+      "10 marta"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Respublika Vazirlar Mahkamasi huzuridagi din ishlari bo‘yicha qo‘mita qachon tuzilgan?",
+    "options": [
+      "1992-yil",
+      "1993-yil",
+      "1994-yil",
+      "1995-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "1997-yil qabul qilingan 'Kadrlar tayyorlash to‘g‘risida'gi milliy dasturda O‘zbekistonda ta'lim sohasidagi islohotlarni amalga oshirish necha bosqichda amalga oshirish nazarda tutilgan edi?",
+    "options": [
+      "2 bosqich",
+      "3 bosqich",
+      "4 bosqich",
+      "5 bosqich"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Iqtidorli yoshlarni chet elga o‘qishga yuborish bilan shug‘ullanuvchi 'Umid' jamg‘armasi qachon tashkil etildi?",
+    "options": [
+      "1996-yil",
+      "1997-yil",
+      "1998-yil",
+      "1999-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Prezident Sh.Mirziyoyev ilgari surgan 5 muhim tashabbusning to‘rtinchi tashabbusi qanday nomlanadi?",
+    "options": [
+      "Sport va jismoniy tarbiya infratuzilmasini kengaytirish",
+      "Kitobxonlik madaniyatini oshirish",
+      "Madaniyat va san’at muassasalarini rivojlantirish",
+      "Yoshlarni kasb-hunarga jalb etish"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Prezident Sh.Mirziyoyev ilgari surgan 5 muhim tashabbusning beshinchi tashabbusi qanday nomlanadi?",
+    "options": [
+      "Yoshlarni kasb-hunarga jalb etish",
+      "Sportni rivojlantirish",
+      "Kitobxonlikni kengaytirish",
+      "Madaniyatni qo‘llab-quvvatlash"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "“Zamonaviy Oʻzbekistonning tarixi bu mamlakatimizning haqiqiy mustaqillikka erishish yоʻlida Islom Abdugʻanievich Karimov rahnamoligida olib borilgan оʻta murakkab va ogʻir kurashlar tarixidir” fikrlar muallifi kim?",
+    "options": [
+      "Shavkat Mirziyoyev",
+      "Abdulla Aripov",
+      "Islom Karimov",
+      "Abdulaziz Kamilov"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "“O‘zbekistonning davlat ramzlari to‘g‘risida” maxsus qaror qachon qabul qilindi?",
+    "options": [
+      "1991-yil",
+      "1992-yil",
+      "1993-yil",
+      "1994-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Toshkentdagi 'Turkiston' saroyi qachon foydalanishga topshirildi?",
+    "options": [
+      "1992-yil",
+      "1993-yil",
+      "1994-yil",
+      "1995-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistondagi dastlabki xususiy kinostudiya bu...",
+    "options": [
+      "Uzbekfilm",
+      "Samarqandfilm",
+      "Moviefilm",
+      "Mustaqilfilm"
+    ],
+    "correct": 3
+  },
+  {
+    "q": "Prezident farmoniga muvofiq qachon O‘zbekistonda Badiiy akademiya tashkil etildi?",
+    "options": [
+      "1996-yil",
+      "1997-yil",
+      "1998-yil",
+      "1999-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "1997-yil 11-martda nima sodir bo‘lgan?",
+    "options": [
+      "Kadrlar tayyorlash milliy dasturi qabul qilindi",
+      "Din ishlari qo‘mitasi tuzildi",
+      "Badiiy akademiya tashkil etildi",
+      "Umid jamg‘armasi tashkil etildi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekistonda aholining muzeyshunoslik madaniyatini shakllantirish maqsadida 1999-yilda qanday jurnal ta'sis etilgan?",
+    "options": [
+      "Madaniyat va meros",
+      "O‘zbekiston muzeylari",
+      "Meros",
+      "Tarix va madaniyat"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Liberal Demokratik partiyasi (O‘zLiDeP) qachon tashkil topgan?",
+    "options": [
+      "2002-yil",
+      "2003-yil",
+      "2004-yil",
+      "2005-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Qayerda Sharof Rashidov xotiralarini abadiylashtirish bo‘yicha yirik tadbirlar o‘tkazildi?",
+    "options": [
+      "Toshkent",
+      "Samarqand",
+      "Jizzax",
+      "Buxoro"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasining Birinchi prezidenti I.Karimov tomonidan ishlab chiqilgan 'O‘zbek modeli' necha tamoyildan iborat?",
+    "options": [
+      "3 tamoyil",
+      "4 tamoyil",
+      "5 tamoyil",
+      "6 tamoyil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Qaysi yildan boshlab har yili 1-oktabr 'O‘qituvchilar va murabbiylar kuni' sifatida nishonlanib kelinmoqda?",
+    "options": [
+      "1996-yil",
+      "1997-yil",
+      "1998-yil",
+      "1999-yil"
+    ],
+    "correct": 0
+  }
+
+ 
+    ]),
+  },
+ 
+ //////////////////
  // topic9: {
  //    title: "inson huquqi 4-Bo'lim",
  //    questions: randomizeQuestions([
