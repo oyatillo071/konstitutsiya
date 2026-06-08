@@ -1291,7 +1291,7 @@ topic1: {
  topic4: {
     title: "Tarix 4-Bo'lim",
     questions: randomizeQuestions([
-[
+
   {
     "q": "Qachon Mazkur farmon asosida O‘zbekiston Respublikasi Oliy sudi va Oliy xo‘jalik sudi birlashtirilib, yagona oliy organ – O‘zbekiston Respublikasi Oliy sudi tashkil etildi?",
     "options": [
@@ -1693,6 +1693,426 @@ topic1: {
     ],
     "correct": 1
   }
+
+ 
+    ]),
+  },
+ topic5: {
+    title: "Tarix 5-Bo'lim",
+    questions: randomizeQuestions([
+
+  {
+    "q": "Qachon Respublika Oliy Sovetining XI sessiyasi 'O‘zbekiston SSR davlat tili haqida' Qonunni qabul qilib, o‘zbek tiliga davlat tili maqomini berdi?",
+    "options": [
+      "1988-yil",
+      "1989-yil",
+      "1990-yil",
+      "1991-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Shavkat Mirziyoyev BMT Bosh Assambleyasining 'Ma’rifat va diniy bag‘rikenglik' deb nomlangan maxsus rezolyutsiyasini qabul qilish taklifini qaysi sessiyasida murojaat qildi?",
+    "options": [
+      "71-sessiya",
+      "72-sessiya",
+      "73-sessiya",
+      "74-sessiya"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Prezidentning 2013-yildagi 'Yuridik kadrlar tayyorlash tizimini yanada takomillashtirish to‘g‘risida'gi qaroriga muvofiq…",
+    "options": [
+      "Yangi yuridik akademiya tashkil etildi",
+      "Huquqshunoslik oliy maktabi ochildi",
+      "Yuridik kadrlar tayyorlash tizimi isloh qilindi",
+      "Advokatlar malaka oshirish markazi ochildi"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Kimning tavalludi 1994-yil O‘zbekistonda va jahon miqyosida, xususan, YUNESKO qarorgohi Parijda keng nishonlangan?",
+    "options": [
+      "Alisher Navoiy",
+      "Mirzo Ulug‘bek",
+      "Ahmad Farg‘oniy",
+      "Beruniy"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Markaziy Osiyoda yagona bo‘lgan Toshkent islom Universitetiga qachon asos solindi?",
+    "options": [
+      "1997-yil",
+      "1998-yil",
+      "1999-yil",
+      "2000-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Islom Karimov tavalludining 80 yilligi munosabati bilan Samarqandda xalqaro konferensiya qachon bo‘lib o‘tdi?",
+    "options": [
+      "2016-yil",
+      "2017-yil",
+      "2018-yil",
+      "2019-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Prezident Shavkat Mirziyoyev BMT Bosh Assambleyasining qaysi sessiyasida dinlararo totuvlik va tinchlikni saqlash haqida ta’kidlagan edi?",
+    "options": [
+      "71-sessiya",
+      "72-sessiya",
+      "73-sessiya",
+      "74-sessiya"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "“Imom Buxoriy xalqaro ilmiy-tadqiqot markazini tashkil etish chora-tadbirlari to‘g‘risida”gi qaror qachon qabul qilindi?",
+    "options": [
+      "2016-yil",
+      "2017-yil",
+      "2018-yil",
+      "2019-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Imom Buxoriy yodgorlik majmuasi qaysi shaharda tashkil qilingan?",
+    "options": [
+      "Toshkent",
+      "Samarqand",
+      "Buxoro",
+      "Jizzax"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Qosim shayx Azizon xonaqosi qaysi shaharda joylashgan?",
+    "options": [
+      "Toshkent",
+      "Samarqand",
+      "Buxoro",
+      "Xiva"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasida maydoni jihatdan eng katta viloyat qaysi?",
+    "options": [
+      "Qashqadaryo",
+      "Samarqand",
+      "Buxoro",
+      "Navoiy"
+    ],
+    "correct": 3
+  },
+  {
+    "q": "Hozirgi vaqtda O‘zbekiston qishloq xo‘jaligidagi etakchi xo‘jalik shaklini toping?",
+    "options": [
+      "Fermer xo‘jaligi",
+      "Dehqon xo‘jaligi",
+      "Kooperativ xo‘jaligi",
+      "Davlat xo‘jaligi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Prezidentning qachongi farmoni asosida O‘zbekistonda Islom akademiyasi tashkil qilindi?",
+    "options": [
+      "2017-yil",
+      "2018-yil",
+      "2019-yil",
+      "2020-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "2024-yil O‘zbekistonda qanday yil deb e’lon qilindi?",
+    "options": [
+      "Yoshlar yili",
+      "Insonga e’tibor va sifatli ta’lim yili",
+      "Obod qishloq yili",
+      "Innovatsiyalar yili"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Qachon O‘zbekiston Prezidentining 'Respublika oliy ta’lim muassasalari bakalavriatiga kirish test sinovlarini o‘tkazish tartibini takomillashtirish to‘g‘risida'gi qarori qabul qilindi?",
+    "options": [
+      "2017-yil",
+      "2018-yil",
+      "2019-yil",
+      "2020-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "1989-yilgi 'Farg‘ona voqealari' qaysi millatlar o‘rtasida bo‘lib o‘tdi?",
+    "options": [
+      "O‘zbeklar va qirg‘izlar",
+      "O‘zbeklar va mesxeti turklari",
+      "O‘zbeklar va tojiklar",
+      "O‘zbeklar va ruslar"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Vijdon erkinligi va diniy tashkilotlar to‘g‘risidagi qonun qachon qabul qilingan?",
+    "options": [
+      "1997-yil",
+      "1998-yil",
+      "1999-yil",
+      "2000-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Prezidentining 'Islom Karimovning xotirasini abadiylashtirish to‘g‘risida'gi qarori qachon qabul qilingan?",
+    "options": [
+      "2016-yil",
+      "2017-yil",
+      "2018-yil",
+      "2019-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Hadis ilmida shuxrat qozongan ulug‘ allomani toping?",
+    "options": [
+      "Imom Buxoriy",
+      "Imom Termiziy",
+      "Imom Moturidiy",
+      "Imom G‘azzoliy"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Mo‘g‘ullarga qarshi kurashgan xalq qahramoni kim?",
+    "options": [
+      "Amir Temur",
+      "Jaloliddin Manguberdi",
+      "Shiroq",
+      "Najmiddin Kubro"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Jaloliddin Manguberdi haykali qaysi shaharda o‘rnatilgan?",
+    "options": [
+      "Toshkent",
+      "Samarqand",
+      "Urganch",
+      "Buxoro"
+    ],
+    "correct": 2
+  }
+,
+  {
+    "q": "I.A. Karimov BMT Bosh Assambleyasining 48-sessiyasida nutq so‘zlagan bo‘lsa, Sh. Mirziyoyevning ilk ma’ruzasi BMT Bosh Assambleyasining qaysi sessiyasiga bo‘ldi?",
+    "options": [
+      "71-sessiya",
+      "72-sessiya",
+      "73-sessiya",
+      "74-sessiya"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Dunyo halqlarining madaniyati, ta’lim va fani borasida erishgan yutuqlarini xalqaro miqiyosda targ‘ib etuvchi xalqaro tashkilot qaysi qatorda to‘g‘ri ko‘rsatilgan?",
+    "options": [
+      "BMT",
+      "YuNESKO",
+      "YUNISEF",
+      "YUNIDO"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston YuNESKO xalqaro tashkiloti a’zoligiga qachon qabul qilindi?",
+    "options": [
+      "1991-yil",
+      "1992-yil",
+      "1993-yil",
+      "1994-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qaysi yildan e’tiboran 31-avgust sanasi yurtimizda qatag‘on qurbonlarini yod etish kuni sifatida nishonlanadigan bo‘ldi?",
+    "options": [
+      "1999-yil",
+      "2000-yil",
+      "2001-yil",
+      "2002-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Mirzo Ulug‘bek tavalludining necha yilligini xalqaro miqyosda nishonlash YuNESKO dasturiga kiritildi?",
+    "options": [
+      "500 yilligi",
+      "550 yilligi",
+      "560 yilligi",
+      "600 yilligi"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonning qaysi shaharlari 1997-yil YuNESKOning jahon madaniy qadriyatlari ro‘yxatiga kiritildi?",
+    "options": [
+      "Toshkent va Samarqand",
+      "Samarqand va Buxoro",
+      "Xiva va Buxoro",
+      "Shahrisabz va Samarqand"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "YuNESKO qaroriga binoan O‘zbekistondan nechta tarixiy ob’ekt jahon madaniyati qadriyatlari ro‘yxatiga kiritildi?",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "YuNESKO qaroriga binoan O‘zbekistonning qaysi viloyatida Markaziy Osiyo tadqiqotlari instituti tashkil etildi?",
+    "options": [
+      "Toshkent viloyati",
+      "Samarqand viloyati",
+      "Buxoro viloyati",
+      "Xorazm viloyati"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Amir Temurning nomining xalqimizga qaytarilishi kimning nomi bilan bog‘liq?",
+    "options": [
+      "Islom Karimov",
+      "Shavkat Mirziyoyev",
+      "Alisher Navoiy",
+      "Mirzo Ulug‘bek"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "YuNESKO loyihasi doirasida Amir Temur tavalludining 660 yilligi xalqaro miqyosda qachon nishonlandi?",
+    "options": [
+      "1994-yil",
+      "1995-yil",
+      "1996-yil",
+      "1997-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Amir Temur tavalludining 660 yilligi tantanalari xalqaro miqyosda qaysi shaharda nishonlandi?",
+    "options": [
+      "Toshkent",
+      "Samarqand",
+      "Shahrisabz",
+      "Buxoro"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Qachondan boshlab O‘zbekistonning tashqi siyosatida Markaziy Osiyo davlatlari asosiy o‘rin egallay boshladi?",
+    "options": [
+      "2016-yil",
+      "2017-yil",
+      "2018-yil",
+      "2019-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Qachon Samarqandda Amir Temur haykali ochildi?",
+    "options": [
+      "1994-yil",
+      "1995-yil",
+      "1996-yil",
+      "1997-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qachon Toshkentda Amir Temur haykali ochildi?",
+    "options": [
+      "1993-yil",
+      "1994-yil",
+      "1995-yil",
+      "1996-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "1996-yili qaysi shaharlar 'Amir Temur' ordeni bilan mukofotlandi?",
+    "options": [
+      "Toshkent va Samarqand",
+      "Samarqand va Buxoro",
+      "Xiva va Buxoro",
+      "Shahrisabz va Samarqand"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qayerda Hamid Olimjon va Zulfiya xotirasiga bag‘ishlab barpo etilgan yodgorlik majmuasi ochildi?",
+    "options": [
+      "Toshkent",
+      "Samarqand",
+      "Buxoro",
+      "Farg‘ona"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qachon Prezident Shavkat Mirziyoyev tashabbusi bilan Jizzax tumaniga Sharof Rashidov nomi berildi?",
+    "options": [
+      "2016-yil",
+      "2017-yil",
+      "2018-yil",
+      "2019-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Qachondan Qurbon va Ramazon hayit kunlarini doimiy ravishda bayram qilish va dam olish kunlari deb e’lon qilish haqida qaror qabul qilindi?",
+    "options": [
+      "1991-yil",
+      "1992-yil",
+      "1993-yil",
+      "1994-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasining Birinchi Prezidenti Islom Karimov yashab faoliyat ko‘rsatgan yillarni toping?",
+    "options": [
+      "1989–2016",
+      "1990–2016",
+      "1991–2016",
+      "1992–2016"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Mansabdor shaxslar tomonidan unga berilgan mansab vakolatlari va huquqlardan o‘zlarining shaxsiy manfaatlarini ko‘zlab qonunchilik va axloq qoidalariga zid ravishda foydalanishi nima deyiladi?",
+    "options": [
+      "Korrupsiya",
+      "Jinoyat",
+      "Poraxo‘rlik",
+      "Vakolatni suiiste’mol qilish"
+    ],
+    "correct": 0
+  }
+
 
  
     ]),
