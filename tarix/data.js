@@ -875,6 +875,828 @@ topic1: {
   },
  
  //////////////////
+ topic3: {
+    title: "Tarix 3-Bo'lim",
+    questions: randomizeQuestions([
+
+  {
+    "q": "SSSR tarkibiga nechta ittifoqdosh respublika kirgan?",
+    "options": [
+      "12 ta",
+      "14 ta",
+      "15 ta",
+      "16 ta"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasi parlamenti necha palatadan iborat?",
+    "options": [
+      "Bir palata",
+      "Ikki palata",
+      "Uch palata",
+      "To‘rt palata"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Sovet Ittifoqida davlat to‘ntarishi sodir bo‘lgan sanalarni ko‘rsating?",
+    "options": [
+      "1990-yil 25-avgust",
+      "1991-yil 19-avgust",
+      "1991-yil 1-sentabr",
+      "1992-yil 15-yanvar"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Orol fojeasi qanday muammo hisoblanadi?",
+    "options": [
+      "Ekologik muammo",
+      "Iqtisodiy muammo",
+      "Siyosiy muammo",
+      "Ijtimoiy muammo"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Respublikasi asosiy qonuni bo‘lmish Konstitutsiya nechanchi chaqiriq va qaysi sessiyasida qabul qilingan?",
+    "options": [
+      "12-chaqiriq, 11-sessiya",
+      "12-chaqiriq, 12-sessiya",
+      "13-chaqiriq, 11-sessiya",
+      "13-chaqiriq, 12-sessiya"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekistonda Qurolli kuchlarining Oliy bosh qo‘mondoni kim hisoblanadi?",
+    "options": [
+      "Mudofaa vaziri",
+      "Prezident",
+      "Bosh vazir",
+      "Senat raisi"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Sobiq sovet respublikasi (SSSR) necha yil yashadi?",
+    "options": [
+      "65 yil",
+      "69 yil",
+      "71 yil",
+      "73 yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Vijdon erkinligi nima?",
+    "options": [
+      "Shaxsning diniy e’tiqodini tanlash huquqi",
+      "Shaxsning siyosiy qarashlarini bildirish huquqi",
+      "Shaxsning iqtisodiy faoliyatini tanlash huquqi",
+      "Shaxsning madaniy merosdan foydalanish huquqi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekistonda 1991-yil 6-sentyabrda tuzilgan vazirlikni toping?",
+    "options": [
+      "Mudofaa vazirligi",
+      "Ichki ishlar vazirligi",
+      "Tashqi ishlar vazirligi",
+      "Adliya vazirligi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Respublikasida hokimiyat nechchi qismga bo‘linadi?",
+    "options": [
+      "Ikki qism",
+      "Uch qism",
+      "To‘rt qism",
+      "Besh qism"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekistonda tuzilgan birinchi siyosiy partiya qaysi?",
+    "options": [
+      "O‘zbekiston Xalq demokratik partiyasi",
+      "O‘zLiDeP",
+      "Milliy tiklanish",
+      "Adolat"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Parlament nima?",
+    "options": [
+      "Ijro hokimiyati organi",
+      "Qonun chiqaruvchi organ",
+      "Sud hokimiyati organi",
+      "Mahalliy hokimiyat organi"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Respublikasida oliy ta’limni rivojlantirish konsepsiyasi nechanchi yilgacha bo‘lgan davrni o‘z ichiga oladi?",
+    "options": [
+      "2025-yilgacha",
+      "2030-yilgacha",
+      "2035-yilgacha",
+      "2040-yilgacha"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston ekologik harakati qachon tashkil topgan?",
+    "options": [
+      "2007-yil",
+      "2008-yil",
+      "2009-yil",
+      "2010-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Hozirgi kunda nechta siyosiy partiya faoliyat yuritmoqda?",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "1991-yil avgustda SSSRda kim boshchiligida Favqulodda Holat Davlat Qo‘mitasi (GKCHP) tuziladi?",
+    "options": [
+      "M.Gorbachyov",
+      "G.Yanayev",
+      "B.Yeltsin",
+      "A.Yakovlev"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "1991-yil 19-avgustda Favqulodda Holat Davlat Qo‘mitasi (GKCHP) kim tomonidan tuziladi?",
+    "options": [
+      "M.Gorbachyov",
+      "G.Yanayev",
+      "B.Yeltsin",
+      "A.Yakovlev"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston havo yo‘llari nechta mamlakatga parvozlarni amalga oshiradi?",
+    "options": [
+      "25 ta",
+      "30 ta",
+      "35 ta",
+      "40 ta"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Toshkent xalqaro aeroportiga qachon I.Karimov nomi berildi?",
+    "options": [
+      "2016-yil",
+      "2017-yil",
+      "2018-yil",
+      "2019-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "“O‘zbekiston-2030” strategiyasining to‘rtinchi ustuvor yo‘nalishi qanday nomlanadi?",
+    "options": [
+      "Yashil taraqqiyot",
+      "Adolatli jamiyat",
+      "Innovatsion iqtisodiyot",
+      "Kuchli fuqarolik jamiyati"
+    ],
+    "correct": 0
+  }
+,
+  {
+    "q": "Qaysi ta’lim tizimi uzluksiz ta’limning birlamchi, eng asosiy bo‘g‘inidir?",
+    "options": [
+      "Maktabgacha ta’lim",
+      "Umumiy o‘rta ta’lim",
+      "O‘rta maxsus ta’lim",
+      "Oliy ta’lim"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekistonda 2023-yil qanday nomlangan?",
+    "options": [
+      "Yoshlar yili",
+      "Insonga e’tibor va sifatli ta’lim yili",
+      "Xalq bilan muloqot yili",
+      "Obod qishloq yili"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "2015-yilga kelib jahon sog‘liqni saqlash tashkiloti ma’lumotiga ko‘ra O‘zbekistonda tug‘ilayotgan bolalarning necha foizi mutlaq sog‘lom bolalarni tashkil etgan?",
+    "options": [
+      "85%",
+      "90%",
+      "92%",
+      "95%"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda qaysi o‘quv yilidan 1-sinflar o‘qishni lotin alifbosida amalga oshirish belgilangan?",
+    "options": [
+      "1993-1994 o‘quv yili",
+      "1994-1995 o‘quv yili",
+      "1995-1996 o‘quv yili",
+      "1996-1997 o‘quv yili"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "1989-yil may-iyun oylarida Quvasoyda yoshlar o‘rtasida bo‘lgan bezorilik vodiyda millatlararo to‘qnashuv qaysi xalqlar o‘rtasida kelib chiqdi?",
+    "options": [
+      "O‘zbeklar va qirg‘izlar",
+      "O‘zbeklar va tojiklar",
+      "O‘zbeklar va qozoqlar",
+      "O‘zbeklar va ruslar"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Zulfiya nomidagi davlat mukofoti qachon qabul qilingan?",
+    "options": [
+      "1998-yil",
+      "1999-yil",
+      "2000-yil",
+      "2001-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "2017-yilda qaysi davlatda 'O‘zbekiston Respublikasi Prezidenti Shavkat Mirziyoyev' nomli kitob chop etildi?",
+    "options": [
+      "Rossiya",
+      "AQSh",
+      "Xitoy",
+      "Yaponiya"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Oliy ta’lim dasturining birinchi bosqichini tugallagan talabalarning ilmiy darajasi qanday ataladi?",
+    "options": [
+      "Magistr",
+      "Bakalavr",
+      "Doktorant",
+      "Professor"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "“O‘zbekiston-2030” strategiyasining beshinchi ustuvor yo‘nalishi qanday nomlanadi?",
+    "options": [
+      "Yashil taraqqiyot",
+      "Adolatli jamiyat",
+      "Innovatsion iqtisodiyot",
+      "Kuchli fuqarolik jamiyati"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Qachondan boshlab O‘zbekistonda 'Universiada', 'Barkamol avlod' va 'Umid nihollari' sport musobaqalari o‘tkazilib kelinmoqda?",
+    "options": [
+      "1999-yildan",
+      "2000-yildan",
+      "2001-yildan",
+      "2002-yildan"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekistonda ta’lim nechta tilda olib boriladi?",
+    "options": [
+      "5 ta",
+      "7 ta",
+      "9 ta",
+      "11 ta"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda qaysi yil 'Xalq bilan muloqot va inson manfaatlari yili' deb e’lon qilingan?",
+    "options": [
+      "2016-yil",
+      "2017-yil",
+      "2018-yil",
+      "2019-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Qachon Toshkentdagi 'Bobur' bog‘iga 'Do‘stlik' bog‘i nomi berildi?",
+    "options": [
+      "1992-yil",
+      "1993-yil",
+      "1994-yil",
+      "1995-yil"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Davlat, jamiyat, iqtisodiyot, texnologiya va boshqa sohalarning yangilanishi, yangi uslublar, ixtirolarning qo‘llanishi asosidagi o‘zgarishlar bu-?",
+    "options": [
+      "Innovatsiya",
+      "Modernizatsiya",
+      "Integratsiya",
+      "Globalizatsiya"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "1991-yil 29-dekabrda O‘zbekistonda ilk bor umumxalq tomonidan o‘tkazilgan prezidentlik saylovida Islom Karimov bilan qatorda muqobillik asosida kim o‘z nomzodini qo‘ygan edi?",
+    "options": [
+      "Muhammad Solih",
+      "Abdulaziz Kamilov",
+      "Shavkat Mirziyoyev",
+      "Rustam Azimov"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "…da O‘zbekiston Konstitutsiyasi va 'O‘zbekiston Respublikasi Prezidenti saylovi to‘g‘risidagi'gi qonunga muvofiq, muqobillik va sog‘lom raqobat asosida Prezidentlik saylovi o‘tkazildi. Unda 88,61 % ovoz bilan Bosh vazir Shavkat Mirziyoyev prezident etib saylandi.",
+    "options": [
+      "2015-yil",
+      "2016-yil",
+      "2017-yil",
+      "2018-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Qaysi yillarda mamlakatimiz parlamenti Oliy Kengash nomi bilan atalgan?",
+    "options": [
+      "1990-1992-yillar",
+      "1991-1993-yillar",
+      "1992-1994-yillar",
+      "1993-1995-yillar"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "“O‘zbekiston-2030” strategiyasi nechta maqsadni o‘z ichiga oladi?",
+    "options": [
+      "5 ta",
+      "7 ta",
+      "10 ta",
+      "12 ta"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekistonda qaysi partiyaning asosiy maqsad vazifasi milliy an’analarni va qadriyatlarni saqlashdan iborat?",
+    "options": [
+      "O‘zLiDeP",
+      "Milliy tiklanish",
+      "Adolat",
+      "XDP"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "…da O‘zbekiston Respublikasi Prezidenti tomonidan 2 ming 700 nafar mahkumni, shu jumladan, jazoni ijro etish koloniyalaridan 956 nafar shaxslarni mamlakatimiz tarixida ilk marotaba afv etish to‘g‘risida farmon qabul qilindi?",
+    "options": [
+      "2016-yil",
+      "2017-yil",
+      "2018-yil",
+      "2019-yil"
+    ],
+    "correct": 0
+  }
+
+ 
+    ]),
+  },
+
+
+
+//////////////////////////////////////////////////
+ topic4: {
+    title: "Tarix 4-Bo'lim",
+    questions: randomizeQuestions([
+[
+  {
+    "q": "Qachon Mazkur farmon asosida O‘zbekiston Respublikasi Oliy sudi va Oliy xo‘jalik sudi birlashtirilib, yagona oliy organ – O‘zbekiston Respublikasi Oliy sudi tashkil etildi?",
+    "options": [
+      "2016-yil",
+      "2017-yil",
+      "2018-yil",
+      "2019-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Oliy sudi Harbiy hay’ati, Harbiy sudi, okrug va hududiy harbiy sudlar shtat birliklari O‘zbekiston Respublikasi Qurolli Kuchlari tarkibidan Oliy sud tizimiga o‘tkazildi?",
+    "options": [
+      "2016-yil",
+      "2017-yil",
+      "2018-yil",
+      "2019-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "14-yanvar O‘zbekiston Respublikasining …dagi qonuniga muvofiq 'Vatan himoyachilari kuni' deb e’lon qilindi?",
+    "options": [
+      "1991-yil",
+      "1992-yil",
+      "1993-yil",
+      "1994-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Qachon qabul qilingan farmonga ko‘ra Xalq qabulxonalari tashkil etilgan?",
+    "options": [
+      "2016-yil",
+      "2017-yil",
+      "2018-yil",
+      "2019-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Respublikasi mintaqaning nechta mamlakati bilan umumiy chegaraga ega?",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Orol dengizining fojiasi birinchi navbatda qaysi jarayon oqibatida shakllangan?",
+    "options": [
+      "Sug‘orish tizimining haddan tashqari kengayishi",
+      "Sanoat chiqindilari ko‘payishi",
+      "Iqlim o‘zgarishi",
+      "Transport ifloslanishi"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Respublikasida hozirgi vaqtda qancha millat va elat vakillari yashaydi?",
+    "options": [
+      "100 dan ortiq",
+      "120 dan ortiq",
+      "130 dan ortiq",
+      "140 dan ortiq"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Necha yoshdan kam bo‘lmagan fuqarolar Prezidentlikka saylanishi mumkin?",
+    "options": [
+      "30 yosh",
+      "35 yosh",
+      "40 yosh",
+      "45 yosh"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Necha yoshga to‘lgan fuqarolar Oliy Majlisga saylanishi mumkin?",
+    "options": [
+      "21 yosh",
+      "23 yosh",
+      "25 yosh",
+      "27 yosh"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Necha yoshga to‘lgan fuqarolar viloyat, tuman, shahar Kengashlariga deputatlikka saylanishi mumkin?",
+    "options": [
+      "18 yosh",
+      "20 yosh",
+      "21 yosh",
+      "23 yosh"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Xalq demokratik partiyasiga qachon asos solindi?",
+    "options": [
+      "1990-yil",
+      "1991-yil",
+      "1992-yil",
+      "1993-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Adolat sotsial-demokratik partiyasi qachon tashkil etilgan?",
+    "options": [
+      "1994-yil",
+      "1995-yil",
+      "1996-yil",
+      "1997-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "O‘zbekiston Milliy tiklanish demokratik partiyasi qachon tashkil etilgan?",
+    "options": [
+      "1994-yil",
+      "1995-yil",
+      "1996-yil",
+      "1997-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Quyidagi qaysi shaharda Amir Temur va temuriylar davri tarixi muzeyi qurildi?",
+    "options": [
+      "Toshkent",
+      "Samarqand",
+      "Shahrisabz",
+      "Buxoro"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Ta’lim tizimidagi innovatsion va kreativ yondashuvlar asosida tashkil etilgan aniq fanlarga ixtisoslashtirilgan maktablarga kimlarning nomi berilgan?",
+    "options": [
+      "Beruniy va Ulug‘bek",
+      "Ibn Sino va Beruniy",
+      "Al-Xorazmiy va Ulug‘bek",
+      "Al-Farg‘oniy va Ibn Sino"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Shahrisabzda Amir Temur haykali qachon ochilgan?",
+    "options": [
+      "1994-yil",
+      "1995-yil",
+      "1996-yil",
+      "1997-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qaysi yildan boshlab O‘zbekistonda ilk bor mamlakat aholisi va hukumatning to‘g‘ridan-to‘g‘ri muloqoti yo‘lga qo‘yildi?",
+    "options": [
+      "2016-yil",
+      "2017-yil",
+      "2018-yil",
+      "2019-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Qachondan boshlab bosh vazir virtual qabulxonasi ochildi?",
+    "options": [
+      "2016-yil",
+      "2017-yil",
+      "2018-yil",
+      "2019-yil"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "O‘zbekiston Prezidentining 2017-yil 27-martdagi qaroriga muvofiq Sharof Rashidov tavalludining 100 yilligini nishonlash tadbirlari qayerda bo‘lib o‘tdi?",
+    "options": [
+      "Toshkent",
+      "Samarqand",
+      "Jizzax",
+      "Buxoro"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "2016-yil 28-dekabrda qanday farmon ishlab chiqilgan?",
+    "options": [
+      "Davlat xizmatini rivojlantirish farmoni",
+      "Xalq qabulxonalarini tashkil etish farmoni",
+      "Sud-huquq tizimini isloh qilish farmoni",
+      "Ta’lim tizimini rivojlantirish farmoni"
+    ],
+    "correct": 1
+  }
+,
+  {
+    "q": "O‘zbekiston Respublikasi Prezidenti Shavkat Mirziyoyev Konstitutsiya qabul qilinganining 25 yilligiga bag‘ishlangan marosimdagi ma’ruzasida Xalq qabulxonalari negizida … tashkil etilishini ilgari surdi?",
+    "options": [
+      "Virtual qabulxonalar",
+      "Mahalla markazlari",
+      "Prezident xalq qabulxonalari",
+      "Fuqarolar majlisi"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "O‘zbekiston Respublikasi Prezidenti Shavkat Mirziyoyev BMTning nechanchi sessiyasida qatnashdi?",
+    "options": [
+      "71-sessiya",
+      "72-sessiya",
+      "73-sessiya",
+      "74-sessiya"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Harakatlar strategiyasi qachon tasdiqlandi?",
+    "options": [
+      "2016-yil",
+      "2017-yil",
+      "2018-yil",
+      "2019-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Harakatlar strategiyasi qaysi yillarga mo‘ljallangan?",
+    "options": [
+      "2016–2020",
+      "2017–2021",
+      "2017–2022",
+      "2018–2022"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Harakatlar strategiyasi nechta yo‘nalishdan iborat?",
+    "options": [
+      "3 ta",
+      "4 ta",
+      "5 ta",
+      "6 ta"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Harakatlar strategiyasi amalga oshishini qaysi tashkilot nazorat qiladi?",
+    "options": [
+      "Oliy Majlis",
+      "Prezident Administratsiyasi",
+      "Milliy komissiya",
+      "Vazirlar Mahkamasi"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Harakatlar strategiyasi amalga oshishini nazorat qiluvchi Prezident rahbarligidagi Milliy komissiya necha kishidan iborat?",
+    "options": [
+      "30 kishi",
+      "35 kishi",
+      "37 kishi",
+      "40 kishi"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Harakatlar strategiyasining birinchi yo‘nalishi qanday nomlanadi?",
+    "options": [
+      "Davlat va jamiyat qurilishi",
+      "Iqtisodiy rivojlanish",
+      "Ijtimoiy soha",
+      "Xavfsizlik va tashqi siyosat"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Harakatlar strategiyasining ikkinchi yo‘nalishi qanday nomlanadi?",
+    "options": [
+      "Davlat va jamiyat qurilishi",
+      "Iqtisodiy rivojlanish va liberallashtirish",
+      "Ijtimoiy soha",
+      "Xavfsizlik va tashqi siyosat"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Harakatlar strategiyasining uchinchi yo‘nalishi qanday nomlanadi?",
+    "options": [
+      "Davlat va jamiyat qurilishi",
+      "Iqtisodiy rivojlanish",
+      "Ijtimoiy sohani rivojlantirish",
+      "Xavfsizlik va tashqi siyosat"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Harakatlar strategiyasining to‘rtinchi yo‘nalishi qanday nomlanadi?",
+    "options": [
+      "Davlat va jamiyat qurilishi",
+      "Iqtisodiy rivojlanish",
+      "Ijtimoiy soha",
+      "Xavfsizlik, millatlararo totuvlik va diniy bag‘rikenglik"
+    ],
+    "correct": 3
+  },
+  {
+    "q": "Harakatlar strategiyasining beshinchi yo‘nalishi qanday nomlanadi?",
+    "options": [
+      "Davlat va jamiyat qurilishi",
+      "Iqtisodiy rivojlanish",
+      "Ijtimoiy soha",
+      "Tashqi siyosat va xavfsizlik"
+    ],
+    "correct": 3
+  },
+  {
+    "q": "“SamAuto” (Samarqand avtomobil zavodi) qachon qurilgan?",
+    "options": [
+      "1996-yil",
+      "1997-yil",
+      "1998-yil",
+      "1999-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "“MAN Auto Uzbekistan” qachon tashkil qilindi?",
+    "options": [
+      "2007-yil",
+      "2008-yil",
+      "2009-yil",
+      "2010-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Asaka shahridagi avtomobil zavodi hozirgi kunda qanday nomlanadi?",
+    "options": [
+      "GM Uzbekistan",
+      "UzAuto Motors",
+      "Chevrolet Uzbekistan",
+      "AvtoVAZ Uzbekistan"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Tokiodagi qaysi Universitetda buyuk o‘zbek mutafakkiri Alisher Navoiyga haykal o‘rnatildi?",
+    "options": [
+      "Tokio Universiteti",
+      "Waseda Universiteti",
+      "Meiji Universiteti",
+      "Hitotsubashi Universiteti"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Qachondan boshlab O‘zbekistonning qo‘shni davlatlar bilan munosabatida yangi davr boshlandi?",
+    "options": [
+      "2016-yil",
+      "2017-yil",
+      "2018-yil",
+      "2019-yil"
+    ],
+    "correct": 1
+  },
+  {
+    "q": "Hozirda O‘zbekistonda nechta diniy konfessiya faoliyat yuritmoqda?",
+    "options": [
+      "14 ta",
+      "16 ta",
+      "18 ta",
+      "20 ta"
+    ],
+    "correct": 2
+  },
+  {
+    "q": "Markaziy Osiyoda yagona bo‘lgan Toshkent islom Universitetiga kimning tashabbusi bilan asos solindi?",
+    "options": [
+      "Islom Karimov",
+      "Shavkat Mirziyoyev",
+      "Abdulla Aripov",
+      "Abdulaziz Kamilov"
+    ],
+    "correct": 0
+  },
+  {
+    "q": "Qachon Respublika Oliy Sovetining XI sessiyasi 'O‘zbekiston SSR davlat tili haqida' Qonunni qabul qilib, o‘zbek tiliga davlat tili maqomini berdi?",
+    "options": [
+      "1988-yil",
+      "1989-yil",
+      "1990-yil",
+      "1991-yil"
+    ],
+    "correct": 1
+  }
+
+ 
+    ]),
+  },
  // topic9: {
  //    title: "inson huquqi 4-Bo'lim",
  //    questions: randomizeQuestions([
