@@ -60,7 +60,7 @@ const quizDatabase = {
     questions: randomizeQuestions([
       { "q": "O'zbekistonda so'm-kupon muomalaga qachon kiritildi?", "options": ["1993-yil 15-noyabrdan", "1992-yil 1-yanvardan", "1994-yil 1-iyuldan", "1993-yil 1-martdan"], "correct": 0 },
       { "q": "O'zbekistonda milliy valyuta — so'm qachon muomalaga kiritildi?", "options": ["1994-yil 1-iyuldan", "1993-yil 15-noyabrdan", "1994-yil 1-yanvardan", "1995-yil 1-yanvardan"], "correct": 0 },
-      { "q": "O'zbekiston Konstitutsiyasining nechanchi moddasida davlatning tinchliksevar tashqi siyosat olib borishi belgilangan?", "options": ["17-moddasida", "12-moddasida", "20-moddasida", "15-moddasida"], "correct": 0 },
+      { "q": "O'zbekiston Konstitutsiyasining nechanchi moddasida davlatning tinchliksevar tashqi siyosat olib borishi belgilangan?", "options": ["18-moddasida", "12-moddasida", "20-moddasida", "15-moddasida"], "correct": 0 },
       { "q": "Qoraqalpog'iston Respublikasining qonun chiqaruvchi organi qanday nomlanadi?", "options": ["Jo'qorg'i Kenges", "Oliy Kengash", "Milliy Majlis", "Qoraqalpog'iston parlamenti"], "correct": 0 },
       { "q": "Qoraqalpog'iston Respublikasining maydoni qancha?", "options": ["166,6 ming kv. km", "112,4 ming kv. km", "144,9 ming kv. km", "82,0 ming kv. km"], "correct": 0 },
       { "q": "So'nggi 50-55 yil ichida Orol dengizi suv hajmi qancha qisqargan?", "options": ["13-14 barobardan ziyod", "7-8 barobar", "10-11 barobar", "5-6 barobar"], "correct": 0 },
