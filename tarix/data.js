@@ -28,7 +28,7 @@ const quizDatabase = {
       { "q": "'O'zbekiston – 2030' strategiyasi nechta ustuvor yo'nalishlardan iborat?", "options": ["5 ta yo'nalishdan", "6 ta yo'nalishdan", "7 ta yo'nalishdan", "4 ta yo'nalishdan"], "correct": 0 },
       { "q": "O'zbekistonda o'lim jazosi qaysi yildan rasman jinoiy jazo sifatida butunlay bekor qilingan?", "options": ["2008-yil 1-yanvardan", "2005-yil 1-avgustdan", "2010-yil 1-yanvardan", "2006-yil 1-iyuldan"], "correct": 0 },
       { "q": "2017-yil may oyida Prezident Shavkat Mirziyoyevning davlat tashrifi qaysi davlatga amalga oshirildi?", "options": ["Xitoy Xalq Respublikasiga", "Rossiya Federatsiyasiga", "Turkiya Respublikasiga", "Germaniya Federativ Respublikasiga"], "correct": 0 },
-      { "q": "2017 yilga kelib Zulfiya mukofoti sovrindorlari soni nechtaga yetdi?", "options": ["244 nafarga", "220 nafarga", "260 nafarga", "238 nafarga"], "correct": 0 },
+      { "q": "2017 yilga kelib Zulfiya mukofoti sovrindorlari soni nechtaga yetdi?", "options": ["242 nafarga yaqin", "220 nafarga yaqin ", "260 nafarga yaqin", "238 nafarga yaqin"], "correct": 0 },
       { "q": "SSSR davrida O'zbekistonda nechta madrasa faoliyat yuritgan?", "options": ["2 ta", "4 ta", "1 ta", "3 ta"], "correct": 0 },
       { "q": "2004-yili Toshkent Islom universitetida Qur'oni Karimning izohli nashri kim tahriri ostida tayyorlandi?", "options": ["Shayx Abdulaziz Mansur", "Shayx Muhammad Sodiq Muhammad Yusuf", "Shayx Ziyovuddin Askarov", "Shayx Abdulaziz Zokirov"], "correct": 0 },
       { "q": "O'zbekiston aholisining qancha qismi 30 yoshgacha bo'lganlarni tashkil etadi?", "options": ["60 foizini", "55 foizini", "65 foizini", "58 foizini"], "correct": 0 },
