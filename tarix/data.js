@@ -38,7 +38,7 @@ const quizDatabase = {
       { "q": "'O'zbek ishi — 30 va 50-yillardagi qatag'onlarning mantiqiy davomidir' degan fikr qaysi adibga tegishli?", "options": ["Shukur Xolmirzayev", "O'tkir Hoshimov", "Said Ahmad", "Erkin Vohidov"], "correct": 0 },
       { "q": "Amir Temur va Temuriylar davri tarixi muzeyi qayerda qurilgan?", "options": ["Toshkent shahrida, Amir Temur xiyoboni yonida", "Toshkent shahrida, Alisher Navoiy ko'chasida", "Samarqand shahrida, Registon maydoni yonida", "Shahrisabz shahrida, Ko'k Gumbaz masjidi yonida"], "correct": 0 },
       { "q": "BMT tomonidan qaysi sana 'Xalqaro bag'rikenglik kuni' deb e'lon qilingan?", "options": ["16-noyabr", "21-fevral", "8-mart", "4-noyabr"], "correct": 0 },
-      { "q": "YuNESKO tomonidan qaysi sana 'Xalqaro ona tili kuni' deb e'lon qilingan?", "options": ["21-fevral", "17-aprel", "3-may", "16-noyabr"], "correct": 0 },
+      { "q": "YuNESKO tomonidan qaysi sana 'Xalqaro ona tili kuni' deb e'lon qilingan?", "options": ["21-oktyabr", "17-aprel", "3-may", "16-noyabr"], "correct": 0 },
       { "q": "2007-yilda AYSESKO tomonidan 'Islom madaniyati poytaxti' maqomi berilgan shahar qaysi?", "options": ["Toshkent", "Samarqand", "Buxoro", "Namangan"], "correct": 0 },
       { "q": "Markaziy Osiyodagi yagona Toshkent islom universiteti qachon tashkil etilgan?", "options": ["1999-yil 7-aprelda", "1997-yil 12-sentyabrda", "2001-yil 3-iyunda", "2000-yil 28-fevralda"], "correct": 0 },
       { "q": "O'zbekiston Respublikasi Davlat bayrog'i qachon qabul qilingan?", "options": ["1991-yil 18-noyabrda", "1991-yil 31-avgustda", "1992-yil 8-dekabrda", "1991-yil 1-sentyabrda"], "correct": 0 },
