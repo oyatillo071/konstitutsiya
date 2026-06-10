@@ -1566,10 +1566,556 @@ topic3: {
         "correct": 0
       }
     ])
+  },
+
+/////////
+
+  topic7: {
+    "title": "Huquq nazariyasi 4-bo‘lim (Normativ-huquqiy hujjatlar, printsip va texnika)",
+    "questions": randomizeQuestions([
+      {
+        "q": "«Demokratizm va oshkoralik» printsipi nimani talab qiladi?",
+        "options": [
+          "Jamiyat muhokamasidan o‘tishi",
+          "Loyihalar sir saqlanishi",
+          "Faqat davlat sirini himoya qilish",
+          "Faqat Prezident qarori"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "«Tizimlilik va izchillik» printsipi nimani anglatadi?",
+        "options": [
+          "Har bir yangi norma mavjud huquqiy tizimga mos tushishi va ziddiyat keltirmasligi",
+          "Hujjatlar xronologik tartibda chiqarilishi",
+          "Faqat kodekslar shaklida qabul qilinishi",
+          "Barcha hujjatlar bir vaqtda kuchga kirishi"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Huquq normalarini ifodalashning «to‘g‘ridan-to‘g‘ri» usulida nima sodir bo‘ladi?",
+        "options": [
+          "Normaning barcha unsurlari bitta moddada to‘liq ifodalanadi",
+          "Boshqa moddaga havola qilinadi",
+          "Boshqa hujjatga ishora qilinadi",
+          "Normalar umumiy tushuncha sifatida beriladi"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Havolaki usulda nima sodir bo‘ladi?",
+        "options": [
+          "Shu hujjatning boshqa aniq moddasiga havola qilinadi",
+          "Norma to‘liq beriladi",
+          "Boshqa davlat qonunlariga ishora qilinadi",
+          "Normalar mavhum tushuncha sifatida beriladi"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Blanket usulning havolaki usuldan farqi nimada?",
+        "options": [
+          "Aniq moddaga emas, balki boshqa normativ-huquqiy hujjatga ishora qilinadi",
+          "Barcha norma unsurlari to‘liq beriladi",
+          "Farqi yo‘q",
+          "Faqat jinoyat qonunchiligida qo‘llaniladi"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Normativ-huquqiy hujjat nima?",
+        "options": [
+          "Vakolatli organ tomonidan qabul qilingan umummajburiy huquq normalarini belgilovchi rasmiy hujjat",
+          "Sud hukmi",
+          "Ikki taraf o‘rtasidagi shartnoma",
+          "Fuqaroning shaxsiy arizasi"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Normativ-huquqiy hujjat yuridik kuchiga ko‘ra qaysi guruhlarga bo‘linadi?",
+        "options": [
+          "Qonunlar va qonunosti hujjatlari",
+          "Davlat va xususiy hujjatlar",
+          "Mahalliy va xalqaro hujjatlar",
+          "Vaqtinchalik va doimiy hujjatlar"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "O‘zbekiston normativ-huquqiy hujjatlari ierarxiyasida eng yuqori o‘rinda nima turadi?",
+        "options": [
+          "Konstitutsiya",
+          "Qonunlar",
+          "Prezident farmonlari",
+          "Vazirlar Mahkamasi qarorlari"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Normativ-huquqiy hujjat ierarxiyasida Prezident farmonlari qaysi o‘rinda?",
+        "options": [
+          "Ikkinchi",
+          "Birinchi",
+          "Uchinchi",
+          "To‘rtinchi"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Qonunosti hujjatlari qonunlardan nimasi bilan farq qiladi?",
+        "options": [
+          "Ular qonunlar asosida va ularni ijro etish maqsadida qabul qilinadi",
+          "Ular qonundan yuqori kuchga ega",
+          "Ular faqat mahalliy amal qiladi",
+          "Ular faqat referendum orqali qabul qilinadi"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Normativ-huquqiy hujjatlarning amal qilish muddatiga ko‘ra turlari qaysi?",
+        "options": [
+          "Muddatsiz (doimiy) va vaqtinchalik",
+          "Qonunlar va qarorlar",
+          "Mahalliy va umumdavlat",
+          "Sohaviy va sohalарaro"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Normativ-huquqiy hujjatlarning amal qilish hududiga ko‘ra turlari qaysi?",
+        "options": [
+          "Umumdavlat va mahalliy",
+          "Doimiy va vaqtinchalik",
+          "Sohaviy va sohalарaro",
+          "Qonunlar va qarorlar"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Inkorporatsiya nima?",
+        "options": [
+          "Normativ hujjatlar mazmunini o‘zgartirmasdan to‘plamlarga birlashtirish",
+          "Normalarni tubdan qayta ishlash",
+          "Tarqoq hujjatlarni yagona hujjatga birlashtirish",
+          "Hujjatlarni hisobga olish"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Inkorporatsiyaning rasmiy turi kimlar tomonidan amalga oshiriladi?",
+        "options": [
+          "Vakolatli davlat organi",
+          "Xususiy shaxslar",
+          "Ilmiy muassasalar",
+          "Jamoatchilik tashkilotlari"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Konsolidatsiya nima?",
+        "options": [
+          "Bir xil munosabatlarni tartibga soluvchi tarqoq hujjatlarni yagona yirik hujjatga birlashtirish",
+          "Normalarni tubdan qayta ishlash",
+          "Mazmunini o‘zgartirmasdan to‘plamga joylash",
+          "Hujjatlarni qidirish tizimini yaratish"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Kodifikatsiya natijasida nima yaratiladi?",
+        "options": [
+          "Yangi yaxlit hujjat, masalan, Kodeks",
+          "Inkorporatsiya to‘plami",
+          "Qidiruv tizimi",
+          "Konsolidatsiya hujjati"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Orqaga qaytish kuchi (retroaktivlik) haqida qaysi fikr to‘g‘ri?",
+        "options": [
+          "Qoida tariqasida hujjatlar orqaga qaytish kuchiga ega emas",
+          "Hujjatlar doimo orqaga qaytish kuchiga ega",
+          "Faqat Prezident farmonlari orqaga qaytish kuchiga ega",
+          "Orqaga qaytish kuchi faqat mahalliy hujjatlarga taalluqli"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Istisno tariqasida qaysi normalarga orqaga qaytish kuchi beriladi?",
+        "options": [
+          "Javobgarlikni yengillashtiruvchi yoki bekor qiluvchi normalar",
+          "Javobgarlikni og‘irlashtiruvchi normalar",
+          "Soliq normalari",
+          "Ma’muriy normalar"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Yuridik texnika nima?",
+        "options": [
+          "Huquqiy hujjatlarni ishlab chiqish, rasmiylashtirish va tizimlashtirishda qo‘llaniladigan qoidalar, usullar va vositalar majmui",
+          "Kompьyuter dasturlarini ishlab chiqish",
+          "Sud jarayonining tartibi",
+          "Huquqiy ta’lim berish metodikasi"
+        ],
+        "correct": 0
+      }
+    ])
   }
+,
 
 
+//////////
 
+  topic8: {
+    "title": "Huquq nazariyasi 5-bo‘lim (Huquq normalarini sharxlash va huquqiy tartibga solish)",
+    "questions": randomizeQuestions([
+      {
+        "q": "Doktrinall sharxlashning rasmiy majburiyligi bo'lmasa-da, u qanday ta'sir ko'rsatadi?",
+        "options": [
+          "Amaliyot va qonunchilikka kuchli intellektual ta'sir ko'rsatadi",
+          "Faqat ta'lim muassasalarida qo'llaniladi va amaliy ahamiyati yo'q",
+          "Sudlar uchun majburiy ko'rsatma sifatida qo'llaniladi",
+          "Davlat organlari tomonidan rasmiy ravishda tan olinmaydi"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "O'zbekiston Respublikasi Konstitutsiyaviy sudi qanday sharxlash sohasida yetakchi o'rinni egallaydi?",
+        "options": [
+          "Normativ hujjatlarning Konstitutsiyaga muvofiqligini tekshirishda va Konstitutsiya normalarini rasman izohlashda",
+          "Fuqarolik huquqi normalarini kengaytiruvchi tarzda sharxlashda",
+          "Jinoyat va ma'muriy qonunchilik normalarini toraytiruvchi tarzda talqin qilishda",
+          "Xalqaro shartnomalar va konventsiyalarning milliy huquqqa muvofiqligi masalasida"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Rasmiy sharxlash qanday belgi asosida norasmiy sharxlashdan farqlanadi?",
+        "options": [
+          "Vakolatli davlat organlari tomonidan amalga oshirilishi",
+          "Faqat yozma shaklda rasmiylashtirilganligi",
+          "Faqat sud organlari tomonidan amalga oshirilishi mumkinligi",
+          "Doimo umumiy majburiy kuchga ega ekanligi"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Normativ sharxlash qanday sharxlash turiga kiradi?",
+        "options": [
+          "Rasmiy sharxlashning bir turi",
+          "Norasmiy sharxlashning bir ko'rinishi",
+          "Kazual sharxlashning alohida holati",
+          "Doktrinall sharxlashning kengaytirilgan shakli"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Normativ sharxlash qaysi maqsadga yo'naltirilgan?",
+        "options": [
+          "Normaning barcha hollarda bir xil tushunilishini ta'minlashga",
+          "Faqat muayyan konkret ishni hal etishga",
+          "Qonunchilikdagi kamchiliklarni to'ldirishga",
+          "Yangi huquqiy normalar yaratishga"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Autentik sharxlash kim tomonidan amalga oshiriladi?",
+        "options": [
+          "Normani o'zi yaratgan organ tomonidan",
+          "Vakolatli davlat organi tomonidan (normani yaratgan organ emas)",
+          "Oliy sud plenumi tomonidan",
+          "Vazirliklar va idoralar tomonidan"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Legal sharxlash qaysi organ tomonidan amalga oshiriladi?",
+        "options": [
+          "Qonun bilan vakolat berilgan boshqa organ tomonidan",
+          "Normani yaratgan organ tomonidan yangi akt qabul qilish orqali",
+          "Faqat Konstitutsiyaviy sud tomonidan",
+          "Fuqarolarning o'zini o'zi boshqarish organlari tomonidan"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Kazual sharxlash qanday sharxlashdir?",
+        "options": [
+          "Muayyan konkret ish yoki huquqiy holat doirasida amalga oshiriladigan va faqat o'sha ish uchun majburiy bo'lgan sharxlash",
+          "Barcha huquq subyektlari uchun umumiy majburiy ahamiyatga ega sharxlash",
+          "Qonunni yaratgan organ tomonidan amalga oshiriladigan normativ sharxlash",
+          "Fuqarolar tomonidan huquqiy normani kundalik hayotda qo'llash jarayoni"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Sharxlash hajmiga ko'ra necha turga bo'linadi?",
+        "options": [
+          "Uch: to'liq hajmli, kengaytiruvchi va toraytiruvchi",
+          "Ikki: rasmiy va norasmiy",
+          "To'rt: normativ, kazual, autentik va legal",
+          "Ikki: grammatik va mantiqiy"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Huquq nazariyasida quyidagilardan qaysi biri sharxlash usullariga kirmaydi?",
+        "options": [
+          "Funksional sharxlash",
+          "Grammatik (lingvistik) sharxlash",
+          "Teleologik (maqsadiy) sharxlash",
+          "Komparativ (qiyosiy) sharxlash"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Kundalik (oddiy) sharxlash qanday shakllanadi?",
+        "options": [
+          "Huquqiy ong darajasiga va ijtimoiy muhitga bog'liq holda shakllanadi",
+          "Rasmiy huquqiy ta'lim va malaka oshirish kurslari orqali shakllanadi",
+          "Faqat sudlov amaliyotini kuzatish orqali shakllanadi",
+          "Davlat tomonidan tashkil etilgan huquqiy savodxonlik dasturlari orqali shakllanadi"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Tizimli sharxlash usulida Fuqarolik kodeksi normasini sharxlashda nimalar inobatga olinishi zarur?",
+        "options": [
+          "Konstitutsiya moddalari, Oila kodeksi va maxsus qonunlar ham",
+          "Faqat Fuqarolik kodeksining boshqa moddalari",
+          "Faqat xalqaro shartnomalar va konventsiyalar",
+          "Faqat vazirliklar tomonidan chiqarilgan yo'riqnomalar"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Huquqiy tartibga solish nima?",
+        "options": [
+          "Huquq normalari orqali ijtimoiy munosabatlarga maqsadli ta'sir ko'rsatish jarayoni",
+          "Faqat davlat organlari faoliyati",
+          "Odob-axloq qoidalarining majmui",
+          "Iqtisodiy siyosatni amalga oshirish usuli"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Huquqiy tartibga solishning asosiy maqsadi nima?",
+        "options": [
+          "Jamiyatda huquqiy tartibni ta'minlash",
+          "Faqat davlat daromadini oshirish",
+          "Barcha ijtimoiy munosabatlarni tartibga solish",
+          "Shaxslarning shaxsiy hayotiga aralashish"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Quyidagilardan qaysi biri huquqiy tartibga solishning obyekti hisoblanmaydi?",
+        "options": [
+          "Do'stlik munosabatlari",
+          "Mulkiy munosabatlar",
+          "Mehnat munosabatlari",
+          "Oilaviy munosabatlar"
+        ],
+        "correct": 0
+      }
+    ])
+  }
+,
+
+
+///////
+
+  topic9: {
+    "title": "Huquq nazariyasi 6-bo‘lim (Huquqiy munosabatlar, subyektiv huquq, majburiyat va tartibot)",
+    "questions": randomizeQuestions([
+      {
+        "q": "Oldi-sotdi shartnomasida sotuvchi va xaridor nima hisoblanadi?",
+        "options": [
+          "Huquqiy munosabat subyektlari",
+          "Huquqiy munosabat ob'ektlari",
+          "Yuridik faktlar",
+          "Huquq normalari"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Subyektiv huquq nima?",
+        "options": [
+          "Muayyan shaxsning qonun bilan e'tirof etilgan va kafolatlangan mumkin bo'lgan xulq-atvor chegarasi",
+          "Faqat davlat organlarining vakolati",
+          "Faqat sudning qaror qabul qilish huquqi",
+          "Barcha fuqarolarning umumiy huquqlari"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Yuridik majburiyat nima?",
+        "options": [
+          "Shaxsning huquq normasi yoki huquqiy munosabat asosida bajarishi shart bo'lgan zaruriy xulq-atvori",
+          "Shaxsning ixtiyoriy harakati",
+          "Faqat davlat organlarining vazifasi",
+          "Huquqni himoya qilish usuli"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Subyektiv huquq va yuridik majburiyat o'rtasidagi munosabat qanday?",
+        "options": [
+          "Bir-biri bilan chambarchas bog'liq",
+          "Hech qanday aloqasi yo'q",
+          "Faqat bir yo'nalishli bog'liqlik",
+          "Faqat sud orqali bog'lanadi"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Umumiylik tamoyiliga ko'ra, qonun talablari qaysi belgilardan qat'i nazar barcha uchun birdan majburiy?",
+        "options": [
+          "Mansab, ijtimoiy mavqe, millat, din va boshqa belgilardan",
+          "Mansab, mavqe, millat, din va boshqa belgilardan",
+          "Mansab, holat, millat, din va boshqa belgilardan",
+          "Mansab, rating, millat, din va boshqa belgilardan"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Huquqiy tartibot nimaga tayanadi?",
+        "options": [
+          "Huquq normalariga",
+          "Axloq normalariga",
+          "Urf-odatlarga",
+          "Diniy qoidalarga"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Huquqiy tartibot kim tomonidan kafolatlanadi?",
+        "options": [
+          "Davlat tomonidan",
+          "Jamoatchilik tomonidan",
+          "Xalqaro tashkilotlar tomonidan",
+          "Nodavlat tashkilotlar tomonidan"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Huquqiy tartibot qaysi tartibning tarkibiy qismi hisoblanadi?",
+        "options": [
+          "Jamoat tartibotining",
+          "Ichki tartibning",
+          "Texnologik tartibning",
+          "Mehnat tartibining"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Huquqiy tartibot qaysi xarakterga ega?",
+        "options": [
+          "Ob'ektiv xarakterga",
+          "Sub'ektiv xarakterga",
+          "Shaxsiy xarakterga",
+          "Guruhiy xarakterga"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Huquqiy tartibotning tuzilishi necha elementdan iborat?",
+        "options": [
+          "Uch elementdan",
+          "Ikki elementdan",
+          "To'rt elementdan",
+          "Besh elementdan"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Huquqiy tartibot tuzilishining birinchi elementi nima?",
+        "options": [
+          "Huquq sub'ektlari",
+          "Huquqiy munosabatlar",
+          "Yuridik faktlar",
+          "Huquqiy holat"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Huquqiy munosabatlarni vujudga keltiruvchi voqea va harakatlar nima deb ataladi?",
+        "options": [
+          "Yuridik faktlar",
+          "Huquqiy holat",
+          "Huquqiy normalar",
+          "Huquqiy aktlar"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Huquqiy tartibot nimani ta'minlaydi?",
+        "options": [
+          "Barqarorlik va tashkillilikni",
+          "Faqat davlat manfaatlarini",
+          "Faqat shaxsiy manfaatlarni",
+          "Faqat iqtisodiy rivojlanishni"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Intizom tushunchasi nimani anglatadi?",
+        "options": [
+          "Shaxslarning jamiyatda o'rnatilgan tartib va qoidalarga muvofiq xulq-atvori",
+          "Shaxslarning jamiyatda qabul qilingan tartib va qoidalarga mos xulq-atvori",
+          "Shaxslarning jamiyatda belgilangan tartib va qoidalarga rioya qilish xulq-atvori",
+          "Shaxslarning jamiyatda o'rnatilgan qoidalarga muvofiq harakat qilishi"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Intizom qaysi kategoriyalarga kiradi?",
+        "options": [
+          "Huquqiy va axloqiy kategoriyalarga",
+          "Faqat huquqiy kategoriyaga",
+          "Faqat iqtisodiy kategoriyaga",
+          "Faqat siyosiy kategoriyaga"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Davlat intizomi nima o'z ichiga oladi?",
+        "options": [
+          "Davlat organlari xizmatchilarining vazifalarini to'liq ado etilishini",
+          "Davlat organlari xizmatchilarining vazifalarini o'z vaqtida bajarilishini",
+          "Davlat organlari xizmatchilarining vazifalarini sifatli bajarilishini",
+          "Davlat organlari xizmatchilarining vazifalarini to'g'ri ado etilishini"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Mansab (xizmat) intizomi nimadan iborat?",
+        "options": [
+          "Davlat xizmatchilarining qonun va normativ hujjatlar bilan belgilangan majburiyatlarini bajarishidan",
+          "Davlat xizmatchilarining qonun hujjatlari bilan belgilangan burchlarini ado etishidan",
+          "Davlat xizmatchilarining normativ hujjatlar bilan belgilangan vazifalarini bajarishidan",
+          "Davlat xizmatchilarining qonun talablari bilan belgilangan majburiyatlarini to'liq bajarishidan"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Moliyaviy intizom nimani anglatadi?",
+        "options": [
+          "Davlat byudjeti va moliyaviy mablag'larni maqsadli sarflash qoidalari va talablariga rioya etishni",
+          "Davlat byudjeti va byudjet mablag'larini maqsadli ishlatish qoidalariga rioya etishni",
+          "Davlat byudjeti va moliyaviy resurslarni maqsadli sarflash talablariga rioya etishni",
+          "Davlat byudjeti va pul mablag'larini maqsadli sarflash qoidalariga rioya etishni"
+        ],
+        "correct": 0
+      }
+    ])
+  
+}
   /////////////////////////////////////////////////////////////////////////////////
   // 2-BO'LIM: HUQUQ PRINSIPLARI VA MANBALARI
   /////////////////////////////////////////////////////////////////////////////////
