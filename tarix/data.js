@@ -17,395 +17,1293 @@ function randomizeQuestions(questions) {
 
 const quizDatabase = {
 
-  // ============================================================
+  /////////////////////////////////////////////////////////////////////////////////
+  // 1-BO'LIM: IJTIMOIY NORMALAR VA HUQUQ NORMASINING TUZILISHI
+  /////////////////////////////////////////////////////////////////////////////////
   topic1: {
-    title: "O'zbekiston tarixi 1-bo'lim (1-30)",
+    title: "Davlat va huquq nazariyasi: Ijtimoiy normalar va Huquq strukturasi",
     questions: randomizeQuestions([
-      { "q": "Shavkat Mirziyoyev birinchi marotaba O'zbekiston Prezidentligiga qachon saylandi?", "options": ["2016-yil 4-dekabrda", "2015-yil 23-oktyabrda", "2017-yil 14-yanvarda", "2016-yil 18-noyabrda"], "correct": 0 },
-      { "q": "'O'zbekiston – 2023' strategiyasida aholining o'rtacha umr davomiyligini qancha yoshga yetkazish maqsad qilingan?", "options": ["78 yoshga", "76 yoshga", "80 yoshga", "75 yoshga"], "correct": 0 },
-      { "q": "'XXI asr' ijtimoiy-siyosiy gazetasi qaysi siyosiy partiyaning nashr organi hisoblanadi?", "options": ["Milliy tiklanish demokratik partiyasi", "Adolat sotsial-demokratik partiyasi", "O'zbekiston Liberal-demokratik partiyasi", "Xalq demokratik partiyasi"], "correct": 0 },
-      { "q": "Arabcha 'joy', 'o'rin' ma'nosini anglatuvchi so'z qaysi?", "options": ["Mavze", "Maqom", "Madrasa", "Maskan"], "correct": 0 },
-      { "q": "'O'zbekiston – 2030' strategiyasi nechta ustuvor yo'nalishlardan iborat?", "options": ["5 ta yo'nalishdan", "6 ta yo'nalishdan", "7 ta yo'nalishdan", "4 ta yo'nalishdan"], "correct": 0 },
-      { "q": "O'zbekistonda o'lim jazosi qaysi yildan rasman jinoiy jazo sifatida butunlay bekor qilingan?", "options": ["2008-yil 1-yanvardan", "2005-yil 1-avgustdan", "2010-yil 1-yanvardan", "2006-yil 1-iyuldan"], "correct": 0 },
-      { "q": "2017-yil may oyida Prezident Shavkat Mirziyoyevning davlat tashrifi qaysi davlatga amalga oshirildi?", "options": ["Xitoy Xalq Respublikasiga", "Rossiya Federatsiyasiga", "Turkiya Respublikasiga", "Germaniya Federativ Respublikasiga"], "correct": 0 },
-      { "q": "2017 yilga kelib Zulfiya mukofoti sovrindorlari soni nechtaga yetdi?", "options": ["242 nafarga yaqin", "220 nafarga yaqin ", "260 nafarga yaqin", "238 nafarga yaqin"], "correct": 0 },
-      { "q": "SSSR davrida O'zbekistonda nechta madrasa faoliyat yuritgan?", "options": ["2 ta", "4 ta", "1 ta", "3 ta"], "correct": 0 },
-      { "q": "2004-yili Toshkent Islom universitetida Qur'oni Karimning izohli nashri kim tahriri ostida tayyorlandi?", "options": ["Shayx Abdulaziz Mansur", "Shayx Muhammad Sodiq Muhammad Yusuf", "Shayx Ziyovuddin Askarov", "Shayx Abdulaziz Zokirov"], "correct": 0 },
-      { "q": "O'zbekiston aholisining qancha qismi 30 yoshgacha bo'lganlarni tashkil etadi?", "options": ["60 foizini", "55 foizini", "65 foizini", "58 foizini"], "correct": 0 },
-      { "q": "'Adolat' sotsial-demokratik partiyasi qachon tashkil etilgan?", "options": ["1995-yil 18-fevralda", "1993-yil 4-martda", "1996-yil 21-oktyabrda", "1994-yil 12-iyunda"], "correct": 0 },
-      { "q": "AQSHni sinovli damlarda qo'llab-quvvatlagani uchun 'Xalqaro miqyosdagi lider' mukofoti bilan taqdirlangan O'zbekiston siyosatchisi kim?", "options": ["Islom Karimov", "Shavkat Mirziyoyev", "Inomjon Majidov", "Abdulaziz Komilov"], "correct": 0 },
-      { "q": "O'zbekiston Respublikasi mustaqilligini 1991-yil 27-dekabrda tan olib, 1992-yil yanvarda diplomatik munosabatlar o'rnatgan davlat qaysi?", "options": ["Eron Islom Respublikasi", "Turkiya Respublikasi", "Pokiston Islom Respublikasi", "Afg'oniston Islom Amirligi"], "correct": 1 },
-      { "q": "'O'zbek ishi — 30 va 50-yillardagi qatag'onlarning mantiqiy davomidir' degan fikr qaysi adibga tegishli?", "options": ["Shukur Xolmirzayev", "O'tkir Hoshimov", "Said Ahmad", "Erkin Vohidov"], "correct": 0 },
-      { "q": "Amir Temur va Temuriylar davri tarixi muzeyi qayerda qurilgan?", "options": ["Toshkent shahrida, Amir Temur xiyoboni yonida", "Toshkent shahrida, Alisher Navoiy ko'chasida", "Samarqand shahrida, Registon maydoni yonida", "Shahrisabz shahrida, Ko'k Gumbaz masjidi yonida"], "correct": 0 },
-      { "q": "BMT tomonidan qaysi sana 'Xalqaro bag'rikenglik kuni' deb e'lon qilingan?", "options": ["16-noyabr", "21-fevral", "8-mart", "4-noyabr"], "correct": 0 },
-      { "q": "YuNESKO tomonidan qaysi sana 'Xalqaro ona tili kuni' deb e'lon qilingan?", "options": ["21-oktyabr", "17-aprel", "3-may", "16-noyabr"], "correct": 0 },
-      { "q": "2007-yilda AYSESKO tomonidan 'Islom madaniyati poytaxti' maqomi berilgan shahar qaysi?", "options": ["Toshkent", "Samarqand", "Buxoro", "Namangan"], "correct": 0 },
-      { "q": "Markaziy Osiyodagi yagona Toshkent islom universiteti qachon tashkil etilgan?", "options": ["1999-yil 7-aprelda", "1997-yil 12-sentyabrda", "2001-yil 3-iyunda", "2000-yil 28-fevralda"], "correct": 0 },
-      { "q": "O'zbekiston Respublikasi Davlat bayrog'i qachon qabul qilingan?", "options": ["1991-yil 18-noyabrda", "1991-yil 31-avgustda", "1992-yil 8-dekabrda", "1991-yil 1-sentyabrda"], "correct": 0 },
-      { "q": "'O'zbekiston-2030' strategiyasining birinchi ustuvor yo'nalishi nima deb nomlanadi?", "options": ["Har bir insonga o'z salohiyatini ro'yobga chiqarish uchun munosib sharoitlar yaratish", "Barqaror iqtisodiy o'sish orqali aholi farovonligini ta'minlash", "Adolatli va zamonaviy davlat tashkil etish, xalq xizmatidagi boshqaruvni joriy etish", "Suv resurslarini tejash va atrof-muhitni muhofaza qilish"], "correct": 0 },
-      { "q": "'Sharq taronalari' xalqaro musiqa festivali qachondan o'tkazila boshlandi?", "options": ["1997-yildan", "1995-yildan", "1999-yildan", "2001-yildan"], "correct": 0 },
-      { "q": "Xorazm Ma'mun akademiyasi qachon qayta tiklangan?", "options": ["1997-yil 20-martda", "1995-yil 14-iyunda", "1999-yil 7-aprelda", "1996-yil 3-noyabrda"], "correct": 0 },
-      { "q": "1992-yil 2-martda qaysi xalqaro tashkilotga a'zo bo'ldi O'zbekiston?", "options": ["Birlashgan Millatlar Tashkilotiga (BMT)", "Mustaqil Davlatlar Hamdo'stligiga (MDH)", "Shanxay Hamkorlik Tashkilotiga (SHT)", "Islom hamkorlik tashkilotiga (IHT)"], "correct": 0 },
-      { "q": "'9+1' uchrashuvi 1991-yil aprel oyida qayerda bo'lib o'tgan?", "options": ["Moskva yaqinidagi Novo-Ogaryovo qarorgohida", "Moskvadagi Kreml saroyida", "Sankt-Peterburgdagi Qish saroyida", "Toshkentdagi O'zbekiston saroyi konferens-zalida"], "correct": 0 },
-      { "q": "O'zbekiston SSR Oliy Kengashida 'Mustaqillik deklaratsiyasi' qachon qabul qilingan?", "options": ["1990-yil 20-iyunda", "1991-yil 31-avgustda", "1990-yil 24-martda", "1991-yil 19-avgustda"], "correct": 0 },
-      { "q": "1992-yil 8-dekabrda qabul qilingan O'zbekiston Konstitutsiyasi (2023-yil yangi tahriri) necha moddadan iborat?", "options": ["155 ta moddadan", "128 ta moddadan", "136 ta moddadan", "168 ta moddadan"], "correct": 0 },
-      { "q": "1991-yilgi Prezidentlik saylovida saylovchilarning qancha foizi I.Karimov nomzodini qo'llab-quvvatladi?", "options": ["86,5 foizi", "79,4 foizi", "91,2 foizi", "83,1 foizi"], "correct": 0 },
-      { "q": "I.Karimov O'zbekiston SSR Prezidenti etib qachon saylangan?", "options": ["1990-yil 24-martda", "1989-yil 16-oktyabrda", "1991-yil 29-dekabrda", "1990-yil 1-noyabrda"], "correct": 0 },
-    ]),
+      {
+        q: "Jamiyat a'zolari o'rtasida yuzaga keladigan ongli, maqsadga yo'naltirilgan o'zaro aloqalar tizimi nima deb ataladi?",
+        options: [
+          "Ijtimoiy munosabatlar",
+          "Ijtimoiy normalar majmui",
+          "Texnik-huquqiy tartibga solish",
+          "Huquqiy aksiomalar tizimi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Ijtimoiy munosabatlarning fundamental huquqiy xususiyati nimada namoyon bo'ladi?",
+        options: [
+          "Insonlarning o'zaro ongli ta'siri va manfaatlari uyg'unlashuvida",
+          "Faqat moddiy resurslarni majburiy taqsimlash jarayonlarida",
+          "Faqat subyektlarning davlat tomonidan belgilangan maqomida",
+          "Tabiat qonunlarining jamiyat rivojiga to'g'ridan-to'g'ri ta'sirida"
+        ],
+        correct: 0
+      },
+      {
+        q: "O'qituvchi va talaba o'rtasidagi ijtimoiy-huquqiy munosabat munosabatlarning qaysi turiga kiradi?",
+        options: [
+          "Ta'limiy munosabatlar",
+          "Iqtisodiy munosabatlar",
+          "Siyosiy munosabatlar",
+          "Fuqarolik-huquqiy munosabatlar"
+        ],
+        correct: 0
+      },
+      {
+        q: "Jamiyat hayotini ijtimoiy tartibga solish deganda nima tushuniladi?",
+        options: [
+          "Insonlar xatti-harakatlarini muayyan qoliplarga solish va muvofiqlashtirish",
+          "Faqat huquqbuzarliklar uchun davlat tomonidan jazo choralarini qo'llash",
+          "Moddiy va iqtisodiy resurslarni markazlashgan holda taqsimlash",
+          "Tabiat hodisalari va ekologik jarayonlarni qat'iy boshqarish"
+        ],
+        correct: 0
+      },
+      {
+        q: "Umumiy xarakterga ega bo'lib, jamiyatning barcha a'zolariga tatbiq etiladigan tartibga solish shakli qaysi?",
+        options: [
+          "Normativ tartibga solish",
+          "Individual tartibga solish",
+          "Texnik tartibga solish",
+          "Kazuistik tartibga solish"
+        ],
+        correct: 0
+      },
+      {
+        q: "Jamiyatda qabul qilingan va ko'p marta takrorlanish natijasida odatga aylangan umumiy xulq-atvor qoidalari qanday nomlanadi?",
+        options: [
+          "Ijtimoiy normalar",
+          "Huquqiy prezumpsiyalar",
+          "Texnik standartlar",
+          "Yakka tartibdagi ko'rsatmalar"
+        ],
+        correct: 0
+      },
+      {
+        q: "Ezgulik va yovuzlik, adolat va nohaqlik haqidagi ijtimoiy tasavvurlarga asoslangan normalar qaysi?",
+        options: [
+          "Axloq normalari",
+          "Huquq normalari",
+          "Korporativ normalar",
+          "Odat normalari"
+        ],
+        correct: 0
+      },
+      {
+        q: "Axloq normalarining buzilishi an'anaviy ravishda qanday sanksiyani keltirib chiqaradi?",
+        options: [
+          "Jamoatchilik qoralashi va vijdon azobi",
+          "Ma'muriy jarima va huquqiy cheklov",
+          "Intizomiy chora va lavozimni pasaytirish",
+          "Mulkni davlat foydasiga musodara qilish"
+        ],
+        correct: 0
+      },
+      {
+        q: "Siyosiy partiyalar va jamoat birlashmalarining ustavlari hamda ichki nizomlari qaysi normalarga misol bo'ladi?",
+        options: [
+          "Korporativ normalar",
+          "Diniy normalar",
+          "Odat normalari",
+          "Texnik normalar"
+        ],
+        correct: 0
+      },
+      {
+        q: "Islom huquqi ustuvor bo'lgan tizimlarda 'Zakot' berish majburiyati qaysi ijtimoiy norma turiga kiradi?",
+        options: [
+          "Huquqiy va diniy norma",
+          "Sof axloqiy tavsiya",
+          "An'anaviy odat normasi",
+          "Korporativ ichki qoida"
+        ],
+        correct: 0
+      },
+      {
+        q: "Yirik korporatsiyalarda xodimlarning kiyinish standarti va o'zaro muloqot etikasi qaysi normalar tizimiga kiradi?",
+        options: [
+          "Korporativ normalar",
+          "Diniy normalar",
+          "Umumhuquqiy normalar",
+          "An'anaviy odat normalari"
+        ],
+        correct: 0
+      },
+      {
+        q: "Davlat tomonidan o'rnatiladigan, rasmiylashtiriladigan va majburlov kuchi bilan muhofaza qilinadigan qoidalar qaysi?",
+        options: [
+          "Huquq normalari",
+          "Axloq normalari",
+          "Odat normalari",
+          "Estetik normalar"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq normalarining axloq normalaridan ajratib turuvchi eng asosiy fotiha belgisi nimada?",
+        options: [
+          "Davlat majburlov kuchi bilan ta'minlanganligida",
+          "Faqat yozma manbalarda aks etishida va universal el e'tiborida",
+          "Faqat ichki vijdon amriga va adolat tuyg'usiga asoslanishida",
+          "Subyektlar uchun mutlaqo ixtiyoriy xarakterga ega ekanligida"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq normalari o'zining rasmiy ifodasini majburiy ravishda qayerda topadi?",
+        options: [
+          "Rasmiy manbalarda va normativ-huquqiy hujjatlarda",
+          "Insonlarning subyektiv huquqiy ongida",
+          "Faqat muqaddas diniy manbalar matnida",
+          "Og'zaki an'analar va ijtimoiy nutqlarda"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqiy sanksiyalar o'zining tabiati jihatidan qanday xarakterga ega bo'ladi?",
+        options: [
+          "Aniq va oldindan qat'iy belgilangan",
+          "Noaniq va faqat ma'naviy ta'sirga ega",
+          "Faqat ijtimoiy taqiqlardan iborat bo'lgan",
+          "Faqat jamoat tashkilotlari qo'llaydigan"
+        ],
+        correct: 0
+      },
+      {
+        q: "Aks isbotlanmaguncha, muayyan huquqiy fakt yoki holatni haqiqiy deb qabul qilish qanday nomlanadi?",
+        options: [
+          "Huquqiy prezumsiya",
+          "Huquqiy aksioma",
+          "Huquqiy sanksiya",
+          "Huquqiy dispozitsiya"
+        ],
+        correct: 0
+      },
+      {
+        q: "Aybsizlik prezumpsiyasi qaysi huquqiy sohada eng fundamental sudlov prinsipi hisoblanadi?",
+        options: [
+          "Jinoyat-prosessual huquqida",
+          "Xalqaro xususiy huquqda",
+          "Jamoaviy mehnat huquqida",
+          "Ekologiya va yer huquqida"
+        ],
+        correct: 0
+      },
+      {
+        q: "Isbot talab qilmaydigan, huquq fani va amaliyotida uzoq vaqt davomida shakllangan fundamental haqiqat nima?",
+        options: [
+          "Huquqiy aksioma",
+          "Huquqiy prezumsiya",
+          "Huquqiy sanksiya",
+          "Huquqiy dispozitsiya"
+        ],
+        correct: 0
+      },
+      {
+        q: "Ijtimoiy normalar ichida eng aniq, qat'iy va rasmiy xarakterga ega bo'lgan ijtimoiy regulyator qaysi?",
+        options: [
+          "Huquq",
+          "Axloq",
+          "Odat",
+          "An'ana"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq normasining huquq tizimidagi strukturaviy o'rni qanday tavsiflanadi?",
+        options: [
+          "Huquq tizimining eng kichik, birlamchi va bo'linmas elementi sifatida",
+          "Huquq tizimidagi eng yuqori, yakunlovchi va jamlovchi elementi sifatida",
+          "Huquq tizimidagi ikkinchi darajali, yordamchi institut elementi sifatida",
+          "Huquq tizimidan tashqarida mustaqil amal qiluvchi funksional element sifatida"
+        ],
+        correct: 0
+      },
+      {
+        q: "Umummajburiylik belgisi huquq normasiga nisbatan nimani anglatadi?",
+        options: [
+          "O'z ta'sir doirasidagi barcha subyektlar uchun bajarilishi qat'iy shartligini",
+          "Faqat jismoniy shaxslarga tegishli bo'lib, davlat organlariga daxlsizligini",
+          "Faqat mansabdor shaxslarga nisbatan qo'llanilishi majburiyligini",
+          "Davlat organlari tomonidan ixtiyoriy ravishda bajarilishini"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq normasining 'personifikatsiyalanmaganlik' belgisi ostida nima tushuniladi?",
+        options: [
+          "Norma aniq bir shaxsga emas, balki noaniq doiradagi subyektlarga qaratilganligi",
+          "Normaning faqat xorijiy fuqarolar huquqiy maqomini belgilashi",
+          "Normaning faqat ijro etuvchi hokimiyat idoralariga shaxsan yuborilishi",
+          "Normaning faqat davlat xizmatchilariga nisbatan tatbiq etilishi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq normasining rasmiy aniqlik belgisi nimani ifodalaydi?",
+        options: [
+          "Normaning rasmiy hujjatlarda qat'iy va tushunarli tarzda bayon etilishini",
+          "Normaning faqat ogzaki nutq va muzokaralarda ifodalanishini",
+          "Normaning faqat sud pretsedentlari tizimida e'lon qilinishini",
+          "Normaning faqat axloqiy qadriyatlar orqali tasdiqlanishini"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq normasining 'vakolat beruvchi-majburlovchi' (atributiv-imperativ) xarakteri nimani anglatadi?",
+        options: [
+          "Norma bir subyektga huquq bersa, ikkinchisiga mos yuridik majburiyat yuklashini",
+          "Normaning faqat huquqlar berishga yoki faqat majburiyat yuklashga xizmat qilishini",
+          "Normaning faqat davlat organlari uchun mutlaq vakolatlar belgilashini",
+          "Normaning subyektga faqat bir tomonlama imtiyozlar taqdim etishini"
+        ],
+        correct: 0
+      },
+      {
+        q: "Vakolat beruvchi-majburlovchi xarakter asosan qaysi huquq tarmoqlarida yaqqol namoyon bo'ladi?",
+        options: [
+          "Fuqarolik, mehnat va oila huquqi kabi tartibga soluvchi sohalarda",
+          "Jinoyat va ma'muriy huquq kabi faqat muhofaza qiluvchi sohalarda",
+          "Konstitutsiyaviy va xalqaro ommaviy huquq normalarida",
+          "Definitiv va deklarativ xarakterdagi umumiy normalarda"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq normasining mantiqiy tuzilishi an'anaviy ravishda nechta elementdan iborat bo'ladi?",
+        options: [
+          "Uchta o'zaro uzviy bog'liq elementdan",
+          "Ikkita o'zaro qarama-qarshi elementdan",
+          "To'rt va undan ortiq murakkab elementlardan",
+          "Bitta universal mustaqil elementdan"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq normasining mantiqiy tuzilishini ifodalovchi klassik formula qaysi?",
+        options: [
+          "If (Agar)... then (U holda)... else (Aks holda)...",
+          "Condition (Shart)... Result (Natija)... Effect (Oqibat)...",
+          "Command (Buyruq)... Execution (Ijro)... Reward (Mukofot)...",
+          "Right (Huquq)... Obligation (Majburiyat)... Liability (Javobgarlik)..."
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq nazariyasida dispozitsiyasiz norma qanday baholanadi?",
+        options: [
+          "Mantiqiy mazmunga ega bo'lmagan mukammal bo'lmagan norma",
+          "Faqat sanksiyadan iborat bo'lgan jazolovchi norma",
+          "Yuridik kuchga ega bo'lmagan amaldagi tavsiya",
+          "Faqat deklarativ ahamiyatga ega bo'lgan mafkuraviy qoida"
+        ],
+        correct: 0
+      },
+      {
+        q: "Gipoteza huquq normasining mantiqiy modelida qaysi shartli qismga to'g'ri keladi?",
+        options: [
+          "Normaning amal qilish shartlarini belgilovchi 'Agar...' qismiga",
+          "Xulq-atvor qoidasini ifodalovchi 'U holda...' qismiga",
+          "Huquqiy oqibatni ko'rsatuvchi 'Aks holda...' qismiga",
+          "Kirish qismi hisoblangan 'Shuning uchun...' qismiga"
+        ],
+        correct: 0
+      },
+      {
+        q: "Murakkab gipoteza tushunchasi huquqiy normada qanday tavsiflanadi?",
+        options: [
+          "Normani ishga tushirish uchun ikki yoki undan ortiq shartning bir vaqtda mavjudligini talab etishi",
+          "Sanalgan holatlardan faqat bittasining mavjudligini qat'iy kifoya deb bilishi",
+          "Yuridik normani amalga oshirish uchun faqat bitta mutlaq shartni ko'rsatishi",
+          "Normaning amal qilishini noaniq va subyektiv xususiy holatlar bilan bog'lashi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Dispozitsiya huquq normasida qanday asosiy yuridik vazifani bajaradi?",
+        options: [
+          "Subyektlarning o'zaro huquq va majburiyatlarini, ya'ni xulq-atvor qoidasini belgilaydi",
+          "Normaning amal qilish makoni, vaqti va yuridik faktlarini ko'rsatadi",
+          "Dispozitsiya tabaqasi buzilgandagi davlat majburlov choralarini nazarda tutadi",
+          "Normativ hujjatlar o'rtasidagi huquqiy kolliziyalarni hal etish tartibini belgilaydi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Dispozitsiya mantiqiy tuzilish sxemasida qaysi elementga funksional jihatdan to'g'ri keladi?",
+        options: [
+          "Xulq-atvorni buyuruvchi 'U holda' qismiga",
+          "Shart-sharoitni ko'rsatuvchi 'Agar...' qismiga",
+          "Huquqiy sanksiyani ifodalovchi 'Aks holda' qismiga",
+          "Kirish deklaratsiyasi bo'lgan 'Shunga binoan...' qismiga"
+        ],
+        correct: 0
+      },
+      {
+        q: "Blanket dispozitsiya o'zining yuridik tabiati jihatidan nima bilan tavsiflanadi?",
+        options: [
+          "Normaning mazmuni boshqa sohadagi maxsus normativ-huquqiy hujjatlarda ochib berilishi bilan",
+          "Normaning barcha elementlari shu moddaning o'zida to'liq va tugal bayon etilishi bilan",
+          "Normaning mazmunini bilish uchun faqat shu hujjatning boshqa moddasiga havola qilinishi bilan",
+          "Normaning subyekt uchun faqat bitta muqobil variantini nazarda tutishi bilan"
+        ],
+        correct: 0
+      },
+      {
+        q: "Sanksiya huquq normasining mantiqiy tuzilishida qaysi funksional qismga to'g'ri keladi?",
+        options: [
+          "Huquqbuzarlik oqibatini belgilovchi 'Aks holda' qismiga",
+          "Shartlarni aniqlovchi 'Agar...' qismiga",
+          "Xulq-atvorni tartibga soluvchi 'U holda' qismiga",
+          "Norma maqsadini e'lon qiluvchi 'Shunday holatda...' qismiga"
+        ],
+        correct: 0
+      },
+      {
+        q: "Nisbatan aniq sanksiya huquqiy normada qanday tavsiflanadi?",
+        options: [
+          "Yuridik jazo chorasining yuqori va quyi chegaralarini belgilaydi",
+          "Faqat bitta qat'iy va muqobilsiz jazo chorasini ko'rsatadi",
+          "Bir nechta mutlaqo mustaqil jazo turlaridan birini tanlash imkonini beradi",
+          "Asosiy va qo'shimcha jazo choralarini bir vaqtda qo'llashni majburlaydi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Deklarativ normalarning huquqiy tizimdagi asosiy funksional vazifasi nimadan iborat?",
+        options: [
+          "Davlatning strategik maqsadlari, prinsiplari yoki muayyan huquqiy holatlarini e'lon qilishdan",
+          "Huquqiy tizimning poydevori bo'lgan fundamental konstitutsiyaviy g'oyalarni muhofaza qilishdan",
+          "Yuridik tushuncha va terminlarning rasmiy legal ta'rifini berishdan",
+          "Normativ hujjatlar o'rtasida yuzaga keladigan ziddiyatlarni bartaraf etish qoidalarini belgilashdan"
+        ],
+        correct: 0
+      },
+      {
+        q: "Definitiv normalarning huquqiy tizimdagi asosiy vazifasi nimadan iborat?",
+        options: [
+          "Yuridik tushunchalar, terminlar va institutlarning qonuniy legal ta'rifini berishdan",
+          "Davlatning kelajakdagi strategik va mafkuraviy maqsadlarini e'lon qilishdan",
+          "Huquqiy tizimda qonuniylikni ta'minlovchi prinsiplarni mustahkamlashdan",
+          "Normativ-huquqiy hujjatlarning kuchga kirish va bekor bo'lish muddatlarini belgilashdan"
+        ],
+        correct: 0
+      },
+      {
+        q: "Kollizion normalarning huquqiy tartibga solishdagi funksiyasi nima?",
+        options: [
+          "Turli normalar o'rtasida ziddiyat (kolliziya) yuzaga kelganda qaysi birini qo'llashni ko'rsatishdan",
+          "Normativ hujjatlarning vaqt va makon bo'yicha amal qilish chegaralarini belgilashdan",
+          "Yuridik terminlarning qonunchilikdagi haqiqiy mazmunini sharhlab berishdan",
+          "Huquqiy tizimning poydevori bo'lgan xalqaro prinsiplarni import qilishdan"
+        ],
+        correct: 0
+      },
+      {
+        q: "Operativ normalarning huquqiy tartibga solishdagi asosiy vazifasi nimadan iborat?",
+        options: [
+          "Hujjatlarning amal qilishini — ularning kuchga kirishi va bekor qilinishini tartibga solishdan",
+          "Turli qonunlar o'rtasidagi tizimli ziddiyatlarni amaliy hal etishdan",
+          "Yuridik institutlarning qonuniy va ilmiy ta'riflarini belgilashdan",
+          "Davlatning ommaviy-huquqiy sohadagi strategik vazifalarini e'lon qilishdan"
+        ],
+        correct: 0
+      },
+      {
+        q: "Tartibga soluvchi (regulyativ) normalarning huquqiy tizimdagi roli nimadan iborat?",
+        options: [
+          "Subyektlarga huquq va majburiyatlar berish orqali ijobiy munosabatlarni tashkil etishdan",
+          "Huquqbuzarlik holatlarida davlat majburlov choralarini qo'llash shartlarini aniqlashdan",
+          "Subyektlarga muayyan xulq-atvor qoidasini yuklamay, umumiy maqsadlarni deklaratsiya qilishdan",
+          "Normativ-huquqiy hujjatlar o'rtasidagi iyerarxik ziddiyatlarni bartaraf etishdan"
+        ],
+        correct: 0
+      }
+    ])
   },
 
-  // ============================================================
+  /////////////////////////////////////////////////////////////////////////////////
+  // 2-BO'LIM: HUQUQ PRINSIPLARI VA MANBALARI
+  /////////////////////////////////////////////////////////////////////////////////
   topic2: {
-    title: "O'zbekiston tarixi 2-bo'lim (31-60)",
+    title: "Davlat va huquq nazariyasi: Huquq prinsiplari va Manbalari",
     questions: randomizeQuestions([
-      { "q": "O'zbekistonda so'm-kupon muomalaga qachon kiritildi?", "options": ["1993-yil 15-noyabrdan", "1992-yil 1-yanvardan", "1994-yil 1-iyuldan", "1993-yil 1-martdan"], "correct": 0 },
-      { "q": "O'zbekistonda milliy valyuta — so'm qachon muomalaga kiritildi?", "options": ["1994-yil 1-iyuldan", "1993-yil 15-noyabrdan", "1994-yil 1-yanvardan", "1995-yil 1-yanvardan"], "correct": 0 },
-      { "q": "O'zbekiston Konstitutsiyasining nechanchi moddasida davlatning tinchliksevar tashqi siyosat olib borishi belgilangan?", "options": ["18-moddasida", "12-moddasida", "20-moddasida", "15-moddasida"], "correct": 0 },
-      { "q": "Qoraqalpog'iston Respublikasining qonun chiqaruvchi organi qanday nomlanadi?", "options": ["Jo'qorg'i Kenges", "Oliy Kengash", "Milliy Majlis", "Qoraqalpog'iston parlamenti"], "correct": 0 },
-      { "q": "Qoraqalpog'iston Respublikasining maydoni qancha?", "options": ["166,6 ming kv. km", "112,4 ming kv. km", "144,9 ming kv. km", "82,0 ming kv. km"], "correct": 0 },
-      { "q": "So'nggi 50-55 yil ichida Orol dengizi suv hajmi qancha qisqargan?", "options": ["13-14 barobardan ziyod", "7-8 barobar", "10-11 barobar", "5-6 barobar"], "correct": 0 },
-      { "q": "O'zbekiston Respublikasi madhiyasi matnining muallifi kim?", "options": ["Abdulla Oripov", "Erkin Vohidov", "Muhammad Yusuf", "O'tkir Hoshimov"], "correct": 0 },
-      { "q": "2002-yil 27-yanvarda O'zbekistonda qaysi masala bo'yicha referendum o'tkazildi?", "options": ["Parlamentni ikki palatali bo'lishiga rozilik", "Prezidentlik muddatini uzaytirish to'g'risida", "Lotin yozuviga o'tish to'g'risida", "O'zbekiston Konstitutsiyasiga o'zgartishlar kiritish to'g'risida"], "correct": 0 },
-      { "q": "Senatning necha nafar a'zosi O'zbekiston Prezidenti tomonidan tayinlanadi?", "options": ["9 nafari", "6 nafari", "12 nafari", "16 nafari"], "correct": 0 },
-      { "q": "O'zbekiston Respublikasining Bosh Vaziri lavozimi qachon ta'sis etilgan?", "options": ["1990-yil 1-noyabrda", "1989-yil 28-iyunda", "1991-yil 31-avgustda", "1992-yil 4-yanvarda"], "correct": 0 },
-      { "q": "O'zbekistonda Vitse-Prezident lavozimi qachon tugatildi?", "options": ["1992-yil 4-yanvarda", "1991-yil 31-avgustda", "1993-yil 3-martda", "1994-yil 14-iyulda"], "correct": 0 },
-      { "q": "'O'zbekiston Respublikasining davlat gerbi to'g'risida'gi qonun qachon qabul qilindi?", "options": ["1992-yil 2-iyulda", "1991-yil 18-noyabrda", "1992-yil 8-dekabrda", "1993-yil 4-iyulda"], "correct": 0 },
-      { "q": "Mustaqillik yillarida 1998-yil kim tavalludining 1200 yilligi nishonlangan?", "options": ["Ahmad al-Farg'oniy", "Al-Xorazmiy", "Imom al-Buxoriy", "Abu Ali ibn Sino"], "correct": 0 },
-      { "q": "'Avesto'ning yaratilganining 2700 yilligi qachon nishonlangan?", "options": ["2001-yilda", "1998-yilda", "1999-yilda", "2003-yilda"], "correct": 0 },
-      { "q": "Kamoliddin Behzod tavalludining qaysi yilligi 2000-yilda nishonlangan?", "options": ["500-yilligi", "550-yilligi", "450-yilligi", "600-yilligi"], "correct": 0 },
-      { "q": "O'z Fanlar Akademiyasining Adabiyot institutiga qachon Alisher Navoiy nomi berildi?", "options": ["1940-yilda", "1936-yilda", "1944-yilda", "1948-yilda"], "correct": 0 },
-      { "q": "O'zbekistonda necha yoshga to'lgan fuqarolar viloyat, tuman, shahar Kengashlariga deputatlikka saylanishi mumkin?", "options": ["21 yoshga to'lgan", "18 yoshga to'lgan", "25 yoshga to'lgan", "30 yoshga to'lgan"], "correct": 0 },
-      { "q": "O'zbekistonda mahalliy ijro hokimiyati organi sifatida hokim lavozimi qaysi yilda ta'sis etilgan?", "options": ["1992-yilda", "1991-yilda", "1993-yilda", "1994-yilda"], "correct": 0 },
-      { "q": "Toshkentdagi 'Turkiston' saroyi qachon foydalanishga topshirildi?", "options": ["1993-yilda", "1991-yilda", "1995-yilda", "1996-yilda"], "correct": 0 },
-      { "q": "Prezident farmoni bilan O'zbekistonda Badiiy akademiya qachon tashkil etildi?", "options": ["1997-yil 23-yanvarda", "1995-yil 14-martda", "1996-yil 30-avgustda", "1999-yil 7-aprelda"], "correct": 0 },
-      { "q": "O'zbekiston Liberal Demokratik partiyasi (O'zLiDeP) qachon tashkil topgan?", "options": ["2003-yil 15-noyabrda", "2000-yil 18-iyunda", "2001-yil 12-dekabrda", "2005-yil 9-aprelda"], "correct": 0 },
-      { "q": "O'zbekistonning 'O'zbek modeli' necha tamoyildan iborat?", "options": ["5 ta tamoyildan", "3 ta tamoyildan", "6 ta tamoyildan", "7 ta tamoyildan"], "correct": 0 },
-      { "q": "Qaysi yildan boshlab har yili 1-oktabr 'O'qituvchilar va murabbiylar kuni' sifatida nishonlanib kelinmoqda?", "options": ["1997-yildan", "1993-yildan", "1999-yildan", "2000-yildan"], "correct": 0 },
-      { "q": "SSSR tarkibiga nechta ittifoqdosh respublika kirgan?", "options": ["15 ta", "12 ta", "14 ta", "16 ta"], "correct": 0 },
-      { "q": "O'zbekiston Respublikasi parlamenti necha palatadan iborat?", "options": ["2 ta palatadan", "1 ta palatadan", "3 ta palatadan", "4 ta palatadan"], "correct": 0 },
-      { "q": "Orol fojiasi qanday muammo sifatida tavsiflanadi?", "options": ["Global umumjahon ekologik muammo", "Mintaqaviy siyosiy muammo", "Iqtisodiy inqiroz muammosi", "Milliy suv resurslari muammosi"], "correct": 0 },
-      { "q": "O'zbekiston Respublikasi Konstitutsiyasi qaysi chaqiriq Oliy Kengashining qaysi sessiyasida qabul qilingan?", "options": ["O'n ikkinchi chaqiriq, o'n birinchi sessiyasida", "O'n birinchi chaqiriq, to'qqizinchi sessiyasida", "O'n ikkinchi chaqiriq, o'ninchi sessiyasida", "O'n uchinchi chaqiriq, birinchi sessiyasida"], "correct": 0 },
-      { "q": "Sobiq SSSR qancha yil faoliyat ko'rsatdi?", "options": ["69 yil", "65 yil", "72 yil", "74 yil"], "correct": 0 },
-      { "q": "O'zbekistonda 1991-yil 6-sentyabrda tashkil etilgan vazirlikni toping?", "options": ["Mudofaa ishlari vazirligi", "Ichki ishlar vazirligi", "Tashqi ishlar vazirligi", "Davlat xavfsizligi vazirligi"], "correct": 0 },
-      { "q": "O'zbekiston Respublikasida davlat hokimiyati nechta tarmoqqa bo'linadi?", "options": ["3 ta tarmoqqa", "2 ta tarmoqqa", "4 ta tarmoqqa", "5 ta tarmoqqa"], "correct": 0 },
-    ]),
+      {
+        q: "Huquq prinsiplari (tamoyillari) deganda nimani tushunasiz?",
+        options: [
+          "Huquqning mohiyatini ifodalovchi boshlang'ich normativ asoslar va rahbar g'oyalar majmui",
+          "Davlat organlarining faoliyatini tartibga soluvchi ichki idoraviy yo'riqnomalar tizimi",
+          "Faqat Konstitutsiyada belgilangan va boshqa tarmoq qonunlarida takrorlanmaydigan qoidalar",
+          "Qonun chiqaruvchi organning qonunchilik texnikasini belgilovchi uslubiy tavsiyalari"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq prinsiplari odatda qonunchilik tizimida qayerda mustahkamlanadi?",
+        options: [
+          "Konstitutsiyada, kodekslarning muqaddimasi yoki umumiy qoidalar qismida maxsus moddalarda",
+          "Faqat Oliy ijro hokimiyati hujjatlarida va idoraviy nizomlarning kirish qismida",
+          "Asosan xalqaro shartnomalar matnida va deklaratsiyalarning ilovalarida",
+          "Faqat Oliy sud Plenumining qarorlarida va sudlov pretsedentlarida"
+        ],
+        correct: 0
+      },
+      {
+        q: "Quyidagilardan qaysi biri umumhuquqiy (barcha tarmoqlar uchun umumiy) prinsiplarga kirmaydi?",
+        options: [
+          "Mehnat erkinligi tamoyili",
+          "Gumanizm (insonparvarlik) tamoyili",
+          "Qonuniylik (universal rioya) tamoyili",
+          "Qonun va sud oldida tenglik tamoyili"
+        ],
+        correct: 0
+      },
+      {
+        q: "Demokratizm prinsipi huquqni shakllantirish (ijodkorlik) sohasida qanday namoyon bo'ladi?",
+        options: [
+          "Xalq vakillari va fuqarolarning qonunchilik jarayonida keng va oshkora ishtirok etishida",
+          "Davlat organlari tomonidan qonun loyihalarini faqat yopiq ekspertizadan o'tkazishida",
+          "Faqat referendum o'tkazish orqali barcha qonunlarni to'g'ridan-to'g'ri qabul qilishda",
+          "Siyosiy partiyalarning dasturlarini adliya organlari tomonidan nazorat qilinishida"
+        ],
+        correct: 0
+      },
+      {
+        q: "Qonuniylik prinsipining huquqiy tizimdagi asosiy ma'nosi nima?",
+        options: [
+          "Har qanday faoliyat va qarorlar qonunga muvofiq bo'lishi hamda barcha subyektlarga bir xilda tatbiq etilishi",
+          "Faqat sud va prokuratura organlari xodimlari o'z faoliyatida qonun talablariga qat'iy rioya etishi",
+          "Yangi qonunlarni muntazam ravishda qabul qilib borish va eskirgan qoidalarni bekor qilish",
+          "Mansabdor shaxslarni qonuniy tartibda lavozimga tayinlash va ularning shtat jadvallarini tuzish"
+        ],
+        correct: 0
+      },
+      {
+        q: "Insonparvarlik (gumanizm) prinsipi huquqda nimani ta'minlaydi?",
+        options: [
+          "Inson qadr-qimmati va huquqlarini oliy qadriyat deb tan olishni hamda ularni himoya qilishni",
+          "Davlatning milliy xavfsizligi va iqtisodiy manfaatlarini boshqa manfaatlardan ustun qo'yishni",
+          "Jinoiy jazolarni o'tab chiqqan shaxslarni davlat organlariga majburiy ishga joylashtirishni",
+          "Fuqarolik va mulkiy nizolarni faqat sudgacha muqobil bitim orqali hal qilishni"
+        ],
+        correct: 0
+      },
+      {
+        q: "Qonun oldida tenglik prinsipiga ko'ra, muayyan imtiyozlar qanday tartibda berilishi mumkin?",
+        options: [
+          "Faqat qonun bilan belgilangan hollarda, ijtimoiy adolat asosida va umumiy tenglikni buzmasdan",
+          "Davlat rahbarining shaxsiy ko'rsatmasi yoki farmoyishi asosida istalgan fuqaroga",
+          "Har qanday davlat organi rahbarining o'z vakolatlari doirasidagi ixtiyoriy qarori bilan",
+          "Imtiyozlar tenglikka mutlaqo zid bo'lganligi sababli huquqiy tizimda umuman berilishi mumkin emas"
+        ],
+        correct: 0
+      },
+      {
+        q: "Tarmoqlararo huquqiy prinsiplar deganda nimani tushunasiz?",
+        options: [
+          "Ikki yoki undan ortiq o'zaro yaqin huquq tarmoqlarida amal qiladigan va ularning mazmunini belgilovchi qoidalar",
+          "Faqat bitta huquq tarmog'ining ichida amal qiladigan o'ziga xos maxsus prinsiplar",
+          "Faqat xalqaro ommaviy huquqda amal qiladigan va milliy huquq uchun majburiy bo'lmagan tamoyillar",
+          "Konstitutsiyada belgilangan, biroq tarmoq qonunchiligida mutlaqo takrorlanmaydigan normalar"
+        ],
+        correct: 0
+      },
+      {
+        q: "Aybsizlik prezumpsiyasi o'zining yuridik tabiatiga ko'ra qaysi turdagi prinsip hisoblanadi?",
+        options: [
+          "Jinoyat, jinoyat-prosessual va ma'muriy huquq sohalariga xos bo'lgan tarmoqlararo prinsip",
+          "Faqat jinoyat huquqiga xos bo'lgan va boshqa tarmoqlarda mutlaqo qo'llanilmaydigan sohaviy prinsip",
+          "Faqat fuqarolik va fuqarolik-prosessual huquqida mulkiy nizolarni ko'rishda qo'llaniladigan prinsip",
+          "Faqat mehnat va intizomiy munosabatlarda xizmat tekshiruvlarida tatbiq etiladigan maxsus prinsip"
+        ],
+        correct: 0
+      },
+      {
+        q: "Prosessual huquq tarmoqlarida (jinoyat, fuqarolik, iqtisodiy prosess) qaysi tamoyillar umumiy hisoblanadi?",
+        options: [
+          "Tomonlarning prosessual tengligi, sud jarayonlarining oshkoraligi va sudyalarning mustaqilligi",
+          "Faqat raqobatbardoshlik tamoyili, chunki boshqa tamoyillar prosess turlarida mutlaqo farq qiladi",
+          "Faqat aybsizlik prezumpsiyasi, chunki fuqarolik prosessida sudya mutlaqo mustaqil emas",
+          "Javobgarlikning muqarrarligi va odil sudlovni faqat prokuratura tomonidan amalga oshirilishi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Sohaviy huquq tamoyillari nima?",
+        options: [
+          "Ma'lum bir huquq tarmog'ining o'ziga xos xususiyatlarini va ichki mazmunini belgilovchi asosiy qoidalar",
+          "Barcha huquq tarmoqlariga birday taalluqli bo'lib, butun huquq tizimining poydevorini tashkil etuvchi normalar",
+          "Xalqaro shartnomalar asosida shakllangan va milliy huquqda ikkilamchi ahamiyatga ega prinsiplar",
+          "Faqat jinoyat kodeksida ko'rsatilgan, jazo tayinlash mexanizmini tartibga soluvchi normalar"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq shakli (yuridik ma'noda) deganda nima tushuniladi?",
+        options: [
+          "Huquq normalarining rasmiy ifodalanish va davlat irodasini rasmiylashtirish usullari",
+          "Huquq normalarining mazmunini belgilovchi ijtimoiy-iqtisodiy omillar tizimi",
+          "Huquq normalarining paydo bo'lishiga ta'sir qiluvchi mafkuraviy va falsafiy asoslar",
+          "Davlat idoralari va jamoat tashkilotlarining o'zaro boshqaruv munosabatlari shakli"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq manbai (falsafiy va materialistik ma'noda) qanday ta'riflanadi?",
+        options: [
+          "Huquq normalarining paydo bo'lishi va amal qilishiga imkon beruvchi ijtimoiy zamin va moddiy sharoitlar",
+          "Davlat irodasini rasmiylashtirish va normativ hujjat shakliga keltirish usullari yig'indisi",
+          "Parlament tomonidan qabul qilingan va tizimlashtirilgan qonun hujjatlarining yig'indisi",
+          "Sud organlarining muayyan ishlar bo'yicha qabul qilgan yakuniy qarorlari majmui"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqning moddiy manbalariga quyidagilardan qaysi biri kiradi?",
+        options: [
+          "Jamiyatning iqtisodiy munosabatlari, ishlab chiqarish usullari va mulkchilik shakllari",
+          "Jamiyatdagi huquqiy ong, huquqiy daxlsizlik va siyosiy-huquqiy g'oyalar tizimi",
+          "Davlat tomonidan qabul qilingan qonunlar, kodekslar va normativ-huquqiy hujjatlar",
+          "Sud pretsedentlari, xalqaro shartnomalar va huquqiy urf-odatlar"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqning mafkuraviy manbalariga quyidagilardan qaysi biri taalluqli?",
+        options: [
+          "Huquqiy ong, huquqiy mafkura va huquqshunos olimlarning ilmiy nazariyalari",
+          "Mulkchilik shakllari va jamiyatning moddiy ishlab chiqarish kuchlari",
+          "Konstitutsiya, qonunlar va vazirliklarning normativ buyruqlari",
+          "Davlatning iqtisodiy tuzilishi va tashqi savdo aloqalari ko'rsatkichlari"
+        ],
+        correct: 0
+      },
+      {
+        q: "Rasmiy huquq manbalari (yuridik manbalar) deganda nima tushuniladi?",
+        options: [
+          "Huquqiy me'yorlarning tashqi ifodasi va davlat tomonidan rasman tan olingan huquqiy hujjatlar",
+          "Jamiyatda mavjud bo'lgan real iqtisodiy va ijtimoiy munosabatlar majmui",
+          "Huquqshunos olimlarning huquq haqidagi ilmiy, nazariy va falsafiy qarashlari",
+          "Jamiyatda shakllangan, biroq davlat tomonidan hali rasman tasdiqlanmagan normalar"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqiy urf-odat qanday ta'riflanadi?",
+        options: [
+          "Jamiyatda uzoq davr davomida shakllangan va davlat tomonidan umummajburiy qoida sifatida sanksiyalangan xulq-atvor me'yori",
+          "Huquqshunos olimlarning huquq normalarini qo'llashga oid rasmiy uslubiy tavsiyalari tizimi",
+          "Sud organlarining muayyan kazuistik ishlarni ko'rishda qabul qilgan va majburiy tus olgan qarori",
+          "Qonun chiqaruvchi organ tomonidan yozma shaklda qabul qilingan universal xulq-atvor qoidasi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Tarixan huquqning eng birinchi va dastalbki rasmiy manbai (shakli) nima hisoblanadi?",
+        options: [
+          "Huquqiy urf-odatlar",
+          "Normativ-huquqiy aktlar",
+          "Sud pretsedentlari",
+          "Normativ shartnomalar"
+        ],
+        correct: 0
+      },
+      {
+        q: "Har qanday oddiy ijtimoiy urf-odat huquqiy urf-odat maqomiga ega bo'lishi uchun qaysi shart bajarilishi shart?",
+        options: [
+          "Davlat tomonidan rasman sanksiyalanishi (tan olinishi) va muhofaza qilinishi",
+          "Yozma shaklda rasmilashtirilib, parlament tomonidan qonun sifatida tasdiqlanishi",
+          "Kamida 100 yil davomida jamiyat a'zolari tomonidan uzluksiz bajarilgan bo'lishi",
+          "Xalqaro tashkilotlar yoki konventsiyalar tomonidan rasman e'tirof etilishi"
+        ],
+        correct: 0
+      },
+      {
+        q: "O'zbekistonda mustaqillikdan so'ng 'Navro'z' va 'Qurbon hayiti' bayramlariga dam olish kuni maqomining berilishi qaysi jarayonni ifodalaydi?",
+        options: [
+          "An'anaviy odat qoidalarining davlat sanksiyasi orqali huquqiy maqom olishini",
+          "Normativ-huquqiy aktning o'z-o'zidan oddiy urf-odatga aylanishi jarayonini",
+          "Sud pretsedentining huquqiy urf-odat sifatida amaliyotga kirishini",
+          "Xalqaro shartnoma normalarining milliy qonunchilikka implementatsiya qilinishini"
+        ],
+        correct: 0
+      },
+      {
+        q: "Sud pretsedenti (Precedent) tushunchasining lotinchadan tarjimasi qanday ma'noni bildiradi?",
+        options: [
+          "Avvalgisi, oldin sodir bo'lgan holat",
+          "Huquqiy asos, poydevor va manba",
+          "Namuna, o'rnak va majburiy andoza",
+          "Yakuniy qaror, hukm va farmoyish"
+        ],
+        correct: 0
+      },
+      {
+        q: "Sud pretsedenti qaysi huquqiy oilada (tizimda) asosiy huquq manbai sifatida tan olingan?",
+        options: [
+          "Anglo-sakson huquqiy tizimida (Buyuk Britaniya, AQSH, Kanada)",
+          "Roman-german huquqiy tizimida (Germaniya, Fransiya, O'zbekiston)",
+          "An'anaviy-diniy va islom huquqi tizimida",
+          "Skandinaviya huquqiy tizimida"
+        ],
+        correct: 0
+      },
+      {
+        q: "Normativ kelsihuv (normativ bitim) tushunchasiga qaysi javobda to'liq ta'rif berilgan?",
+        options: [
+          "Ikki yoki undan ortiq subyektlar o'rtasidagi, davlat tomonidan umummajburiy xususiyat berilgan huquqiy kelishuv",
+          "Faqat xususiy shaxslar o'rtasida tuziladigan va notarial tartibda tasdiqlanadigan shartnoma",
+          "Sud organi ishtirokida da'voni tugatish maqsadida tuziladigan prosessual hujjat",
+          "Davlat organlari va xalqaro tashkilotlar o'rtasidagi faqat deklarativ bitim"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqiy doktrina (shuningdek, huquqshunoslar irodasi) rasmiy manba sifatida qaysi tizimda uzoq tarixiy ahamiyatga ega bo'lgan?",
+        options: [
+          "Roman-german (ayniqsa qadimgi Rim huquqida) va Islom huquqi (Fiqh) tizimida",
+          "Faqat hozirgi zamon zamonaviy anglo-sakson pretsedent huquqida",
+          "Faqat sotsialistik huquq tizimi va uning tarmoqlarida",
+          "Faqat xalqaro ommaviy va xalqaro gumanitar huquq sohasida"
+        ],
+        correct: 0
+      },
+      {
+        q: "Roman-german huquqiy tizimida huquqning asosiy konseptual prinsiplari va tushunchalari dastlab qayerda ishlab chiqilgan?",
+        options: [
+          "Universitetlarda (ilmiy-doktrinal maktablarda)",
+          "Oliy sud idoralarida (sud amaliyotida)",
+          "Parlament qo'mitalarida (qonun ijodkorligida)",
+          "Ijro hokimiyati va vazirliklar idoralarida"
+        ],
+        correct: 0
+      },
+      {
+        q: "Normativ-huquqiy akt (NHA) qaysi huquqiy oilada mutlaq va eng asosiy huquq manbai hisoblanadi?",
+        options: [
+          "Roman-german huquqiy oilasida",
+          "Anglo-sakson huquqiy oilasida",
+          "An'anaviy huquq tizimida",
+          "Diniy-shariat huquq tizimida"
+        ],
+        correct: 0
+      }
+    ])
   },
 
-  // ============================================================
+  /////////////////////////////////////////////////////////////////////////////////
+  // 3-BO'LIM: HUQUQNI AMALGA OSHIRISH VA YURIDIK FAKTLAR
+  /////////////////////////////////////////////////////////////////////////////////
   topic3: {
-    title: "O'zbekiston tarixi 3-bo'lim (61-90)",
+    title: "Davlat va huquq nazariyasi: Huquqni amalga oshirish va Yuridik faktlar",
     questions: randomizeQuestions([
-      { "q": "O'zbekiston Respublikasida oliy ta'limni rivojlantirish konsepsiyasi qaysi yilgacha bo'lgan davrni o'z ichiga oladi?", "options": ["2030-yilgacha", "2025-yilgacha", "2028-yilgacha", "2035-yilgacha"], "correct": 0 },
-      { "q": "O'zbekiston Ekologik harakati qachon tashkil topgan?", "options": ["2008-yil 2-avgustda", "2003-yil 15-noyabrda", "2006-yil 18-martda", "2010-yil 7-iyunda"], "correct": 0 },
-      { "q": "Hozirgi kunda O'zbekistonda nechta rasmiy siyosiy partiya faoliyat yuritmoqda?", "options": ["5 ta", "3 ta", "4 ta", "6 ta"], "correct": 0 },
-      { "q": "1991-yil avgustida SSSR GKChP (Favqulodda holat davlat qo'mitasi)ni kim boshchilik qildi?", "options": ["Gennadiy Yanayev", "Mixail Gorbachyov", "Yegor Ligachyov", "Vladimir Kryuchkov"], "correct": 0 },
-      { "q": "Toshkent xalqaro aeroportiga qachon Islom Karimov nomi berildi?", "options": ["2017-yil 25-yanvarda", "2016-yil 2-sentyabrda", "2017-yil 14-iyulda", "2018-yil 30-yanvarda"], "correct": 0 },
-      { "q": "'O'zbekiston-2030' strategiyasining to'rtinchi ustuvor yo'nalishi qanday nomlanadi?", "options": ["Adolatli va zamonaviy davlat tashkil etish, xalq xizmatidagi davlat boshqaruvini joriy etish", "Barqaror iqtisodiy o'sish orqali aholi farovonligini ta'minlash", "Suv resurslarini tejash va atrof-muhitni muhofaza qilish", "Xavfsiz va tinchliksevar davlat, izchil tashqi siyosat"], "correct": 0 },
-      { "q": "O'zbekistonda 2023-yil qanday yil deb e'lon qilingan?", "options": ["Insonga e'tibor va sifatli ta'lim yili", "Yoshlar va biznesni qo'llab-quvvatlash yili", "Insonparvarlik va sog'lom avlod yili", "Kichik biznes va xususiy tadbirkorlik yili"], "correct": 0 },
-      { "q": "2015-yilga kelib JSST ma'lumotlariga ko'ra O'zbekistonda tug'ilayotgan bolalarning necha foizi mutlaq sog'lom hisoblangan?", "options": ["92 foizi", "87 foizi", "89 foizi", "95 foizi"], "correct": 0 },
-      { "q": "O'zbekistonda qaysi o'quv yilidan 1-sinflar o'qishni lotin alifbosida amalga oshirish belgilangan?", "options": ["1996-1997-o'quv yilidan", "1994-1995-o'quv yilidan", "1998-1999-o'quv yilidan", "2000-2001-o'quv yilidan"], "correct": 0 },
-      { "q": "1989-yil Farg'ona voqealari qaysi millatlar o'rtasida yuz berdi?", "options": ["O'zbeklar va mesxeti turklari o'rtasida", "O'zbeklar va qirg'izlar o'rtasida", "O'zbeklar va tojiklar o'rtasida", "O'zbeklar va qozoqlar o'rtasida"], "correct": 0 },
-      { "q": "Zulfiya nomidagi davlat mukofoti qachon ta'sis etilgan?", "options": ["1999-yil 10-iyunda", "1997-yil 23-martda", "2001-yil 8-martda", "1995-yil 14-dekabrda"], "correct": 0 },
-      { "q": "2017-yilda qaysi davlatda 'O'zbekiston Respublikasi Prezidenti Shavkat Mirziyoyev' nomli kitob chop etildi?", "options": ["Janubiy Koreyada", "Germaniyada", "Rossiyada", "Xitoyda"], "correct": 0 },
-      { "q": "'O'zbekiston-2030' strategiyasining beshinchi ustuvor yo'nalishi qanday nomlanadi?", "options": ["Xavfsiz va tinchliksevar davlat, izchil tashqi siyosat", "Har bir insonga o'z salohiyatini ro'yobga chiqarish uchun munosib sharoitlar yaratish", "Adolatli va zamonaviy davlat tashkil etish, xalq xizmatidagi boshqaruvni joriy etish", "Barqaror iqtisodiy o'sish orqali aholi farovonligini ta'minlash"], "correct": 0 },
-      { "q": "O'zbekistonda 2000-yildan boshlab o'tkaziladigan uch bosqichli yaxlit sport musobaqalari qaysilar?", "options": ["'Universiada', 'Barkamol avlod' va 'Umid nihollari'", "'Olimp', 'Yoshlar' va 'Sport umidi'", "'Navro'z', 'Mustaqillik' va 'Yoshlik'", "'Vatan', 'Kelajak' va 'Do'stlik' musobaqalari"], "correct": 0 },
-      { "q": "O'zbekistonda ta'lim necha tilda olib boriladi?", "options": ["7 ta tilda", "5 ta tilda", "6 ta tilda", "8 ta tilda"], "correct": 0 },
-      { "q": "O'zbekistonda qaysi yil 'Xalq bilan muloqot va inson manfaatlari yili' deb e'lon qilingan?", "options": ["2017-yil", "2016-yil", "2018-yil", "2019-yil"], "correct": 0 },
-      { "q": "1991-yil 29-dekabrda o'tkazilgan umumxalq Prezidentlik saylovida I.Karimov bilan qatorda muqobil nomzod sifatida kim ishtirok etdi?", "options": ["Muhammad Solih", "Abdurrahim Po'latov", "Shukrullo Mirsaidov", "Bahodir Choriyev"], "correct": 0 },
-      { "q": "2016-yil 4-dekabrda o'tkazilgan Prezidentlik saylovida Shavkat Mirziyoyev necha foiz ovoz bilan saylandi?", "options": ["88,61 foiz ovoz bilan", "84,3 foiz ovoz bilan", "86,9 foiz ovoz bilan", "91,5 foiz ovoz bilan"], "correct": 0 },
-      { "q": "Qaysi yillarda O'zbekiston parlamenti Oliy Kengash nomi bilan atalgan (mustaqillik davri)?", "options": ["1991-1994-yillarda", "1989-1992-yillarda", "1992-1996-yillarda", "1990-1995-yillarda"], "correct": 0 },
-      { "q": "'O'zbekiston-2030' strategiyasi nechta maqsadni o'z ichiga oladi?", "options": ["100 ta maqsadni", "75 ta maqsadni", "85 ta maqsadni", "120 ta maqsadni"], "correct": 0 },
-      { "q": "O'zbekistonda qaysi partiyaning asosiy maqsad-vazifasi milliy an'analarni va qadriyatlarni saqlashdan iborat?", "options": ["Milliy tiklanish demokratik partiyasi", "Xalq demokratik partiyasi", "Adolat sotsial-demokratik partiyasi", "Ekologik partiya"], "correct": 0 },
-      { "q": "2017-yil 6-dekabrda qabul qilingan afv farmoni bilan necha nafar mahkum ozod qilindi?", "options": ["2700 nafar", "1850 nafar", "2450 nafar", "3100 nafar"], "correct": 0 },
-      { "q": "O'zbekiston Respublikasi Oliy sudi va Oliy xo'jalik sudi qachon birlashtirilib yagona Oliy sud tashkil etildi?", "options": ["2017-yil 1-iyundan", "2016-yil 1-yanvardan", "2017-yil 1-sentyabrdan", "2018-yil 1-yanvardan"], "correct": 0 },
-      { "q": "O'zbekistonda 14-yanvar 'Vatan himoyachilari kuni' deb qachon e'lon qilingan?", "options": ["1993-yil 29-dekabrdagi qonun bilan", "1991-yil 31-avgustdagi qonun bilan", "1992-yil 4-yanvardagi qaror bilan", "1995-yil 14-yanvardagi farmon bilan"], "correct": 0 },
-      { "q": "Xalq qabulxonalari qachongi farmon asosida tashkil etilgan?", "options": ["2016-yil 28-dekabrdagi farmon asosida", "2017-yil 7-fevraldagi farmon asosida", "2016-yil 14-sentyabrdagi farmon asosida", "2015-yil 14-noyabrdagi farmon asosida"], "correct": 0 },
-      { "q": "O'zbekiston Respublikasi mintaqaning nechta davlati bilan umumiy chegaraga ega?", "options": ["5 ta davlat bilan", "4 ta davlat bilan", "6 ta davlat bilan", "3 ta davlat bilan"], "correct": 0 },
-      { "q": "Orol dengizining qurishi avvalo qaysi jarayon oqibatida yuz bergan?", "options": ["Amudaryo va Sirdaryo suvlarining haddan tashqari sug'orishga olinishi oqibatida", "Iqlim o'zgarishi va yog'inlarning keskin kamayishi oqibatida", "Sanoat chiqindilari tufayli dengiz qatlamining ifloslanganligi oqibatida", "Neft qazib olish faoliyati tufayli suv osti tuzilmasining buzilishi oqibatida"], "correct": 0 },
-      { "q": "Hozirda O'zbekistonda qancha millat va elat vakillari yashaydi?", "options": ["130 dan ortiq", "60 dan ortiq", "80 dan ortiq", "100 dan ortiq"], "correct": 0 },
-      { "q": "O'zbekiston Prezidentligiga saylanish uchun nomzod kamida necha yoshda bo'lishi kerak?", "options": ["35 yoshdan kam bo'lmagan", "30 yoshdan kam bo'lmagan", "40 yoshdan kam bo'lmagan", "45 yoshdan kam bo'lmagan"], "correct": 0 },
-      { "q": "O'zbekiston Xalq demokratik partiyasiga qachon asos solindi?", "options": ["1991-yil 1-noyabrda", "1990-yil 24-martda", "1992-yil 8-dekabrda", "1993-yil 28-iyunda"], "correct": 0 },
-    ]),
+      {
+        q: "Huquqning dinamikasi (dinamik holati) deganda nima tushuniladi?",
+        options: [
+          "Huquq normalarining real ijtimoiy munosabatlarda amalga oshishi va hayotga tatbiq etilishi",
+          "Huquq normalarining faqat qonun matnlarida va kodekslarda statik mustahkamlanishi",
+          "Huquq normalarining tizimli ichki iyerarxik tuzilishini ilmiy o'rganish",
+          "Huquq normalarining ijtimoiy jihatdan qanchalik samarali ekanligini sotsiologik baholash"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqning statikasi (statik holati) quyidagilarning qaysi birida namoyon bo'ladi?",
+        options: [
+          "Huquq normalarining qonun hujjatlarida rasmiy ifodalangan matn shaklida mavjudligida",
+          "Huquq normalarining subyektlar tomonidan kundalik faoliyatda qo'llanilishida",
+          "Huquq normalarining davlat organlari tomonidan majburiy ijro etilishida",
+          "Huquq normalarining jamiyat aholisi tomonidan subyektiv ravishda qabul qilinishida"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqni amalga oshirish (realizatsiya) tushunchasining huquqiy ma'nosi nima?",
+        options: [
+          "Huquq normalari talablarining subyektlar xulq-atvorida real hayotga ko'chishi va bajarilishi",
+          "Yangi qonun loyihalarini davlat organlari tomonidan ishlab chiqilishi va qabul qilinishi",
+          "Normativ hujjatlarni rasmiy e'lon qilish va Lex.uz bazasiga joylashtirish jarayoni",
+          "Huquqiy faoliyat ustidan prokuratura organlari tomonidan umumiy nazorat o'rnatilishi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqni amalga oshirishning bevosita (fuqarolar tomonidan amalga oshiriladigan) nechta shakli mavjud?",
+        options: [
+          "Uch xil: rioya qilish, ijro etish va foydalanish",
+          "Ikki xil: bevosita va bilvositarioya qilish",
+          "To'rt xil: rioya, ijro, foydalanish va huquqni qo'llash",
+          "Besh xil: anglash, tahlil, rioya, foydalanish va baholash"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq normalariga 'rioya qilish' (soblyudenie) shakli qanday xulq-atvor bilan tavsiflanadi?",
+        options: [
+          "Subyektning taqiqlangan harakatlarni sodir etishdan tiyilishi (passiv xulq-atvor)",
+          "Subyektning qonunda ko'rsatilgan majburiyatlarni faol harakatlar orqali bajarishi",
+          "Subyektning o'ziga berilgan huquqlardan o'z xohishiga ko'ra foydalanishi",
+          "Davlat organining vakolatli qaror qabul qilish bo'yicha harakatlari"
+        ],
+        correct: 0
+      },
+      {
+        q: "Rioya qilish shaklida asosan qaysi turdagi huquq normalari hayotga tatbiq etiladi?",
+        options: [
+          "Taqiqlovchi huquq normalari",
+          "Majburiyat yuklovchi huquq normalari",
+          "Vakolat beruvchi huquq normalari",
+          "Definitiv (ta'riflovchi) huquq normalari"
+        ],
+        correct: 0
+      },
+      {
+        q: "Quyidagilardan qaysi biri huquqqa 'rioya qilish' shakliga aniq misol bo'la oladi?",
+        options: [
+          "Fuqaroning o'zganing mulkini o'g'irlamasligi va jinoyat sodir etmasligi",
+          "Soliq to'lovchining belgilangan muddatda daromad solig'ini hisoblab to'lashi",
+          "Abituriyentning oliy ta'lim muassasasiga hujjat topshirish huquqidan foydalanishi",
+          "Sudyaning jinoyat ishi bo'yicha ayblanuvchiga nisbatan hukm chiqarishi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqni 'ijro etish' (ispolnenie) shaklining asosiy huquqiy xususiyati nimada?",
+        options: [
+          "Subyektning qonun bilan yuklangan majburiyatlarni faol harakatlar orqali bajarishi",
+          "Subyektning qonunda taqiqlangan harakatlarni sodir etishdan o'zini tiyishi",
+          "Subyektning o'z subyektiv huquqlarini ixtiyoriy ravishda amalga oshirishi",
+          "Davlat organining nizoli munosabatni majburiy tartibda ko'rib chiqishi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqni ijro etish jarayonida subyektning shaxsiy xohish-irodasi qanday rol o'ynaydi?",
+        options: [
+          "Qonun talabini bajarish imperativ majburiyat bo'lib, ixtiyoriy tanlovga yo'l qo'yilmaydi",
+          "Subyektning shaxsiy xohishi qonun talablaridan ustun turuvchi hal qiluvchi omildir",
+          "Subyekt majburiyatni bajarish yoki bajarmaslikni o'zi mustaqil hal qiladi",
+          "Shaxsiy xohish va qonun talabi har doim o'zaro muvozanatda bo'lishi shart"
+        ],
+        correct: 0
+      },
+      {
+        q: "Quyidagilarning qaysi biri huquqni 'ijro etish' shakliga yaqqol misol hisoblanadi?",
+        options: [
+          "Fuqaroning qonun hujjatlarida belgilangan soliqlarni o'z vaqtida to'lashi",
+          "Haydovchining svetoforning qizil chirog'ida transport vositasini to'xtatishi",
+          "Mulkdorning o'ziga tegishli uyni oldi-sotdi shartnomasi orqali sotishi",
+          "Guvohning sud sanksiyasisiz ko'rsatma berishdan mutlaqo bosh tortishi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqdan 'foydalanish' (ispolzovanie) shaklining boshqa realizatsiya shakllaridan asosiy farqi nimada?",
+        options: [
+          "Ushbu shaklda subyektning ixtiyoriylik va dispozitivlik prinsipi asosiy o'rin tutadi",
+          "Ushbu shakl faqat vakolatli davlat organlari va mansabdor shaxslar uchun mo'ljallangan",
+          "Ushbu shakl faqat yuridik shaxslarning tadbirkorlik faoliyatida amal qiladi",
+          "Ushbu shaklda imperativ majburiylik tamoyili mutlaq ustuvorlik kasb etadi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqdan foydalanish shaklida asosan qaysi tipdagi huquq normalari amalga oshiriladi?",
+        options: [
+          "Vakolat beruvchi huquq normalari",
+          "Taqiqlovchi huquq normalari",
+          "Majburiyat yuklovchi huquq normalari",
+          "Sanksiyalovchi huquq normalari"
+        ],
+        correct: 0
+      },
+      {
+        q: "Quyidagilarning qaysi biri huquqdan 'foydalanish' shakliga misol bo'ladi?",
+        options: [
+          "Fuqaroning o'z xohishiga ko'ra oliy ma'lumot olish huquqini amalga oshirishi",
+          "Yigitlarning qonun bo'yicha muddatli harbiy xizmatga majburiy chaqirilishi",
+          "Guvohning tergovchining chaqiruvi bo'yicha ko'rsatma berish uchun kelishi",
+          "Korxona rahbarining soliq idoralariga moliyaviy hisobot topshirishi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqni qo'llash (primenenie) shakli kimlar tomonidan amalga oshiriladi?",
+        options: [
+          "Maxsus vakolat berilgan davlat organlari va mansabdor shaxslar tomonidan",
+          "Fuqarolar va jismoniy shaxslar o'zlarining shaxsiy bitimlarida",
+          "Nodavlat nonprofit tashkilotlar va jamoat faollari tomonidan",
+          "Faqat xalqaro tashkilotlar va uning sudlov organlari tomonidan"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqni qo'llashning qaysi o'ziga xos xususiyati uni bevosita amalga oshirish shakllaridan ajratib turadi?",
+        options: [
+          "U daxldorlik xususiyatiga ega bo'lib, davlat-hokimiyat vakolati asosida amalga oshiriladi",
+          "U subyektlarning faqat passiv xulq-atvori (harakatsizligi) orqali yuzaga keladi",
+          "U oddiy subyektlarning o'zaro kelishuvi va ixtiyoriyligiga asoslanadi",
+          "U jamiyat a'zolarining huquqiy savodxonligini oshirish maqsadidagina qo'llaniladi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqni qo'llash faoliyati (huquqni qo'llash akti chiqarish) qachon zarur bo'ladi?",
+        options: [
+          "Huquqiy nizolar yuzaga kelganda yoki huquqbuzarlik sodir etilib, sanksiya qo'llash kerak bo'lganda",
+          "Fuqaro o'zining shaxsiy subyektiv huquqlaridan foydalanishni xohlagan har qanday oddiy holatda",
+          "Subyektlar huquq normalariga o'z ixtiyori bilan begarez rioya qilayotgan vaziyatlarda",
+          "Yangi qonun hujjati kuchga kirgan kundan boshlab uni ommaga tushuntirish jarayonida"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqni qo'llash jarayonining yakuniy natijasi sifatida nima qabul qilinadi?",
+        options: [
+          "Individuallashgan huquqiy akt (sud hukmi, buyruq, qaror)",
+          "Umumiy xarakterga ega bo'lgan yangi normativ-huquqiy hujjat",
+          "Subyektlar o'rtasidagi ikki tomonlama fuqarolik-huquqiy shartnomasi",
+          "Huquq normasining kuchini butunlay to'xtatuvchi rasmiy qaror"
+        ],
+        correct: 0
+      },
+      {
+        q: "Quyidagilardan qaysi biri huquqni qo'llash (primenenie) shakliga yaqqol misol bo'ladi?",
+        options: [
+          "Jinoyat ishlari bo'yicha sud tomonidan sudlanuvchiga nisbatan hukm chiqarilishi",
+          "Fuqaroning o'ziga tegishli avtomashinani boshqa shaxsga ishonchnoma topshirishi",
+          "Tadbirkorning bojxona chegarasidan yuk o'tkazishda bojxona bojini to'lashi",
+          "Piyodaning yo'lni belgilanmagan joyidan kesib o'tishdan o'zini tiyishi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Yuridik fakt (Yuridicheskiy fakt) deganda huquq nazariyasida nima tushuniladi?",
+        options: [
+          "Huquq normasida nazarda tutilgan, huquqiy oqibatlar keltirib chiqaruvchi real hayotiy holat",
+          "Qonunchilik palatasida deputatlar tomonidan muhokama qilinadigan har qanday loyiha holati",
+          "Faqat davlat idoralari tomonidan maxsus rejalashtirilgan va rasmiylashtirilgan voqea",
+          "Sud majlisida prokuror va advokat o'rtasida tortishuvga sabab bo'lgan og'zaki dalil"
+        ],
+        correct: 0
+      },
+      {
+        q: "Yuridik faktlar subyekt irodasiga bog'liqligi mezoniga ko'ra qaysi ikki asosiy turga bo'linadi?",
+        options: [
+          "Harakatlar (irodaviy) va Hodisalar (irodaga bog'liq bo'lmagan)",
+          "Huquqiy munosabatlar va Huquqiy holatlar",
+          "Ijobiy faktlar va Salbiy (kollizion) faktlar",
+          "Moddiy faktlar va Prosessual-sudlov faktlari"
+        ],
+        correct: 0
+      },
+      {
+        q: "Quyidagilardan qaysi biri huquqqa xilof yuridik faktga (huquqbuzarlikka) misol bo'ladi?",
+        options: [
+          "Shartnoma shartlarini qasdan buzish va o'g'rilik sodir etish",
+          "Nikoh tuzish va fuqaroning qonuniy farzand ko'rishi",
+          "Fors-major holati hisoblangan zilzila va epidemiya tarqalishi",
+          "Muddatlarning o'tishi va shaxsning voyaga yetishi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq nazariyasida 'Hodisalar' (Sobitiya) deb qanday yuridik faktlarga aytiladi?",
+        options: [
+          "Inson irodasidan qat'i nazar, tabiat qonuniyatlari asosida yuz beradigan voqeliklar",
+          "Faqat davlat organlari rahbarlari tomonidan qabul qilinadigan rasmiy qarorlar",
+          "Subyektlarning ongli ravishda maqsadli amalga oshiradigan huquqiy xatti-harakatlari",
+          "Faqat sud organlari tomonidan maxsus tasdiqlanadigan protsessual holatlar"
+        ],
+        correct: 0
+      },
+      {
+        q: "Yuridik fakt hisoblangan 'Hodisalar'ga quyidagilarning qaysi biri aniq misol bo'la oladi?",
+        options: [
+          "To'satdan vafot etish va tabiiy ofat (zilzila, suv toshqini)",
+          "Oldi-sotdi shartnomasini imzolash va mulk huquqini o'tkazish",
+          "Ma'muriy huquqbuzarlik sodir etish va qonun talabini buzish",
+          "Sud tomonidan da'vo arizasini ko'rib chiqib qaror chiqarilishi"
+        ],
+        correct: 0
+      }
+    ])
   },
 
-  // ============================================================
+  /////////////////////////////////////////////////////////////////////////////////
+  // 4-BO'LIM: HUQUQIY ONG, HUQUQIY TIZIM VA SHARHLASH
+  /////////////////////////////////////////////////////////////////////////////////
   topic4: {
-    title: "O'zbekiston tarixi 4-bo'lim (91-120)",
+    title: "Davlat va huquq nazariyasi: Huquqiy ong, Huquq tizimi va Sharhlash",
     questions: randomizeQuestions([
-      { "q": "O'zbekiston Milliy tiklanish demokratik partiyasi qachon tashkil etilgan?", "options": ["1995-yil 3-iyunda", "1993-yil 5-dekabrda", "1996-yil 14-fevralda", "1997-yil 19-aprelda"], "correct": 0 },
-      { "q": "Shahrisabzdagi Amir Temur haykali qachon ochilgan?", "options": ["1996-yilda", "1993-yilda", "1999-yilda", "2001-yilda"], "correct": 0 },
-      { "q": "Harakatlar strategiyasi qachon tasdiqlandi?", "options": ["2017-yil 7-fevralda", "2016-yil 28-dekabrda", "2017-yil 4-yanvarda", "2017-yil 1-martda"], "correct": 0 },
-      { "q": "Harakatlar strategiyasi qaysi yillarga mo'ljallangan edi?", "options": ["2017-2021-yillarga", "2016-2020-yillarga", "2018-2022-yillarga", "2019-2023-yillarga"], "correct": 0 },
-      { "q": "Harakatlar strategiyasi nechta ustuvor yo'nalishdan iborat?", "options": ["5 ta yo'nalishdan", "4 ta yo'nalishdan", "6 ta yo'nalishdan", "7 ta yo'nalishdan"], "correct": 0 },
-      { "q": "Harakatlar strategiyasini nazorat qiluvchi Milliy komissiya necha kishidan iborat bo'lgan?", "options": ["41 kishidan", "32 kishidan", "36 kishidan", "50 kishidan"], "correct": 0 },
-      { "q": "Harakatlar strategiyasining birinchi yo'nalishi qanday nomlanadi?", "options": ["Davlat va jamiyat qurilishi tizimini takomillashtirishning ustuvor yo'nalishlari", "Iqtisodiyotni rivojlantirish va liberallashtirishning ustuvor yo'nalishlari", "Qonun ustuvorligini ta'minlash va sud-huquq tizimini yanada isloh qilishning ustuvor yo'nalishlari", "Ijtimoiy sohani rivojlantirishning ustuvor yo'nalishlari"], "correct": 0 },
-      { "q": "Harakatlar strategiyasining ikkinchi yo'nalishi qanday nomlanadi?", "options": ["Qonun ustuvorligini ta'minlash va sud-huquq tizimini yanada isloh qilishning ustuvor yo'nalishlari", "Davlat va jamiyat qurilishi tizimini takomillashtirishning ustuvor yo'nalishlari", "Iqtisodiyotni rivojlantirish va liberallashtirishning ustuvor yo'nalishlari", "Xavfsizlik, millatlararo totuvlik va diniy bag'rikenglikni ta'minlash sohasidagi ustuvor yo'nalishlar"], "correct": 0 },
-      { "q": "Harakatlar strategiyasining uchinchi yo'nalishi qanday nomlanadi?", "options": ["Iqtisodiyotni rivojlantirish va liberallashtirishning ustuvor yo'nalishlari", "Ijtimoiy sohani rivojlantirishning ustuvor yo'nalishlari", "Qonun ustuvorligini ta'minlash va sud-huquq tizimini yanada isloh qilishning ustuvor yo'nalishlari", "Davlat va jamiyat qurilishi tizimini takomillashtirishning ustuvor yo'nalishlari"], "correct": 0 },
-      { "q": "Harakatlar strategiyasining to'rtinchi yo'nalishi qanday nomlanadi?", "options": ["Ijtimoiy sohani rivojlantirishning ustuvor yo'nalishlari", "Iqtisodiyotni rivojlantirish va liberallashtirishning ustuvor yo'nalishlari", "Xavfsizlik, millatlararo totuvlik va diniy bag'rikenglikni ta'minlash sohasidagi ustuvor yo'nalishlar", "Qonun ustuvorligini ta'minlash va sud-huquq tizimini yanada isloh qilishning ustuvor yo'nalishlari"], "correct": 0 },
-      { "q": "Toshkentdagi Soka universitetiga kim haykali o'rnatildi?", "options": ["Alisher Navoiy", "Amir Temur", "Mirzo Ulug'bek", "Kamoliddin Behzod"], "correct": 0 },
-      { "q": "Hozirda O'zbekistonda nechta diniy konfessiya faoliyat yuritmoqda?", "options": ["16 ta", "9 ta", "12 ta", "22 ta"], "correct": 0 },
-      { "q": "O'zbekiston SSR Oliy Kengashi qachon o'zbek tiliga davlat tili maqomini berdi?", "options": ["1989-yil 21-oktyabrda", "1988-yil 14-noyabrda", "1990-yil 20-iyunda", "1991-yil 31-avgustda"], "correct": 0 },
-      { "q": "Shavkat Mirziyoyev BMT Bosh Assambleyasining qaysi sessiyasida ilk marotaba nutq so'zladi?", "options": ["72-sessiyasida", "70-sessiyasida", "74-sessiyasida", "75-sessiyasida"], "correct": 0 },
-      { "q": "Mirzo Ulug'bek tavalludining qaysi yilligi 1994-yilda YUNESKO qarorgohi Parijda nishonlandi?", "options": ["600-yilligi", "550-yilligi", "650-yilligi", "500-yilligi"], "correct": 0 },
-      { "q": "O'zbekiston Prezidentining farmoni asosida Islom akademiyasi qachon tashkil qilindi?", "options": ["2017-yil 15-dekabrda", "2016-yil 28-fevralda", "2018-yil 14-avgustda", "2019-yil 30-yanvarda"], "correct": 0 },
-      { "q": "2024-yil O'zbekistonda qanday yil deb e'lon qilindi?", "options": ["Yoshlar va biznesni qo'llab-quvvatlash yili", "Insonga e'tibor va sifatli ta'lim yili", "Insonparvarlik va sog'lom avlod yili", "Ilm-fan, ta'lim va raqamli iqtisodiyot yili"], "correct": 0 },
-      { "q": "Qosim shayx Azizon xonaqosi qaysi shaharda joylashgan?", "options": ["Navoiy viloyatining Karmana shahrida", "Buxoro viloyatining G'ijduvon shahrida", "Samarqand viloyatining Kattaqo'rg'on shahrida", "Qashqadaryo viloyatining Shahrisabz shahrida"], "correct": 0 },
-      { "q": "O'zbekistonda maydoni jihatdan eng katta viloyat qaysi (Qoraqalpog'istondan tashqari)?", "options": ["Navoiy viloyati", "Qashqadaryo viloyati", "Surxondaryo viloyati", "Buxoro viloyati"], "correct": 0 },
-      { "q": "O'zbekistondagi hozirgi qishloq xo'jaligidagi etakchi xo'jalik shakli qaysi?", "options": ["Fermer xo'jaliklari", "Kolxozlar", "Ijarachi xo'jaliklar", "Shirkat xo'jaliklari"], "correct": 0 },
-      { "q": "Hadis ilmida shuhrat qozongan buyuk alloma kim?", "options": ["Imom al-Buxoriy", "Ahmad al-Farg'oniy", "Al-Xorazmiy", "Abu Ali ibn Sino"], "correct": 0 },
-      { "q": "Mo'g'ullarga qarshi qahramonona kurashgan tarixiy shaxs kim?", "options": ["Jaloliddin Manguberdi", "Muqanna", "Spitamen", "Bahromshoh G'aznaviy"], "correct": 0 },
-      { "q": "Jaloliddin Manguberdi haykali qaysi shaharda o'rnatilgan?", "options": ["Xorazm viloyatining Urganch shahrida", "Toshkent shahrida, Amir Temur xiyobonida", "Xiva shahrida, Ichan qal'a yonida", "Nukus shahrida, markaziy maydonda"], "correct": 0 },
-      { "q": "Sh. Mirziyoyevning ilk ma'ruzasi BMT Bosh Assambleyasining qaysi sessiyasida bo'ldi?", "options": ["72-sessiyasida", "68-sessiyasida", "70-sessiyasida", "74-sessiyasida"], "correct": 0 },
-      { "q": "Xalqaro madaniy yutuqlarni targ'ib etuvchi xalqaro tashkilot qaysi?", "options": ["YuNESKO", "UNICEF", "JSST (JSST)", "Jahon banki"], "correct": 0 },
-      { "q": "O'zbekiston YuNESKO tashkiloti a'zoligiga qachon qabul qilindi?", "options": ["1993-yil 26-oktyabrda", "1992-yil 2-martda", "1994-yil 14-iyunda", "1995-yil 18-fevralda"], "correct": 0 },
-      { "q": "Qaysi yildan boshlab 31-avgust qatag'on qurbonlarini yod etish kuni sifatida nishonlanadigan bo'ldi?", "options": ["2001-yildan", "1998-yildan", "2003-yildan", "2005-yildan"], "correct": 0 },
-      { "q": "Mirzo Ulug'bek tavalludining necha yilligini nishonlash YuNESKO dasturiga kiritildi?", "options": ["600-yilligini", "550-yilligini", "500-yilligini", "650-yilligini"], "correct": 0 },
-      { "q": "O'zbekistonning qaysi shaharlari 1997-yili YuNESKOning jahon madaniy qadriyatlari ro'yxatiga kiritildi?", "options": ["Buxoro va Xiva", "Samarqand va Buxoro", "Toshkent va Samarqand", "Xiva va Shahrisabz"], "correct": 0 },
-      { "q": "YuNESKO qaroriga binoan O'zbekistondan nechta tarixiy ob'ekt jahon madaniyati ro'yxatiga kiritildi?", "options": ["5 ta moddiy ob'ekt", "3 ta moddiy ob'ekt", "7 ta moddiy ob'ekt", "4 ta moddiy ob'ekt"], "correct": 0 },
-    ]),
+      {
+        q: "Huquqiy ong (Pravosoznanie) ijtimoiy ongning shakli sifatida qanday qaraladi?",
+        options: [
+          "Mustaqil shakl sifatida o'zining maxsus predmeti va xususiyatlariga ega bo'lgan holda",
+          "Axloqiy ongning tarkibidagi uning bevosita yordamchi va ikkinchi darajali qismi sifatida",
+          "Siyosiy ongning faqat qonun chiqarish jarayoniga oid subyektiv ko'rinishi sifatida",
+          "Iqtisodiy munosabatlarni to'g'ridan-to'g'ri aks ettiruvchi mexanik ong shakli sifatida"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqiy ongning asosiy aks ettirish predmetini nima tashkil etadi?",
+        options: [
+          "Huquqiy voqeolik, amaldagi va istiqboldagi huquq hamda huquqiy hodisalar majmui",
+          "Jamiyatdagi faqat diniy, ma'rifiy va an'anaviy qadriyatlar tizimi",
+          "Siyosiy hokimiyatni egallash va davlat boshqaruvi apparatini shakllantirish masalalari",
+          "Ijtimoiy guruhlar o'rtasidagi iqtisodiy resurslar va mulk taqsimoti balansi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqiy ong ichki tuzilishiga (strukturasiga) ko'ra qaysi ikki asosiy elementdan iborat?",
+        options: [
+          "Huquqiy psixologiya (hissiy qism) va Huquqiy mafkura (g'oyaviy qism)",
+          "Huquqiy bilim va huquqiy amaliy tajriba majmui",
+          "Huquqiy nazariya va sud organlarining sudlov amaliyoti",
+          "Huquqiy tarbiya va davlat tomonidan o'rnatilgan huquqiy ta'lim"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqiy psixologiyaning o'ziga xos shakllanish xususiyati nimada?",
+        options: [
+          "Kundalik hayotiy tajriba ta'sirida, ijtimoiy muhitda stixiyali tarzda yuzaga kelishi",
+          "Ilmiy tizimlashtirilgan g'oyalar va professional huquqiy qarashlar asosida rivojlanishi",
+          "Maxsus yuridik ta'lim muassasalarida maqsadli dasturlar orqali shakllantirilishi",
+          "Rasmiy normativ-huquqiy hujjatlar matni bilan bevosita mustahkamlab qo'yilishi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqiy mafkurani huquqiy psixologiyadan farqlaydigan asosiy konseptual jihat qaysi?",
+        options: [
+          "Ilmiy tizimlashtirilgan, ongli va maqsadli ravishda shakllantiriladigan g'oyalar tizimi ekanligi",
+          "Keng xalq ommasining his-tuyg'ulari va emotsiyalarini bevosita aks ettirishi",
+          "Kundalik hayotda subyektlar tomonidan instinktiv darajada qo'llanilishi",
+          "Faqat sud va huquqni muhofaza qiluvchi organlar xodimlarigagina tegishli ekanligi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqiy ongning qaysi funksiyasi baholash mezonlari sifatida adolat, insoniylik va qonuniylik prinsiplaridan foydalanadi?",
+        options: [
+          "Baholash funksiyasi",
+          "Bilish funksiyasi",
+          "Tartibga solish funksiyasi",
+          "Prognozlash (modellashtirish) funksiyasi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqiy modellashtirish va prognozlash funksiyasi ayniqsa qaysi sohada hal qiluvchi ahamiyatga ega?",
+        options: [
+          "Qonun ijodkorligi (huquq ijodkorligi) jarayonida",
+          "Sudlar tomonidan konkret kazuistik ishlarni ko'rishda",
+          "Aholiga huquqiy tarbiya berishning an'anaviy tizimida",
+          "Jinoyat ishlarini tergov qilish dastlabki bosqichlarida"
+        ],
+        correct: 0
+      },
+      {
+        q: "Subyektlar tarkibi (tashuvchilari) bo'yicha huquqiy ong qanday turlarga bo'linadi?",
+        options: [
+          "Individual, guruhiy va jamoatchilik (ijtimoiy) huquqiy ongi",
+          "Oddiy, kasbiy va ilmiy-nazariy huquqiy ong",
+          "Nazariy, amaliy va qiyosiy huquqiy ong turlari",
+          "Rasmiy, norasmiy va aralash xarakterdagi huquqiy ong"
+        ],
+        correct: 0
+      },
+      {
+        q: "Bilish chuqurligi va professionallik darajasi bo'yicha huquqiy ong qanday tasniflanadi?",
+        options: [
+          "Kundalik (oddiy), kasbiy (professional) va nazariy-ilmiy huquqiy ong",
+          "Shaxsiy, guruhiy va umumjamiyat huquqiy ongi",
+          "Psixologik, mafkuraviy va sotsiologik huquqiy ong",
+          "An'anaviy, zamonaviy va o'tish davri huquqiy ongi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Kasbiy (professional) huquqiy ong qanday yo'l bilan maqsadli shakllanadi?",
+        options: [
+          "Maxsus oliy yuridik ta'lim va tizimli amaliy huquqiy faoliyat natijasida",
+          "Kundalik hayotiy tajriba va oilaviy muhitning bilvositata'siri ostida",
+          "Ommaviy axborot vositalari va ijtimoiy tarmoqlarni kuzatish orqali",
+          "Mahalla idoralari va jamoat tashkilotlarining umumiy suhbatlarida"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqiy nigilizm (Pravovoy nigilizm) qanday huquqiy-psixologik hodisa sifatida ta'riflanadi?",
+        options: [
+          "Huquqning jamiyatdagi ijobiy rolini inkor etish, qonunlarga nisbatan salbiy va mensimasdan munosabatda bo'lish",
+          "Huquqiy normalarning ijtimoiy imkoniyatlarini haddan tashqari yuqori baholash (idealizatsiya)",
+          "Qonun talablariga so'zsiz, ko'r-ko'rona va tanqidsiz itoat etish namunasi",
+          "Huquqiy normalarni diniy-shariat me'yorlari bilan mutlaqo tenglashtirish tendensiyasi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqiy nigilizmning faol shakli quyidagilarning qaysi birida yaqqol namoyon bo'ladi?",
+        options: [
+          "Qonunlarni ongli ravishda buzishda, jinoiy xulq-atvorda va tizimli korrupsiyada",
+          "Qonunchilik o'zgarishlaridan mutlaqo bexabarlik va huquqiy flegmatizm holatida",
+          "Huquqiy masalalarga nisbatan oddiy e'tiborsizlik va passiv munosabatda",
+          "Davlat tomonidan tashkil etiladigan huquqiy tarbiya tadbirlaridan chetda qolishda"
+        ],
+        correct: 0
+      },
+      {
+        q: "Quyidagilardan qaysi biri huquqiy nigilizm yuzaga kelishining determinanti (sababi) hisoblanmaydi?",
+        options: [
+          "Yuridik kasb egalarining (huquqshunoslarning) miqdoriy jihatdan ko'payishi",
+          "Jamiyatda huquqiy ta'lim va huquqiy madaniyat darajasining pastligi",
+          "Davlat apparati va sud organlaridagi tizimli korrupsiyalashgan holatlar",
+          "O'tmishdagi totalitar yoki avtoritar davlat boshqaruvi sotsial tajribasi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqiy idealizm (romanticizm) deganda nima tushuniladi?",
+        options: [
+          "Huquqning va qonunlarning jamiyat muammolarini hal etishdagi imkoniyatlarini haddan tashqari yuqori baholash",
+          "Huquqiy normalarga va qonun ustuvorligiga mutlaqo befarq munosabatda bo'lish",
+          "Huquqiy tizimni davlat tuzilmasi sifatida tubdan inkor etish harakati",
+          "Huquqni faqat axloqiy va falsafiy nuqtayi nazardangina baholash intilishi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqiy idealizmning jamiyat hayotidagi salbiy amaliy oqibati nima hisoblanadi?",
+        options: [
+          "Qonunlar real hayotdan uzilib qolishi natijasida jamiyatda huquqiy nigilizmning yanada kuchayishi",
+          "Huquqiy tizimning to'liq barqarorlashuvi va qonun ustuvorligining ta'minlanishi",
+          "Davlat idoralarining qonun ijodkorligi faoliyatining butunlay to'xtab qolishi",
+          "Sud organlarining ijro hokimiyatidan mustaqilligining keskin oshib ketishi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqiy tarbiyaning (Pravovoe vospitanie) eng asosiy strategik maqsadi nimadan iborat?",
+        options: [
+          "Fuqarolarda huquqqa nisbatan ongli hurmat, barqaror huquqiy pozitsiya va qonunlarga amal qilish ishtiyoqini shakllantirish",
+          "Jamiyatdagi barcha fuqarolarga qonunlar matnini so'zma-so'z majburiy yodlatish",
+          "Davlatda jinoyatchilikni ma'muriy tazyiqlar orqali mutlaqo yo'qotishga erishish",
+          "Barcha fuqarolarni professional darajadagi yuridik mutaxassis qilib tayyorlash"
+        ],
+        correct: 0
+      },
+      {
+        q: "Quyidagilardan qaysi biri huquqiy tarbiyani amalga oshirishning an'anaviy shakllariga kirmaydi?",
+        options: [
+          "Huquqbuzarlarni jinoiy javobgarlikka tortish doirasini maksimal kengaytirish",
+          "Tizimli huquqiy ta'lim (maktab, universitetlarda o'qitish) tizimi",
+          "Ommaviy axborot vositalari va ijtimoiy institutlar orqali huquqiy targ'ibot",
+          "Huquqiy va detektiv mavzuda yaratilgan yuqori saviyadagi badiiy asarlar"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqiy tarbiyaning asosiy yuridik metodlari qatoriga qaysilar kiradi?",
+        options: [
+          "Ishontirish, namuna ko'rsatish, rag'batlantirish va majburlov",
+          "Tekshirish, reja asosida nazorat, davlat auditi va jazolash",
+          "Faqat tushuntirish va o'tgan tarixiy xatolarni tahlil qilish",
+          "Kuzatish, instinktiv amal qilish va xatti-harakatni takrorlash"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq normalarini sharhlash (talqin qilish — Interpretatsiya) deganda nima tushuniladi?",
+        options: [
+          "Huquqiy norma mazmunini, qonun chiqaruvchining haqiqiy irodasini to'g'ri anglash va tushuntirish jarayoni",
+          "Normativ-huquqiy hujjatlarni rasmiy idoralarda davlat ro'yxatidan o'tkazish tartibi",
+          "Yangi huquqiy normalarni ishlab chiqish va ularni qonunchilik bazasiga kiritish jarayoni",
+          "Huquqiy nizolarni hal qilishda sudlar tomonidan qo'llaniladigan majburiy sanksiyalar tizimi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Grammatik (lingvistik) sharhlash usuli qanday tahliliy mexanizmga asoslanadi?",
+        options: [
+          "Huquqiy norma matnini til, filologiya, punktuatsiya va grammatika qoidalari asosida tahlil qilishga",
+          "Normaning muayyan jamiyatdagi funksional va sotsiologik vazifasini aniqlashga",
+          "Normaning qabul qilingan tarixiy sharoiti va siyosiy kontekstini o'rganishga",
+          "Normani boshqa normalar va butun huquq tizimi bilan logik aloqasini tekshirishga"
+        ],
+        correct: 0
+      },
+      {
+        q: "Tizimli (sistemali) sharxlash usulining bosh maqsadi nima?",
+        options: [
+          "Normani boshqa huquqiy normalar, institutlar va butun huquq tizimidagi o'rni bilan aloqadorlikda tahlil qilish",
+          "Normaning yaratilishidagi teleologik maqsad va strategik vazifalarni aniqlash",
+          "Norma matnini faqat sintaktik va morfologik qoidalarga ko'ra tekshirish",
+          "Normaning kelajakdagi ijtimoiy oqibatlarini va amaliy samaradorligini prognozlash"
+        ],
+        correct: 0
+      },
+      {
+        q: "Teleologik (maqsadiy) sharxlash usuli qaysi fundamental savolga javob izlaydi?",
+        options: [
+          "Qonun chiqaruvchi ushbu normani qabul qilish orqali qanday huquqiy maqsadga erishmoqchi edi?",
+          "Norma qaysi tarixiy davrda va qanday siyosiy inqirozlar sharoitida qabul qilingan?",
+          "Normaning matnida grammatik va uslubiy xatolar mavjudmi?",
+          "Ushbu norma sotsiologik jihatdan aholi tomonidan qanday qabul qilinmoqda?"
+        ],
+        correct: 0
+      },
+      {
+        q: "Sharxlashni amalga oshiruvchi subyektning yuridik maqomiga ko'ra u qaysi ikki asosiy turga bo'linadi?",
+        options: [
+          "Rasmiy (vakolatli) va Norasmiy (gofat) sharhlash",
+          "Normativ va Kazual sharhlash turlari",
+          "Autentik va Legal sharhlash tizimi",
+          "Kengaytiruvchi va Toraytiruvchi talqin"
+        ],
+        correct: 0
+      },
+      {
+        q: "Doktrinal (ilmiy) sharhlash kimlar tomonidan amalga oshiriladi va u qanday xarakterga ega?",
+        options: [
+          "Olimlar va huquqshunoslar tomonidan amalga oshirilib, majburiy kuchga ega bo'lmagan tavsiyaviy xarakterga ega",
+          "Parlament tomonidan qonun hujjatlariga rasmiy o'zgartirishlar kiritish orqali bajariladigan majburiy sharh",
+          "Oliy sud Plenumi tomonidan barcha sudlar uchun majburiy ko'rsatma sifatida chiqariladigan sharh",
+          "Adliya vazirligi tomonidan idoraviy hujjatlarni ro'yxatdan o'tkazishda beriladigan ekspertiza xulosasi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Autentik sharhlash (istisnoiy rasmiy sharhlash) deganda qanday sharhlash tushuniladi?",
+        options: [
+          "Huquqiy normani uni qabul qilgan (yaratgan) organning o'zi tomonidan izohlanishi",
+          "Oliy sud tomonidan muayyan jinoyat ishi bo'yicha berilgan kazuistik izoh",
+          "Konstitutsiyaviy sud tomonidan qonunlarning Konstitutsiyaga muvofiqligi bo'yicha sharhi",
+          "Xalqaro sudlar tomonidan xalqaro konventsiya normalariga berilgan rasmiy talqin"
+        ],
+        correct: 0
+      },
+      {
+        q: "Kazual sharhlash (Kazualnoe tolkovanie) qanday xususiyatga ega?",
+        options: [
+          "Muayyan konkret ish doirasidagina amal qiladi va faqat o'sha ish ishtirokchilari uchun majburiydir",
+          "Barcha huquq subyektlari va kelajakdagi o'xshash munosabatlar uchun umummajburiy ahamiyatga ega",
+          "Qonun chiqaruvchi organ tomonidan yangi qonun qabul qilish jarayonida beriladigan umumiy izoh",
+          "Fuqarolik jamiyati institutlari tomonidan qonunlar monitoringi natijasida chiqarilgan xulosa"
+        ],
+        correct: 0
+      }
+    ])
   },
 
-  // ============================================================
+  /////////////////////////////////////////////////////////////////////////////////
+  // 5-BO'LIM: HUQUQ TIZIMI VA QONUNCHILIKNI TIZIMLASHTIRISH
+  /////////////////////////////////////////////////////////////////////////////////
   topic5: {
-    title: "O'zbekiston tarixi 5-bo'lim (121-150)",
+    title: "Davlat va huquq nazariyasi: Huquq tizimi va Tizimlashtirish",
     questions: randomizeQuestions([
-      { "q": "YuNESKO qaroriga binoan O'zbekistonning qaysi viloyatida Markaziy Osiyo tadqiqotlari instituti tashkil etildi?", "options": ["Samarqand viloyatida", "Buxoro viloyatida", "Toshkent viloyatida", "Namangan viloyatida"], "correct": 0 },
-      { "q": "Amir Temurning nomining xalqimizga qaytarilishi kimning nomi bilan bog'liq?", "options": ["Islom Karimov", "Shavkat Mirziyoyev", "Abdulaziz Komilov", "Inomjon Majidov"], "correct": 0 },
-      { "q": "YuNESKO loyihasi doirasida Amir Temur tavalludining 660 yilligi xalqaro miqyosda qachon nishonlandi?", "options": ["1996-yilda", "1994-yilda", "1998-yilda", "2000-yilda"], "correct": 0 },
-      { "q": "Amir Temur tavalludining 660 yilligi tantanalari xalqaro miqyosda qaysi shaharda nishonlandi?", "options": ["Parijda va O'zbekiston shaharlarida", "Samarqandda va Moskvada", "Toshkentda va Berlinda", "Buxoroda va Nyu-Yorkda"], "correct": 0 },
-      { "q": "Qachondan boshlab O'zbekistonning tashqi siyosatida Markaziy Osiyo davlatlari asosiy o'rin egallay boshladi?", "options": ["2016-yil oxiri va 2017-yildan boshlab", "2010-yildan boshlab", "2013-yildan boshlab", "2018-yildan boshlab"], "correct": 0 },
-      { "q": "Samarqandda Amir Temur haykali qachon ochildi?", "options": ["1996-yilda", "1993-yilda", "1998-yilda", "2001-yilda"], "correct": 0 },
-      { "q": "Toshkentda Amir Temur haykali qachon ochildi?", "options": ["1993-yil 31-avgustda", "1991-yil 1-sentyabrda", "1996-yil 18-oktyabrda", "1994-yil 4-iyulda"], "correct": 0 },
-      { "q": "1996-yili qaysi shaharlar 'Amir Temur' ordeni bilan mukofotlandi?", "options": ["Samarqand va Shahrisabz", "Toshkent va Samarqand", "Buxoro va Xiva", "Shahrisabz va Buxoro"], "correct": 0 },
-      { "q": "Hamid Olimjon va Zulfiya xotirasiga bag'ishlangan yodgorlik majmuasi qayerda ochildi?", "options": ["Jizzax shahrida", "Toshkent shahrida", "Samarqand shahrida", "Namangan shahrida"], "correct": 0 },
-      { "q": "Prezident Sh. Mirziyoyev tashabbusi bilan Jizzax tumaniga Sharof Rashidov nomi qachon berildi?", "options": ["2016-yil 23-dekabrda", "2017-yil 7-aprelda", "2015-yil 14-noyabrda", "2018-yil 30-yanvarda"], "correct": 0 },
-      { "q": "Qachondan Qurbon va Ramazon hayit kunlarini bayram va dam olish kuni deb e'lon qilish haqida qaror qabul qilindi?", "options": ["1990-yildan boshlab", "1992-yildan boshlab", "1989-yildan boshlab", "1991-yildan boshlab"], "correct": 0 },
-      { "q": "O'zbekiston Respublikasining Birinchi Prezidenti Islom Karimov yashab faoliyat ko'rsatgan yillarni toping?", "options": ["1938–2016-yillar", "1940–2016-yillar", "1936–2016-yillar", "1938–2017-yillar"], "correct": 0 },
-      { "q": "Mansabdor shaxslarning vakolatlari va huquqlardan o'zlarining shaxsiy manfaatlarini ko'zlab qonunchilikka zid ravishda foydalanishi nima deyiladi?", "options": ["Korrupsiya", "Firibgarlik", "Suiiste'mol", "Mansabdan foydalanish"], "correct": 0 },
-      { "q": "1992-yil yurtimizda ilk bor nashr qilingan kitobni toping?", "options": ["O'zbekiston Respublikasining Konstitutsiyasi", "Mustaqillik deklaratsiyasi", "O'zbek tilining imlo qoidalari", "Islom Karimovning 'O'zbekiston: milliy istiqlol, iqtisod, siyosat, mafkura' asari"], "correct": 0 },
-      { "q": "O'zbekistonda oliy ta'limdan keyingi ta'lim shaklini toping?", "options": ["Tayanch doktorantura (PhD) va Doktorantura (DSc)", "Magistratura va aspirantura", "Ordinatura va dissertantura", "Ilmiy stajirovka va doktorantura"], "correct": 0 },
-      { "q": "Yurtimizda 2003-yili qaysi vatandoshimiz tavalludining 900 yilligi keng nishonlandi?", "options": ["Xoja Abdulxoliq G'ijduvoniy", "Ahmad Yassaviy", "Bahouddin Naqshband", "Sulaymon Boqirg'oniy"], "correct": 0 },
-      { "q": "O'zbekistonning ilk avtomobil zavodi nomini toping?", "options": ["'O'zDEUavto' (UzDaewooAuto)", "'O'zAvto' (UzAuto)", "'AsiaAvto' O'zbekiston", "'NamAvto' (NamAuto)"], "correct": 0 },
-      { "q": "'Korrupsiyaga qarshi kurashish to'g'risida'gi Qonun qachon qabul qilingan?", "options": ["2017-yil 3-yanvarda", "2016-yil 24-noyabrda", "2015-yil 18-avgustda", "2018-yil 7-iyulda"], "correct": 0 },
-      { "q": "Bugungi kunda mamlakatimizda nechta teatr faoliyat ko'rsatadi?", "options": ["40 ga yaqin (rasmiy davlat tizimida 39 ta)", "25 ta", "55 ta", "32 ta"], "correct": 0 },
-      { "q": "Kamolot yoshlar ijtimoiy harakati qachon tugatildi?", "options": ["2017-yil 30-iyunda", "2016-yil 14-avgustda", "2018-yil 1-yanvarda", "2017-yil 1-sentyabrda"], "correct": 0 },
-      { "q": "O'zbekiston yoshlar ittifoqi qachon tashkil topgan?", "options": ["2017-yil 30-iyunda", "2016-yil 28-dekabrda", "2018-yil 7-fevralda", "2019-yil 1-martda"], "correct": 0 },
-      { "q": "O'zbekistonda aholining necha foizi 30 yoshgacha bo'lganlarni tashkil etadi?", "options": ["Taxminan 60 foizini", "Taxminan 50 foizini", "Taxminan 55 foizini", "Taxminan 65 foizini"], "correct": 0 },
-      { "q": "'Umid' jamg'armasini tashkil etish bo'yicha prezident farmoni qachon e'lon qilindi?", "options": ["1997-yil 7-yanvarda", "1995-yil 12-martda", "1998-yil 22-avgustda", "1999-yil 10-iyunda"], "correct": 0 },
-      { "q": "2016-yil o'zbek xalqining qanday merosi YuNESKOning nomoddiy madaniy meros ro'yxatiga kiritildi?", "options": ["Palov madaniyati va an'anasi hamda Navro'z bayrami", "Shashmaqom va lapar san'ati", "Navroz va Shashmaqom", "O'zbek milliy o'yinlari va urf-odatlari"], "correct": 0 },
-      { "q": "O'zbekistonning eng yangi tarix fani qaysi davrlar tarixini o'rganadi?", "options": ["1991-yil 31-avgustdan hozirgi kungacha bo'lgan davrni", "1985-yildan hozirgi kungacha bo'lgan davrni", "1991-yildan 2010-yilgacha bo'lgan davrni", "1989-yildan hozirgi kungacha bo'lgan davrni"], "correct": 0 },
-      { "q": "O'zbekistonning eng yangi tarixi davriy jihatdan necha bosqichdan iborat?", "options": ["2 ta bosqichdan", "3 ta bosqichdan", "4 ta bosqichdan", "1 ta bosqichdan"], "correct": 0 },
-      { "q": "Respublikamizdagi harbiy akademik litseylarga 2017-yildan boshlab qanday nom berildi?", "options": ["'Temurbeklar maktabi'", "'Harbiy litseylar'", "'Zafar maktabi'", "'Qo'mondonlik kolleji'"], "correct": 0 },
-      { "q": "Kamoliddin Behzod qaysi soha rivojlanishida katta hissa qo'shgan?", "options": ["Tasviriy san'at (minyatura maktabi)", "Me'morchilik va muhandislik", "Astronomiya va matematika", "Adabiyot va she'riyat"], "correct": 0 },
-      { "q": "O'zbekiston davlat jismoniy tarbiya instituti qayerga ko'chirildi?", "options": ["Toshkent viloyati, Chirchiq shahriga", "Samarqand shahriga", "Namangan shahriga", "Angren shahriga"], "correct": 0 },
-      { "q": "'Al-jome' as-saxih' asarining muallifini toping?", "options": ["Imom al-Buxoriy", "Ahmad al-Farg'oniy", "Al-Xorazmiy", "Abu Ali ibn Sino"], "correct": 0 },
-    ]),
-  },
+      {
+        q: "Huquq tizimi (Sistema prava) deganda nima tushuniladi?",
+        options: [
+          "Ijtimoiy munosabatlarning tabiati bilan shartlangan huquqning ichki tuzilishi va tuzilishi",
+          "Normativ-huquqiy hujjatlarning tashqi iyerarxik shakli va to'plami",
+          "Davlat qonun chiqaruvchi organlari tomonidan chiqarilgan barcha hujjatlar yig'indisi",
+          "Huquqiy munosabatlar ishtirokchilarining huquqiy maqomlari va subyektlari majmui"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq tizimining eng kichik, bo'linmas va birlamchi strukturaviy elementi qaysi?",
+        options: [
+          "Huquq normasi",
+          "Huquq instituti",
+          "Huquq tarmog'i",
+          "Qonunchilik tizimi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquq instituti (Institut prava) tushunchasiga qaysi javobda to'g'ri ta'rif berilgan?",
+        options: [
+          "O'zaro bog'liq bo'lgan bir turdagi ijtimoiy munosabatlarni tartibga soluvchi huquq normalari guruhi",
+          "Davlat hokimiyati va boshqaruvi organlarining yaxlit tizimi va shtat tarkibi",
+          "Qonunchilik tizimining tashqi iyerarxik shaklini ifodalovchi yirik hujjat",
+          "Huquq tarmog'ining eng yirik, tarmoqlararo munosabatlarni qamrab oluvchi qismi"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqni mustaqil tarmoqlarga (sohalarga) bo'lishning eng asosiy va bosh predmeti nima?",
+        options: [
+          "Huquqiy tartibga solish predmeti (tartibga solinadigan ijtimoiy munosabatlar turi)",
+          "Davlat organlarining qonun chiqarish texnikasi va uslubiyoti",
+          "Normativ-huquqiy hujjatlarning hajmi va moddalarining miqdori",
+          "Subyektlarning huquqiy munosabatga kirishishdagi shaxsiy niyatlari"
+        ],
+        correct: 0
+      },
+      {
+        q: "Huquqiy tartibga solish metodi deganda nima tushuniladi?",
+        options: [
+          "Huquq normalarining ijtimoiy munosabatlarga ta'sir ko'rsatish usullari va vositalari majmui",
+          "Faqat sud organlari tomonidan dalillarni to'plash va baholash uslubi",
+          "Qonun loyihalarini parlament qo'mitalarida ko'rib chiqishning prosessual tartibi",
+          "Davlat tomonidan qonun buzilishlarining oldini olish bo'yicha tezkor tadbirlar"
+        ],
+        correct: 0
+      },
+      {
+        q: "Kodifikatsiya (Kodifikatsiya) tizimlashtirish shakli sifatida qanday tavsiflanadi?",
+        options: [
+          "Mavjud normalarni tubdan qayta ishlab, mantiqiy asosda yagona yangi tizimli hujjatga (kodeksga) keltirish",
+          "Normativ-huquqiy hujjatlarni ularning mazmuniga mutlaqo o'zgartirish kiritmasdan xronologik yig'ish",
+          "Eskirgan normalarni o'zgartirmasdan, ularni faqat alifbo tartibida to'plamlarga joylashtirish",
+          "Vazirliklarning ichki buyruqlarini davlat ro'yxatidan o'tkazish orqali arxivlash"
+        ],
+        correct: 0
+      },
+      {
+        q: "Inkorporatsiya (Inkorporatsiya) qanday tizimlashtirish turi hisoblanadi?",
+        options: [
+          "Normativ hujjatlarning mazmunini o'zgartirmasdan, ularni muayyan tartibda to'plamlarga birlashtirish",
+          "Normativ-huquqiy hujjatlarning mazmuniga o'zgartirish kiritib, ularni yangi kodeks shakliga keltirish",
+          "Eskirgan qonunlarni bekor qilish orqali mutlaqo yangi huquqiy tarmoq yaratish",
+          "Huquq sohalarini yangi prinsiplar asosida xalqaro andozalarga moslab qayta taqsimlash"
+        ],
+        correct: 0
+      },
+      {
+        q: "Konsolidatsiya (Konsolidatsiya) nima?",
+        options: [
+          "Bir-biriga yaqin tarqoq hujjatlarni mazmunan o'zgartirmasdan, yagona mustaqil yuridik aktga birlashtirish",
+          "Normativ-huquqiy hujjatlar mazmuniga o'zgartirish kiritish orqali yangi mukammal kodeks yaratish",
+          "Qonunlarni faqat xronologik tartibda rasmiy nashriyotlarda e'lon qilish jarayoni",
+          "Huquq tarmog'ini yangi sub-institutlarga bo'lish bo'yicha ilmiy-nazariy faoliyat"
+        ],
+        correct: 0
+      },
+      {
+        q: "Qonunchilik tizimi va Huquq tizimi o'rtasidagi asosiy konseptual farq nimada?",
+        options: [
+          "Huquq tizimi huquqning ichki obbyektiv tuzilishini, qonunchilik tizimi esa uning tashqi rasmiy shaklini ifodalaydi",
+          "Qonunchilik tizimi huquqning ichki tuzilishini, huquq tizimi esa uning tashqi iyerarxik shaklini ko'rsatadi",
+          "Ular sinonim tushunchalar bo'lib, o'rtasida hech qanday huquqiy yoki ilmiy farq mavjud emas",
+          "Qonunchilik tizimi faqat kodekslardan, huquq tizimi esa faqat xalqaro konventsiyalardan iborat"
+        ],
+        correct: 0
+      }
+    ])
+  }
+};
 
-  // ============================================================
-  topic6: {
-    title: "O'zbekiston tarixi 6-bo'lim (151-180)",
-    questions: randomizeQuestions([
-      { "q": "'Davlat mulkini boshqarish va xususiylashtirish davlat qo'mitasi' qachon tuzildi?", "options": ["1992-yil fevralda", "1991-yil noyabrda", "1993-yil aprelda", "1994-yil yanvarda"], "correct": 0 },
-      { "q": "I.A.Karimov ketma-ket necha marotaba Prezidentlik saylovida g'alaba qilgan?", "options": ["4 marotaba", "3 marotaba", "5 marotaba", "2 marotaba"], "correct": 0 },
-      { "q": "Afg'oniston muammosini bartaraf etish maqsadida tashkil etilgan '6+2' muloqot guruhini tuzish tashabbuskori kim?", "options": ["Islom Karimov", "Shavkat Mirziyoyev", "Abdulaziz Komilov", "Bahodir Choriyev"], "correct": 0 },
-      { "q": "O'zbekistonning AQSHdagi elchixonasi qachon ochilgan?", "options": ["1993-yil fevralda", "1992-yil dekabrda", "1994-yil martda", "1993-yil oktyabrda"], "correct": 0 },
-      { "q": "AQSHning O'zbekistondagi elchixonasi qachon ochilgan?", "options": ["1992-yil martda", "1991-yil dekabrda", "1993-yil yanvarda", "1992-yil iyunda"], "correct": 0 },
-      { "q": "Toshkentda Markaziy Osiyo Hamdo'stligi (MOH) qachon tashkil etildi?", "options": ["1993-yil yanvarda", "1991-yil dekabrda", "1994-yil martda", "1995-yil fevralda"], "correct": 0 },
-      { "q": "'Tarixga murojaat qilar ekanmiz, bu xalq xotirasi ekanligini nazarda tutishimiz kerak...' ushbu fikrlar muallifi kim?", "options": ["Islom Karimov", "Shavkat Mirziyoyev", "Mahmudxo'ja Behbudiy", "Abdulla Avloniy"], "correct": 0 },
-      { "q": "Qaysi shahardagi 'Texnik global' korxonasida Samsung brendi ostida yiliga 150 ming televizor ishlab chiqariladi?", "options": ["Jizzax shahridagi", "Angren shahridagi", "Chirchiq shahridagi", "Navoiy shahridagi"], "correct": 0 },
-      { "q": "1991-yil dekabrdan 1992-yil iyul oyigacha O'zbekistonni nechta davlat tan olgan?", "options": ["30 dan ortiq davlat", "20 dan ortiq davlat", "40 dan ortiq davlat", "50 dan ortiq davlat"], "correct": 0 },
-      { "q": "Shanxay hamkorlik tashkiloti qachon tuzilgan?", "options": ["2001-yil 15-iyunda", "1999-yil 26-aprelda", "2003-yil 7-iyunda", "2000-yil 14-iyulda"], "correct": 0 },
-      { "q": "Bugun O'zbekistonda nechta milliy-madaniy markazlar mavjud?", "options": ["150 ga yaqin (140 dan ziyod)", "80 ga yaqin", "200 dan ortiq", "100 ga yaqin"], "correct": 0 },
-      { "q": "Namanganda kimning xotirasini abadiylashtirish bo'yicha yirik tadbirlar o'tkazildi?", "options": ["Boborahim Mashrab", "Usmon Nosir", "Muqimiy", "Hamza Hakimzoda Niyoziy"], "correct": 0 },
-      { "q": "Mustaqillik yillarida Mahmud Zamaxshariy necha yilligi nishonlangan edi?", "options": ["920-yilligi", "900-yilligi", "950-yilligi", "800-yilligi"], "correct": 0 },
-      { "q": "Mustaqillik yillarida Najmiddin Kubro necha yilligi nishonlangan edi?", "options": ["825-yilligi", "800-yilligi", "850-yilligi", "750-yilligi"], "correct": 0 },
-      { "q": "Zulfiya nomidagi davlat mukofoti qachon qabul qilingan?", "options": ["1999-yil 10-iyunda", "1997-yil 23-martda", "2001-yil 8-martda", "1995-yil 14-dekabrda"], "correct": 0 },
-      { "q": "Qur'oni Karim ilk bor 1992-yil kim tomonidan o'zbek tiliga tarjima qilindi?", "options": ["Alouddin Mansur", "Shayx Abdulaziz Mansur", "Abdulaziz Zokirov", "Muhammad Sodiq Muhammad Yusuf"], "correct": 0 },
-      { "q": "O'zbekiston Respublikasi Konstitutsiyasiga o'zgartirishlar kiritish bo'yicha umumxalq referendumi qachon o'tkazildi?", "options": ["2023-yil 30-aprelda", "2022-yil 27-iyunda", "2021-yil 14-fevralda", "2024-yil 1-yanvarda"], "correct": 0 },
-      { "q": "O'zbekistonni rivojlantirish bo'yicha 'Harakatlar strategiyasi' qaysi yillarga mo'ljallangan?", "options": ["2017–2021-yillarga", "2016–2020-yillarga", "2018–2022-yillarga", "2019–2023-yillarga"], "correct": 0 },
-      { "q": "'G'aflatda yotgan xalqni uyg'otish uchun, avvalo, uning tarixini uyg'ot' ushbu fikrlar muallifi kim?", "options": ["Mahmudxo'ja Behbudiy", "Abdulla Avloniy", "Munavvar qori", "Abdurauf Fitrat"], "correct": 0 },
-      { "q": "Sh.M.Mirziyoyevning 2017-yil 22-dekabrdagi Murojaatnomasida qaysi muhim fikr bayon qilingan?", "options": ["Milliy o'zligimizni anglash va tarixni o'rganish, ilmiy tadqiqotlarni kuchaytirish zarurligi", "2018-yilni qanday yil deb nomlash masalasi", "Sud-huquq tizimini isloh qilish dasturi", "Parlament tizimini qayta tashkil etish zarurligi"], "correct": 0 },
-      { "q": "O'zbekiston tarixini 7 ta davrga bo'lib o'rganish maqsadga muvofiqligi qaysi asarda ilgari surilgan?", "options": ["'O'zbekiston tarixi' fundamental konsepsiyasi va darsliklarida", "I.Karimovning 'O'zbekiston: milliy istiqlol...' asarida", "Sh.Mirziyoyevning 'Buyuk kelajagimizni...' asarida", "'Tarixiy xotirasiz kelajak yo'q' risolasida"], "correct": 0 },
-      { "q": "'Tarixiy xotirasiz kelajak yo'q' risolasi qachon chop etilgan?", "options": ["1998-yilda", "1995-yilda", "2000-yilda", "1997-yilda"], "correct": 0 },
-      { "q": "Ilmiy o'rganishning eng qulay usullari, g'oyalar va nazariyalar majmuidan iborat fan qanday nomlanadi?", "options": ["Metodologiya", "Epistemologiya", "Sinergetika", "Ontologiya"], "correct": 0 },
-      { "q": "Dunyoda mavjud 3,5 mingdan ziyod xalqlarning faqat qanchasi o'z davlatchiligiga ega?", "options": ["200 ga yaqini", "100 ga yaqini", "300 ga yaqini", "150 ga yaqini"], "correct": 0 },
-      { "q": "'Kimki tutmas qalbida tarixini...' to'rtligining muallifi kim?", "options": ["Ibrohim Yusupov", "Erkin Vohidov", "Abdulla Oripov", "Muhammad Yusuf"], "correct": 0 },
-      { "q": "O'zbekistonni yanada rivojlantirishga mo'ljallangan 'Taraqqiyot strategiyasi' qaysi yillarga mo'ljallangan?", "options": ["2022–2026-yillarga", "2020–2025-yillarga", "2021–2025-yillarga", "2023–2027-yillarga"], "correct": 0 },
-      { "q": "O'zbekistonning eng yangi tarixi bo'yicha Jamoatchilik kengashi tashkil etish to'g'risidagi Prezident qarori qachon qabul qilingan?", "options": ["2012-yil 27-yanvarda", "2010-yil 14-martda", "2014-yil 22-avgustda", "2011-yil 3-iyulda"], "correct": 0 },
-      { "q": "'Davlat – huquqqa rioya etish, u umum manfaati yo'lida tuzilgan erkin kishilarning mukammal ittifoqi' ushbu fikrlar muallifi kim?", "options": ["Sitseron", "Aristotel", "Platon", "Monteskye"], "correct": 0 },
-      { "q": "O'zbek xalqi ajdodlarining ilk davlatchilik tizimiga o'tish jarayoni qaysi davrdan boshlangan?", "options": ["Bronza (sopol) davridan", "Tosh davridan", "Temir davridan", "Eneolit davridan"], "correct": 0 },
-      { "q": "Yoshligida abjir, jasur, otda chopish va kamon otishda tengi bo'lmagan, onasi sug'd, otasi sak qabilasidan bo'lgan shaxs kim?", "options": ["Spitamen", "Jaloliddin Manguberdi", "Muqanna", "Afrig'"], "correct": 0 },
-    ]),
-  },
 
-  // ============================================================
-  topic7: {
-    title: "O'zbekiston tarixi 7-bo'lim (181-210)",
-    questions: randomizeQuestions([
-      { "q": "Jadidchilik harakati dastlab qaysi hududda vujudga keldi?", "options": ["Turkiston o'lkasida va Qrimda", "Faqat Toshkent va Samarqandda", "Fors va Hindiston ta'sirida", "Buxoro amirligi hududida"], "correct": 0 },
-      { "q": "Amir Temur 1395-yil 15-aprelda To'xtamish bilan qayerda jang qilib, uni yengdi?", "options": ["Terak daryosi bo'yida", "Volga daryosi bo'yida", "Don daryosi bo'yida", "Kura daryosi bo'yida"], "correct": 0 },
-      { "q": "Amir Temur 1393-yil boshida Iroq tomonga yurish qilib olinmas deb atalgan qaysi qal'ani egalladi?", "options": ["Kalon (Qal'ai Safed) qal'asini", "Takrit qal'asini", "Mosul qal'asini", "Hillah qal'asini"], "correct": 0 },
-      { "q": "Jaloliddin Manguberdi voyaga yetgach, otasi unga bergan hududlar qaysilar?", "options": ["G'azna, Bamiyon, G'or, Bo'st va Takinobod", "Xorazm, Urganch, Vazir va Ko'hna-Urgench", "Nishopur, Marv, Hirot va Balx", "Samarqand, Buxoro, Termiz va Kesh"], "correct": 0 },
-      { "q": "'Men turk, arab tilidan bexabarman' degan fikr qaysi tarixiy shaxs haqida aytilgan?", "options": ["Jaloliddin Manguberdi", "Amir Temur", "Muqanna", "Spitamen"], "correct": 0 },
-      { "q": "'O'zbekiston Respublikasining Davlat madhiyasi to'g'risida'gi qonun qachon qabul qilindi?", "options": ["1992-yil 10-dekabrda", "1991-yil 18-noyabrda", "1992-yil 2-iyulda", "1993-yil 4-yanvarda"], "correct": 0 },
-      { "q": "Aleksandr Makedonskiy bostirib kirgan Tanais hozirgi qaysi hudud?", "options": ["Sirdaryo bo'yi", "Amudaryo bo'yi", "Zarafshon bo'yi", "Qashqadaryo bo'yi"], "correct": 0 },
-      { "q": "1986-yilga kelib qaysi bayram bekor etilgan?", "options": ["Navro'z bayrami", "Qurbon hayit", "Ramazon hayit", "Mustaqillik bayrami"], "correct": 0 },
-      { "q": "O'zbekistonning 'Mustaqillik Deklaratsiyasi' qachon qabul qilindi?", "options": ["1990-yil 20-iyunda", "1991-yil 31-avgustda", "1991-yil 19-avgustda", "1990-yil 24-martda"], "correct": 0 },
-      { "q": "1989-yil may-iyun oylarida O'zbekistonning qaysi hududida millatlararo mojarolar kelib chiqdi?", "options": ["Farg'ona viloyatida", "Toshkent viloyatida", "Namangan viloyatida", "Qoraqalpog'istonda"], "correct": 0 },
-      { "q": "1988-yilda Toshkent shahrida nechta oliy o'quv yurti bo'lgan?", "options": ["19 ta oliy o'quv yurti", "12 ta oliy o'quv yurti", "25 ta oliy o'quv yurti", "16 ta oliy o'quv yurti"], "correct": 0 },
-      { "q": "SSSRda 'Qayta qurish' siyosatining birinchi bosqichi qaysi yillarni o'z ichiga olgan?", "options": ["1985–1987-yillarni", "1983–1985-yillarni", "1987–1990-yillarni", "1986–1988-yillarni"], "correct": 0 },
-      { "q": "Islom Karimov O'zbekiston SSR rahbari etib qachon saylandi?", "options": ["1989-yil 23-iyunda", "1988-yil 14-fevralda", "1990-yil 24-martda", "1989-yil 1-oktyabrda"], "correct": 0 },
-      { "q": "Tojikistonning Leninobod viloyati hozirgi qaysi hududga to'g'ri keladi?", "options": ["Sog'd viloyatiga", "Xatlon viloyatiga", "Dushanbe viloyatiga", "VKAO hududiga"], "correct": 0 },
-      { "q": "O'zbekiston tarixida birinchi marta qachon Prezidentlik lavozimini ta'sis etish to'g'risida qaror qabul qilindi?", "options": ["1990-yil 24-martda", "1989-yil 23-iyunda", "1991-yil 31-avgustda", "1990-yil 20-iyunda"], "correct": 0 },
-      { "q": "Qaysi yilda 'O'zbekiston Respublikasi davlat mustaqilligining asoslari to'g'risida'gi Qonun tasdiqlandi?", "options": ["1991-yil 31-avgustda", "1990-yil 20-iyunda", "1991-yil 19-avgustda", "1992-yil 8-dekabrda"], "correct": 0 },
-      { "q": "O'zbekiston SSR Oliy Sovetining qaysi sessiyasida 'O'zbekiston SSRning Davlat tili haqida' Qonuni qabul qilingan?", "options": ["XI chaqiriq, XI sessiyasida", "X chaqiriq, IX sessiyasida", "XII chaqiriq, VIII sessiyasida", "XI chaqiriq, X sessiyasida"], "correct": 0 },
-      { "q": "'O'zbek tilining asosiy imlo qoidalarini tasdiqlash haqida'gi Vazirlar Mahkamasining qarori qachon e'lon qilingan?", "options": ["1995-yil 24-avgustda", "1993-yil 2-sentyabrda", "1997-yil 15-iyulda", "1996-yil 6-mayda"], "correct": 0 },
-      { "q": "'O'zbekiston Respublikasining Davlat mustaqilligi to'g'risida'gi Qonun necha moddadan iborat?", "options": ["17 ta moddadan", "12 ta moddadan", "21 ta moddadan", "14 ta moddadan"], "correct": 0 },
-      { "q": "1991-yil 29-dekabrda Prezidentlik saylovida Saloy Madaminov qaysi partiyadan nomzod etib ko'rsatilgan edi?", "options": ["'Erk' demokratik partiyasidan", "Xalq demokratik partiyasidan", "Adolat partiyasidan", "Milliy tiklanish partiyasidan"], "correct": 0 },
-      { "q": "'Paxta ishi' deb atalgan siyosiy qatag'onlar davrida 1983-yilda tuzilgan tergov guruhining rahbarlari kim edi?", "options": ["T. Gdlyan va N. Ivanov", "Yu. Andropov va K. Chernenko", "V. Fedorchuk va G. Aliyev", "M. Gorbachyov va B. Yeltsin"], "correct": 0 },
-      { "q": "Orol dengizi qurishiga asosiy sabab qilib nima ko'rsatiladi?", "options": ["Amudaryo va Sirdaryo suvlarining me'yordan ortiq va samarasiz sarflanishi", "Global iqlim isishi va muzliklarning erishi", "Orol bo'yidagi sanoat korxonalari chiqindilari", "Neft qazib olish natijasida suv osti qatlamlarining o'zgarishi"], "correct": 0 },
-      { "q": "Farg'ona voqealari davrida O'zbekiston SSR davlat rahbari kim bo'lgan edi?", "options": ["Rafiq Nishonov", "Inoqboy O'rinboyev", "Islom Karimov", "Nuriddin Muxtarov"], "correct": 0 },
-      { "q": "1989-yil Farg'ona voqealari davrida qaysi etnik birliklar o'rtasida nizo kelib chiqqan edi?", "options": ["O'zbeklar va mesxeti turklari", "O'zbeklar va qirg'izlar", "O'zbeklar va tojiklar", "O'zbeklar va qozoqlar"], "correct": 0 },
-      { "q": "Sobiq Sovet Ittifoqi davrida O'zbekiston SSRda asosiy davlat tili qaysi til bo'lgan?", "options": ["Rus tili", "O'zbek tili", "Fors tili", "Turk tili"], "correct": 0 },
-      { "q": "O'zbekiston SSR birinchi prezidenti kim bo'lgan?", "options": ["Islom Abdug'aniyevich Karimov", "Rafiq Nishonov", "Shukrullo Mirsaidov", "Inoqboy O'rinboyev"], "correct": 0 },
-      { "q": "O'zbekistonda fuqarolik jamiyatini qurish va rivojlantirishga oid konseptual hujjatlarning qabul qilinishi qaysi yillarni o'z ichiga oladi?", "options": ["2010–2020-yillarni", "2005–2015-yillarni", "2015–2025-yillarni", "2000–2010-yillarni"], "correct": 0 },
-      { "q": "'Xalq davlat idoralariga emas, davlat idoralari xalqimizga xizmat qilishi kerak' prinsipini kim ilgari surdi?", "options": ["Shavkat Mirziyoyev", "Islom Karimov", "Nigmatilla Yuldoshev", "Abdulaziz Komilov"], "correct": 0 },
-      { "q": "Bozor munosabatlariga o'tishning tamoyillarini kim taklif qilgan edi?", "options": ["Islom Karimov", "Shavkat Mirziyoyev", "Abdulhoshim Muxtarov", "Baxtiyor Hamidov"], "correct": 0 },
-      { "q": "O'zbekiston mustaqillikka erishgandan so'ng tashkil qilingan birinchi siyosiy partiya qaysi edi?", "options": ["O'zbekiston Xalq demokratik partiyasi (XDP)", "Adolat sotsial-demokratik partiyasi", "Milliy tiklanish demokratik partiyasi", "'Erk' demokratik partiyasi"], "correct": 0 },
-    ]),
-  },
-
-  // ============================================================
-  topic8: {
-    title: "O'zbekiston tarixi 8-bo'lim (211-240)",
-    questions: randomizeQuestions([
-      { "q": "O'zbekiston Respublikasi Advokatlar palatasi qaysi yilda tuzildi?", "options": ["2008-yilda", "2004-yilda", "2012-yilda", "2006-yilda"], "correct": 0 },
-      { "q": "Mamlakatimizda qachondan boshlab jinoiy jazo turi sifatida o'lim jazosi bekor qilindi?", "options": ["2008-yil 1-yanvardan boshlab", "2005-yil 1-avgustdan boshlab", "2010-yil 1-yanvardan boshlab", "2006-yil 1-iyuldan boshlab"], "correct": 0 },
-      { "q": "Hozirgi kunda parlamentda qancha partiya ishtirok etmoqda?", "options": ["5 ta siyosiy partiya", "3 ta siyosiy partiya", "4 ta siyosiy partiya", "6 ta siyosiy partiya"], "correct": 0 },
-      { "q": "Mamlakat rahbarining mahalliy boshqaruv tizimiga 'hokim yordamchisi' lavozimi joriy etilishi qachondan boshlandi?", "options": ["2022-yil 1-yanvardan boshlab", "2020-yil 1-sentyabrdan boshlab", "2021-yil 1-martdan boshlab", "2023-yil 1-yanvardan boshlab"], "correct": 0 },
-      { "q": "Qaysi dastur oldinroq e'lon qilingan?", "options": ["'Harakatlar strategiyasi' (2017-yil)", "'Taraqqiyot strategiyasi' (2022-yil)", "'O'zbekiston – 2030' strategiyasi (2023-yil)", "Barcha bir vaqtda e'lon qilingan"], "correct": 0 },
-      { "q": "Hozirgi paytda O'zbekistonda qancha o'zini o'zi boshqarish organi (mahalla) faoliyat ko'rsatmoqda?", "options": ["9 500 dan ortiq", "6 000 ga yaqin", "12 000 dan ortiq", "7 500 ga yaqin"], "correct": 0 },
-      { "q": "'O'zbekiston – bozor munosabatlariga o'tishning o'ziga xos yo'li' nomli asarning muallifi kim?", "options": ["Islom Karimov", "Shavkat Mirziyoyev", "Abdulla Aripov", "Baxtiyor Hamidov"], "correct": 0 },
-      { "q": "Milliy valyuta – so'm Prezident farmoni va Vazirlar Mahkamasining qaroriga binoan qachondan muomalaga kiritildi?", "options": ["1994-yil 1-iyuldan boshlab", "1993-yil 15-noyabrdan boshlab", "1995-yil 1-yanvardan boshlab", "1992-yil 1-oktyabrdan boshlab"], "correct": 0 },
-      { "q": "Mamlakat rahbari tomonidan 2019-yil O'zbekistonda qanday yil deb e'lon qilindi?", "options": ["'Faol investitsiyalar va ijtimoiy rivojlanish yili'", "'Ilm-ma'rifat va raqamli iqtisodiyot yili'", "'Yoshlarni qo'llab-quvvatlash yili'", "'Kichik biznes yili'"], "correct": 0 },
-      { "q": "Sovet Ittifoqi davrida O'zbekiston iqtisodiyoti qanday sohaga asoslangan edi?", "options": ["Agrar sohaga — paxta yakkahokimligiga va xomashyo yetkazib berishga", "Og'ir sanoat va metallurgiyaga", "Neft va gaz qazib olish sanoatiga", "Harbiy-sanoat kompleksiga"], "correct": 0 },
-      { "q": "1992-yilda qaysi davlat bilan hamkorlikda O'zbekistonda avtomobil ishlab chiqaruvchi korxona barpo etildi?", "options": ["Janubiy Koreya (Daewoo korporatsiyasi bilan)", "Yaponiya (Toyota korporatsiyasi bilan)", "Germaniya (Volkswagen korporatsiyasi bilan)", "Italiya (FIAT korporatsiyasi bilan)"], "correct": 0 },
-      { "q": "Sho'rtan gaz-kimyo majmuasi qachon ishga tushirildi?", "options": ["2001-yil dekabr oyida", "1999-yil may oyida", "2003-yil mart oyida", "2000-yil avgustda"], "correct": 0 },
-      { "q": "2017-yilda Jahon bankining 'Doing Business' reytingida O'zbekiston 190 davlat ichidan nechinchi o'rinni egallagan?", "options": ["74-o'rinni", "55-o'rinni", "87-o'rinni", "62-o'rinni"], "correct": 0 },
-      { "q": "'Tanqidiy tahlil, qat'iy tartib-intizom va shaxsiy javobgarlik...' nomli kitob muallifi kim?", "options": ["Shavkat Mirziyoyev", "Islom Karimov", "Rustam Azimov", "Abdulla Aripov"], "correct": 0 },
-      { "q": "So'm qisman konvertatsiyalanadigan valyuta maqomiga qachon ko'tarildi?", "options": ["2003-yil 15-oktyabrdan (XVJ Bitimining 8-moddasi qabul qilingandan so'ng)", "2000-yil 1-yanvardan", "2005-yil 1-avgustdan", "2001-yil 14-maydan"], "correct": 0 },
-      { "q": "O'zbekistonda ilk bor so'mdagi plastik kartochkalar qachon paydo bo'lgan?", "options": ["2004-yilda", "2000-yilda", "2007-yilda", "2002-yilda"], "correct": 0 },
-      { "q": "1997-yil O'zbekistonda qanday yil deb nomlangan?", "options": ["'Inson manfaatlari yili'", "'Mustaqillik yili'", "'Ma'naviyat yili'", "'Ta'lim yili'"], "correct": 0 },
-      { "q": "'Kamolot' yoshlar ijtimoiy harakati Yoshlar ittifoqiga qachon aylantirildi?", "options": ["2017-yil 30-iyunda", "2016-yil 28-dekabrda", "2018-yil 1-yanvarda", "2017-yil 1-oktyabrda"], "correct": 0 },
-      { "q": "2003-yil 31-oktyabrda BMT tomonidan qanday hujjat qabul qilingan?", "options": ["BMTning Korrupsiyaga qarshi Konvensiyasi", "BMTning Terrorizimga qarshi Konvensiyasi", "BMTning Inson huquqlari Deklaratsiyasi", "BMTning Bolalar huquqlari Konvensiyasi"], "correct": 0 },
-      { "q": "Oliy Majlisning Inson huquqlari bo'yicha Vakili qanday nomlanadi?", "options": ["Ombudsman", "Prokolor", "Mediator", "Advokat"], "correct": 0 },
-      { "q": "'O'zbekiston Respublikasining davlat gerbi to'g'risida'gi qonun qachon qabul qilindi?", "options": ["1992-yil 2-iyulda", "1991-yil 18-noyabrda", "1993-yil 4-martda", "1992-yil 8-dekabrda"], "correct": 0 },
-      { "q": "O'zbekistonda qachon Korrupsiyaga qarshi kurashish agentligi tashkil etildi?", "options": ["2020-yil 29-iyunda (Prezident farmoniga binoan)", "2018-yil 14-mayda", "2017-yil 3-yanvarda", "2019-yil 7-oktyabrda"], "correct": 0 },
-      { "q": "1999-yil 27-yanvarda Yevropa Kengashi tomonidan qanday hujjat qabul qilingan?", "options": ["Korrupsiya uchun jinoiy javobgarlik to'g'risidagi Konvensiya", "Terrorizimga qarshi kurash Konvensiyasi", "Inson huquqlari va asosiy erkinliklar to'g'risidagi Konvensiya", "Fuqarolik va siyosiy huquqlar to'g'risidagi Pakt"], "correct": 0 },
-      { "q": "O'zbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi tomonidan 'Korrupsiyaga qarshi kurashish to'g'risida'gi Qonun qachon qabul qilindi?", "options": ["2016-yil 24-noyabrda", "2017-yil 3-yanvarda", "2015-yil 18-avgustda", "2016-yil 13-dekabrda"], "correct": 0 },
-      { "q": "BMTning Korrupsiyaga qarshi Konvensiyasi O'zbekiston tomonidan qachon ratifikatsiya qilingan?", "options": ["2008-yil 7-iyulda", "2005-yil 14-martda", "2010-yil 22-oktyabrda", "2006-yil 30-mayda"], "correct": 0 },
-      { "q": "'Jamiyatimizda korrupsiya illati o'zining turli ko'rinishlari bilan taraqqiyotimizga g'ov bo'lmoqda...' ushbu fikrlar kim tomonidan aytilgan?", "options": ["Shavkat Mirziyoyev", "Islom Karimov", "Abdulaziz Komilov", "Alisher Ergashev"], "correct": 0 },
-      { "q": "'Yuksak ma'naviyat – yengilmas kuch' asari muallifi kim?", "options": ["Islom Karimov", "Shavkat Mirziyoyev", "Abdulla Oripov", "Erkin Vohidov"], "correct": 0 },
-      { "q": "I.Karimovning farmoni asosida 'Ma'naviyat va ma'rifat' jamoatchilik markazi qachon tashkil etildi?", "options": ["1994-yil 23-aprelda", "1992-yil 14-iyunda", "1996-yil 7-martda", "1993-yil 30-avgustda"], "correct": 0 },
-      { "q": "Birinchi uyg'onish davri (Sharq Renessansi) qaysi davrlarni o'z ichiga oladi?", "options": ["IX–XII asrlarni", "VI–IX asrlarni", "XI–XIV asrlarni", "X–XIII asrlarni"], "correct": 0 },
-      { "q": "Ikkinchi uyg'onish davri qaysi davrlarni o'z ichiga oladi?", "options": ["XIV asrning ikkinchi yarmi – XVI asrlarni (Temuriylar davri)", "XIII–XV asrlarni", "XII–XIV asrlarni", "XV–XVII asrlarni"], "correct": 0 },
-    ]),
-  },
-
-  // ============================================================
-  topic9: {
-    title: "O'zbekiston tarixi 9-bo'lim (241-270)",
-    questions: randomizeQuestions([
-      { "q": "1993-yil O'zbekistonda qaysi buyuk allomaning 510 yillik yubileyi nishonlangan?", "options": ["Zahiriddin Muhammad Boburning", "Alisher Navoiyning", "Mirzo Ulug'bekning", "Kamoliddin Behzodning"], "correct": 0 },
-      { "q": "YuNESKO tomonidan nechinchi yil 'Amir Temur yili' deb e'lon qilingan?", "options": ["1996-yil", "1994-yil", "1998-yil", "1997-yil"], "correct": 0 },
-      { "q": "'Xavfsizlik va barqaror taraqqiyot yo'lida' asarining muallifi kim?", "options": ["Islom Karimov", "Shavkat Mirziyoyev", "Abdulaziz Komilov", "Inomjon Majidov"], "correct": 0 },
-      { "q": "'O'zbekiston xalqini, millatidan qat'i nazar, O'zbekiston Respublikasining fuqarolari tashkil etadi' qoidasi Konstitutsiyaning qaysi moddasida?", "options": ["8-moddasida", "4-moddasida", "12-moddasida", "16-moddasida"], "correct": 0 },
-      { "q": "O'zbekistonda nechta diniy konfessiyaga oid diniy tashkilotlar faoliyat olib bormoqda?", "options": ["16 ta diniy konfessiya", "8 ta diniy konfessiya", "22 ta diniy konfessiya", "12 ta diniy konfessiya"], "correct": 0 },
-      { "q": "O'zbekistonda Kadrlar tayyorlash milliy dasturi qachon qabul qilindi?", "options": ["1997-yil 29-avgustda", "1995-yil 14-aprelda", "1999-yil 7-iyunda", "1996-yil 18-oktyabrda"], "correct": 0 },
-      { "q": "Yurtimizda birinchi marta qachon Maktabgacha ta'lim vazirligi tashkil etildi?", "options": ["2017-yil 30-sentyabrda", "2016-yil 14-avgustda", "2019-yil 7-yanvarda", "2018-yil 1-martda"], "correct": 0 },
-      { "q": "2000-yil 28-yanvardagi Farmon bilan qaysi oliy o'quv yurtiga 'Milliy universitet' maqomi berildi?", "options": ["Toshkent davlat universitetiga (hozirgi O'zMU)", "O'zbekiston Milliy universiteti", "Mirzo Ulug'bek nomidagi ToshDU", "Toshkent davlat texnika universitetiga"], "correct": 0 },
-      { "q": "Toshkent viloyatida Chirchiq davlat pedagogika instituti qachon tashkil etildi?", "options": ["2017-yil 27-iyunda", "2015-yil 14-martda", "2019-yil 1-sentyabrda", "2016-yil 30-avgustda"], "correct": 0 },
-      { "q": "2030-yilga borib PISA reytingida O'zbekistonning jahondagi yetakchi nechta mamlakat qatoridan joy egallashi maqsad qilib qo'yilgan?", "options": ["30 ta mamlakat", "20 ta mamlakat", "50 ta mamlakat", "40 ta mamlakat"], "correct": 0 },
-      { "q": "2018-yil 25-sentabrda davlatimiz rahbarining farmoni bilan nima tashkil etildi?", "options": ["Vazirlar Mahkamasi huzuridagi 'Respublika Ma'naviyat va ma'rifat kengashi'", "Oliy ta'lim vazirligi", "Innovatsion rivojlanish vazirligi", "Milliy ta'lim sifat agentligi"], "correct": 0 },
-      { "q": "Inklyuziv ta'lim nima?", "options": ["Imkoniyati cheklangan bolalarning sog'lom bolalar bilan birgalikda umumta'lim maktablarida ta'lim olish tizimi", "Iste'dodli bolalar uchun maxsus ta'lim tizimi", "Katta yoshdagi shaxslar uchun ta'lim dasturi", "Chet el tillari intensiv o'qitish tizimi"], "correct": 0 },
-      { "q": "Innovatsion rivojlanish vazirligi qachon tashkil etilgan?", "options": ["2017-yil 29-noyabrda", "2016-yil 14-avgustda", "2019-yil 1-martda", "2018-yil 7-iyunda"], "correct": 0 },
-      { "q": "'Ustoz' jamg'armasi qachon tashkil etildi?", "options": ["1997-yil iyun oyida", "1995-yil 18-mayda", "1999-yil 7-yanvarda", "2000-yil 1-oktyabrda"], "correct": 0 },
-      { "q": "2019-yilda O'zbekistondagi oliy o'quv yurtlarining soni nechta edi?", "options": ["114 ta", "80 ta", "136 ta", "95 ta"], "correct": 0 },
-      { "q": "O'zbekiston qachon BMTga a'zo bo'ldi?", "options": ["1992-yil 2-martda", "1991-yil 21-dekabrda", "1993-yil 26-oktyabrda", "1992-yil 15-yanvarda"], "correct": 0 },
-      { "q": "O'zbekiston BMT doirasida quyidagi qaysi tashkilotga a'zo emas?", "options": ["NATO (Shimoliy Atlantika Alyansi)", "YuNESKO", "JSST (Jahon sog'liqni saqlash tashkiloti)", "Jahon banki"], "correct": 0 },
-      { "q": "Toshkentda YuNESKOning vakolatxonasi qachon ochildi?", "options": ["1996-yil 23-aprelda", "1993-yil 14-martda", "1997-yil 8-iyulda", "1994-yil 22-sentyabrda"], "correct": 0 },
-      { "q": "2000-yil 28-dekabrda O'zbekistonning qaysi shahri YuNESKO ro'yxatiga kiritildi?", "options": ["Shahrisabz shahrining tarixiy markazi", "Buxoroning qadimiy shahri", "Xivaning Ichan qal'asi", "Samarqandning tarixiy markazi"], "correct": 0 },
-      { "q": "Samarqand shahrining yubileyi necha yillik sifatida nishonlangan?", "options": ["2750-yillik (2007-y.)", "2500-yillik (1997-y.)", "3000-yillik (2007-y.)", "2200-yillik (2009-y.)"], "correct": 0 },
-      { "q": "O'zbekiston qaysi tashkilotga a'zo emas?", "options": ["Yevrosiyo iqtisodiy ittifoqi (YeII)", "Shanxay hamkorlik tashkiloti", "MDH", "Islom hamkorlik tashkiloti"], "correct": 0 },
-      { "q": "SHHTning terrorizimga qarshi kurashish qarorgohi (MATT) qayerda joylashgan?", "options": ["Toshkent shahrida", "Pekin shahrida", "Moskva shahrida", "Bishkek shahrida"], "correct": 0 },
-      { "q": "2016-yil iyun oyida qaysi shaharda ShHT yig'ilishida Pokiston va Hindistonni tashkilotga kiritish memorandumi imzolandi?", "options": ["Toshkent sammitida", "Pekin sammitida", "Moskva sammitida", "Dushanbe sammitida"], "correct": 0 },
-      { "q": "Mustaqil Davlatlar Hamdo'stligi (MDH) tashkilotiga qachon asos solindi?", "options": ["1991-yil 8-dekabrda (Belovej bitimi)", "1991-yil 21-dekabrda (Olmaota protokoli)", "1991-yil 25-dekabrda (Kreml qaroriga binoan)", "1992-yil 1-yanvarda"], "correct": 0 },
-      { "q": "Amir Temurning poytaxti qaysi shahar bo'lgan?", "options": ["Samarqand", "Buxoro", "Shahrisabz", "Balx"], "correct": 0 },
-      { "q": "'Temur tuzuklari' asari nimaga bag'ishlangan?", "options": ["Davlatni boshqarish qonun-qoidalari, harbiy mahorat va saltanat tuzilishiga", "Amir Temurning harbiy yurishlariga", "Temurning otasiga bag'ishlangan tarjimai holiga", "Qur'on va hadislarga sharhlarga"], "correct": 0 },
-      { "q": "Mirzo Ulug'bek kimning nabirasi bo'lgan?", "options": ["Amir Temurning (Shohruh Mirzoning o'g'li)", "Shohruh Mirzoning (Amir Temurning nabirasi)", "Ulug'bek Amir Temurning o'g'li", "Xalil Sultonning o'g'li"], "correct": 0 },
-      { "q": "Mirzo Ulug'bek rasadxonasi qayerda qurilgan?", "options": ["Samarqandda (Ko'hak tepaligida)", "Buxoroda (Ark qal'asi yonida)", "Toshkentda (Hazrati Imom mahallasida)", "Shahrisabzda (Oq Saroy yonida)"], "correct": 0 },
-      { "q": "Mirzo Ulug'bek qaysi ilm sohasida mashhur?", "options": ["Astronomiya (falakiyot) va matematika", "Tarix va geografiya", "Tibbiyot va botanika", "Falsafa va mantiq"], "correct": 0 },
-      { "q": "Alisher Navoiy qaysi tilda asarlar yozgan?", "options": ["Eski o'zbek tili ('Navoiy' taxallusi bilan) va fors tili ('Foniy' taxallusi bilan)", "Faqat eski o'zbek tilida", "Arab va fors tillarida", "Faqat fors va turkiy tillarda"], "correct": 0 },
-    ]),
-  },
-
-  // ============================================================
-  topic10: {
-    title: "O'zbekiston tarixi 10-bo'lim (271-300)",
-    questions: randomizeQuestions([
-      { "q": "Alisher Navoiyning 'Xamsa'si nechta dostondan iborat?", "options": ["5 ta dostondan iborat", "4 ta dostondan iborat", "7 ta dostondan iborat", "3 ta dostondan iborat"], "correct": 0 },
-      { "q": "'Hayrat ul-abror' qaysi muallifga tegishli?", "options": ["Alisher Navoiyga ('Xamsa'ning birinchi dostoni)", "Lutfiyga", "Atoiyga", "Sakkokiyga"], "correct": 0 },
-      { "q": "Zahiriddin Muhammad Bobur qayerda tug'ilgan?", "options": ["Andijonda", "Farg'onada", "Samarqandda", "Buxoroda"], "correct": 0 },
-      { "q": "Bobur qaysi sulolaga asos solgan?", "options": ["Boburiylar sulolasiga (Buyuk Mo'g'ullar saltanati)", "Temuriylar sulolasiga", "Shayboniylar sulolasiga", "Ashtarxoniylar sulolasiga"], "correct": 0 },
-      { "q": "'Boburnoma' asari qaysi janrga mansub?", "options": ["Memuar (tarjimai hol, tarixiy-biografik va qomusiy asar)", "Tarixiy roman", "Ilmiy-falsafiy risolat", "Epik doston"], "correct": 0 },
-      { "q": "Abdurauf Fitrat qaysi harakat vakili bo'lgan?", "options": ["Jadidchilik harakati (Buxoro jadidlarining yetakchisi)", "Isyonchilar harakati", "Bosmachilar harakati", "Kommunistik harakat"], "correct": 0 },
-      { "q": "Fitrat asarlarining asosiy g'oyasi nima?", "options": ["Milliy ozodlik, millatni jaholatdan qutqarish va Vatan mustaqilligi", "Islom dinini mustahkamlash va shariat qoidalarini joriy etish", "Sovet hokimiyatini himoya qilish va kommunizmni targ'ib etish", "Rus madaniyati va tilini o'rganish zarurligi"], "correct": 0 },
-      { "q": "Abdulla Avloniy kim bo'lgan?", "options": ["Mashhur jadid ma'rifatparvari, shoir, dramaturg, murabbiy va jamoat arbobi", "Buxoro amirligining harbiy sardori", "Sovet davridagi yirik siyosatchi", "Rus tili o'qituvchisi va tarjimon"], "correct": 0 },
-      { "q": "'Turkiy guliston yoxud axloq' asari muallifi kim?", "options": ["Abdulla Avloniy", "Abdurauf Fitrat", "Munavvar qori", "Mahmudxo'ja Behbudiy"], "correct": 0 },
-      { "q": "Mahmudxo'ja Behbudiy qaysi sohalarda faol bo'lgan?", "options": ["Nashriyot, dramaturgiya, teatr, yangi usul maktablari va ijtimoiy-siyosiy soha", "Faqat harbiy va diplomatik soha", "Sovet ta'lim tizimini rivojlantirish", "Qishloq xo'jaligi va iqtisod"], "correct": 0 },
-      { "q": "Behbudiy qaysi dramaning muallifi?", "options": ["'Padarkush' (Turkistondagi ilk sahna asari)", "'Maysaradir ishi'", "'O'tmishdan bir sahifa'", "'Baxtsiz kuyov'"], "correct": 0 },
-      { "q": "Munavvar qori Abdurashidxon kim bo'lgan?", "options": ["Toshkent jadidchilik harakatining asoschisi va g'oyaviy rahbari, matbuotchi va pedagog", "Buxoro amirligining bosh vaziri", "Sovet davridagi qomusnavis olim", "Chor Rossiyasi razvedkasi agenti"], "correct": 0 },
-      { "q": "Munavvar qori faoliyatining asosiy maqsadi nima edi?", "options": ["Turkiston xalqini ma'rifatli qilish, milliy mustaqil davlat qurish va ziyolilar qatlamini shakllantirish", "Rus tilini targ'ib etish va Rossiyaga integratsiya", "Faqat yangi usul maktablarini ochish", "Islom qonunlarini qat'iy joriy etish"], "correct": 0 },
-      { "q": "Ishoqxon Ibrat qaysi sohalarda mashhur?", "options": ["Tilshunoslik (poliglot), xattotlik, matbaachilik va she'riyatda", "Harbiy san'at va strategiyada", "Tibbiyot va shifobaxsh o'simliklar ilmida", "Astronomiya va matematikada"], "correct": 0 },
-      { "q": "Ishoqxon Ibrat nechta tilni bilgan?", "options": ["7 ta tilni mukammal bilgan", "4 ta tilni bilgan", "10 ta tilni bilgan", "5 ta tilni bilgan"], "correct": 0 },
-      { "q": "Abdulla Qodiriy qaysi asar bilan mashhur?", "options": ["'O'tkan kunlar' (shuningdek, 'Mehrobdan chayon')", "'Sarob' romani", "'Shum bola' qissasi", "'Qoraqalpog' tarixiga' esse"], "correct": 0 },
-      { "q": "'O'tkan kunlar' asari qaysi janrda yozilgan?", "options": ["Tarixiy roman (o'zbek adabiyotidagi ilk roman)", "Qissa", "Dramatik poema", "Tarixiy esse"], "correct": 0 },
-      { "q": "'O'tkan kunlar'da qaysi davr tasvirlangan?", "options": ["XIX asr o'rtalaridagi Qo'qon xonligi davri", "XVIII asrdagi Buxoro amirligi davri", "XX asrdagi Sovet davri", "XVI asrdagi Shayboniylar sulolasi davri"], "correct": 0 },
-      { "q": "Usmon Nosir ijodining asosiy mavzusi nima?", "options": ["Jo'shqin muhabbat, hayot go'zalligi, erkinlik va tabiat lirikasi", "Og'ir mehnat va qishloq turmushi", "Siyosiy satirik she'rlar", "Urush va qahramon obrazlari"], "correct": 0 },
-      { "q": "Jadidlarning asosiy maqsadi nima edi?", "options": ["Turkistonni mustamlakachilik va qoloqlikdan qutqarish, milliy ozodlikka erishish va taraqqiy etgan davlat barpo etish", "Rus imperiyasi bilan hamkorlikni mustahkamlash", "Faqat diniy ta'limni isloh qilish", "Iqtisodiy rivojlanish va boyishga erishish"], "correct": 0 },
-      { "q": "Jadidlar qaysi sohani eng muhim deb bilishgan?", "options": ["Xalq ta'limi va maorifni (yangi usul maktablarini ochish, matbuotni rivojlantirish)", "Harbiy qurollanish va lashkar tuzishni", "Savdo-iqtisodiy aloqalarni rivojlantirishni", "Diniy tashkilotlarni kuchaytirish va madrasalarni isloh qilishni"], "correct": 0 },
-      { "q": "Amir Temur qaysi unvon bilan tanilgan?", "options": ["Amir (Amiri kabir — Buyuk amir) va Sohibqiron", "Xoqon va Botir", "Shoh va Sulton", "Qodir va Zafar"], "correct": 0 },
-      { "q": "Mirzo Ulug'bek tuzgan mashhur asar qaysi?", "options": ["'Ziji jadidi Ko'ragoniy' (Yulduzlar jadvali)", "'Miftoh ul-adl' (Adolat kaliti)", "'Tarixi arba' ulus' (To'rt ulus tarixi)", "'Risola-yi ulumiyya' (Ilmlar risollasi)"], "correct": 0 },
-      { "q": "Alisher Navoiy qaysi adabiy oqimga mansub?", "options": ["Mumtoz adabiyot hamda gumanizm (parvarlik) oqimiga", "Realistik adabiyot oqimiga", "Tasavvuf va so'fizm oqimiga", "Diniy-didaktik adabiyot oqimiga"], "correct": 0 },
-      { "q": "Bobur qaysi davlatda vafot etgan?", "options": ["Hindistonning Agra shahrida", "Afg'onistonning Qobul shahrida", "O'zbekistonning Andijonda", "Eron Isfahonida"], "correct": 0 },
-      { "q": "Jadid adabiyotining asosiy xususiyati nima?", "options": ["Realistik yo'nalish, ijtimoiy va milliy muammolarni tanqid qilish, ma'rifatparvarlik va xalqchil ruhda ekanligi", "Diniy qonun-qoidalarni ulug'lash va shar'iy adabiyot an'analari", "Tabiiy go'zallik va romantik muhabbatni kuylash", "Sovet mafkurasini qo'llab-quvvatlash va kommunizmni targ'ib etish"], "correct": 0 },
-      { "q": "Qoraqalpog'iston Jo'qorg'i Kengeshi raisi necha yil muddatga saylanadi?", "options": ["5 yil muddatga", "4 yil muddatga", "7 yil muddatga", "6 yil muddatga"], "correct": 0 },
-      { "q": "Qoraqalpog'iston Respublikasining Davlat bayrog'i qachon tasdiqlandi?", "options": ["1992-yil 14-dekabrda", "1991-yil 18-noyabrda", "1993-yil 9-aprelda", "1992-yil 2-iyulda"], "correct": 0 },
-      { "q": "Qoraqalpog'iston Respublikasi Davlat gerbi qachon tasdiqlandi?", "options": ["1993-yil 9-aprelda", "1992-yil 14-dekabrda", "1994-yil 24-iyunda", "1993-yil 24-dekabrda"], "correct": 0 },
-      { "q": "Qo'ng'irot tumanida 'Ustyurtgaz' (Ustyurt gaz-kimyo majmuasi) korxonasi qachon ochildi?", "options": ["2016-yil may oyida", "2014-yil sentyabrida", "2018-yil avgustda", "2012-yil iyunida"], "correct": 0 },
-    ]),
-  },
-
-  // ============================================================
-  topic11: {
-    title: "O'zbekiston tarixi 11-bo'lim (301-313)",
-    questions: randomizeQuestions([
-      { "q": "Nukus va Xo'jayli shaharlarini birlashtiruvchi yangi ko'prik qachon qurildi?", "options": ["2024-yil fevral oyida", "2022-yil iyunida", "2023-yil may oyida", "2021-yil sentyabrida"], "correct": 0 },
-      { "q": "Qoraqalpog'iston O'zbekiston SSR tarkibiga qachon kiritilgan?", "options": ["1936-yil 5-dekabrda", "1924-yil 27-oktyabrda", "1929-yil 14-martda", "1932-yil 20-martda"], "correct": 0 },
-      { "q": "Qoraqalpog'iston Respublikasi nechta asosiy tabiiy landshaft qismga bo'linadi?", "options": ["3 ta asosiy qismga (Ustyurt, Qizilqum va Amudaryo deltasi)", "4 ta qismga", "2 ta qismga", "5 ta qismga"], "correct": 0 },
-      { "q": "Xo'jayli va Nukusni bog'laydigan katta ko'prik qachon foydalanishga topshirildi?", "options": ["2024-yil boshida", "2022-yil noyabrida", "2023-yil iyulida", "2021-yil oktyabrida"], "correct": 0 },
-      { "q": "'Qoraqalpog'iston Respublikasi Davlat madhiyasi' to'g'risida qonun qachon qabul qilindi?", "options": ["1993-yil 24-dekabrda", "1992-yil 14-dekabrda", "1994-yil 9-aprelda", "1993-yil 2-iyulda"], "correct": 0 },
-      { "q": "Dunyodagi nechadan ortiq davlatda O'zbekiston elchixonalari va moliya tashkilotlari ishlab turibdi?", "options": ["50 dan ortiq davlatda", "30 dan ortiq davlatda", "70 dan ortiq davlatda", "40 dan ortiq davlatda"], "correct": 0 },
-      { "q": "O'zbekiston Respublikasini bugungi kunda nechadan ortiq davlat tan olgan?", "options": ["180 dan ortiq davlat", "120 dan ortiq davlat", "150 dan ortiq davlat", "160 dan ortiq davlat"], "correct": 0 },
-      { "q": "O'zbekiston Respublikasida bugungi kunda nechata chet davlat vakolatxonalari ro'yxatdan o'tgan?", "options": ["40 dan ortiq chet davlat elchixonalari va xalqaro tashkilotlar vakolatxonalari", "25 dan ortiq", "60 dan ortiq", "30 dan ortiq"], "correct": 0 },
-      { "q": "Jahonning nechta mamlakati bilan O'zbekiston savdo-iqtisodiy munosabatlar o'rnatgan?", "options": ["140 dan ortiq mamlakat bilan", "80 dan ortiq mamlakat bilan", "100 dan ortiq mamlakat bilan", "120 dan ortiq mamlakat bilan"], "correct": 0 },
-      { "q": "Munavvar qori qayerda tug'ilgan?", "options": ["Toshkent shahrida (Shayxontohur dahasi, Darxon mahallasida)", "Namangan viloyatida", "Samarqand viloyatida", "Farg'ona shahridagi"], "correct": 0 },
-      { "q": "Ishoqxon Ibrat qayerda tug'ilgan?", "options": ["Namangan viloyati, To'raqo'rg'on qishlog'ida", "Toshkent shahrida", "Andijonda", "Farg'ona shahridagi"], "correct": 0 },
-      { "q": "Abdulla Qodiriy qayerda tug'ilgan?", "options": ["Toshkent shahrida (Eski shahar, Qodiriya mahallasida)", "Samarqandda", "Namanganda", "Andijonda"], "correct": 0 },
-      { "q": "O'zbekiston Respublikasi Prezidentining taklifi bilan mahalliy boshqaruv tizimida 'hokim yordamchisi' lavozimi joriy etilishi qachondan boshlandi?", "options": ["2022-yil 1-yanvardan boshlab", "2021-yil 1-sentyabrdan boshlab", "2020-yil 1-martdan boshlab", "2023-yil 1-yanvardan boshlab"], "correct": 0 },
-    ]),
-  },
 
 
 
